@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: LEF groningen
-image: /img/home-jumbotron.jpg
+image: /img/two-person-listening-to-woman-standing-beside-poster-1647919.jpg
 heading: Great coffee with a conscience
 subheading: Consultancy
 mainpitch:
