@@ -2,15 +2,17 @@
 templateKey: index-page
 title: LEF groningen
 image: /img/two-person-listening-to-woman-standing-beside-poster-1647919.jpg
-heading: Great coffee with a conscience
-subheading: Consultancy
+heading: 'Werken met jongeren, werken met LEF'
+subheading: Ideeën vertalen naar tastbaar resultaat.
 mainpitch:
-  title: Why Kaldi
+  title: Ons verhaal
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Bij LEF vinden we het belangrijk om zoveel mogelijk plezier te hebben op de
+    werkvloer. Voor ons zit werkgeluk in ondernemen. Ondernemen is namelijk een
+    heftige cocktail van adrenaline, enorme blunders, grootste successen, maar
+    vooral heel veel lol. Inmiddels hebben wij ervaren dat dit ook een manier
+    van werken kan zijn: klein beginnen en stap-voor-stap iets groots creëren.
+    Zo bewegen wij, en zo willen we anderen in beweging brengen.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -20,44 +22,46 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        Geen advies, maar resultaat
+
+        Ondernemen begint bij een ambitie. Dit vertalen we naar een idee en
+        zetten we om in een tastbaar resultaat. Samen geven we op snelle en
+        creatieve wijze vorm aan een concept, we bouwen dit uit en implementeren
+        het in een organisatie.
     - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+      text: >+
+        Fail quickly, learn fast   
+
+        Wij experimenteren, vieren onze blunders en leren hiervan. Want we
+        geloven dat er geen ruimte is voor vernieuwing en verbetering als er
+        alleen wordt gefocust op wat er al goed gaat. 
+
     - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offering
+      text: >+
+        Buiten de organisatie bubbel
+
+        LEF is ons thuishonk waarin alles mag en alles kan. Dit zorgt ervoor dat
+        we buiten de organisatie bubbel blijven. Hierdoor hebben we een ander
+        perspectief, stellen we andere vragen en vormen we een kritische
+        sparringpartner.
+
+  heading: Wat biedt werken met LEF?
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Om de razendsnelle veranderende wereld bij te kunnen houden zijn jongeren
+    van grote waarde. Zij zijn volkomen eigen met de snelheid en dynamiek van de
+    huidige maatschappij. Daarom zetten we deze generatie in om organisaties
+    toekomstbestendig te maken.
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: Wat doen we?
+  description: >+
+    LEF werkt in twee verschillende vormen die apart of in combinatie kunnen
+    worden ingezet:
+
+    Een denktank van studenten met kennis vanuit diverse vakgebieden.
+
+    Een team van projectaanjagers bestaande uit starters die in samenwerking met
+    experts ideeën in projectvorm uitvoeren.
+
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
