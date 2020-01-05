@@ -28,7 +28,7 @@ intro:
         zetten we om in een tastbaar resultaat. Samen geven we op snelle en
         creatieve wijze vorm aan een concept, we bouwen dit uit en implementeren
         het in een organisatie.
-    - image: /img/coffee-gear.png
+    - image: ''
       text: >+
         Fail quickly, learn fast   
 
@@ -36,7 +36,7 @@ intro:
         geloven dat er geen ruimte is voor vernieuwing en verbetering als er
         alleen wordt gefocust op wat er al goed gaat. 
 
-    - image: /img/tutorials.png
+    - image: ''
       text: >+
         Buiten de organisatie bubbel
 
