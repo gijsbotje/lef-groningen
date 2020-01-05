@@ -13,11 +13,7 @@ mainpitch:
     vooral heel veel lol. Inmiddels hebben wij ervaren dat dit ook een manier
     van werken kan zijn: klein beginnen en stap-voor-stap iets groots creëren.
     Zo bewegen wij, en zo willen we anderen in beweging brengen.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+description: Met lef kom je verder
 intro:
   blurbs:
     - image: ''
