@@ -20,7 +20,7 @@ description: >-
   anyone.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: ''
       text: >
         Geen advies, maar resultaat
 
