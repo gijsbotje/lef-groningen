@@ -16,6 +16,8 @@ import { Link } from 'gatsby';
 import MenuIcon from '@material-ui/icons/Menu';
 import Hidden from '@material-ui/core/Hidden';
 import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
+import Typography from '@material-ui/core/Typography';
 
 function ElevationScroll(props) {
   const { children, window } = props;
@@ -81,13 +83,20 @@ const Header = () => {
         </AppBar>
       </ElevationScroll>
       <Drawer anchor="right" open={showMenu} onClose={toggleMenu}>
-        <List>
-          {menuItems.map(({ to, label }) => (
-            <ListItem key={to} button component={Link} to={to} onClick={toggleMenu}>
-              <ListItemText primary={label} />
+        <Box width={240}>
+          <List>
+            <ListItem>
+              <Typography variant="h4" component="div">
+                Menu
+              </Typography>
             </ListItem>
-          ))}
-        </List>
+            {menuItems.map(({ to, label }) => (
+              <ListItem key={to} button component={Link} to={to} onClick={toggleMenu}>
+                <ListItemText primary={label} />
+              </ListItem>
+            ))}
+          </List>
+        </Box>
       </Drawer>
     </>
   );

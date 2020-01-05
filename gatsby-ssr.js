@@ -1,13 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import { ServerStyleSheets as MuiServerStyleSheets } from '@material-ui/styles';
 import {
   ServerStyleSheet as StyledComponentsServerStyleSheet,
   StyleSheetManager,
   ThemeProvider,
 } from 'styled-components';
-import CleanCSS from 'clean-css';
-import postcss from 'postcss';
-import autoprefixer from 'autoprefixer';
 import stylesProviderProps from './.cache/styles-provider-props';
 import { hasEntries } from './utils';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -17,27 +15,14 @@ import {
   ThemeProvider as MuiThemeProvider,
 } from '@material-ui/core/styles';
 import lefTheme from './src/theme';
+import Layout from './src/components/Layout';
 
 let theme = createMuiTheme(lefTheme);
 theme = responsiveFontSizes(theme);
 
-const autoprefixStyles = (css, pathname) => {
-  const prefixer = postcss([autoprefixer]);
-
-  try {
-    return prefixer.process(css, { from: undefined }).css;
-  } catch (error) {
-    if (error.name === `CssSyntaxError`) {
-      throw new Error(`Pathname: ${pathname} ${error.toString()}`);
-    }
-    throw error;
-  }
-};
-
 // Keep track of sheets for each page
 const globalLeak = new Map();
 const sheetByPathname = new Map();
-const cleanCSS = new CleanCSS();
 
 export const wrapRootElement = ({ element, pathname }, pluginOptions) => {
   if (hasEntries(stylesProviderProps) && pluginOptions.stylesProvider) {
@@ -46,9 +31,7 @@ export const wrapRootElement = ({ element, pathname }, pluginOptions) => {
     );
   }
 
-  const stylesProvider = hasEntries(stylesProviderProps)
-    ? stylesProviderProps
-    : pluginOptions.stylesProvider;
+  const stylesProvider = { injectFirst: true };
 
   const muiSheets = new MuiServerStyleSheets(stylesProvider);
   globalLeak.set(pathname, muiSheets);
@@ -57,36 +40,48 @@ export const wrapRootElement = ({ element, pathname }, pluginOptions) => {
   sheetByPathname.set(pathname, scSheet);
 
   return (
-    <StyleSheetManager sheet={scSheet.instance}>
-      <MuiThemeProvider theme={theme}>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          {muiSheets.collect(element)}
-        </ThemeProvider>
-      </MuiThemeProvider>
-    </StyleSheetManager>
+    <StyleSheetManager sheet={scSheet.instance}>{muiSheets.collect(element)}</StyleSheetManager>
   );
 };
 
-export const onRenderBody = (
-  { setHeadComponents, pathname },
-  { disableAutoprefixing = false, disableMinification = false },
-) => {
+export const wrapPageElement = ({ element, props }) => (
+  <MuiThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Layout {...props}>{element}</Layout>
+    </ThemeProvider>
+  </MuiThemeProvider>
+);
+
+wrapPageElement.propTypes = {
+  element: PropTypes.object,
+  props: PropTypes.object,
+};
+
+wrapPageElement.defaultProps = {
+  element: undefined,
+  props: {},
+};
+
+export const onRenderBody = ({ setHeadComponents, pathname }) => {
   const muiSheets = globalLeak.get(pathname);
 
   if (!muiSheets) {
     return;
   }
 
-  let css = muiSheets.toString();
-
-  css = disableAutoprefixing ? css : autoprefixStyles(css, pathname);
-  css = disableMinification ? css : cleanCSS.minify(css).styles;
-
   const scSheet = sheetByPathname.get(pathname);
 
+  const css = muiSheets.toString();
+
   setHeadComponents([
-    <style id="jss-server-side" key="jss-server-side" dangerouslySetInnerHTML={{ __html: css }} />,
+    // eslint-disable-next-line react/no-danger
+    <style
+      type="text/css"
+      id="jss-server-side"
+      key="jss-server-side"
+      dangerouslySetInnerHTML={{ __html: css }}
+    />,
     scSheet.getStyleElement(),
   ]);
   sheetByPathname.delete(pathname);
