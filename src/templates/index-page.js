@@ -1,10 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
-
-import Layout from '../components/Layout';
-import Features from '../components/Features';
+import Features from '../components/Features/Features';
 import BlogRoll from '../components/BlogRoll';
+import Typography from '@material-ui/core/Typography';
+import Container from '../components/Container';
+import Banner from '../components/Banner';
+import Section from '../components/Section';
+import Button from '@material-ui/core/Button';
+import Box from '@material-ui/core/Box';
 
 export const IndexPageTemplate = ({
   image,
@@ -15,96 +19,46 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
-      </div>
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+  <>
+    <Typography variant="h1" hidden>
+      {title}
+    </Typography>
+    <Section>
+      <Banner
+        src={image.childImageSharp ? image.childImageSharp.fluid.src : image}
+        title={heading}
+        subTitle={subheading}
+      />
+    </Section>
+    <Container>
+      <Section>
+        <Typography variant="h3" component="h2">
+          {mainpitch.title}
+        </Typography>
+        <Typography variant="subtitle1" component="div">
+          {mainpitch.description}
+        </Typography>
+      </Section>
+      <Section>
+        <Typography variant="h3" component="h2">
+          {heading}
+        </Typography>
+        <Typography paragraph>{description}</Typography>
+        <Features gridItems={intro.blurbs} />
+      </Section>
+      <Section>
+        <Typography variant="h3" component="h2" gutterBottom>
+          LEF Blog
+        </Typography>
+        <BlogRoll />
+        <Box display="flex" justifyContent="center" mt={2}>
+          <Button component={Link} to="/blog" variant="contained" color="secondary">
+            Meer cases
+          </Button>
+        </Box>
+      </Section>
+    </Container>
+  </>
 );
 
 IndexPageTemplate.propTypes = {
@@ -118,23 +72,32 @@ IndexPageTemplate.propTypes = {
     blurbs: PropTypes.array,
   }),
 };
+IndexPageTemplate.defaultProps = {
+  image: null,
+  title: null,
+  heading: null,
+  subheading: null,
+  mainpitch: null,
+  description: null,
+  intro: {
+    blurbs: null,
+  },
+};
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-      />
-    </Layout>
-  )
+    <IndexPageTemplate
+      image={frontmatter.image}
+      title={frontmatter.title}
+      heading={frontmatter.heading}
+      subheading={frontmatter.subheading}
+      mainpitch={frontmatter.mainpitch}
+      description={frontmatter.description}
+      intro={frontmatter.intro}
+    />
+  );
 };
 
 IndexPage.propTypes = {
@@ -145,7 +108,15 @@ IndexPage.propTypes = {
   }),
 };
 
-export default IndexPage
+IndexPage.defaultProps = {
+  data: {
+    markdownRemark: {
+      frontmatter: {},
+    },
+  },
+};
+
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {

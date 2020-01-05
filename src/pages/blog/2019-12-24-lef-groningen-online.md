@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Lef Groningen online
-date: 2019-12-24T15:46:15.708Z
+date: 2020-01-06T12:30:00.708Z
 description: Lef groningen is online!
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
