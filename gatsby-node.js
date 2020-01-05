@@ -1,7 +1,66 @@
 const _ = require('lodash');
-const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 const { fmImagesToRelative } = require('gatsby-remark-relative-images');
+const fs = require('fs');
+const path = require('path');
+const os = require('os');
+
+let didRunAlready = false;
+
+exports.onPreInit = () => {
+  if (didRunAlready) {
+    throw new Error(
+      `You can only have a single instance of gatsby-plugin-material-ui in your gatsby-config.js`,
+    );
+  }
+
+  didRunAlready = true;
+};
+
+try {
+  require.resolve(`babel-plugin-styled-components`);
+} catch (e) {
+  throw new Error(
+    `'babel-plugin-styled-components' is not installed which is needed by plugin 'gatsby-plugin-styled-components'`,
+  );
+}
+
+exports.onCreateBabelConfig = ({ stage, actions }, pluginOptions) => {
+  const ssr = stage === `build-html` || stage === `build-javascript`;
+
+  actions.setBabelPlugin({
+    name: `babel-plugin-styled-components`,
+    stage,
+    options: { ...pluginOptions, ssr },
+  });
+};
+
+// Copy and past from https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-typography
+exports.onPreBootstrap = ({ store }, pluginOptions) => {
+  const { program } = store.getState();
+
+  let module;
+  if (pluginOptions.pathToStylesProvider) {
+    module = `module.exports = require("${
+      path.isAbsolute(pluginOptions.pathToStylesProvider)
+        ? pluginOptions.pathToStylesProvider
+        : path.join(program.directory, pluginOptions.pathToStylesProvider)
+    }")`;
+    if (os.platform() === `win32`) {
+      module = module.split(`\\`).join(`\\\\`);
+    }
+  } else {
+    module = null;
+  }
+
+  const dir = `${__dirname}/.cache`;
+
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir);
+  }
+
+  fs.writeFileSync(`${dir}/styles-provider-props.js`, module);
+};
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
