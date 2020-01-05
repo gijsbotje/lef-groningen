@@ -16,7 +16,7 @@ mainpitch:
 description: Met lef kom je verder
 intro:
   blurbs:
-    - image: /img/coffee-gear.png
+    - image: /img/person-writing-on-notebook-669615.jpg
       text: >
         Geen advies, maar resultaat
 
@@ -24,7 +24,7 @@ intro:
         zetten we om in een tastbaar resultaat. Samen geven we op snelle en
         creatieve wijze vorm aan een concept, we bouwen dit uit en implementeren
         het in een organisatie.
-    - image: /img/coffee.png
+    - image: /img/adult-blur-books-close-up-261909.jpg
       text: >+
         Fail quickly, learn fast   
 
@@ -32,7 +32,7 @@ intro:
         geloven dat er geen ruimte is voor vernieuwing en verbetering als er
         alleen wordt gefocust op wat er al goed gaat. 
 
-    - image: /img/meeting-space.png
+    - image: /img/low-angle-photo-of-four-high-rise-curtain-wall-buildings-830891.jpg
       text: >+
         Buiten de organisatie bubbel
 
