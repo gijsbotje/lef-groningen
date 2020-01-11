@@ -1,71 +1,62 @@
 ---
 templateKey: index-page
 title: LEF groningen
-image: /img/two-person-listening-to-woman-standing-beside-poster-1647919.jpg
-heading: 'Werken met jongeren, werken met LEF'
-subheading: Ideeën vertalen naar tastbaar resultaat.
-mainpitch:
-  title: Ons verhaal
-  description: >
-    Bij LEF vinden we het belangrijk om zoveel mogelijk plezier te hebben op de
-    werkvloer. Voor ons zit werkgeluk in ondernemen. Ondernemen is namelijk een
-    heftige cocktail van adrenaline, enorme blunders, grootste successen, maar
-    vooral heel veel lol. Inmiddels hebben wij ervaren dat dit ook een manier
-    van werken kan zijn: klein beginnen en stap-voor-stap iets groots creëren.
-    Zo bewegen wij, en zo willen we anderen in beweging brengen.
-description: Met lef kom je verder
-intro:
-  blurbs:
-    - image: /img/person-writing-on-notebook-669615.jpg
-      text: >
-        Geen advies, maar resultaat
-
-        Ondernemen begint bij een ambitie. Dit vertalen we naar een idee en
-        zetten we om in een tastbaar resultaat. Samen geven we op snelle en
-        creatieve wijze vorm aan een concept, we bouwen dit uit en implementeren
-        het in een organisatie.
-    - image: /img/adult-blur-books-close-up-261909.jpg
-      text: >+
-        Fail quickly, learn fast   
-
-        Wij experimenteren, vieren onze blunders en leren hiervan. Want we
-        geloven dat er geen ruimte is voor vernieuwing en verbetering als er
-        alleen wordt gefocust op wat er al goed gaat. 
-
-    - image: /img/low-angle-photo-of-four-high-rise-curtain-wall-buildings-830891.jpg
-      text: >+
-        Buiten de organisatie bubbel
-
-        LEF is ons thuishonk waarin alles mag en alles kan. Dit zorgt ervoor dat
-        we buiten de organisatie bubbel blijven. Hierdoor hebben we een ander
-        perspectief, stellen we andere vragen en vormen we een kritische
-        sparringpartner.
-
-  heading: Wat biedt werken met LEF?
-  description: >
-    Om de razendsnelle veranderende wereld bij te kunnen houden zijn jongeren
-    van grote waarde. Zij zijn volkomen eigen met de snelheid en dynamiek van de
-    huidige maatschappij. Daarom zetten we deze generatie in om organisaties
-    toekomstbestendig te maken.
-main:
-  heading: Wat doen we?
-  description: >+
-    LEF werkt in twee verschillende vormen die apart of in combinatie kunnen
-    worden ingezet:
-
-    Een denktank van studenten met kennis vanuit diverse vakgebieden.
-
-    Een team van projectaanjagers bestaande uit starters die in samenwerking met
-    experts ideeën in projectvorm uitvoeren.
-
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+banner: Werk met lef
+lead: LEF is een ondernemende denktank die de nieuwe generatie inzet als verander en innovatie aanjagers bij organisaties.
+pitch: >
+    Ondernemen is LEF hebben: een heftige cocktail van adrenaline, enorme blunders, grootste successen, maar vooral heel veel lol. Inmiddels hebben we ervaren dat dit ook een manier van werken kan zijn. Klein beginnen en stap-voor-stap iets groots creëren.
+    
+    Wij geloven dat deze manier van werken iets is waar de nieuwe generatie in uitblinkt en wat nog te weinig wordt benut voor het creëren van innovatie. 
+    En dat is zonde! Juist daarom willen we werkgevers kennis laten maken met dit talent. 
+features:
+    title: Zo bewegen wij, en zo willen we anderen in beweging brengen
+    items:
+        -   image: /img/image10.png
+            title: Geen advies, maar resultaat
+            text: >
+                Ondernemen begint met een ambitie. Dit vertalen we naar een idee en zetten we om in tastbaar resultaat.
+        -   image: /img/image2.png
+            title: Fail quickly, learn fast   
+            text: >
+                Wij experimenteren, vieren onze blunders en leren hiervan. Want 
+                wij geloven dat er geen plaats is voor vernieuwing en verbetering als je geen fouten durft te maken.  
+        -   image: /img/image15.png
+            title: Buiten de organisatie bubbel
+            text: >
+                Wij werken buiten het dagelijkse stramien van organisaties. Hierdoor stellen we andere vragen en vormen wij een uitdagende sparringpartner.
+how:
+    title: Hoe doen we dit?
+    ways:
+        -   image: /img/image9.png
+            title: Door anders te denken
+            link: '/anders-denken'
+            text: >
+                Voor vraagstukken van organisaties zetten wij een denktank in, bestaande uit studenten vanuit verschillende opleidingen.  – eenmalig of in abonnementsvorm.
+        -   image: /img/image17.png
+            title: Door anders te doen
+            link: '/anders-doen'
+            text: >
+                LEF brengt ondernemende starters en organisaties bij elkaar om aan betekenisvolle vraagstukken te werken. We gebruiken uiteenlopende methodes zoals scrum, design thinking en emergent change.
+result:
+    title: Wat levert het op?
+    list:
+        - text: Creatieve en innovatieve ideeën 
+        - text: UItdagende sparringpartner
+        - text: Nieuwsgierigheid aanwakkeren 
+        - text: Beweegredenen nieuwe generatie
+        - text: Contact met jong talent
+contact:
+    title: Werken met LEF? Neem dan contact met ons op!
+    contacts:
+        -   name: Teddy Monninkhof
+            picture: /img/image15.png
+            number: 06 52 25 13 95
+            linkedIn: https://nl.linkedin.com/in/teddy-monninkhof-77725372
+            email: teddy@lefgroningen.nl
+        -   name: Thijs de Vries
+            picture: /img/image15.png
+            number: 06 13 97 26 93
+            linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
+            email: thijs@lefgroningen.nl
 ---
 

@@ -1,6 +1,6 @@
 const typography = {
   fontFamily: [
-    'Karla',
+    'Source Sans Pro',
     '-apple-system',
     'BlinkMacSystemFont',
     '"Segoe UI"',
@@ -14,7 +14,7 @@ const typography = {
   ].join(','),
   h1: {
     fontFamily: [
-      'Rubik',
+      'Source Sans Pro',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -26,10 +26,12 @@ const typography = {
       '"Segoe UI Emoji"',
       '"Segoe UI Symbol"',
     ].join(','),
+    fontWeight: 900,
+    fontSize: '13rem',
   },
   h2: {
     fontFamily: [
-      'Rubik',
+      'Anton',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -44,7 +46,7 @@ const typography = {
   },
   h3: {
     fontFamily: [
-      'Rubik',
+      'Anton',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -59,7 +61,7 @@ const typography = {
   },
   h4: {
     fontFamily: [
-      'Rubik',
+      'Anton',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -75,7 +77,7 @@ const typography = {
   },
   h5: {
     fontFamily: [
-      'Rubik',
+      'Anton',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -90,7 +92,7 @@ const typography = {
   },
   h6: {
     fontFamily: [
-      'Rubik',
+      'Anton',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',

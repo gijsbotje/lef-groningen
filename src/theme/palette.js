@@ -1,6 +1,9 @@
 const palette = {
+  common: {
+    black: '#222',
+  },
   primary: {
-    main: '#000',
+    main: '#222',
     contrastText: '#fff',
   },
   secondary: {

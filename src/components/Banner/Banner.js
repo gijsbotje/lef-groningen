@@ -2,87 +2,70 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Typography from '@material-ui/core/Typography';
+import Container from '../Container';
+import Box from '@material-ui/core/Box';
 
 const BannerBase = styled.div`
-  position: relative;
-  background-position: center center;
-  background-size: cover;
-  z-index: 0;
-
-  &::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    content: '';
-    z-index: 0;
-  }
-`;
-
-const BannerInner = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vw;
-  min-height: 10rem;
-  max-height: 32rem;
-  z-index: 1;
+  height: 100vh;
+  z-index: 0;
   color: ${props => props.theme.palette.common.white};
+  background-color: ${props => props.theme.palette.common.black};
 `;
 
-const Banner = ({
-  src,
-  title,
-  titleTypographyProps,
-  subTitle,
-  subTitleTypographyProps,
-  cta,
-  size,
-}) => {
-  return (
-    <BannerBase style={{ backgroundImage: `url(${src})` }}>
-      <BannerInner>
+const Heading = styled(Typography)`
+  && {
+    font-size: 12rem;
+    text-transform: uppercase;
+    word-spacing: 100vw;
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 0;
+    text-decoration: underline;
+    text-decoration-color: ${props => props.theme.palette.secondary.main};
+  }
+`;
+
+const StripeAccent = styled.div`
+  align-self: flex-end;
+  width: 152px;
+  height: 56px;
+  background-color: ${props => props.theme.palette.secondary.main};
+  flex-shrink: 0;
+  border-radius: 8px;
+`;
+
+const Banner = ({ title, subTitle, titleTypographyProps }) => (
+  <BannerBase>
+    <Container>
+      <Box display="flex">
         {title && (
-          <Typography {...titleTypographyProps} gutterBottom>
+          <Heading {...titleTypographyProps} gutterBottom>
             {title}
-          </Typography>
+          </Heading>
         )}
-        {subTitle && <Typography {...subTitleTypographyProps}>{subTitle}</Typography>}
-      </BannerInner>
-    </BannerBase>
-  );
-};
+        {/*<StripeAccent />*/}
+      </Box>
+    </Container>
+  </BannerBase>
+);
 
 Banner.propTypes = {
-  src: PropTypes.string,
   title: PropTypes.string,
   titleTypographyProps: PropTypes.shape({
-    ...Typography.propTypes,
-  }),
-  subTitle: PropTypes.string,
-  subTitleTypographyProps: PropTypes.shape({
     ...Typography.propTypes,
   }),
 };
 
 Banner.defaultProps = {
-  src: null,
   title: null,
   titleTypographyProps: {
     ...Typography.defaultProps,
-    variant: 'h2',
-    component: 'div',
-    align: 'center',
-    color: 'inherit',
-  },
-  subTitle: PropTypes.string,
-  subTitleTypographyProps: {
-    ...Typography.defaultProps,
-    variant: 'h4',
+    variant: 'h1',
     component: 'div',
     align: 'center',
     color: 'inherit',

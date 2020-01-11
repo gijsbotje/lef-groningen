@@ -11,7 +11,7 @@ const NavbarBase = styled(Grid)`
 `;
 
 const Navbar = ({ items }) => (
-  <NavbarBase container spacing={3}>
+  <NavbarBase container spacing={4}>
     {items.map(({ to, label }) => (
       <Grid item key={label}>
         <NavbarItem to={to} label={label} />

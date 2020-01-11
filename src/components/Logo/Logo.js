@@ -7,7 +7,7 @@ const LogoContainer = styled(Link)`
   && {
     display: flex;
     align-items: center;
-    height: 64px;
+    height: ${12* 8}px;
     padding-top: ${props => props.theme.spacing(1)}px;
     padding-bottom: ${props => props.theme.spacing(1)}px;
   }

@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Box from '@material-ui/core/Box';
 
-const Section = ({ children }) => (
-  <Box pb={4} component="section">
+const Section = ({ children, style }) => (
+  <Box pb={4} component="section" style={style}>
     {children}
   </Box>
 );

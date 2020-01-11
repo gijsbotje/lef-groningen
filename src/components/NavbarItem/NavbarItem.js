@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 const NavbarLink = styled(Link)`
   && {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 `;
 

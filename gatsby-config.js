@@ -61,7 +61,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Rubik', 'Karla'],
+          families: ['Anton', 'Source Sans Pro:400,700,900', 'Montserrat:900'],
         },
       },
     },

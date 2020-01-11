@@ -40,6 +40,10 @@ ElevationScroll.propTypes = {
 const StyledToolBar = styled(ToolBar)`
   && {
     justify-content: space-between;
+    padding-top: ${props => props.theme.spacing(1)}px;
+    padding-right: 0;
+    padding-bottom: ${props => props.theme.spacing(1)}px;
+    padding-left: 0;
   }
 `;
 
@@ -66,7 +70,7 @@ const Header = () => {
   return (
     <>
       <ElevationScroll>
-        <AppBar color="default" position="sticky">
+        <AppBar color="primary" position="sticky">
           <Container maxWidth="lg">
             <StyledToolBar>
               <Logo src={logo} alt="Lef Groningen logo" href="/" title="Lef Groningen - home" />
@@ -74,7 +78,7 @@ const Header = () => {
                 <Navbar items={menuItems} />
               </Hidden>
               <Hidden implementation="css" smUp>
-                <IconButton onClick={toggleMenu}>
+                <IconButton onClick={toggleMenu} color="inherit">
                   <MenuIcon />
                 </IconButton>
               </Hidden>
