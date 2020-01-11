@@ -26,8 +26,8 @@ collections:
           - {label: "Pitch", name: "pitch", widget: "markdown"}
           - {label: "Features", name: "features", widget: "list", fields: [{label: "Image", name: "image", widget: "image", required: "false"}, {label: "Title", name: "title", widget: "string", required: "false"}, {label: "Text", name: "text", widget: "text", required: "false"}]}
           - {label: "How", name: "how", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Ways", name: "ways", widget: "list", fields: [{label: "Image", name: "image", widget: "image"}, {label: "Title", name: "title", widget: "string"}, {label: "Text", name: "text", widget: "text"}]}]}
-          - {label: "Result", name: "result", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "List", name: "list", widget: "list", fields: [{label: "Text", name: "text", widget: "string"}]}]}
-          - {label: "Contact", name: "contact", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Contacts", name: "contacts", widget: "list"}, {fields: [{label: "Name", name: "name", widget: "string"}, {label: "Profile picture", name: "picture", widget: "Image"}, {label: "Phone number", name: "number", widget: "string"}, {label: "LinkedIn", name: "linkedIn", widget: "string"}, {label: "Email", name: "email", widget: "string"}]}]}
+          - {label: "Result", name: "result", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "List", name: "list", widget: "list", field: {label: "Text", name: "text", widget: "string"}}]}
+          - {label: "Contact", name: "contact", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Contacts", name: "contacts", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Profile picture", name: "picture", widget: "Image"}, {label: "Phone number", name: "number", widget: "string"}, {label: "LinkedIn", name: "linkedIn", widget: "string"}, {label: "Email", name: "email", widget: "string"}]}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
