@@ -19,7 +19,7 @@ collections:
         label: "Home Page"
         name: "index"
         fields:
-          - label: "Template Key",
+          - label: "Template Key"
             name: "templateKey"
             widget: "hidden"
             default: "index-page"
