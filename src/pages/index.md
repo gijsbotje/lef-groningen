@@ -39,7 +39,7 @@ how:
                 LEF brengt ondernemende starters en organisaties bij elkaar om aan betekenisvolle vraagstukken te werken. We gebruiken uiteenlopende methodes zoals scrum, design thinking en emergent change.
 result:
     title: Wat levert het op?
-    list:
+    results:
         - Creatieve en innovatieve ideeën 
         - UItdagende sparringpartner
         - Nieuwsgierigheid aanwakkeren 
