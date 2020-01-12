@@ -167,70 +167,70 @@ export const IndexPageTemplate = ({
         ))}
       </Container>
     </div>
-    {/*<div*/}
-    {/*  style={{*/}
-    {/*    paddingTop: '4rem',*/}
-    {/*    paddingBottom: '4rem',*/}
-    {/*    display: 'flex',*/}
-    {/*    alignItems: 'center',*/}
-    {/*  }}*/}
-    {/*>*/}
-    {/*  <Container>*/}
-    {/*    <Section>*/}
-    {/*      <Typography variant="h3" component="h2" gutterBottom>*/}
-    {/*        {result.title}*/}
-    {/*      </Typography>*/}
-    {/*      <ul>*/}
-    {/*        {result.list.map(item => (*/}
-    {/*          <li>{item.text}</li>*/}
-    {/*        ))}*/}
-    {/*      </ul>*/}
-    {/*    </Section>*/}
-    {/*  </Container>*/}
-    {/*</div>*/}
-    {/*<div*/}
-    {/*  style={{*/}
-    {/*    paddingTop: '4rem',*/}
-    {/*    paddingBottom: '4rem',*/}
-    {/*    display: 'flex',*/}
-    {/*    alignItems: 'center',*/}
-    {/*  }}*/}
-    {/*>*/}
-    {/*  <Container>*/}
-    {/*    <Section>*/}
-    {/*      <Typography variant="h3" component="h2" gutterBottom>*/}
-    {/*        {contact.title}*/}
-    {/*      </Typography>*/}
-    {/*      <Grid container spacing={4}>*/}
-    {/*        {contact.contacts.map(person => (*/}
-    {/*          <Grid item xs={12} md={6}>*/}
-    {/*            <Card>*/}
-    {/*              <Avatar>*/}
-    {/*                <PreviewCompatibleImage*/}
-    {/*                  imageInfo={person.picture}*/}
-    {/*                  style={{*/}
-    {/*                    height: 200,*/}
-    {/*                    width: 200,*/}
-    {/*                    objectFit: 'shrink',*/}
-    {/*                    marginLeft: 'auto',*/}
-    {/*                    marginRight: 'auto',*/}
-    {/*                  }}*/}
-    {/*                />*/}
-    {/*              </Avatar>*/}
-    {/*              <CardContent>*/}
-    {/*                <Typography variant="h6" component="div">*/}
-    {/*                  {person.name}*/}
-    {/*                </Typography>*/}
-    {/*              </CardContent>*/}
-    {/*              <li>{person.number}</li>*/}
-    {/*              <li>{person.linkedIn}</li>*/}
-    {/*            </Card>*/}
-    {/*          </Grid>*/}
-    {/*        ))}*/}
-    {/*      </Grid>*/}
-    {/*    </Section>*/}
-    {/*  </Container>*/}
-    {/*</div>*/}
+    <div
+      style={{
+        paddingTop: '4rem',
+        paddingBottom: '4rem',
+        display: 'flex',
+        alignItems: 'center',
+      }}
+    >
+      <Container>
+        <Section>
+          <Typography variant="h3" component="h2" gutterBottom>
+            {result.title}
+          </Typography>
+          <ul>
+            {result.list.map(item => (
+              <li>{item.text}</li>
+            ))}
+          </ul>
+        </Section>
+      </Container>
+    </div>
+    <div
+      style={{
+        paddingTop: '4rem',
+        paddingBottom: '4rem',
+        display: 'flex',
+        alignItems: 'center',
+      }}
+    >
+      <Container>
+        <Section>
+          <Typography variant="h3" component="h2" gutterBottom>
+            {contact.title}
+          </Typography>
+          <Grid container spacing={4}>
+            {contact.contacts.map(person => (
+              <Grid item xs={12} md={6}>
+                <Card>
+                  <Avatar>
+                    <PreviewCompatibleImage
+                      imageInfo={person.picture}
+                      style={{
+                        height: 200,
+                        width: 200,
+                        objectFit: 'shrink',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                      }}
+                    />
+                  </Avatar>
+                  <CardContent>
+                    <Typography variant="h6" component="div">
+                      {person.name}
+                    </Typography>
+                  </CardContent>
+                  <li>{person.number}</li>
+                  <li>{person.linkedIn}</li>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
+        </Section>
+      </Container>
+    </div>
     <Container>
       <Section>
         <Typography variant="h3" component="h2" gutterBottom>
