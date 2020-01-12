@@ -40,11 +40,11 @@ how:
 result:
     title: Wat levert het op?
     list:
-        - text: Creatieve en innovatieve ideeën 
-        - text: UItdagende sparringpartner
-        - text: Nieuwsgierigheid aanwakkeren 
-        - text: Beweegredenen nieuwe generatie
-        - text: Contact met jong talent
+        - Creatieve en innovatieve ideeën 
+        - UItdagende sparringpartner
+        - Nieuwsgierigheid aanwakkeren 
+        - Beweegredenen nieuwe generatie
+        - Contact met jong talent
 contact:
     title: Werken met LEF? Neem dan contact met ons op!
     contacts:

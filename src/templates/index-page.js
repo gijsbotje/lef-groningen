@@ -181,8 +181,8 @@ export const IndexPageTemplate = ({
             {result.title}
           </Typography>
           <ul>
-            {result.list.map(item => (
-              <li>{item.text}</li>
+            {result.results.map(item => (
+              <li>{item}</li>
             ))}
           </ul>
         </Section>
@@ -342,9 +342,7 @@ export const pageQuery = graphql`
         }
         result {
           title
-          list {
-            text
-          }
+          results
         }
         contact {
           title
