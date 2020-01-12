@@ -81,7 +81,6 @@ collections:
               - label: "List"
                 name: "list"
                 widget: "list"
-                field: {label: "Text", name: "text", widget: "string"}
           - label: "Contact"
             name: "contact"
             widget: "object"
