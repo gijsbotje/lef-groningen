@@ -37,7 +37,7 @@ collections:
             widget: "markdown"
           - label: "Features"
             name: "features"
-            widget: "list"
+            widget: "object"
             fields:
               - label: "Title"
                 name: "title"
