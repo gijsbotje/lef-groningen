@@ -11,7 +11,6 @@ const IndexPagePreview = ({ entry }) => {
         title={data.title}
         banner={data.banner}
         lead={data.lead}
-        pitch={data.pitch}
         features={data.features}
         how={data.how}
         result={data.result}

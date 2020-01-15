@@ -1,6 +1,6 @@
 const typography = {
   fontFamily: [
-    'Source Sans Pro',
+    'Gelasio',
     '-apple-system',
     'BlinkMacSystemFont',
     '"Segoe UI"',
@@ -14,7 +14,7 @@ const typography = {
   ].join(','),
   h1: {
     fontFamily: [
-      'Source Sans Pro',
+      'Libre Franklin',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -26,12 +26,11 @@ const typography = {
       '"Segoe UI Emoji"',
       '"Segoe UI Symbol"',
     ].join(','),
-    fontWeight: 900,
-    fontSize: '13rem',
+    fontWeight: 700,
   },
   h2: {
     fontFamily: [
-      'Anton',
+      'Libre Franklin',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -43,10 +42,11 @@ const typography = {
       '"Segoe UI Emoji"',
       '"Segoe UI Symbol"',
     ].join(','),
+    fontWeight: 700,
   },
   h3: {
     fontFamily: [
-      'Anton',
+      'Libre Franklin',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -58,10 +58,11 @@ const typography = {
       '"Segoe UI Emoji"',
       '"Segoe UI Symbol"',
     ].join(','),
+    fontWeight: 700,
   },
   h4: {
     fontFamily: [
-      'Anton',
+      'Libre Franklin',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -73,11 +74,11 @@ const typography = {
       '"Segoe UI Emoji"',
       '"Segoe UI Symbol"',
     ].join(','),
-    fontWeight: 400,
+    fontWeight: 700,
   },
   h5: {
     fontFamily: [
-      'Anton',
+      'Libre Franklin',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -89,10 +90,27 @@ const typography = {
       '"Segoe UI Emoji"',
       '"Segoe UI Symbol"',
     ].join(','),
+    fontWeight: 700,
   },
   h6: {
     fontFamily: [
-      'Anton',
+      'Libre Franklin',
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
+    fontWeight: 700,
+  },
+  button: {
+    fontFamily: [
+      'Libre Franklin',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',

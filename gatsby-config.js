@@ -61,7 +61,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Anton', 'Source Sans Pro:400,700,900', 'Montserrat:900'],
+          families: ['Libre Franklin:400,500,600,700,900', 'Gelasio:400,500,600,700'],
         },
       },
     },

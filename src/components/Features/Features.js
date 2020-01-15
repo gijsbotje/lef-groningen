@@ -5,13 +5,13 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
 const FeatureGrid = ({ gridItems }) => (
-  <Grid container spacing={2}>
+  <Grid container spacing={4}>
     {gridItems.map(item => (
       <Grid key={item.text} item xs={12} sm={6} md={4}>
         <PreviewCompatibleImage
           imageInfo={item}
           style={{
-            height: 200,
+            maxWidth: 200,
             objectFit: 'contain',
             marginLeft: 'auto',
             marginRight: 'auto',

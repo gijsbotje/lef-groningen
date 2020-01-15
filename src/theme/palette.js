@@ -7,8 +7,17 @@ const palette = {
     contrastText: '#fff',
   },
   secondary: {
-    main: '#FFD600',
+    main: '#f2c226',
     contrastText: '#000',
+  },
+  success: {
+    main: '#21715a',
+  },
+  info: {
+    main: '#3079af',
+  },
+  background: {
+    default: '#fff',
   },
 };
 

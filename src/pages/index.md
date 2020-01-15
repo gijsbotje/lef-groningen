@@ -2,41 +2,44 @@
 templateKey: index-page
 title: LEF groningen
 banner: Werk met lef
-lead: LEF is een ondernemende denktank die de nieuwe generatie inzet als verander en innovatie aanjagers bij organisaties.
-pitch: >
-  Ondernemen is LEF hebben: een heftige cocktail van adrenaline, enorme blunders, grootste successen, maar vooral heel veel lol. Inmiddels hebben we ervaren dat dit ook een manier van werken kan zijn. Klein beginnen en stap-voor-stap iets groots creëren.
-
-  Wij geloven dat deze manier van werken iets is waar de nieuwe generatie in uitblinkt en wat nog te weinig wordt benut voor het creëren van innovatie. 
-  En dat is zonde! Juist daarom willen we werkgevers kennis laten maken met dit talent.
+lead: 
+    text: Wij zijn een team van hoogopgeleide twintigers. Samen met onze partners creëren wij innovatie en ondersteunen we organisaties bij verandering. Dit doen wij door anders te denken en anders te doen.
+    link:
+      text: Lees meer over LEF
+      url: /over-ons
 features:
-  title: Zo bewegen wij, en zo willen we anderen in beweging brengen
+  title: Hoe ondernemen wij?
+  subTitle: Onze aanpak 
+  text: 
+    - Samenwerken met nieuwsgierige sparringpartners? Innovatieve ideeën uitwerken met een snelle en praktische aanpak? Onderneem dan met LEF.
+    - Wij beginnen klein en creëren stap voor stap iets groots. Deze manier van werken gebruiken we om innovatieve oplossingen te realiseren. Zo bewegen wij, en zo willen we anderen in beweging brengen.
+
   items:
-    - image: /img/image10.png
+    - image: /img/Geen-advies-maar-resultaat.jpg
       title: Geen advies, maar resultaat
       text: >
         Ondernemen begint met een ambitie. Dit vertalen we naar een idee en zetten we om in tastbaar resultaat.
-    - image: /img/image2.png
+    - image: /img/fail-quickly-learn-fast.jpg
       title: Fail quickly, learn fast
       text: >
-        Wij experimenteren, vieren onze blunders en leren hiervan. Want 
-        wij geloven dat er geen plaats is voor vernieuwing en verbetering als je geen fouten durft te maken.
-    - image: /img/image15.png
+        Wij experimenteren, vieren onze blunders en leren hiervan.
+    - image: /img/buiten-de-organisatie-bubbel.jpg
       title: Buiten de organisatie bubbel
       text: >
-        Wij werken buiten het dagelijkse stramien van organisaties. Hierdoor stellen we andere vragen en vormen wij een uitdagende sparringpartner.
+        We stellen onbevangen vragen en vormen een uitdagende sparringpartner omdat we buiten de status quo staan.
 how:
   title: Hoe doen we dit?
   ways:
-    - image: /img/image9.png
-      title: Door anders te denken
+    - image: /img/anders-denken.jpg
+      title: Ondernemende denktank
       link: '/anders-denken'
       text: >
-        Voor vraagstukken van organisaties zetten wij een denktank in, bestaande uit studenten vanuit verschillende opleidingen.  – eenmalig of in abonnementsvorm.
-    - image: /img/image17.png
-      title: Door anders te doen
+        Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Vanuit LEF wordt daarom op maat een multidisciplinair team samengesteld om maatschappelijke of organisatorische vraagstukken creatief aan te vliegen. Deze denktank kan eenmalig worden ingeschakeld of in abonnementsvorm.
+    - image: /img/anders-doen.jpg
+      title: Innovatie en verander aanjagers
       link: '/anders-doen'
       text: >
-        LEF brengt ondernemende starters en organisaties bij elkaar om aan betekenisvolle vraagstukken te werken. We gebruiken uiteenlopende methodes zoals scrum, design thinking en emergent change.
+        Samen met onze partners ondersteunen we organisaties bij innovatie en verandering. We verbinden onze ondernemende manier van werken met de kracht van organisaties. Hierbij gebruiken we uiteenlopende methodes zoals scrum, design thinking en emergent change.
 result:
   title: Wat levert het op?
   results:

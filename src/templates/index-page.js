@@ -1,79 +1,91 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link, graphql, navigate } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Features from '../components/Features/Features';
-import BlogRoll from '../components/BlogRoll';
+// import BlogRoll from '../components/BlogRoll';
 import Typography from '@material-ui/core/Typography';
 import Container from '../components/Container';
 import Banner from '../components/Banner';
 import Section from '../components/Section';
 import Button from '@material-ui/core/Button';
-import Box from '@material-ui/core/Box';
+// import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import Avatar from '@material-ui/core/Avatar';
-import CardActionArea from '@material-ui/core/CardActionArea';
+// import CardContent from '@material-ui/core/CardContent';
+// import Avatar from '@material-ui/core/Avatar';
+// import CardActionArea from '@material-ui/core/CardActionArea';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 export const IndexPageTemplate = ({
   title,
   banner,
   lead,
-  pitch,
   features,
   how,
-  result,
-  contact,
+  // result,
+  // contact,
 }) => (
   <>
     <Typography variant="h1" hidden>
       {title}
     </Typography>
-    <Section>
-      <Banner title={banner} />
-    </Section>
-    <Container>
-      <Section style={{ height: '50vh', display: 'flex', alignItems: 'center' }}>
-        <Grid container style={{ justifyContent: 'flex-end' }}>
-          <Grid item xs={12} md={6}>
-            <Typography variant="h4">{lead}</Typography>
-          </Grid>
-        </Grid>
-      </Section>
-    </Container>
+    {/* <Section> */}
+    <Banner title={banner} text={lead.text} cta={lead.link} />
+    {/* </Section> */}
+    {/* <Container> */}
+    {/*  <Section style={{ height: '50vh', display: 'flex', alignItems: 'center' }}> */}
+    {/*    <Grid container style={{ justifyContent: 'flex-end' }}> */}
+    {/*      <Grid item xs={12} md={6}> */}
+    {/*        <Typography variant="body1" style={{ fontSize: '1.4rem' }} paragraph> */}
+    {/*          {lead.text} */}
+    {/*        </Typography> */}
+    {/*        <Button */}
+    {/*          component={Link} */}
+    {/*          to={lead.link.url} */}
+    {/*          variant="outlined" */}
+    {/*          color="primary" */}
+    {/*          endIcon={<ChevronRightIcon />} */}
+    {/*        > */}
+    {/*          {lead.link.text} */}
+    {/*        </Button> */}
+    {/*      </Grid> */}
+    {/*    </Grid> */}
+    {/*  </Section> */}
+    {/* </Container> */}
     <div
       style={{
         paddingTop: '4rem',
         paddingBottom: '4rem',
         display: 'flex',
         alignItems: 'center',
-        backgroundColor: '#FFD600',
-      }}
-    >
-      <Container>
-        <Grid container>
-          <Grid item xs={12} md={6}>
-            <Typography variant="h5" component="div" style={{ marginBottom: '0' }}>
-              {pitch}
-            </Typography>
-          </Grid>
-        </Grid>
-      </Container>
-    </div>
-    <div
-      style={{
-        paddingTop: '4rem',
-        paddingBottom: '4rem',
-        display: 'flex',
-        alignItems: 'center',
+        // backgroundColor: '#FFD600',
       }}
     >
       <Container>
         <Section>
-          <Typography variant="h3" component="h2" style={{ marginBottom: 30 }}>
-            {features.title}
-          </Typography>
+          <Grid container spacing={4}>
+            <Grid item xs={12} md={6}>
+              <Typography variant="h2" component="h2" gutterBottom style={{ wordSpacing: '100vw' }}>
+                {features.title}
+              </Typography>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <Typography variant="h4" component="h3" gutterBottom>
+                {features.subTitle}
+              </Typography>
+              {features.text.map(text => (
+                <Typography key={text} variant="body1" paragraph style={{ fontSize: '1.2rem' }}>
+                  {text}
+                </Typography>
+              ))}
+            </Grid>
+          </Grid>
+        </Section>
+        <Section>
+          {/* <Typography variant="h3" component="h2" style={{ marginBottom: '3rem' }}> */}
+          {/*  {features.title} */}
+          {/* </Typography> */}
           <Features gridItems={features.items} />
         </Section>
       </Container>
@@ -84,166 +96,126 @@ export const IndexPageTemplate = ({
         paddingBottom: '4rem',
         display: 'flex',
         alignItems: 'center',
-        backgroundColor: '#FFD600',
+        // backgroundColor: '#FFD600',
       }}
     >
       <Container>
-        <Typography variant="h3" component="h2" style={{ marginBottom: 30 }}>
+        <Typography variant="h3" component="h2" style={{ marginBottom: '2rem' }}>
           {how.title}
         </Typography>
         <Grid container spacing={4}>
           {how.ways.map(way => (
             <Grid item xs={12} md={6}>
-              <Card style={{ height: '100%' }}>
-                <CardActionArea onClick={() => navigate(way.link)}>
-                  <PreviewCompatibleImage
-                    imageInfo={way.image}
-                    style={{
-                      height: 225,
-                      width: 200,
-                      objectFit: 'shrink',
-                      marginLeft: 'auto',
-                      marginRight: 'auto',
-                    }}
-                  />
-                </CardActionArea>
-                <CardContent>
-                  <Typography paragraph variant="body1" style={{ fontSize: '1.2rem' }}>
-                    {way.text}
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
-      </Container>
-    </div>
-    <div
-      style={{
-        paddingTop: '4rem',
-        paddingBottom: '4rem',
-        display: 'flex',
-        alignItems: 'center',
-        backgroundColor: '#fff',
-      }}
-    >
-      <Container>
-        <Typography variant="h3" component="h2" style={{ marginBottom: 30 }}>
-          {how.title}
-        </Typography>
-        {how.ways.map((way, index) => (
-          <Grid
-            container
-            spacing={4}
-            style={{
-              alignItems: 'center',
-              flexDirection: index % 2 === 0 ? 'row' : 'row-reverse',
-              marginBottom: '2rem',
-            }}
-          >
-            <Grid item xs={12} md={6}>
-              <CardActionArea onClick={() => navigate(way.link)}>
+              <Card style={{ height: '100%' }} elevation={0}>
+                {/* <CardActionArea onClick={() => navigate(way.link)} style={{ marginBottom: '1rem' }}> */}
                 <PreviewCompatibleImage
                   imageInfo={way.image}
                   style={{
-                    height: 225,
                     width: 200,
                     objectFit: 'shrink',
                     marginLeft: 'auto',
                     marginRight: 'auto',
                   }}
                 />
-              </CardActionArea>
+                {/* </CardActionArea> */}
+                <Typography variant="h5" component="div" style={{ marginTop: '1rem' }} gutterBottom>
+                  {way.title}
+                </Typography>
+                <Typography paragraph variant="body1" style={{ fontSize: '1.2rem' }}>
+                  {way.text}
+                </Typography>
+                <Button
+                  component={Link}
+                  to={way.link}
+                  variant="outlined"
+                  color="primary"
+                  endIcon={<ChevronRightIcon />}
+                >
+                  lees meer
+                </Button>
+              </Card>
             </Grid>
-            <Grid item xs={12} md={6}>
-              <Typography variant="h6" component="div">
-                {way.title}
-              </Typography>
-              <Typography paragraph variant="body1" style={{ fontSize: '1.2rem' }}>
-                {way.text}
-              </Typography>
-            </Grid>
-          </Grid>
-        ))}
+          ))}
+        </Grid>
       </Container>
     </div>
-    <div
-      style={{
-        paddingTop: '4rem',
-        paddingBottom: '4rem',
-        display: 'flex',
-        alignItems: 'center',
-      }}
-    >
-      <Container>
-        <Section>
-          <Typography variant="h3" component="h2" gutterBottom>
-            {result.title}
-          </Typography>
-          <ul>
-            {result.results.map(item => (
-              <li>{item}</li>
-            ))}
-          </ul>
-        </Section>
-      </Container>
-    </div>
-    <div
-      style={{
-        paddingTop: '4rem',
-        paddingBottom: '4rem',
-        display: 'flex',
-        alignItems: 'center',
-      }}
-    >
-      <Container>
-        <Section>
-          <Typography variant="h3" component="h2" gutterBottom>
-            {contact.title}
-          </Typography>
-          <Grid container spacing={4}>
-            {contact.contacts.map(person => (
-              <Grid item xs={12} md={6}>
-                <Card>
-                  <Avatar>
-                    <PreviewCompatibleImage
-                      imageInfo={person.picture}
-                      style={{
-                        height: 200,
-                        width: 200,
-                        objectFit: 'shrink',
-                        marginLeft: 'auto',
-                        marginRight: 'auto',
-                      }}
-                    />
-                  </Avatar>
-                  <CardContent>
-                    <Typography variant="h6" component="div">
-                      {person.name}
-                    </Typography>
-                  </CardContent>
-                  <li>{person.number}</li>
-                  <li>{person.linkedIn}</li>
-                </Card>
-              </Grid>
-            ))}
-          </Grid>
-        </Section>
-      </Container>
-    </div>
-    <Container>
-      <Section>
-        <Typography variant="h3" component="h2" gutterBottom>
-          LEF Blog
-        </Typography>
-        <BlogRoll />
-        <Box display="flex" justifyContent="center" mt={2}>
-          <Button component={Link} to="/blog" variant="contained" color="secondary">
-            Meer cases
-          </Button>
-        </Box>
-      </Section>
-    </Container>
+    {/* <div */}
+    {/*  style={{ */}
+    {/*    paddingTop: '4rem', */}
+    {/*    paddingBottom: '4rem', */}
+    {/*    display: 'flex', */}
+    {/*    alignItems: 'center', */}
+    {/*  }} */}
+    {/* > */}
+    {/*  <Container> */}
+    {/*    <Section> */}
+    {/*      <Typography variant="h3" component="h2" gutterBottom> */}
+    {/*        {result.title} */}
+    {/*      </Typography> */}
+    {/*      <ol> */}
+    {/*        {result.results.map(item => ( */}
+    {/*          <li>{item}</li> */}
+    {/*        ))} */}
+    {/*      </ol> */}
+    {/*    </Section> */}
+    {/*  </Container> */}
+    {/* </div> */}
+    {/* <div */}
+    {/*  style={{ */}
+    {/*    paddingTop: '4rem', */}
+    {/*    paddingBottom: '4rem', */}
+    {/*    display: 'flex', */}
+    {/*    alignItems: 'center', */}
+    {/*  }} */}
+    {/* > */}
+    {/*  <Container> */}
+    {/*    <Section> */}
+    {/*      <Typography variant="h3" component="h2" gutterBottom> */}
+    {/*        {contact.title} */}
+    {/*      </Typography> */}
+    {/*      <Grid container spacing={4}> */}
+    {/*        {contact.contacts.map(person => ( */}
+    {/*          <Grid item xs={12} md={6}> */}
+    {/*            <Card> */}
+    {/*              <Avatar> */}
+    {/*                <PreviewCompatibleImage */}
+    {/*                  imageInfo={person.picture} */}
+    {/*                  style={{ */}
+    {/*                    height: 200, */}
+    {/*                    width: 200, */}
+    {/*                    objectFit: 'shrink', */}
+    {/*                    marginLeft: 'auto', */}
+    {/*                    marginRight: 'auto', */}
+    {/*                  }} */}
+    {/*                /> */}
+    {/*              </Avatar> */}
+    {/*              <CardContent> */}
+    {/*                <Typography variant="h6" component="div"> */}
+    {/*                  {person.name} */}
+    {/*                </Typography> */}
+    {/*              </CardContent> */}
+    {/*              <li>{person.number}</li> */}
+    {/*              <li>{person.linkedIn}</li> */}
+    {/*            </Card> */}
+    {/*          </Grid> */}
+    {/*        ))} */}
+    {/*      </Grid> */}
+    {/*    </Section> */}
+    {/*  </Container> */}
+    {/* </div> */}
+    {/* <Container> */}
+    {/*  <Section> */}
+    {/*    <Typography variant="h3" component="h2" gutterBottom> */}
+    {/*      LEF Blog */}
+    {/*    </Typography> */}
+    {/*    <BlogRoll /> */}
+    {/*    <Box display="flex" justifyContent="center" mt={2}> */}
+    {/*      <Button component={Link} to="/blog" variant="contained" color="secondary"> */}
+    {/*        Meer cases */}
+    {/*      </Button> */}
+    {/*    </Box> */}
+    {/*  </Section> */}
+    {/* </Container> */}
   </>
 );
 
@@ -251,21 +223,19 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   banner: PropTypes.string,
   lead: PropTypes.string,
-  pitch: PropTypes.string,
   features: PropTypes.object,
   how: PropTypes.object,
-  result: PropTypes.object,
-  contact: PropTypes.object,
+  // result: PropTypes.object,
+  // contact: PropTypes.object,
 };
 IndexPageTemplate.defaultProps = {
   title: null,
   banner: null,
   lead: null,
-  pitch: null,
   features: [],
   how: {},
-  result: {},
-  contact: {},
+  // result: {},
+  // contact: {},
 };
 
 const IndexPage = ({ data }) => {
@@ -276,7 +246,6 @@ const IndexPage = ({ data }) => {
       title={frontmatter.title}
       banner={frontmatter.banner}
       lead={frontmatter.lead}
-      pitch={frontmatter.pitch}
       features={frontmatter.features}
       how={frontmatter.how}
       result={frontmatter.result}
@@ -309,14 +278,21 @@ export const pageQuery = graphql`
       frontmatter {
         title
         banner
-        lead
-        pitch
+        lead {
+          text
+          link {
+            text
+            url
+          }
+        }
         features {
           title
+          subTitle
+          text
           items {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 800, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }
