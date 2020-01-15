@@ -32,12 +32,12 @@ how:
   ways:
     - image: /img/anders-denken.jpg
       title: Ondernemende denktank
-      link: '/anders-denken'
+      link: '/ondernemende-denktank'
       text: >
         Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Vanuit LEF wordt daarom op maat een multidisciplinair team samengesteld om maatschappelijke of organisatorische vraagstukken creatief aan te vliegen. Deze denktank kan eenmalig worden ingeschakeld of in abonnementsvorm.
     - image: /img/anders-doen.jpg
       title: Innovatie en verander aanjagers
-      link: '/anders-doen'
+      link: '/innovatie-aanjagers'
       text: >
         Samen met onze partners ondersteunen we organisaties bij innovatie en verandering. We verbinden onze ondernemende manier van werken met de kracht van organisaties. Hierbij gebruiken we uiteenlopende methodes zoals scrum, design thinking en emergent change.
 result:

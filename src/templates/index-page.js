@@ -56,7 +56,7 @@ export const IndexPageTemplate = ({
     <div
       style={{
         paddingTop: '4rem',
-        paddingBottom: '4rem',
+        paddingBottom: '1rem',
         display: 'flex',
         alignItems: 'center',
         // backgroundColor: '#FFD600',
@@ -92,7 +92,7 @@ export const IndexPageTemplate = ({
     </div>
     <div
       style={{
-        paddingTop: '4rem',
+        paddingTop: '1rem',
         paddingBottom: '4rem',
         display: 'flex',
         alignItems: 'center',

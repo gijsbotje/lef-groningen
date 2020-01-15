@@ -11,7 +11,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import MuiLink from '@material-ui/core/Link';
 
-export const AndersDenkenPageTemplate = ({ title, intro, pricing, fases }) => (
+export const DenktankPageTemplate = ({ title, intro, pricing, fases }) => (
   <>
     <Container style={{ paddingTop: '1.5rem', paddingBottom: 0 }}>
       <Breadcrumbs aria-label="breadcrumb">
@@ -70,24 +70,24 @@ export const AndersDenkenPageTemplate = ({ title, intro, pricing, fases }) => (
   </>
 );
 
-AndersDenkenPageTemplate.propTypes = {
+DenktankPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   intro: PropTypes.object,
   pricing: PropTypes.object,
   fases: PropTypes.object,
 };
 
-AndersDenkenPageTemplate.defaultProps = {
+DenktankPageTemplate.defaultProps = {
   intro: {},
   pricing: {},
   fases: {},
 };
 
-const AndersDenkenPage = ({ data }) => {
+const DenktankPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <AndersDenkenPageTemplate
+    <DenktankPageTemplate
       title={frontmatter.title}
       intro={frontmatter.intro}
       pricing={frontmatter.pricing}
@@ -96,7 +96,7 @@ const AndersDenkenPage = ({ data }) => {
   );
 };
 
-AndersDenkenPage.propTypes = {
+DenktankPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -104,7 +104,7 @@ AndersDenkenPage.propTypes = {
   }),
 };
 
-AndersDenkenPage.defaultProps = {
+DenktankPage.defaultProps = {
   data: {
     markdownRemark: {
       frontmatter: {},
@@ -112,11 +112,11 @@ AndersDenkenPage.defaultProps = {
   },
 };
 
-export default AndersDenkenPage;
+export default DenktankPage;
 
-export const AndersDenkenPageQuery = graphql`
-  query AndersDenkenPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "anders-denken-page" } }) {
+export const DenktankPageQuery = graphql`
+  query DenktankTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "denktank-page" } }) {
       frontmatter {
         title
         intro {
@@ -136,7 +136,7 @@ export const AndersDenkenPageQuery = graphql`
             text
             image {
               childImageSharp {
-                fluid(maxWidth: 150, quality: 64) {
+                fluid(maxWidth: 100, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }

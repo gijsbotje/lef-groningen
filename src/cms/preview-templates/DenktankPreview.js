@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { AndersDenkenPageTemplate } from '../../templates/anders-denken-page';
+import { DenktankPageTemplate } from '../../templates/denktank-page';
 
-const AndersDenkenPreview = ({ entry }) => {
+const DenktankPreview = ({ entry }) => {
   const data = entry.getIn(['data']).toJS();
 
   if (data) {
     return (
-      <AndersDenkenPageTemplate
+      <DenktankPageTemplate
         title={data.title}
         intro={data.intro}
         pricing={data.pricing}
@@ -18,16 +18,16 @@ const AndersDenkenPreview = ({ entry }) => {
   return <div>Loading...</div>;
 };
 
-AndersDenkenPreview.propTypes = {
+DenktankPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
 };
 
-AndersDenkenPreview.defaultProps = {
+DenktankPreview.defaultProps = {
   entry: {
     getIn: undefined,
   },
 };
 
-export default AndersDenkenPreview;
+export default DenktankPreview;

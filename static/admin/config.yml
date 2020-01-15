@@ -16,7 +16,7 @@ collections:
     label: "Pages"
     files:
       - file: "src/pages/index.md"
-        label: "Home Page"
+        label: "Home"
         name: "index"
         fields:
           - label: "Template Key"
@@ -134,14 +134,14 @@ collections:
                   - label: "Email"
                     name: "email"
                     widget: "string"
-      - file: "src/pages/anders-denken/index.md"
-        label: "Anders denken"
-        name: "andersDenken"
+      - file: "src/pages/denktank/index.md"
+        label: "Denktank"
+        name: "denktank"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "anders-denken-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - label: "Paragraphs"
-            name: "paragraphs"
+          - label: "Intro"
+            name: "intro"
             widget: "list"
           - label: "Pricing"
             name: "pricing"
@@ -180,8 +180,37 @@ collections:
                   - label: "Image"
                     name: "image"
                     widget: "image"
+      - file: "src/pages/aanjagers/index.md"
+        label: "Aanjagers"
+        name: "aanjagers"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "aanjagers-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Intro"
+            name: "intro"
+            widget: "list"
+          - label: "Fases"
+            name: "fases"
+            widget: "object"
+            fields:
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - label: "Title"
+                    name: "title"
+                    widget: "string"
+                  - label: "Text"
+                    name: "text"
+                    widget: "text"
+                  - label: "Image"
+                    name: "image"
+                    widget: "image"
       - file: "src/pages/about/index.md"
-        label: "About"
+        label: "Over ons"
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}

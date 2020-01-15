@@ -1,5 +1,5 @@
 ---
-templateKey: anders-denken-page
+templateKey: denktank-page
 title: Ondernemende denktank
 intro:
     - text: >

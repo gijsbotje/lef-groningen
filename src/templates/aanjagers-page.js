@@ -11,7 +11,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import MuiLink from '@material-ui/core/Link';
 
-export const AndersDoenPageTemplate = ({ title, intro, pricing, fases }) => (
+export const AanjagersPageTemplate = ({ title, intro, fases }) => (
   <>
     <Container style={{ paddingTop: '1.5rem', paddingBottom: 0 }}>
       <Breadcrumbs aria-label="breadcrumb">
@@ -29,11 +29,6 @@ export const AndersDoenPageTemplate = ({ title, intro, pricing, fases }) => (
         {intro.map(({ text }) => (
           <Typography variant="body1" paragraph>
             {text}
-          </Typography>
-        ))}
-        {pricing.options.map(({ text, linkText, url }) => (
-          <Typography variant="body1">
-            {text} <Link to={url}>{linkText}</Link>
           </Typography>
         ))}
       </Section>
@@ -70,33 +65,30 @@ export const AndersDoenPageTemplate = ({ title, intro, pricing, fases }) => (
   </>
 );
 
-AndersDoenPageTemplate.propTypes = {
+AanjagersPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   intro: PropTypes.object,
-  pricing: PropTypes.object,
   fases: PropTypes.object,
 };
 
-AndersDoenPageTemplate.defaultProps = {
+AanjagersPageTemplate.defaultProps = {
   intro: {},
-  pricing: {},
   fases: {},
 };
 
-const AndersDoenPage = ({ data }) => {
+const AanjagersPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <AndersDoenPageTemplate
+    <AanjagersPageTemplate
       title={frontmatter.title}
       intro={frontmatter.intro}
-      pricing={frontmatter.pricing}
       fases={frontmatter.fases}
     />
   );
 };
 
-AndersDoenPage.propTypes = {
+AanjagersPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -104,7 +96,7 @@ AndersDoenPage.propTypes = {
   }),
 };
 
-AndersDoenPage.defaultProps = {
+AanjagersPage.defaultProps = {
   data: {
     markdownRemark: {
       frontmatter: {},
@@ -112,22 +104,15 @@ AndersDoenPage.defaultProps = {
   },
 };
 
-export default AndersDoenPage;
+export default AanjagersPage;
 
-export const AndersDoenPageQuery = graphql`
-  query AndersDdoennPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "anders-doen-page" } }) {
+export const AanjagersPageQuery = graphql`
+  query AanjagersPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "aanjagers-page" } }) {
       frontmatter {
         title
         intro {
           text
-        }
-        pricing {
-          options {
-            text
-            linkText
-            url
-          }
         }
         fases {
           heading
@@ -136,7 +121,7 @@ export const AndersDoenPageQuery = graphql`
             text
             image {
               childImageSharp {
-                fluid(maxWidth: 150, quality: 64) {
+                fluid(maxWidth: 100, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }
