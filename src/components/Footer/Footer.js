@@ -4,7 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 
 const Footer = () => (
-  <AppBar position="static" color="primary" elevation={0} square >
+  <AppBar position="static" color="primary" elevation={0} square>
     <Toolbar>
       <Typography color="inherit" style={{ marginRight: 'auto' }}>
         info@lefgroningen.nl

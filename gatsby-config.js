@@ -1,3 +1,5 @@
+const pkg = require(`./package.json`);
+
 module.exports = {
   siteMetadata: {
     title: 'Lef groningen',
@@ -63,6 +65,22 @@ module.exports = {
         google: {
           families: ['Libre Franklin:400,500,600,700,900', 'Gelasio:400,500,600,700'],
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+    },
+    'gatsby-plugin-styled-components',
+    {
+      // This is only needed temporarily. Themes will automatically be transpiled in later versions.
+      resolve: `gatsby-plugin-compile-es6-packages`,
+      options: {
+        modules: [pkg.name],
       },
     },
     {
