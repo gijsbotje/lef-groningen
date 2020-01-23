@@ -58,7 +58,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
       <ColorBlock backgroundColor="yellow" isFirst>
         <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
       </ColorBlock>
-      <ColorBlock backgroundColor="red" fullHeight={false}>
+      <ColorBlock backgroundColor="red">
         <Section>
           <Typography variant="h2" component="h2" gutterBottom align="center">
             {homeBlock2.title}
