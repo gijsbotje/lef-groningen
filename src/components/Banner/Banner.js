@@ -2,23 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Typography from '@material-ui/core/Typography';
-import Container from '../Container';
 import Button from '@material-ui/core/Button';
 import { Link } from 'gatsby';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import withStyles from '@material-ui/styles/withStyles';
-
-const BannerBase = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 112px);
-  z-index: 0;
-  color: ${props => props.theme.palette.secondary.contrastText};
-  background-color: ${props => props.theme.palette.secondary.main};
-`;
 
 const Heading = styled(Typography)`
   && {
@@ -67,18 +53,6 @@ const BannerText = styled.div`
   justify-content: center;
   grid-area: text;
 `;
-
-const ColorButton = withStyles(() => ({
-  root: {
-    color: '#fff',
-    borderColor: '#fff',
-    backgroundColor: 'rgba(255, 255, 255, 0)',
-    marginTop: '0.75rem',
-    '&:hover': {
-      backgroundColor: 'rgba(255, 255, 255, 0.2)',
-    },
-  },
-}))(Button);
 
 const Banner = ({ title, text, cta, titleTypographyProps }) => (
   <BannerInner>

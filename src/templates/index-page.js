@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Link, graphql, withPrefix } from 'gatsby';
 import Features from '../components/Features/Features';
 import Typography from '@material-ui/core/Typography';
-import Container from '../components/Container';
 import Banner from '../components/Banner';
 import Section from '../components/Section';
 import Button from '@material-ui/core/Button';
@@ -89,7 +88,6 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
       <ColorBlock
         backgroundColor="blue"
         showScrollDown={false}
-        fullHeight={false}
         backgroundImage={homeBlock3.backgroundImage.childImageSharp.fluid.src}
       >
         <Typography
