@@ -8,27 +8,14 @@ import Banner from '../components/Banner';
 import Section from '../components/Section';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
-import Card from '@material-ui/core/Card';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import useSiteMetadata from '../components/SiteMetadata/SiteMetadata';
 import { Helmet } from 'react-helmet';
-// import BlogRoll from '../components/BlogRoll';
-// import Box from '@material-ui/core/Box';
-// import CardContent from '@material-ui/core/CardContent';
-// import Avatar from '@material-ui/core/Avatar';
-// import CardActionArea from '@material-ui/core/CardActionArea';
+import ColorBlock from '../components/ColorBlock';
 
-export const IndexPageTemplate = ({
-  title,
-  banner,
-  lead,
-  features,
-  how,
-  // result,
-  // contact,
-}) => {
+export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 }) => {
   const { title: seoTitle, description: seoDescription } = useSiteMetadata();
+
   return (
     <>
       <Helmet>
@@ -69,223 +56,102 @@ export const IndexPageTemplate = ({
       <Typography variant="h1" hidden>
         {title}
       </Typography>
-      {/* <Section> */}
-      <Banner title={banner} text={lead.text} cta={lead.link} />
-      {/* </Section> */}
-      {/* <Container> */}
-      {/*  <Section style={{ height: '50vh', display: 'flex', alignItems: 'center' }}> */}
-      {/*    <Grid container style={{ justifyContent: 'flex-end' }}> */}
-      {/*      <Grid item xs={12} md={6}> */}
-      {/*        <Typography variant="body1" style={{ fontSize: '1.4rem' }} paragraph> */}
-      {/*          {lead.text} */}
-      {/*        </Typography> */}
-      {/*        <Button */}
-      {/*          component={Link} */}
-      {/*          to={lead.link.url} */}
-      {/*          variant="outlined" */}
-      {/*          color="primary" */}
-      {/*          endIcon={<ChevronRightIcon />} */}
-      {/*        > */}
-      {/*          {lead.link.text} */}
-      {/*        </Button> */}
-      {/*      </Grid> */}
-      {/*    </Grid> */}
-      {/*  </Section> */}
-      {/* </Container> */}
-      <div
-        style={{
-          paddingTop: '4rem',
-          paddingBottom: '1rem',
-          display: 'flex',
-          alignItems: 'center',
-          // backgroundColor: '#FFD600',
-        }}
-      >
-        <Container>
-          <Section>
-            <Grid container spacing={4}>
-              <Grid item xs={12} md={6}>
-                <Typography
-                  variant="h2"
-                  component="h2"
-                  gutterBottom
-                  style={{ wordSpacing: '100vw' }}
-                >
-                  {features.title}
-                </Typography>
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <Typography variant="h4" component="h3" gutterBottom>
-                  {features.subTitle}
-                </Typography>
-                {features.text.map(text => (
-                  <Typography key={text} variant="body1" paragraph style={{ fontSize: '1.2rem' }}>
-                    {text}
-                  </Typography>
-                ))}
-              </Grid>
-            </Grid>
-          </Section>
-          <Section>
-            {/* <Typography variant="h3" component="h2" style={{ marginBottom: '3rem' }}> */}
-            {/*  {features.title} */}
-            {/* </Typography> */}
-            <Features gridItems={features.items} />
-          </Section>
-        </Container>
-      </div>
-      <div
-        style={{
-          paddingTop: '1rem',
-          paddingBottom: '4rem',
-          display: 'flex',
-          alignItems: 'center',
-          // backgroundColor: '#FFD600',
-        }}
-      >
-        <Container>
-          <Typography variant="h3" component="h2" style={{ marginBottom: '2rem' }}>
-            {how.title}
+      <ColorBlock backgroundColor="yellow" isFirst>
+        <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
+      </ColorBlock>
+      <ColorBlock backgroundColor="red" fullHeight={false}>
+        <Section>
+          <Typography variant="h2" component="h2" gutterBottom align="center">
+            {homeBlock2.title}
           </Typography>
-          <Grid container spacing={4}>
-            {how.ways.map(way => (
-              <Grid item xs={12} md={6}>
-                <Card style={{ height: '100%' }} elevation={0}>
-                  {/* <CardActionArea onClick={() => navigate(way.link)} style={{ marginBottom: '1rem' }}> */}
-                  <PreviewCompatibleImage
-                    imageInfo={way.image}
-                    style={{
-                      width: 200,
-                      objectFit: 'shrink',
-                      marginLeft: 'auto',
-                      marginRight: 'auto',
-                    }}
-                  />
-                  {/* </CardActionArea> */}
-                  <Typography
-                    variant="h5"
-                    component="div"
-                    style={{ marginTop: '1rem' }}
-                    gutterBottom
-                  >
-                    {way.title}
-                  </Typography>
-                  <Typography paragraph variant="body1" style={{ fontSize: '1.2rem' }}>
-                    {way.text}
-                  </Typography>
-                  <Button
-                    component={Link}
-                    to={way.link}
-                    variant="outlined"
-                    color="primary"
-                    endIcon={<ChevronRightIcon />}
-                  >
-                    lees meer
-                  </Button>
-                </Card>
-              </Grid>
-            ))}
+          <Typography
+            key={homeBlock2.text}
+            variant="body1"
+            align="center"
+            paragraph
+            style={{ fontSize: '1.2rem' }}
+          >
+            {homeBlock2.text &&
+              homeBlock2.text.split('.').map(
+                sentence =>
+                  sentence && (
+                    <React.Fragment key={sentence}>
+                      {sentence}.<br />
+                    </React.Fragment>
+                  ),
+              )}
+          </Typography>
+        </Section>
+        <Section>
+          <Features gridItems={homeBlock2.tools} />
+        </Section>
+      </ColorBlock>
+      <ColorBlock
+        backgroundColor="blue"
+        showScrollDown={false}
+        fullHeight={false}
+        backgroundImage={homeBlock3.backgroundImage.childImageSharp.fluid.src}
+      >
+        <Typography
+          variant="h3"
+          component="h2"
+          align="center"
+          style={{ marginBottom: '5rem', alignSelf: 'flex-start' }}
+        >
+          {homeBlock3.title}
+        </Typography>
+        <Grid container spacing={4} style={{ justifyContent: 'space-between' }}>
+          <Grid item xs={12} sm={6} md={5}>
+            <Typography variant="h5" component="div" style={{ marginTop: '1rem' }} gutterBottom>
+              {homeBlock3.block1.title}
+            </Typography>
+            <Typography paragraph variant="body1" style={{ fontSize: '1.2rem' }}>
+              {homeBlock3.block1.text}
+            </Typography>
+            <Button
+              component={Link}
+              to={homeBlock3.block1.link}
+              variant="outlined"
+              color="inherit"
+              endIcon={<ChevronRightIcon />}
+            >
+              lees meer
+            </Button>
           </Grid>
-        </Container>
-      </div>
-      {/* <div */}
-      {/*  style={{ */}
-      {/*    paddingTop: '4rem', */}
-      {/*    paddingBottom: '4rem', */}
-      {/*    display: 'flex', */}
-      {/*    alignItems: 'center', */}
-      {/*  }} */}
-      {/* > */}
-      {/*  <Container> */}
-      {/*    <Section> */}
-      {/*      <Typography variant="h3" component="h2" gutterBottom> */}
-      {/*        {result.title} */}
-      {/*      </Typography> */}
-      {/*      <ol> */}
-      {/*        {result.results.map(item => ( */}
-      {/*          <li>{item}</li> */}
-      {/*        ))} */}
-      {/*      </ol> */}
-      {/*    </Section> */}
-      {/*  </Container> */}
-      {/* </div> */}
-      {/* <div */}
-      {/*  style={{ */}
-      {/*    paddingTop: '4rem', */}
-      {/*    paddingBottom: '4rem', */}
-      {/*    display: 'flex', */}
-      {/*    alignItems: 'center', */}
-      {/*  }} */}
-      {/* > */}
-      {/*  <Container> */}
-      {/*    <Section> */}
-      {/*      <Typography variant="h3" component="h2" gutterBottom> */}
-      {/*        {contact.title} */}
-      {/*      </Typography> */}
-      {/*      <Grid container spacing={4}> */}
-      {/*        {contact.contacts.map(person => ( */}
-      {/*          <Grid item xs={12} md={6}> */}
-      {/*            <Card> */}
-      {/*              <Avatar> */}
-      {/*                <PreviewCompatibleImage */}
-      {/*                  imageInfo={person.picture} */}
-      {/*                  style={{ */}
-      {/*                    height: 200, */}
-      {/*                    width: 200, */}
-      {/*                    objectFit: 'shrink', */}
-      {/*                    marginLeft: 'auto', */}
-      {/*                    marginRight: 'auto', */}
-      {/*                  }} */}
-      {/*                /> */}
-      {/*              </Avatar> */}
-      {/*              <CardContent> */}
-      {/*                <Typography variant="h6" component="div"> */}
-      {/*                  {person.name} */}
-      {/*                </Typography> */}
-      {/*              </CardContent> */}
-      {/*              <li>{person.number}</li> */}
-      {/*              <li>{person.linkedIn}</li> */}
-      {/*            </Card> */}
-      {/*          </Grid> */}
-      {/*        ))} */}
-      {/*      </Grid> */}
-      {/*    </Section> */}
-      {/*  </Container> */}
-      {/* </div> */}
-      {/* <Container> */}
-      {/*  <Section> */}
-      {/*    <Typography variant="h3" component="h2" gutterBottom> */}
-      {/*      LEF Blog */}
-      {/*    </Typography> */}
-      {/*    <BlogRoll /> */}
-      {/*    <Box display="flex" justifyContent="center" mt={2}> */}
-      {/*      <Button component={Link} to="/blog" variant="contained" color="secondary"> */}
-      {/*        Meer cases */}
-      {/*      </Button> */}
-      {/*    </Box> */}
-      {/*  </Section> */}
-      {/* </Container> */}
+          <Grid item xs={12} sm={6} md={5}>
+            <Typography variant="h5" component="div" style={{ marginTop: '20rem' }} gutterBottom>
+              {homeBlock3.block2.title}
+            </Typography>
+            <Typography paragraph variant="body1" style={{ fontSize: '1.2rem' }}>
+              {homeBlock3.block2.text}
+            </Typography>
+            <Button
+              component={Link}
+              to={homeBlock3.block2.link}
+              variant="outlined"
+              color="inherit"
+              endIcon={<ChevronRightIcon />}
+            >
+              lees meer
+            </Button>
+          </Grid>
+        </Grid>
+      </ColorBlock>
     </>
   );
 };
 
 IndexPageTemplate.propTypes = {
   title: PropTypes.string,
-  banner: PropTypes.string,
-  lead: PropTypes.string,
-  features: PropTypes.object,
-  how: PropTypes.object,
-  // result: PropTypes.object,
-  // contact: PropTypes.object,
+  homeBlock1: PropTypes.object,
+  homeBlock2: PropTypes.object,
+  homeBlock3: PropTypes.object,
 };
 IndexPageTemplate.defaultProps = {
   title: null,
-  banner: null,
-  lead: null,
-  features: [],
-  how: {},
-  // result: {},
-  // contact: {},
+  homeBlock1: {},
+  homeBlock2: {},
+  homeBlock3: {},
 };
 
 const IndexPage = ({ data }) => {
@@ -294,12 +160,9 @@ const IndexPage = ({ data }) => {
   return (
     <IndexPageTemplate
       title={frontmatter.title}
-      banner={frontmatter.banner}
-      lead={frontmatter.lead}
-      features={frontmatter.features}
-      how={frontmatter.how}
-      result={frontmatter.result}
-      contact={frontmatter.contact}
+      homeBlock1={frontmatter.homeBlock1}
+      homeBlock2={frontmatter.homeBlock2}
+      homeBlock3={frontmatter.homeBlock3}
     />
   );
 };
@@ -326,23 +189,21 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
-        banner
-        lead {
+        homeBlock1 {
+          title
           text
           link {
             text
             url
           }
         }
-        features {
+        homeBlock2 {
           title
-          subTitle
           text
-          items {
+          tools {
             image {
               childImageSharp {
-                fluid(maxWidth: 800, quality: 64) {
+                fluid(maxWidth: 800, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -351,39 +212,38 @@ export const pageQuery = graphql`
             text
           }
         }
-        how {
+        homeBlock3 {
           title
-          ways {
+          backgroundImage {
+            childImageSharp {
+              fluid(maxWidth: 1920, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          block1 {
             title
             text
             link
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 240, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
           }
-        }
-        result {
-          title
-          results
-        }
-        contact {
-          title
-          contacts {
-            name
-            picture {
+          block2 {
+            title
+            text
+            link
+            image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 240, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-            number
-            linkedIn
-            email
           }
         }
       }

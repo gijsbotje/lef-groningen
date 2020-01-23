@@ -7,17 +7,19 @@ import styled from 'styled-components';
 const NavbarBase = styled(Grid)`
   && {
     width: auto;
+    flex-grow: 1;
+    justify-content: space-between;
   }
 `;
 
 const Navbar = ({ items }) => (
-  <NavbarBase container spacing={4}>
+  <>
     {items.map(({ to, label }) => (
       <Grid item key={label}>
         <NavbarItem to={to} label={label} />
       </Grid>
     ))}
-  </NavbarBase>
+  </>
 );
 
 Navbar.propTypes = {

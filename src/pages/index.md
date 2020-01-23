@@ -1,64 +1,39 @@
 ---
 templateKey: index-page
 title: LEF groningen
-banner: Werk met lef
-lead: 
-    text: Wij zijn een team van hoogopgeleide twintigers. Samen met onze partners creëren wij innovatie en ondersteunen we organisaties bij verandering. Dit doen wij door anders te denken en anders te doen.
+
+homeBlock1:
+    title: Werk met lef
+    text: Om te vernieuwen moet je lef hebben. Wij zijn LEF, een team van twintigers met bravoure en een scherpe blik. Door te confronteren en te verrassen dagen wij organisaties uit om te innoveren.
     link:
       text: Lees meer over LEF
       url: /over-ons
-features:
-  title: Hoe ondernemen wij?
-  subTitle: Onze aanpak 
-  text: 
-    - Samenwerken met nieuwsgierige sparringpartners? Innovatieve ideeën uitwerken met een snelle en praktische aanpak? Onderneem dan met LEF.
-    - Wij beginnen klein en creëren stap voor stap iets groots. Deze manier van werken gebruiken we om innovatieve oplossingen te realiseren. Zo bewegen wij, en zo willen we anderen in beweging brengen.
 
-  items:
+homeBlock2:
+  title: De gereedschapskist
+  text: Wij zijn in te zetten als ideeënbrouwers, sparringpartners of aanjagers. We beginnen klein en creëren stap voor stap iets groots. Zo bewegen wij, en zo willen we anderen in beweging brengen.
+  tools:
     - image: /img/Geen-advies-maar-resultaat.jpg
-      title: Geen advies, maar resultaat
-      text: >
-        Ondernemen begint met een ambitie. Dit vertalen we naar een idee en zetten we om in tastbaar resultaat.
+      title: Wij maken meters
+      text: Met een snelle, praktische aanpak vertalen we ideeën naar tastbaar resultaat.
     - image: /img/fail-quickly-learn-fast.jpg
-      title: Fail quickly, learn fast
-      text: >
-        Wij experimenteren, vieren onze blunders en leren hiervan.
+      title: Wij maken fouten
+      text: Door te experimenteren en onze blunders te vieren komen we verder.
     - image: /img/buiten-de-organisatie-bubbel.jpg
-      title: Buiten de organisatie bubbel
-      text: >
-        We stellen onbevangen vragen en vormen een uitdagende sparringpartner omdat we buiten de status quo staan.
-how:
-  title: Hoe doen we dit?
-  ways:
-    - image: /img/anders-denken.jpg
-      title: Ondernemende denktank
-      link: '/ondernemende-denktank'
-      text: >
-        Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Vanuit LEF wordt daarom op maat een multidisciplinair team samengesteld om maatschappelijke of organisatorische vraagstukken creatief aan te vliegen. Deze denktank kan eenmalig worden ingeschakeld of in abonnementsvorm.
-    - image: /img/anders-doen.jpg
-      title: Innovatie en verander aanjagers
-      link: '/innovatie-aanjagers'
-      text: >
-        Samen met onze partners ondersteunen we organisaties bij innovatie en verandering. We verbinden onze ondernemende manier van werken met de kracht van organisaties. Hierbij gebruiken we uiteenlopende methodes zoals scrum, design thinking en emergent change.
-result:
-  title: Wat levert het op?
-  results:
-    - Creatieve en innovatieve ideeën
-    - UItdagende sparringpartner
-    - Nieuwsgierigheid aanwakkeren
-    - Beweegredenen nieuwe generatie
-    - Contact met jong talent
-contact:
-  title: Werken met LEF? Neem dan contact met ons op!
-  contacts:
-    - name: Teddy Monninkhof
-      picture: /img/image15.png
-      number: 06 52 25 13 95
-      linkedIn: https://nl.linkedin.com/in/teddy-monninkhof-77725372
-      email: teddy@lefgroningen.nl
-    - name: Thijs de Vries
-      picture: /img/image15.png
-      number: 06 13 97 26 93
-      linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
-      email: thijs@lefgroningen.nl
+      title: Wij denken anders
+      text: We kijken van buiten de organisatie naar binnen, waardoor we kritisch en onbevangen zijn.
+
+homeBlock3:
+  title: Durf jij het aan om te werken met LEF?
+  backgroundImage: /img/ted-en-thijs.jpg
+  block1:
+    image: /img/anders-denken.jpg
+    title: Ideeënbrouwerij
+    link: '/ondernemende-denktank'
+    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, hoe gekker hoe beter. Vanuit LEF wordt een multidisciplinair team samengesteld om jullie vraagstukken op een creatieve manier aan te vliegen.
+  block2:
+    image: /img/anders-doen.jpg
+    title: Ideeën aanjagers
+    link: '/innovatie-aanjagers'
+    text: Wij zoeken naar tastbaar resultaat. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet. We helpen met een plan en verbinden onze ondernemende manier van werken aan jouw organisatie. Hierbij gebruiken we uiteenlopende methodes zoals scrum, design thinking en emergent change
 ---

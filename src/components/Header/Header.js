@@ -47,14 +47,26 @@ const StyledToolBar = styled(ToolBar)`
   }
 `;
 
+const MobileMenuItemText = styled(ListItemText)`
+  && {
+    .MuiListItemText-primary {
+      font-family: ${props => props.theme.typography.h1.fontFamily};
+    }
+  }
+`;
+
 const menuItems = [
   {
-    to: '/about',
-    label: 'About',
+    to: '/services',
+    label: 'Services',
   },
   {
-    to: '/blog',
-    label: 'Blog',
+    to: '/de-rmmelkamer',
+    label: 'De rommelkamer',
+  },
+  {
+    to: '/het-lef-verhaal',
+    label: 'Het LEF-verhaal',
   },
   {
     to: '/contact',
@@ -70,14 +82,14 @@ const Header = () => {
   return (
     <>
       <ElevationScroll>
-        <AppBar color="primary" position="sticky">
+        <AppBar color="white" position="sticky">
           <Container maxWidth="lg">
             <StyledToolBar>
               <Logo src={logo} alt="Lef Groningen logo" href="/" title="Lef Groningen - home" />
-              <Hidden implementation="css" xsDown>
+              <Hidden implementation="js" xsDown>
                 <Navbar items={menuItems} />
               </Hidden>
-              <Hidden implementation="css" smUp>
+              <Hidden implementation="js" smUp>
                 <IconButton onClick={toggleMenu} color="inherit">
                   <MenuIcon />
                 </IconButton>
@@ -96,7 +108,7 @@ const Header = () => {
             </ListItem>
             {menuItems.map(({ to, label }) => (
               <ListItem key={to} button component={Link} to={to} onClick={toggleMenu}>
-                <ListItemText primary={label} />
+                <MobileMenuItemText primary={label} />
               </ListItem>
             ))}
           </List>

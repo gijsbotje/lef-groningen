@@ -7,7 +7,6 @@ import Button from '@material-ui/core/Button';
 import { Link } from 'gatsby';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import withStyles from '@material-ui/styles/withStyles';
-// import Grid from '@material-ui/core/Grid';
 
 const BannerBase = styled.div`
   position: relative;
@@ -17,45 +16,46 @@ const BannerBase = styled.div`
   align-items: center;
   min-height: calc(100vh - 112px);
   z-index: 0;
-  color: ${props => props.theme.palette.common.white};
-  background-color: ${props => props.theme.palette.common.black};
+  color: ${props => props.theme.palette.secondary.contrastText};
+  background-color: ${props => props.theme.palette.secondary.main};
 `;
 
 const Heading = styled(Typography)`
   && {
     font-size: 6rem;
     text-transform: uppercase;
-    word-spacing: 100vw;
     line-height: 1;
     margin-bottom: 0;
-    text-align: left;
-    grid-area: ${props => props.gridArea};
 
     @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
-      font-size: 8rem;
+      font-size: 5rem;
     }
+  }
+`;
+
+const HeadingContainer = styled.div`
+  grid-area: heading;
+
+  @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 `;
 
 const BannerInner = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 32px;
   grid-template-areas:
-    'heading1'
-    'heading2'
-    'heading3'
+    'heading'
     'text';
   font-size: 8rem;
 
   @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
     grid-gap: 32px 72px;
-    grid-template-columns: auto 1fr;
-    grid-template-areas:
-      'heading1 text'
-      'heading2 text'
-      'heading3 text';
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: 'heading text';
     font-size: 12rem;
   }
 `;
@@ -81,78 +81,34 @@ const ColorButton = withStyles(() => ({
 }))(Button);
 
 const Banner = ({ title, text, cta, titleTypographyProps }) => (
-  <BannerBase>
-    <Container>
-      <BannerInner>
+  <BannerInner>
+    <HeadingContainer>
+      <Heading {...titleTypographyProps} gutterBottom>
         {title &&
-          title.split(' ').map((part, index) => (
-            <Heading
-              key={part}
-              {...titleTypographyProps}
-              gutterBottom
-              gridArea={`heading${index + 1}`}
-            >
+          title.split(' ').map(part => (
+            <React.Fragment key={part}>
               {part}
-            </Heading>
+              <br />
+            </React.Fragment>
           ))}
-        <BannerText>
-          <Typography variant="body1" style={{ fontSize: '1.75rem' }} paragraph>
-            {text}
-          </Typography>
-          <ColorButton
-            component={Link}
-            to={cta.url}
-            variant="outlined"
-            color="default"
-            endIcon={<ChevronRightIcon />}
-          >
-            {cta.text}
-          </ColorButton>
-        </BannerText>
-      </BannerInner>
-    </Container>
-  </BannerBase>
+      </Heading>
+    </HeadingContainer>
+    <BannerText>
+      <Typography variant="body1" style={{ fontSize: '1.75rem' }} paragraph>
+        {text}
+      </Typography>
+      <Button
+        component={Link}
+        to={cta.url}
+        variant="outlined"
+        color="inherit"
+        endIcon={<ChevronRightIcon />}
+      >
+        {cta.text}
+      </Button>
+    </BannerText>
+  </BannerInner>
 );
-
-// const BannerInner = styled.div`
-//   display: grid;
-//   grid-template-columns: 75% 1fr 1fr 1fr;
-//   grid-template-rows: 1fr 1fr 1fr;
-//   grid-gap: 24px;
-//   grid-template-areas:
-//     'heading1 bar1 bar1 bar1'
-//     'heading2 bar2 bar2 .'
-//     'heading3 bar3 . .';
-//   font-size: 8rem;
-//
-//   @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
-//     grid-template-columns: 50% 1fr 1fr 1fr;
-//     font-size: 12rem;
-//   }
-// `;
-
-// const Banner = ({ title, titleTypographyProps }) => (
-//   <BannerBase>
-//     <Container>
-//       <BannerInner>
-//         {title &&
-//           title.split(' ').map((part, index) => (
-//             <Heading
-//               key={part}
-//               {...titleTypographyProps}
-//               gutterBottom
-//               gridArea={`heading${index + 1}`}
-//             >
-//               {part}
-//             </Heading>
-//           ))}
-//         <Bar gridArea="bar1" />
-//         <Bar gridArea="bar2" />
-//         <Bar gridArea="bar3" />
-//       </BannerInner>
-//     </Container>
-//   </BannerBase>
-// );
 
 Banner.propTypes = {
   title: PropTypes.string,
@@ -173,7 +129,6 @@ Banner.defaultProps = {
     ...Typography.defaultProps,
     variant: 'h1',
     component: 'div',
-    align: 'center',
     color: 'inherit',
   },
   cta: {
