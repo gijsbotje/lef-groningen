@@ -36,7 +36,7 @@ export const BlogPostTemplate = ({
           <Grid container spacing={1}>
             {tags.map(tag => (
               <Grid key={`${tag}tag`} item>
-                {/*<Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>*/}
+                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                 <Chip label={tag} onClick={() => navigate(`/tags/${kebabCase(tag)}/`)} />
               </Grid>
             ))}
@@ -55,6 +55,13 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
   tags: PropTypes.array,
 };
+BlogPostTemplate.defaultProps = {
+  contentComponent: undefined,
+  description: undefined,
+  title: undefined,
+  helmet: undefined,
+  tags: undefined,
+};
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -67,16 +74,13 @@ const BlogPost = ({ data }) => {
       helmet={
         <Helmet titleTemplate="%s | Blog">
           <title>{`${post.frontmatter.title}`}</title>
-          <meta
-            name="description"
-            content={`${post.frontmatter.description}`}
-          />
+          <meta name="description" content={`${post.frontmatter.description}`} />
         </Helmet>
       }
       tags={post.frontmatter.tags}
       title={post.frontmatter.title}
     />
-  )
+  );
 };
 
 BlogPost.propTypes = {
@@ -85,7 +89,11 @@ BlogPost.propTypes = {
   }),
 };
 
-export default BlogPost
+BlogPost.defaultProps = {
+  data: {},
+};
+
+export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {

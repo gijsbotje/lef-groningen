@@ -11,7 +11,8 @@ const palette = {
     contrastText: '#fff',
   },
   success: {
-    main: '#21715a',
+    main: '#20b046',
+    contrastText: '#fff',
   },
   info: {
     main: '#3079af',

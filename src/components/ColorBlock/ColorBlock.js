@@ -12,11 +12,7 @@ const ColorBlockBG = styled.div`
   padding-bottom: 1rem;
 
   &.full-height {
-    min-height: 100vh;
-
-    &.is-first {
-      min-height: calc(100vh - 112px);
-    }
+    min-height: calc(100vh - 112px);
   }
 
   &.has-bg-image {
@@ -28,6 +24,11 @@ const ColorBlockBG = styled.div`
   &.bg-red {
     background-color: ${props => props.theme.palette.error.main};
     color: ${props => props.theme.palette.error.contrastText};
+  }
+
+  &.bg-green {
+    background-color: ${props => props.theme.palette.success.main};
+    color: ${props => props.theme.palette.success.contrastText};
   }
 
   &.bg-blue {
@@ -80,12 +81,14 @@ const ScrollDownIndicator = styled.svg`
 const ColorBlock = ({
   backgroundColor,
   backgroundImage,
+  id,
   isFirst,
   fullHeight,
   showScrollDown,
   children,
 }) => (
   <ColorBlockBG
+    id={id}
     className={clsx(`bg-${backgroundColor}`, {
       'has-bg-image': backgroundImage,
       'is-first': isFirst,
@@ -109,6 +112,7 @@ ColorBlock.propTypes = {
   backgroundImage: PropTypes.string,
   children: PropTypes.any,
   fullHeight: PropTypes.bool,
+  id: PropTypes.string,
   isFirst: PropTypes.bool,
   showScrollDown: PropTypes.bool,
 };
@@ -118,6 +122,7 @@ ColorBlock.defaultProps = {
   backgroundImage: undefined,
   children: undefined,
   fullHeight: true,
+  id: undefined,
   isFirst: false,
   showScrollDown: true,
 };
