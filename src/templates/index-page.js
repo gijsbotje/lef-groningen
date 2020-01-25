@@ -15,7 +15,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Box from '@material-ui/core/Box';
 
-const bgColor = 'yellow';
+const bgColor = 'white';
 
 export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 }) => (
   <>
@@ -55,7 +55,14 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
           homeBlock3.block6,
         ].map((block, index) => (
           <Grid item xs={12} sm={6} md={4}>
-            <Card elevation={6} style={{ height: '100%', backgroundColor: '#00b8f1', color: '#fff' }}>
+            <Card
+              elevation={6}
+              style={{
+                height: '100%',
+                backgroundColor: index === 5 ? '#00b8f1' : '#fddd3f',
+                color: index === 5 ? '#fff' : '#000',
+              }}
+            >
               {index === 0 || index === 5 ? (
                 <CardContent style={{ height: '100%' }}>
                   <Box

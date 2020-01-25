@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import ColorBlock from '../ColorBlock';
 
-const colors = ['red', 'blue', 'dark', 'white'];
+const colors = ['blue', 'yellow', 'blue'];
 
 const FeatureGrid = ({ gridItems }) => (
   <Grid container spacing={10}>
