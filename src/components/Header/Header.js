@@ -65,7 +65,7 @@ const menuItems = [
   //   label: 'De rommelkamer',
   // },
   {
-    to: '/het-lef-verhaal',
+    to: '/over-ons',
     label: 'Het LEF-verhaal',
   },
   {

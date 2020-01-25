@@ -1,6 +1,6 @@
 const typography = {
   fontFamily: [
-    'Gelasio',
+    'Libre Baskerville',
     '-apple-system',
     'BlinkMacSystemFont',
     '"Segoe UI"',
@@ -12,6 +12,13 @@ const typography = {
     '"Segoe UI Emoji"',
     '"Segoe UI Symbol"',
   ].join(','),
+  fontWeight: 700,
+  body1: {
+    fontWeight: 700,
+  },
+  body2: {
+    fontWeight: 700,
+  },
   h1: {
     fontFamily: [
       'Libre Franklin',
@@ -27,6 +34,7 @@ const typography = {
       '"Segoe UI Symbol"',
     ].join(','),
     fontWeight: 700,
+    textTransform: 'uppercase',
   },
   h2: {
     fontFamily: [
@@ -43,6 +51,7 @@ const typography = {
       '"Segoe UI Symbol"',
     ].join(','),
     fontWeight: 700,
+    textTransform: 'uppercase',
   },
   h3: {
     fontFamily: [
@@ -59,6 +68,7 @@ const typography = {
       '"Segoe UI Symbol"',
     ].join(','),
     fontWeight: 700,
+    textTransform: 'uppercase',
   },
   h4: {
     fontFamily: [
@@ -75,6 +85,7 @@ const typography = {
       '"Segoe UI Symbol"',
     ].join(','),
     fontWeight: 700,
+    textTransform: 'uppercase',
   },
   h5: {
     fontFamily: [
@@ -91,6 +102,7 @@ const typography = {
       '"Segoe UI Symbol"',
     ].join(','),
     fontWeight: 700,
+    textTransform: 'uppercase',
   },
   h6: {
     fontFamily: [
@@ -107,6 +119,7 @@ const typography = {
       '"Segoe UI Symbol"',
     ].join(','),
     fontWeight: 700,
+    textTransform: 'uppercase',
   },
   button: {
     fontFamily: [

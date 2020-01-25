@@ -3,7 +3,7 @@ templateKey: index-page
 title: LEF groningen
 
 homeBlock1:
-  title: Werk met lef
+  title: Werk met lef.
   text: Om te vernieuwen moet je lef hebben. Wij zijn LEF, een team van twintigers met bravoure en een scherpe blik. Door te confronteren en te verrassen dagen wij organisaties uit om te innoveren.
   link:
     text: Lees meer over LEF
@@ -27,13 +27,33 @@ homeBlock3:
   title: Durf jij het aan om te werken met LEF?
   backgroundImage: /img/ted-en-thijs.jpg
   block1:
-    image: /img/anders-denken.jpg
+    image: /img/ted-en-thijs-camera-square.jpg
     title: Ideeënbrouwerij
     link: '/services#ideeenbrouwerij'
-    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders. Vanuit LEF wordt een multidisciplinair team samengesteld om vraagstukken op een creatieve manier aan te vliegen.
+    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
   block2:
-    image: /img/anders-doen.jpg
+    image: /img/thijs-tekenen-square.jpg
+    title: Ideeënbrouwerij
+    link: '/services#ideeenbrouwerij'
+    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+  block3:
+    image: /img/ted-en-thijs-camera-square.jpg
+    title: Ideeënbrouwerij
+    link: '/services#ideeenbrouwerij'
+    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+  block4:
+    image: /img/ted-en-thijs-square.jpg
+    title: Ideeënbrouwerij
+    link: '/services#ideeenbrouwerij'
+    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+  block5:
+    image: /img/thijs-in-the-picture-square.jpg
+    title: Ideeënbrouwerij
+    link: '/services#ideeenbrouwerij'
+    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+  block6:
+    image: /img/ted-en-thijs-camera-square.jpg
     title: Verander aanjagers
-    link: '/services#verander-aanjagers'
-    text: Wij willen tastbaar resultaat creëren. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet. We helpen met een plan en verbinden onze ondernemende manier van werken aan jouw organisatie. Hierbij gebruiken we uiteenlopende methodes zoals scrum, design thinking en emergent change.
+    link: '/services#ideeenbrouwerij'
+    text: Wij willen tastbaar resultaat creëren. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet.
 ---

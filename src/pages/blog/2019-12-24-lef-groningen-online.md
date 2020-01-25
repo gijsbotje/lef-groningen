@@ -4,7 +4,7 @@ title: Lef Groningen online
 date: 2020-01-06T12:30:00.708Z
 description: Lef groningen is online!
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/og-image.jpg
 tags:
   - LEF
   - online

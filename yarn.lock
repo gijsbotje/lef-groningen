@@ -12399,6 +12399,11 @@ react-router@^4.2.0, react-router@^4.3.1:
     prop-types "^15.6.1"
     warning "^4.0.1"
 
+react-scroll-into-view@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/react-scroll-into-view/-/react-scroll-into-view-1.7.0.tgz#68876db7fd77eea99ab6aa417a2d185d31d42649"
+  integrity sha512-vF6kFvaYQv60TZ16rBR9LWerbwIApuERIF9xNQAiOhKzZvxGuP7c+hQbLAHq0QDEnnJaGM6pd6l2ECQOzssp0Q==
+
 react-scroll-sync@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/react-scroll-sync/-/react-scroll-sync-0.6.0.tgz#c87eba2cdd55ae35874277d74b034419d73df59a"

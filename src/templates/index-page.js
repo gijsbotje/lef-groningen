@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link, graphql, withPrefix } from 'gatsby';
+import { Link, graphql, navigate } from 'gatsby';
 import Features from '../components/Features/Features';
 import Typography from '@material-ui/core/Typography';
 import Banner from '../components/Banner';
@@ -8,136 +8,96 @@ import Section from '../components/Section';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import useSiteMetadata from '../components/SiteMetadata/SiteMetadata';
-import { Helmet } from 'react-helmet';
 import ColorBlock from '../components/ColorBlock';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import Box from '@material-ui/core/Box';
 
-export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 }) => {
-  const { title: seoTitle, description: seoDescription } = useSiteMetadata();
+const bgColor = 'yellow';
 
-  return (
-    <>
-      <Helmet>
-        <html lang="en" />
-        <title>{seoTitle}</title>
-        <meta name="description" content={seoDescription} />
-
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-icon.png`}
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
-          sizes="32x32"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
-          sizes="16x16"
-        />
-
-        <link
-          rel="mask-icon"
-          href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
-          color="#ff4400"
-        />
-        <meta name="theme-color" content="#fff" />
-
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
-      </Helmet>
-      <Typography variant="h1" hidden>
-        {title}
-      </Typography>
-      <ColorBlock backgroundColor="yellow" isFirst>
-        <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
-      </ColorBlock>
-      <ColorBlock backgroundColor="red">
-        <Section>
-          <Typography variant="h2" component="h2" gutterBottom align="center">
-            {homeBlock2.title}
-          </Typography>
-          <Typography
-            key={homeBlock2.text}
-            variant="body1"
-            align="center"
-            paragraph
-            style={{ fontSize: '1.2rem' }}
-          >
-            {homeBlock2.text &&
-              homeBlock2.text.split('.').map(
-                sentence =>
-                  sentence && (
-                    <React.Fragment key={sentence}>
-                      {sentence}.<br />
-                    </React.Fragment>
-                  ),
-              )}
-          </Typography>
-        </Section>
-        <Section>
-          <Features gridItems={homeBlock2.tools} />
-        </Section>
-      </ColorBlock>
-      <ColorBlock
-        backgroundColor="blue"
-        showScrollDown={false}
-        backgroundImage={homeBlock3.backgroundImage.childImageSharp.fluid.src}
+export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 }) => (
+  <>
+    <Typography variant="h1" hidden>
+      {title}
+    </Typography>
+    <ColorBlock backgroundColor={bgColor} isFirst scrollToId="home-block-2" showScrollDown>
+      <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
+    </ColorBlock>
+    <ColorBlock backgroundColor={bgColor} id="home-block-2" scrollToId="home-block-3" maxWidth="lg">
+      <Section>
+        <Features gridItems={homeBlock2.tools} />
+      </Section>
+    </ColorBlock>
+    <ColorBlock
+      backgroundColor={bgColor}
+      // backgroundImage={homeBlock3.backgroundImage.childImageSharp.fluid.src}
+      id="home-block-3"
+      equalPadding
+      maxWidth="lg"
+    >
+      <Typography
+        variant="h3"
+        component="h2"
+        align="center"
+        style={{ marginTop: '-2rem', marginBottom: '5rem', alignSelf: 'flex-start' }}
       >
-        <Typography
-          variant="h3"
-          component="h2"
-          align="center"
-          style={{ marginBottom: '5rem', alignSelf: 'flex-start' }}
-        >
-          {homeBlock3.title}
-        </Typography>
-        <Grid container spacing={4} style={{ justifyContent: 'space-between' }}>
-          <Grid item xs={12} sm={6} md={5}>
-            <Typography variant="h5" component="div" style={{ marginTop: '1rem' }} gutterBottom>
-              {homeBlock3.block1.title}
-            </Typography>
-            <Typography paragraph variant="body1" style={{ fontSize: '1.2rem' }}>
-              {homeBlock3.block1.text}
-            </Typography>
-            <Button
-              component={Link}
-              to={homeBlock3.block1.link}
-              variant="outlined"
-              color="inherit"
-              endIcon={<ChevronRightIcon />}
-            >
-              lees meer
-            </Button>
+        {homeBlock3.title}
+      </Typography>
+      <Grid container spacing={4}>
+        {[
+          homeBlock3.block1,
+          homeBlock3.block2,
+          homeBlock3.block3,
+          homeBlock3.block4,
+          homeBlock3.block5,
+          homeBlock3.block6,
+        ].map((block, index) => (
+          <Grid item xs={12} sm={6} md={4}>
+            <Card elevation={6} style={{ height: '100%', backgroundColor: '#00b8f1', color: '#fff' }}>
+              {index === 0 || index === 5 ? (
+                <CardContent style={{ height: '100%' }}>
+                  <Box
+                    display="flex"
+                    flexDirection="column"
+                    justifyContent="center"
+                    alignItems="center"
+                    height="100%"
+                  >
+                    <Typography paragraph align="center" style={{ fontSize: '1.3rem' }}>
+                      {block.text}
+                    </Typography>
+                    <Button
+                      component={Link}
+                      to={block.link}
+                      variant="outlined"
+                      color="inherit"
+                      endIcon={<ChevronRightIcon />}
+                      style={{ marginLeft: 'auto', marginRight: 'auto' }}
+                    >
+                      Lees meer
+                    </Button>
+                  </Box>
+                </CardContent>
+              ) : (
+                <PreviewCompatibleImage
+                  imageInfo={block}
+                  style={{
+                    maxWidth: 600,
+                    objectFit: 'contain',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                  }}
+                />
+              )}
+            </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={5}>
-            <Typography variant="h5" component="div" style={{ marginTop: '20rem' }} gutterBottom>
-              {homeBlock3.block2.title}
-            </Typography>
-            <Typography paragraph variant="body1" style={{ fontSize: '1.2rem' }}>
-              {homeBlock3.block2.text}
-            </Typography>
-            <Button
-              component={Link}
-              to={homeBlock3.block2.link}
-              variant="outlined"
-              color="inherit"
-              endIcon={<ChevronRightIcon />}
-            >
-              lees meer
-            </Button>
-          </Grid>
-        </Grid>
-      </ColorBlock>
-    </>
-  );
-};
+        ))}
+      </Grid>
+    </ColorBlock>
+  </>
+);
 
 IndexPageTemplate.propTypes = {
   title: PropTypes.string,
@@ -201,7 +161,7 @@ export const pageQuery = graphql`
           tools {
             image {
               childImageSharp {
-                fluid(maxWidth: 800, quality: 80) {
+                fluid(maxWidth: 800, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -212,20 +172,13 @@ export const pageQuery = graphql`
         }
         homeBlock3 {
           title
-          backgroundImage {
-            childImageSharp {
-              fluid(maxWidth: 1920, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
           block1 {
             title
             text
             link
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 80) {
+                fluid(maxWidth: 800, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -237,7 +190,55 @@ export const pageQuery = graphql`
             link
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 80) {
+                fluid(maxWidth: 800, quality: 50) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          block3 {
+            title
+            text
+            link
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 50) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          block4 {
+            title
+            text
+            link
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 50) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          block5 {
+            title
+            text
+            link
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 50) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          block6 {
+            title
+            text
+            link
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }

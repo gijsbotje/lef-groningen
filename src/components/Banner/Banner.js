@@ -68,7 +68,7 @@ const Banner = ({ title, text, cta, titleTypographyProps }) => (
       </Heading>
     </HeadingContainer>
     <BannerText>
-      <Typography variant="body1" style={{ fontSize: '1.75rem' }} paragraph>
+      <Typography variant="body1" style={{ fontSize: '1.5rem' }} paragraph>
         {text}
       </Typography>
       <Button
@@ -76,6 +76,7 @@ const Banner = ({ title, text, cta, titleTypographyProps }) => (
         to={cta.url}
         variant="outlined"
         color="inherit"
+        size="large"
         endIcon={<ChevronRightIcon />}
       >
         {cta.text}
