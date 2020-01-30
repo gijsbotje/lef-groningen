@@ -74,8 +74,8 @@ const Banner = ({ title, text, cta, titleTypographyProps }) => (
       <Button
         component={Link}
         to={cta.url}
-        variant="contained"
-        color="secondary"
+        variant="outlined"
+        color="inherit"
         size="large"
         endIcon={<ChevronRightIcon />}
       >

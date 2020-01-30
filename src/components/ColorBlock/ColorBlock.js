@@ -18,7 +18,7 @@ const ColorBlockBG = styled.div`
   }
 
   &.full-height {
-    min-height: calc(100vh - 112px);
+    min-height: calc(${props => props.minHeight} - 112px);
   }
 
   &.rounded {
@@ -53,9 +53,9 @@ const ColorBlockBG = styled.div`
   }
 
   &.has-bg-image {
-    background-position: center center;
+    background-position: center 30%;
     background-size: cover;
-    background-blend-mode: overlay;
+    background-blend-mode: soft-light;
   }
 
   &.bg-red {
@@ -134,6 +134,7 @@ const ColorBlock = ({
   style,
   maxWidth,
   disableGutters,
+  minHeight,
 }) => (
   <ColorBlockBG
     id={id}
@@ -144,6 +145,7 @@ const ColorBlock = ({
       'equal-padding': equalPadding,
       rounded: !!elevation,
     })}
+    minHeight={minHeight}
     style={{ backgroundImage: backgroundImage && `url(${backgroundImage})`, ...style }}
   >
     <Container maxWidth={maxWidth} disableGutters={disableGutters}>{children}</Container>
@@ -179,6 +181,7 @@ ColorBlock.defaultProps = {
   isFirst: false,
   scrollToId: undefined,
   showScrollDown: false,
+  minHeight: '100vh',
 };
 
 export default ColorBlock;

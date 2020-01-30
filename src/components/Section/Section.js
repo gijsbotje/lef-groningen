@@ -10,10 +10,12 @@ const Section = ({ children, style }) => (
 
 Section.propTypes = {
   children: PropTypes.elementType,
+  style: PropTypes.object,
 };
 
 Section.defaultProps = {
   children: null,
+  style: undefined,
 };
 
 Section.defaultProps = {};

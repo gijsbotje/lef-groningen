@@ -61,7 +61,7 @@ const menuItems = [
     label: 'Services',
   },
   // {
-  //   to: '/de-rmmelkamer',
+  //   to: '/de-rommelkamer',
   //   label: 'De rommelkamer',
   // },
   {
@@ -86,10 +86,10 @@ const Header = () => {
           <Container maxWidth="lg">
             <StyledToolBar>
               <Logo src={logo} alt="Lef Groningen logo" href="/" title="Lef Groningen - home" />
-              <Hidden implementation="js" xsDown>
+              <Hidden implementation="css" xsDown>
                 <Navbar items={menuItems} />
               </Hidden>
-              <Hidden implementation="js" smUp>
+              <Hidden implementation="css" smUp>
                 <IconButton onClick={toggleMenu} color="inherit">
                   <MenuIcon />
                 </IconButton>

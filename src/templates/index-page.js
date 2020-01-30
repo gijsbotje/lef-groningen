@@ -15,7 +15,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Box from '@material-ui/core/Box';
 
-const bgColor = 'white';
+const bgColor = 'yellow';
 
 export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 }) => (
   <>
@@ -59,8 +59,8 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
               elevation={6}
               style={{
                 height: '100%',
-                backgroundColor: index === 5 ? '#00b8f1' : '#fddd3f',
-                color: index === 5 ? '#fff' : '#000',
+                backgroundColor: '#fff',
+                color: '#000',
               }}
             >
               {index === 0 || index === 5 ? (

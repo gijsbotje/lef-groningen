@@ -13,13 +13,13 @@ homeBlock2:
   title: De gereedschapskist
   text: Wij zijn in te zetten als ideeënbrouwers, sparringpartners of aanjagers. We beginnen klein en creëren stap voor stap iets groots. Zo bewegen wij, en zo willen we anderen in beweging brengen.
   tools:
-    - image: /img/Geen-advies-maar-resultaat.jpg
+    - image: /img/Geen-advies-maar-resultaat-black.png
       title: Wij maken meters
       text: Met een snelle, praktische aanpak vertalen we ideeën naar tastbaar resultaat.
-    - image: /img/fail-quickly-learn-fast.jpg
+    - image: /img/fail-quickly-learn-fast-black.png
       title: Wij maken fouten
       text: Door te experimenteren en onze blunders te vieren komen we verder.
-    - image: /img/buiten-de-organisatie-bubbel.jpg
+    - image: /img/buiten-de-organisatie-bubbel-black.png
       title: Wij denken anders
       text: We kijken van buiten de organisatie naar binnen, waardoor we kritisch en onbevangen zijn.
 

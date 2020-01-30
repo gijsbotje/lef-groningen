@@ -6,35 +6,44 @@ import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import ColorBlock from '../ColorBlock';
 
-const colors = ['blue', 'yellow', 'blue'];
+const colors = ['yellow', 'yellow', 'yellow'];
 
 const FeatureGrid = ({ gridItems }) => (
-  <Grid container spacing={10}>
+  <Grid container spacing={0}>
     {gridItems.map((item, index) => (
       <Grid item xs={12}>
         <ColorBlock
           fullHeight={false}
           backgroundColor={colors[index]}
           showScrollDown={false}
-          elevation={6}
+          elevation={0}
           equalPadding
           maxWidth="lg"
           style={{
-            marginLeft: index % 2 ? 'none' : '2rem',
-            marginRight: index % 2 ? '2rem' : 'none',
+            // marginLeft: index % 2 ? 'none' : '2rem',
+            // marginRight: index % 2 ? '2rem' : 'none',
+            marginTop: '-1rem',
+            marginBottom: '-1rem',
+            paddingTop: '0rem',
+            paddingBottom: '0rem',
           }}
         >
-          <Grid container spacing={4} direction={index % 2 ? 'row-reverse' : 'row'}>
+          <Grid
+            container
+            spacing={4}
+            direction={index % 2 ? 'row-reverse' : 'row'}
+            alignItems="center"
+          >
             <Grid key={item.text} item xs={12} sm={3}>
-              <Card
-                style={{
-                  marginRight: `${index % 2 ? '-4rem' : '0'}`,
-                  marginLeft: `${index % 2 ? '0' : '-4rem'}`,
-                  marginTop: '-6rem',
-                  padding: '2rem',
-                }}
-                elevation={6}
-              >
+              {/*<Card*/}
+              {/*  style={{*/}
+              {/*    marginRight: `${index % 2 ? '-4rem' : '0'}`,*/}
+              {/*    marginLeft: `${index % 2 ? '0' : '-4rem'}`,*/}
+              {/*    marginTop: '-6rem',*/}
+              {/*    padding: '2rem',*/}
+              {/*  }}*/}
+              {/*  elevation={0}*/}
+              {/*>*/}
                 <PreviewCompatibleImage
                   imageInfo={item}
                   style={{
@@ -45,13 +54,13 @@ const FeatureGrid = ({ gridItems }) => (
                     marginBottom: 16,
                   }}
                 />
-              </Card>
+              {/*</Card>*/}
             </Grid>
             <Grid key={item.text} item xs={12} sm={9}>
               <Typography variant="h4" component="div" gutterBottom>
                 {item.title}
               </Typography>
-              <Typography paragraph style={{ fontSize: '1.5rem' }}>
+              <Typography paragraph style={{ fontSize: '1.5rem' }} color="textSecondary">
                 {item.text}
               </Typography>
             </Grid>
