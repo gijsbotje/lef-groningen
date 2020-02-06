@@ -3,31 +3,27 @@ import PropTypes from 'prop-types';
 import PreviewCompatibleImage from '../PreviewCompatibleImage/PreviewCompatibleImage';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Card from '@material-ui/core/Card';
 import ColorBlock from '../ColorBlock';
-
-const colors = ['yellow', 'yellow', 'yellow'];
+import Box from '@material-ui/core/Box';
 
 const FeatureGrid = ({ gridItems }) => (
-  <Grid container spacing={0}>
-    {gridItems.map((item, index) => (
-      <Grid item xs={12}>
-        <ColorBlock
-          fullHeight={false}
-          backgroundColor={colors[index]}
-          showScrollDown={false}
-          elevation={0}
-          equalPadding
-          maxWidth="lg"
-          style={{
-            // marginLeft: index % 2 ? 'none' : '2rem',
-            // marginRight: index % 2 ? '2rem' : 'none',
-            marginTop: '-1rem',
-            marginBottom: '-1rem',
-            paddingTop: '0rem',
-            paddingBottom: '0rem',
-          }}
-        >
+  <ColorBlock
+    fullHeight={false}
+    backgroundColor="yellow"
+    showScrollDown={false}
+    elevation={0}
+    equalPadding
+    maxWidth="md"
+    style={{
+      marginTop: '-2rem',
+      marginBottom: '-2rem',
+      paddingTop: '0rem',
+      paddingBottom: '0rem',
+    }}
+  >
+    <Grid container spacing={3}>
+      {gridItems.map((item, index) => (
+        <Grid item xs={12}>
           <Grid
             container
             spacing={4}
@@ -35,15 +31,7 @@ const FeatureGrid = ({ gridItems }) => (
             alignItems="center"
           >
             <Grid key={item.text} item xs={12} sm={3}>
-              {/*<Card*/}
-              {/*  style={{*/}
-              {/*    marginRight: `${index % 2 ? '-4rem' : '0'}`,*/}
-              {/*    marginLeft: `${index % 2 ? '0' : '-4rem'}`,*/}
-              {/*    marginTop: '-6rem',*/}
-              {/*    padding: '2rem',*/}
-              {/*  }}*/}
-              {/*  elevation={0}*/}
-              {/*>*/}
+              <Box bgcolor="common.white" borderRadius="50%" p={2} overflow="hidden" boxShadow={6}>
                 <PreviewCompatibleImage
                   imageInfo={item}
                   style={{
@@ -51,10 +39,9 @@ const FeatureGrid = ({ gridItems }) => (
                     objectFit: 'contain',
                     marginLeft: 'auto',
                     marginRight: 'auto',
-                    marginBottom: 16,
                   }}
                 />
-              {/*</Card>*/}
+              </Box>
             </Grid>
             <Grid key={item.text} item xs={12} sm={9}>
               <Typography variant="h4" component="div" gutterBottom>
@@ -65,10 +52,10 @@ const FeatureGrid = ({ gridItems }) => (
               </Typography>
             </Grid>
           </Grid>
-        </ColorBlock>
-      </Grid>
-    ))}
-  </Grid>
+        </Grid>
+      ))}
+    </Grid>
+  </ColorBlock>
 );
 
 FeatureGrid.propTypes = {

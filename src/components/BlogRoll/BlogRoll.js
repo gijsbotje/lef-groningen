@@ -16,7 +16,7 @@ const BlogRoll = ({ data }) => {
     <Grid container spacing={2}>
       {posts &&
         posts.map(({ node: post }) => (
-          <Grid key={post.id} item xs={12} md={4}>
+          <Grid key={post.id} item xs={12} md={6}>
             <Card component="article">
               <CardActionArea onClick={() => navigate(post.fields.slug)}>
                 {post.frontmatter.featuredimage ? (
@@ -88,7 +88,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 400, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

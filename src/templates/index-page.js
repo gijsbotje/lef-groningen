@@ -12,7 +12,6 @@ import ColorBlock from '../components/ColorBlock';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import CardActionArea from '@material-ui/core/CardActionArea';
 import Box from '@material-ui/core/Box';
 
 const bgColor = 'yellow';
@@ -92,7 +91,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
                   imageInfo={block}
                   style={{
                     maxWidth: 600,
-                    objectFit: 'contain',
+                    objectFit: 'cover',
                     marginLeft: 'auto',
                     marginRight: 'auto',
                   }}
@@ -185,7 +184,7 @@ export const pageQuery = graphql`
             link
             image {
               childImageSharp {
-                fluid(maxWidth: 800, quality: 50) {
+                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -197,7 +196,7 @@ export const pageQuery = graphql`
             link
             image {
               childImageSharp {
-                fluid(maxWidth: 800, quality: 50) {
+                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -209,7 +208,7 @@ export const pageQuery = graphql`
             link
             image {
               childImageSharp {
-                fluid(maxWidth: 800, quality: 50) {
+                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -221,7 +220,7 @@ export const pageQuery = graphql`
             link
             image {
               childImageSharp {
-                fluid(maxWidth: 800, quality: 50) {
+                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -233,7 +232,7 @@ export const pageQuery = graphql`
             link
             image {
               childImageSharp {
-                fluid(maxWidth: 800, quality: 50) {
+                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -245,7 +244,7 @@ export const pageQuery = graphql`
             link
             image {
               childImageSharp {
-                fluid(maxWidth: 800, quality: 50) {
+                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }

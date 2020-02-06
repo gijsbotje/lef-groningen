@@ -60,10 +60,10 @@ const menuItems = [
     to: '/services',
     label: 'Services',
   },
-  // {
-  //   to: '/de-rommelkamer',
-  //   label: 'De rommelkamer',
-  // },
+  {
+    to: '/rommelkamer',
+    label: 'De rommelkamer',
+  },
   {
     to: '/over-ons',
     label: 'Het LEF-verhaal',

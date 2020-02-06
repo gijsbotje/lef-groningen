@@ -6,10 +6,24 @@ aboutBlock1:
 aboutBlock2:
   person1:
     title: Thijs
-    text: Op mijn 19e begon ik mijn eerste onderneming. We zetten studenten in als drager, en dat bleek een gat in de markt. Na een aantal jaar hadden we een enorme poule aan talentvolle studenten om ons heen verzameld. Maar waarom zouden we dit talent niet beter benutten, bijvoorbeeld in organisaties? Toen ontstond het idee voor LEF.
-    image: /img/Thijs.jpg
+    text: grappenmaker van de bingo
+    image: /img/Thijs-favo.jpg
   person2:
     title: Teddy
-    text: "De Master Change Management in de pocket, maar geen baan bij een grote corporate. Waarom niet? Omdat ik de sprong in het diepe wou wagen: een onderneming starten! Geen zekerheid, geen 9 tot 5 baan, maar wel avontuur en een hoop lol. En mijn verander-expertise zet ik nog steeds in voor organisaties waarmee we werken."
-    image: /img/ted.jpg
+    text: grappenmaker van de bingo
+    image: /img/ted-favo.jpg
+aboutBlock3:
+  title: LEF-Community
+  intro: "De behoefte aan ambitieus talent in het bedrijfsleven is groot. Door samen te werken met ervaren partners koppelen we ervaring en jong talent aan elkaar."
+  parts:
+    - title: Pentascope
+      text: "LEF en Pentascope versterken elkaar. LEF’ers, met een ambitie voor consultancy, voorzien Pentascope van een frisse blik en creatieve oplossingen. Via Pentascope krijgen wij inhoudelijke begeleiding. Zo hebben we bakken aan kennis en ervaring op de achterbank."
+      cta:
+        text: Meer weten over Pentascope?
+        url: https://www.pentascope.nl/
+    - title: De Lefgozers
+      text: "De Lefgozers bestaat uit een groep zeer ervaren mannen en vrouwen uit verschillende vakgebieden en expertises. Zij voorzien ons niet alleen van advies, maar delen ook kennis en ervaringen vanuit verschillende vakgebieden en organisaties met elkaar."
+      cta:
+        text: Wil je ook een Lefgozer worden?
+        url: /contact
 ---

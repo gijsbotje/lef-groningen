@@ -47,7 +47,7 @@ homeBlock3:
     link: '/services#ideeenbrouwerij'
     text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
   block5:
-    image: /img/thijs-in-the-picture-square.jpg
+    image: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
     title: Ideeënbrouwerij
     link: '/services#ideeenbrouwerij'
     text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
