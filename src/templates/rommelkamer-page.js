@@ -1,16 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Container from '../components/Container';
 import ColorBlock from '../components/ColorBlock';
-import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
-import Button from '@material-ui/core/Button';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import styled from 'styled-components';
 
 const CssGrid = styled.div`
@@ -48,7 +44,7 @@ export const RommelkamerPageTemplate = ({ title, intro, items }) => (
       }}
     >
       <CssGrid>
-        {items.map((block, index) => (
+        {items.map(block => (
           <div style={{ gridColumnEnd: 'span 6' }}>
             <Card
               elevation={6}

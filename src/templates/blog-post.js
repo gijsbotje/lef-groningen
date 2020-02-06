@@ -13,7 +13,6 @@ import Chip from '@material-ui/core/Chip';
 export const BlogPostTemplate = ({
   content,
   contentComponent,
-  description,
   tags,
   title,
   helmet,
@@ -26,7 +25,6 @@ export const BlogPostTemplate = ({
       <Typography variant="h3" component="h1">
         {title}
       </Typography>
-      <Typography paragraph>{description}</Typography>
       <PostContent content={content} />
       {tags && tags.length ? (
         <div style={{ marginTop: `4rem` }}>
@@ -36,7 +34,6 @@ export const BlogPostTemplate = ({
           <Grid container spacing={1}>
             {tags.map(tag => (
               <Grid key={`${tag}tag`} item>
-                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                 <Chip label={tag} onClick={() => navigate(`/tags/${kebabCase(tag)}/`)} />
               </Grid>
             ))}
@@ -50,14 +47,12 @@ export const BlogPostTemplate = ({
 BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
   tags: PropTypes.array,
 };
 BlogPostTemplate.defaultProps = {
   contentComponent: undefined,
-  description: undefined,
   title: undefined,
   helmet: undefined,
   tags: undefined,
@@ -103,7 +98,6 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
         tags
       }
     }

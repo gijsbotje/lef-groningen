@@ -6,11 +6,23 @@ aboutBlock1:
 aboutBlock2:
   person1:
     title: Thijs
-    text: grappenmaker van de bingo
+    list: 
+      - question: Dit wou ik vroeger worden
+        answer: Automonteur
+      - question: Dit heb ik ervoor gestudeerd
+        answer: Rechten
+      - question: Dit doe ik nu
+        answer: Ondernemen
     image: /img/Thijs-favo.jpg
   person2:
     title: Teddy
-    text: grappenmaker van de bingo
+    list: 
+      - question: Dit wou ik vroeger worden
+        answer: Dolfijnentrainer
+      - question: Dit heb ik ervoor gestudeerd
+        answer: HRM en Change management
+      - question: Dit doe ik nu
+        answer: .......
     image: /img/ted-favo.jpg
 aboutBlock3:
   title: LEF-Community

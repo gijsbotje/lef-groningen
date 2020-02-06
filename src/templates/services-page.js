@@ -53,7 +53,7 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
             if (index % 2) {
               return (
                 <>
-                  <Card style={{ backgroundColor: '#fff' }}>
+                  <Card style={{ backgroundColor: '#fff' }} elevation={6}>
                     <PreviewCompatibleImage imageInfo={image} />
                   </Card>
                   <Card
@@ -61,6 +61,7 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
                       backgroundColor: '#fddd3f',
                       color: '#000',
                     }}
+                    elevation={6}
                   >
                     <CardContent style={{ height: '100%' }}>
                       <Box
@@ -87,6 +88,7 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
                     backgroundColor: '#fddd3f',
                     color: '#000',
                   }}
+                  elevation={6}
                 >
                   <CardContent style={{ height: '100%' }}>
                     <Box
@@ -102,7 +104,7 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
                     </Box>
                   </CardContent>
                 </Card>
-                <Card style={{ backgroundColor: '#fff' }}>
+                <Card style={{ backgroundColor: '#fff' }} elevation={6}>
                   <PreviewCompatibleImage imageInfo={image} />
                 </Card>
               </>
@@ -158,7 +160,7 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
             if (index % 2) {
               return (
                 <>
-                  <Card style={{ backgroundColor: '#000' }}>
+                  <Card style={{ backgroundColor: '#000' }} elevation={6}>
                     <PreviewCompatibleImage imageInfo={image} />
                   </Card>
                   <Card
@@ -166,6 +168,7 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
                       backgroundColor: '#fff',
                       color: '#000',
                     }}
+                    elevation={6}
                   >
                     <CardContent style={{ height: '100%' }}>
                       <Box
@@ -192,6 +195,7 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
                     backgroundColor: '#fff',
                     color: '#000',
                   }}
+                  elevation={6}
                 >
                   <CardContent style={{ height: '100%' }}>
                     <Box
@@ -207,7 +211,7 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
                     </Box>
                   </CardContent>
                 </Card>
-                <Card style={{ backgroundColor: '#000' }}>
+                <Card style={{ backgroundColor: '#000' }} elevation={6}>
                   <PreviewCompatibleImage imageInfo={image} />
                 </Card>
               </>

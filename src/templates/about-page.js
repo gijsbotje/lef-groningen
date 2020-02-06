@@ -59,9 +59,14 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2, aboutBlock3
                   <Typography variant="h4" gutterBottom>
                     {item.title}
                   </Typography>
-                  <Typography paragraph style={{ fontSize: '1.1rem' }}>
-                    {item.text}
-                  </Typography>
+                  {item.list.map(({ question, answer }) => (
+                    <>
+                      <Typography variant="subtitle1">{question}</Typography>
+                      <Typography paragraph variant="body2">
+                        {answer}
+                      </Typography>
+                    </>
+                  ))}
                 </CardContent>
               </Card>
             </Grid>
@@ -98,16 +103,28 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2, aboutBlock3
                   <Typography paragraph align="center" style={{ fontSize: '1rem' }}>
                     {block.text}
                   </Typography>
-                  <Button
-                    component={Link}
-                    to={block.cta.url}
-                    variant="outlined"
-                    color="inherit"
-                    endIcon={<ChevronRightIcon />}
-                    style={{ marginTop: 'auto', marginLeft: 'auto', marginRight: 'auto' }}
-                  >
-                    Lees meer
-                  </Button>
+                  {block.cta.url.includes('http') ? (
+                    <Button
+                      href={block.cta.url}
+                      variant="outlined"
+                      color="inherit"
+                      endIcon={<ChevronRightIcon />}
+                      style={{ marginTop: 'auto', marginLeft: 'auto', marginRight: 'auto' }}
+                    >
+                      Lees meer
+                    </Button>
+                  ) : (
+                    <Button
+                      component={Link}
+                      to={block.cta.url}
+                      variant="outlined"
+                      color="inherit"
+                      endIcon={<ChevronRightIcon />}
+                      style={{ marginTop: 'auto', marginLeft: 'auto', marginRight: 'auto' }}
+                    >
+                      Lees meer
+                    </Button>
+                  )}
                 </Box>
               </CardContent>
             </Card>
@@ -173,7 +190,10 @@ export const aboutPageQuery = graphql`
         aboutBlock2 {
           person1 {
             title
-            text
+            list {
+              question
+              answer
+            }
             image {
               childImageSharp {
                 fluid(maxWidth: 800, maxHeight: 600, quality: 80) {
@@ -184,7 +204,10 @@ export const aboutPageQuery = graphql`
           }
           person2 {
             title
-            text
+            list {
+              question
+              answer
+            }
             image {
               childImageSharp {
                 fluid(maxWidth: 800, maxHeight: 600, quality: 80) {

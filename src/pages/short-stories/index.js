@@ -4,9 +4,9 @@ import Container from '../../components/Container';
 import Typography from '@material-ui/core/Typography';
 
 const BlogIndexPage = () => (
-  <Container>
+  <Container maxWidth="lg">
     <Typography variant="h3" component="h1" gutterBottom>
-      LEF Blog
+      Short stories
     </Typography>
     <BlogRoll />
   </Container>

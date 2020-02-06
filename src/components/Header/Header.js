@@ -61,12 +61,12 @@ const menuItems = [
     label: 'Services',
   },
   {
-    to: '/rommelkamer',
-    label: 'De rommelkamer',
-  },
-  {
     to: '/over-ons',
     label: 'Het LEF-verhaal',
+  },
+  {
+    to: '/short-stories',
+    label: 'Short stories',
   },
   {
     to: '/contact',
@@ -82,7 +82,7 @@ const Header = () => {
   return (
     <>
       <ElevationScroll>
-        <AppBar color="white" position="sticky">
+        <AppBar color="secondary" position="sticky">
           <Container maxWidth="lg">
             <StyledToolBar>
               <Logo src={logo} alt="Lef Groningen logo" href="/" title="Lef Groningen - home" />

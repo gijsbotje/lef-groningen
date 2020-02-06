@@ -13,11 +13,11 @@ const BlogRoll = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
 
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={4}>
       {posts &&
         posts.map(({ node: post }) => (
           <Grid key={post.id} item xs={12} md={6}>
-            <Card component="article">
+            <Card component="article" elevation={6}>
               <CardActionArea onClick={() => navigate(post.fields.slug)}>
                 {post.frontmatter.featuredimage ? (
                   <CardMedia>
@@ -76,7 +76,7 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 250)
               id
               fields {
                 slug
@@ -88,7 +88,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 400, quality: 100) {
+                    fluid(maxHeight: 400, maxWidth: 800, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
