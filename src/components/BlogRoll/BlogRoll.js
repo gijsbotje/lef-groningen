@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql, StaticQuery, navigate } from 'gatsby';
 import PreviewCompatibleImage from '../PreviewCompatibleImage/PreviewCompatibleImage';
@@ -8,17 +8,31 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Typography from '@material-ui/core/Typography';
+import Dialog from '@material-ui/core/Dialog';
+import DialogContent from '@material-ui/core/DialogContent';
+import { HTMLContent } from '../Content';
+import Grow from '@material-ui/core/Grow';
+import IconButton from '@material-ui/core/IconButton';
+import CloseIcon from '@material-ui/icons/Close';
+import Box from '@material-ui/core/Box';
+import Fab from '@material-ui/core/Fab';
+import Footer from '../Footer';
+
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Grow direction="up" ref={ref} {...props} />;
+});
 
 const BlogRoll = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
+  const [openShortStory, setOpenShortStory] = useState(null);
 
   return (
     <Grid container spacing={4}>
       {posts &&
         posts.map(({ node: post }) => (
-          <Grid key={post.id} item xs={12} md={6}>
-            <Card component="article" elevation={6}>
-              <CardActionArea onClick={() => navigate(post.fields.slug)}>
+          <Grid key={post.id} item xs={12} sm={6}>
+            <Card component="article" elevation={6} style={{ height: '100%' }}>
+              <CardActionArea onClick={() => setOpenShortStory(post.fields.slug)}>
                 {post.frontmatter.featuredimage ? (
                   <CardMedia>
                     <PreviewCompatibleImage
@@ -31,19 +45,39 @@ const BlogRoll = ({ data }) => {
                 ) : null}
               </CardActionArea>
               <CardContent>
-                <Typography
-                  variant="h6"
-                  component={Link}
-                  to={post.fields.slug}
-                  gutterBottom
-                  display="block"
-                >
+                <Typography variant="h5" gutterBottom display="block">
                   {post.frontmatter.title}
                 </Typography>
-                <Typography variant="caption">{post.frontmatter.date}</Typography>
                 <Typography paragraph>{post.excerpt}</Typography>
               </CardContent>
             </Card>
+            <Dialog
+              open={openShortStory === post.fields.slug}
+              onClose={() => setOpenShortStory(null)}
+              TransitionComponent={Transition}
+            >
+              <Box position="relative" height="100%">
+                <CardMedia>
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: post.frontmatter.featuredimage,
+                      alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                    }}
+                  />
+                </CardMedia>
+                <Box position="absolute" top=".5rem" right=".5rem" color="#fff">
+                  <Fab onClick={() => setOpenShortStory(null)} color="secondary" size="small">
+                    <CloseIcon />
+                  </Fab>
+                </Box>
+              </Box>
+              <DialogContent>
+                <Typography variant="h5" gutterBottom display="block">
+                  {post.frontmatter.title}
+                </Typography>
+                <HTMLContent content={post.html} />
+              </DialogContent>
+            </Dialog>
           </Grid>
         ))}
     </Grid>
@@ -81,6 +115,7 @@ export default () => (
               fields {
                 slug
               }
+              html
               frontmatter {
                 title
                 templateKey

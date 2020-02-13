@@ -9,38 +9,53 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { navigate } from 'gatsby-link';
 import Chip from '@material-ui/core/Chip';
+import Section from '../components/Section';
+import ColorBlock from '../components/ColorBlock';
 
 export const BlogPostTemplate = ({
   content,
   contentComponent,
   tags,
   title,
+  featuredimage,
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
-    <Container>
-      {helmet || ''}
-      <Typography variant="h3" component="h1">
-        {title}
-      </Typography>
-      <PostContent content={content} />
-      {tags && tags.length ? (
-        <div style={{ marginTop: `4rem` }}>
-          <Typography variant="subtitle1" component="div">
-            Tags
+    <>
+      <ColorBlock
+        backgroundColor="yellow"
+        maxWidth="lg"
+        id={title.toLowerCase().replace(/ /g, '-')}
+        backgroundImage={featuredimage.childImageSharp.fluid.src}
+        minHeight="50vh"
+      >
+        <Section>
+          <Typography variant="h2" component="h2" gutterBottom align="center">
+            {title}
           </Typography>
-          <Grid container spacing={1}>
-            {tags.map(tag => (
-              <Grid key={`${tag}tag`} item>
-                <Chip label={tag} onClick={() => navigate(`/tags/${kebabCase(tag)}/`)} />
-              </Grid>
-            ))}
-          </Grid>
-        </div>
-      ) : null}
-    </Container>
+        </Section>
+      </ColorBlock>
+      <ColorBlock backgroundColor="white" maxWidth="lg" fullHeight={false}>
+        {helmet || ''}
+        <PostContent content={content} />
+        {tags && tags.length ? (
+          <div style={{ marginTop: `4rem` }}>
+            <Typography variant="subtitle1" component="div">
+              Tags
+            </Typography>
+            <Grid container spacing={1}>
+              {tags.map(tag => (
+                <Grid key={`${tag}tag`} item>
+                  <Chip label={tag} onClick={() => navigate(`/tags/${kebabCase(tag)}/`)} />
+                </Grid>
+              ))}
+            </Grid>
+          </div>
+        ) : null}
+      </ColorBlock>
+    </>
   );
 };
 
@@ -48,12 +63,14 @@ BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   title: PropTypes.string,
+  featuredimage: PropTypes.object,
   helmet: PropTypes.object,
   tags: PropTypes.array,
 };
 BlogPostTemplate.defaultProps = {
   contentComponent: undefined,
   title: undefined,
+  featuredimage: undefined,
   helmet: undefined,
   tags: undefined,
 };
@@ -74,6 +91,7 @@ const BlogPost = ({ data }) => {
       }
       tags={post.frontmatter.tags}
       title={post.frontmatter.title}
+      featuredimage={post.frontmatter.featuredimage}
     />
   );
 };
@@ -98,6 +116,13 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        featuredimage {
+          childImageSharp {
+            fluid(maxHeight: 800, maxWidth: 1600, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         tags
       }
     }

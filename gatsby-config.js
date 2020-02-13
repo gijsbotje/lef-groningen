@@ -35,6 +35,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-attr',
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
@@ -81,6 +82,14 @@ module.exports = {
       resolve: `gatsby-plugin-compile-es6-packages`,
       options: {
         modules: [pkg.name],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /img/, // See below to configure properly
+        },
       },
     },
     {

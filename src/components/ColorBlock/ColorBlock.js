@@ -18,7 +18,7 @@ const ColorBlockBG = styled.div`
   }
 
   &.full-height {
-    min-height: calc(${props => props.minHeight} - 112px);
+    min-height: 100vh;
   }
 
   &.rounded {
@@ -53,9 +53,9 @@ const ColorBlockBG = styled.div`
   }
 
   &.has-bg-image {
-    background-position: center 30%;
     background-size: cover;
-    background-blend-mode: soft-light;
+    background-position: ${props => props.backgroundPosition};
+    //background-blend-mode: soft-light;
   }
 
   &.bg-red {
@@ -123,6 +123,7 @@ const ScrollDownIndicator = styled.svg`
 const ColorBlock = ({
   backgroundColor,
   backgroundImage,
+  backgroundPosition,
   elevation,
   equalPadding,
   id,
@@ -146,9 +147,12 @@ const ColorBlock = ({
       rounded: !!elevation,
     })}
     minHeight={minHeight}
+    backgroundPosition={backgroundPosition}
     style={{ backgroundImage: backgroundImage && `url(${backgroundImage})`, ...style }}
   >
-    <Container maxWidth={maxWidth} disableGutters={disableGutters}>{children}</Container>
+    <Container maxWidth={maxWidth} disableGutters={disableGutters}>
+      {children}
+    </Container>
     {showScrollDown && (
       <ScrollTo selector={`#${scrollToId || ''}`}>
         <ScrollDownBox>
@@ -164,6 +168,7 @@ const ColorBlock = ({
 ColorBlock.propTypes = {
   backgroundColor: PropTypes.oneOf(['red', 'blue', 'yellow', 'dark', 'white']),
   backgroundImage: PropTypes.string,
+  backgroundPosition: PropTypes.string,
   children: PropTypes.any,
   fullHeight: PropTypes.bool,
   id: PropTypes.string,
@@ -175,6 +180,7 @@ ColorBlock.propTypes = {
 ColorBlock.defaultProps = {
   backgroundColor: 'white',
   backgroundImage: undefined,
+  backgroundPosition: 'center center',
   children: undefined,
   fullHeight: true,
   id: undefined,

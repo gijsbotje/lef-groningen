@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import logo from '../../img/logo.svg';
+import LefLogo from '../../img/logo.svg';
 import AppBar from '@material-ui/core/AppBar';
 import ToolBar from '@material-ui/core/Toolbar';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
@@ -23,12 +23,13 @@ function ElevationScroll(props) {
   const { children, window } = props;
   const trigger = useScrollTrigger({
     disableHysteresis: true,
-    threshold: 0,
+    threshold: 200,
     target: window ? window() : undefined,
   });
 
   return React.cloneElement(children, {
     elevation: trigger ? 4 : 0,
+    color: trigger ? 'paper' : 'transparent',
   });
 }
 
@@ -82,10 +83,12 @@ const Header = () => {
   return (
     <>
       <ElevationScroll>
-        <AppBar color="secondary" position="sticky">
+        <AppBar color="transparent" position="fixed" style={{ transition: '.2s ease' }}>
           <Container maxWidth="lg">
             <StyledToolBar>
-              <Logo src={logo} alt="Lef Groningen logo" href="/" title="Lef Groningen - home" />
+              <Logo href="/" title="Lef Groningen - home">
+                <LefLogo style={{ height: '100%' }} />
+              </Logo>
               <Hidden implementation="css" xsDown>
                 <Navbar items={menuItems} />
               </Hidden>

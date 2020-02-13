@@ -13,24 +13,19 @@ const LogoContainer = styled(Link)`
   }
 `;
 
-const LogoImage = styled.img`
-  height: 100%;
-`;
-const Logo = ({ src, alt, href, title }) => (
+const Logo = ({ children, href, title }) => (
   <LogoContainer to={href} title={title}>
-    <LogoImage src={src} alt={alt} />
+    {children}
   </LogoContainer>
 );
 
 Logo.propTypes = {
-  src: PropTypes.string.isRequired,
-  alt: PropTypes.string,
+  children: PropTypes.any.isRequired,
   href: PropTypes.string,
   title: PropTypes.string,
 };
 
 Logo.defaultProps = {
-  alt: null,
   href: null,
   title: null,
 };

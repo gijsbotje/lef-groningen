@@ -53,7 +53,7 @@ const Index = () => {
           <input type="hidden" name="form-name" value="contact" />
           <div hidden>
             <label htmlFor="bot-field">
-              Don’t fill this out: <input name="bot-field" id="bot-field" onChange={handleChange} />
+              Don’t fill this out: <input name="bot-field" id="bot-field" onChange={handleChange}/>
             </label>
           </div>
           <TextField

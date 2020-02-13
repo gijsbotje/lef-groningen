@@ -1,15 +1,15 @@
 import React from 'react';
 import BlogRoll from '../../components/BlogRoll';
-import Container from '../../components/Container';
 import Typography from '@material-ui/core/Typography';
+import ColorBlock from '../../components/ColorBlock';
 
 const BlogIndexPage = () => (
-  <Container maxWidth="lg">
+  <ColorBlock backgroundColor="white" maxWidth="lg">
     <Typography variant="h3" component="h1" gutterBottom>
       Short stories
     </Typography>
     <BlogRoll />
-  </Container>
+  </ColorBlock>
 );
 
 export default BlogIndexPage;

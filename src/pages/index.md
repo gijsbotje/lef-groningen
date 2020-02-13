@@ -5,6 +5,7 @@ title: LEF groningen
 homeBlock1:
   title: Werk met lef.
   text: Om te vernieuwen moet je lef hebben. Wij zijn LEF, een team van twintigers met bravoure en een scherpe blik. Door te confronteren en te verrassen dagen wij organisaties uit om te innoveren.
+  image: /img/blue-orange.jpg
   link:
     text: Lees meer over LEF
     url: /over-ons
@@ -47,7 +48,7 @@ homeBlock3:
     link: '/services#ideeenbrouwerij'
     text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
   block5:
-    image: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
+    image: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     title: Ideeënbrouwerij
     link: '/services#ideeenbrouwerij'
     text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
@@ -55,5 +56,5 @@ homeBlock3:
     image: /img/ted-en-thijs-camera-square.jpg
     title: Verander aanjagers
     link: '/services#ideeenbrouwerij'
-    text: Wij willen tastbaar resultaat creëren. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet.
+    text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet.
 ---

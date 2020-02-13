@@ -38,6 +38,8 @@ const BannerInner = styled.div`
     'text';
   font-size: 8rem;
 
+  color: #fff;
+
   @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
     grid-gap: 32px 72px;
     grid-template-columns: 2fr 3fr;

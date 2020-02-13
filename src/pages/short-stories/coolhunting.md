@@ -4,7 +4,7 @@ title: Coolhunting
 date: 2020-01-06T12:30:00.708Z
 description: Hunting the cool
 featuredpost: false
-featuredimage: /img/file-cabinets-1370294.jpg
+featuredimage: /img/coolhunting-leeuw.png
 tags:
   - Story
 ---

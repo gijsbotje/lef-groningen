@@ -14,17 +14,31 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
 
-const bgColor = 'yellow';
+const bgColor = 'white';
 
 export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 }) => (
   <>
     <Typography variant="h1" hidden>
       {title}
     </Typography>
-    <ColorBlock backgroundColor={bgColor} isFirst scrollToId="home-block-2" showScrollDown>
+    <ColorBlock
+      backgroundColor={bgColor}
+      backgroundImage={homeBlock1.image.childImageSharp.fluid.src}
+      backgroundPosition="bottom right"
+      isFirst
+      scrollToId="home-block-2"
+      showScrollDown
+      equalPadding
+    >
       <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
     </ColorBlock>
-    <ColorBlock backgroundColor={bgColor} id="home-block-2" scrollToId="home-block-3" maxWidth="lg">
+    <ColorBlock
+      backgroundColor={bgColor}
+      id="home-block-2"
+      fullHeight={false}
+      scrollToId="home-block-3"
+      maxWidth="lg"
+    >
       <Section>
         <Features gridItems={homeBlock2.tools} />
       </Section>
@@ -58,7 +72,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
               elevation={6}
               style={{
                 height: '100%',
-                backgroundColor: '#fff',
+                backgroundColor: '#FFD600',
                 color: '#000',
               }}
             >
@@ -159,6 +173,13 @@ export const pageQuery = graphql`
           link {
             text
             url
+          }
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1920, quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
         }
         homeBlock2 {

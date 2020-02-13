@@ -5,57 +5,47 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import ColorBlock from '../ColorBlock';
 import Box from '@material-ui/core/Box';
+import styled from 'styled-components';
+
+const SPACING = 15;
+
+const FeatureContainer = styled(Grid)`
+  && {
+    width: calc(100% + ${props => props.theme.spacing(SPACING * 2)}px);
+    margin: -${props => props.theme.spacing(SPACING)}px;
+  }
+`;
+
+const FeatureItem = styled(Grid)`
+  && {
+    padding: ${props => props.theme.spacing(SPACING)}px !important;
+  }
+`;
 
 const FeatureGrid = ({ gridItems }) => (
-  <ColorBlock
-    fullHeight={false}
-    backgroundColor="yellow"
-    showScrollDown={false}
-    elevation={0}
-    equalPadding
-    maxWidth="md"
-    style={{
-      marginTop: '-2rem',
-      marginBottom: '-2rem',
-      paddingTop: '0rem',
-      paddingBottom: '0rem',
-    }}
-  >
-    <Grid container spacing={3}>
-      {gridItems.map((item, index) => (
-        <Grid item xs={12}>
-          <Grid
-            container
-            spacing={4}
-            direction={index % 2 ? 'row-reverse' : 'row'}
-            alignItems="center"
-          >
-            <Grid key={item.text} item xs={12} sm={3}>
-              <Box bgcolor="common.white" borderRadius="50%" p={2} overflow="hidden" boxShadow={6}>
-                <PreviewCompatibleImage
-                  imageInfo={item}
-                  style={{
-                    maxWidth: 300,
-                    objectFit: 'contain',
-                    marginLeft: 'auto',
-                    marginRight: 'auto',
-                  }}
-                />
-              </Box>
-            </Grid>
-            <Grid key={item.text} item xs={12} sm={9}>
-              <Typography variant="h4" component="div" gutterBottom>
-                {item.title}
-              </Typography>
-              <Typography paragraph style={{ fontSize: '1.5rem' }} color="textSecondary">
-                {item.text}
-              </Typography>
-            </Grid>
-          </Grid>
-        </Grid>
-      ))}
-    </Grid>
-  </ColorBlock>
+  <FeatureContainer container spacing={10}>
+    {gridItems.map(item => (
+      <FeatureItem item xs={4} key={item.title}>
+        <Box width="50%" mx="auto" my={2}>
+          <PreviewCompatibleImage
+            imageInfo={item}
+            style={{
+              maxWidth: 300,
+              objectFit: 'contain',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+            }}
+          />
+        </Box>
+        <Typography variant="h6" component="div" gutterBottom>
+          {item.title}
+        </Typography>
+        <Typography paragraph variant="body1" color="textSecondary">
+          {item.text}
+        </Typography>
+      </FeatureItem>
+    ))}
+  </FeatureContainer>
 );
 
 FeatureGrid.propTypes = {

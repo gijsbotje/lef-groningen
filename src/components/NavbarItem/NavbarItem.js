@@ -9,6 +9,7 @@ const NavbarLink = styled(Link)`
     font-size: 1rem;
     font-family: ${props => props.theme.typography.h1.fontFamily};
     text-transform: uppercase;
+    white-space: nowrap;
   }
 `;
 
