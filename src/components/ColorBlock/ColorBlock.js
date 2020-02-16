@@ -8,7 +8,8 @@ import ScrollTo from 'react-scroll-into-view';
 const ColorBlockBG = styled.div`
   position: relative;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   padding-top: 4rem;
   padding-bottom: 1rem;
   scroll-behavior: smooth;
@@ -55,7 +56,7 @@ const ColorBlockBG = styled.div`
   &.has-bg-image {
     background-size: cover;
     background-position: ${props => props.backgroundPosition};
-    //background-blend-mode: soft-light;
+    background-origin: ${props => props.backgroundOrigin};
   }
 
   &.bg-red {
@@ -129,7 +130,6 @@ const ColorBlock = ({
   id,
   isFirst,
   fullHeight,
-  showScrollDown,
   children,
   scrollToId,
   style,
@@ -153,7 +153,7 @@ const ColorBlock = ({
     <Container maxWidth={maxWidth} disableGutters={disableGutters}>
       {children}
     </Container>
-    {showScrollDown && (
+    {scrollToId && (
       <ScrollTo selector={`#${scrollToId || ''}`}>
         <ScrollDownBox>
           <ScrollDownIndicator viewBox="0 0 95 54">
@@ -174,7 +174,7 @@ ColorBlock.propTypes = {
   id: PropTypes.string,
   isFirst: PropTypes.bool,
   scrollToId: PropTypes.string,
-  showScrollDown: PropTypes.bool,
+  minHeight: PropTypes.string,
 };
 
 ColorBlock.defaultProps = {
@@ -186,7 +186,6 @@ ColorBlock.defaultProps = {
   id: undefined,
   isFirst: false,
   scrollToId: undefined,
-  showScrollDown: false,
   minHeight: '100vh',
 };
 

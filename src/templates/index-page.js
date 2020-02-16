@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { Link, graphql, navigate } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Features from '../components/Features/Features';
 import Typography from '@material-ui/core/Typography';
 import Banner from '../components/Banner';
@@ -13,111 +13,109 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
+import SiteContext from '../components/SiteContext';
 
 const bgColor = 'white';
 
-export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 }) => (
-  <>
-    <Typography variant="h1" hidden>
-      {title}
-    </Typography>
-    <ColorBlock
-      backgroundColor={bgColor}
-      backgroundImage={homeBlock1.image.childImageSharp.fluid.src}
-      backgroundPosition="bottom right"
-      isFirst
-      scrollToId="home-block-2"
-      showScrollDown
-      equalPadding
-    >
-      <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
-    </ColorBlock>
-    <ColorBlock
-      backgroundColor={bgColor}
-      id="home-block-2"
-      fullHeight={false}
-      scrollToId="home-block-3"
-      maxWidth="lg"
-    >
-      <Section>
-        <Features gridItems={homeBlock2.tools} />
-      </Section>
-    </ColorBlock>
-    <ColorBlock
-      backgroundColor={bgColor}
-      // backgroundImage={homeBlock3.backgroundImage.childImageSharp.fluid.src}
-      id="home-block-3"
-      equalPadding
-      maxWidth="lg"
-    >
-      <Typography
-        variant="h3"
-        component="h2"
-        align="center"
-        style={{ marginTop: '-2rem', marginBottom: '5rem', alignSelf: 'flex-start' }}
-      >
-        {homeBlock3.title}
+export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 }) => {
+  const { setNavbarSettings } = useContext(SiteContext);
+
+  useEffect(() => {
+    setNavbarSettings({ scrolledColor: 'paper', textColor: 'light' });
+  }, []);
+
+  return (
+    <>
+      <Typography variant="h1" hidden>
+        {title}
       </Typography>
-      <Grid container spacing={4}>
-        {[
-          homeBlock3.block1,
-          homeBlock3.block2,
-          homeBlock3.block3,
-          homeBlock3.block4,
-          homeBlock3.block5,
-          homeBlock3.block6,
-        ].map((block, index) => (
-          <Grid item xs={12} sm={6} md={4}>
-            <Card
-              elevation={6}
-              style={{
-                height: '100%',
-                backgroundColor: '#FFD600',
-                color: '#000',
-              }}
-            >
-              {index === 0 || index === 5 ? (
-                <CardContent style={{ height: '100%' }}>
-                  <Box
-                    display="flex"
-                    flexDirection="column"
-                    justifyContent="center"
-                    alignItems="center"
-                    height="100%"
-                  >
-                    <Typography paragraph align="center" style={{ fontSize: '1.3rem' }}>
-                      {block.text}
-                    </Typography>
-                    <Button
-                      component={Link}
-                      to={block.link}
-                      variant="outlined"
-                      color="inherit"
-                      endIcon={<ChevronRightIcon />}
-                      style={{ marginLeft: 'auto', marginRight: 'auto' }}
+      <ColorBlock
+        backgroundColor={bgColor}
+        backgroundImage={homeBlock1.image.childImageSharp.fluid.src}
+        backgroundPosition="bottom right"
+        isFirst
+        scrollToId="home-block-2"
+        showScrollDown
+        equalPadding
+        style={{ color: '#fff' }}
+      >
+        <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
+      </ColorBlock>
+      <ColorBlock backgroundColor={bgColor} id="home-block-2" fullHeight={false} maxWidth="lg">
+        <Section>
+          <Features gridItems={homeBlock2.tools} />
+        </Section>
+      </ColorBlock>
+      <ColorBlock backgroundColor={bgColor} id="home-block-3" equalPadding maxWidth="lg">
+        <Typography
+          variant="h3"
+          component="h2"
+          align="center"
+          style={{ marginTop: '-2rem', marginBottom: '5rem', alignSelf: 'flex-start' }}
+        >
+          {homeBlock3.title}
+        </Typography>
+        <Grid container spacing={4}>
+          {[
+            homeBlock3.block1,
+            homeBlock3.block2,
+            homeBlock3.block3,
+            homeBlock3.block4,
+            homeBlock3.block5,
+            homeBlock3.block6,
+          ].map((block, index) => (
+            <Grid item xs={12} sm={6} md={4}>
+              <Card
+                elevation={6}
+                style={{
+                  height: '100%',
+                  backgroundColor: '#FFD600',
+                  color: '#000',
+                }}
+              >
+                {index === 0 || index === 5 ? (
+                  <CardContent style={{ height: '100%' }}>
+                    <Box
+                      display="flex"
+                      flexDirection="column"
+                      justifyContent="center"
+                      alignItems="center"
+                      height="100%"
                     >
-                      Lees meer
-                    </Button>
-                  </Box>
-                </CardContent>
-              ) : (
-                <PreviewCompatibleImage
-                  imageInfo={block}
-                  style={{
-                    maxWidth: 600,
-                    objectFit: 'cover',
-                    marginLeft: 'auto',
-                    marginRight: 'auto',
-                  }}
-                />
-              )}
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
-    </ColorBlock>
-  </>
-);
+                      <Typography paragraph align="center" style={{ fontSize: '1.3rem' }}>
+                        {block.text}
+                      </Typography>
+                      <Button
+                        component={Link}
+                        to={block.link}
+                        variant="outlined"
+                        color="inherit"
+                        endIcon={<ChevronRightIcon />}
+                        style={{ marginLeft: 'auto', marginRight: 'auto' }}
+                      >
+                        Lees meer
+                      </Button>
+                    </Box>
+                  </CardContent>
+                ) : (
+                  <PreviewCompatibleImage
+                    imageInfo={block}
+                    style={{
+                      maxWidth: 600,
+                      objectFit: 'cover',
+                      marginLeft: 'auto',
+                      marginRight: 'auto',
+                    }}
+                  />
+                )}
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </ColorBlock>
+    </>
+  );
+}
 
 IndexPageTemplate.propTypes = {
   title: PropTypes.string,

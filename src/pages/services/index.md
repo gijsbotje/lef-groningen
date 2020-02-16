@@ -4,7 +4,7 @@ title: Services
 
 ideeenbrouwerij:
   title: Ideeën brouwerij
-  background: /services-front-page-foot.jpg
+  background: /img/services-front-page-foot.jpg
   lead: Wij geloven dat het waardevol is om mensen vanuit verschillende expertises naar maatschappelijke en organisatorische vraagstukken te laten kijken.
   intro: Voor organisaties kan het enorm waardevol zijn om anderen naar vraagstukken of problematiek te laten kijken. Want als je buiten de status quo kijkt en onbevangen naar binnen kijkt, kom je tot verhelderende inzichten en creatieve aanpakken.
   items:

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import PreviewCompatibleImage from '../PreviewCompatibleImage/PreviewCompatibleImage';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import ColorBlock from '../ColorBlock';
 import Box from '@material-ui/core/Box';
 import styled from 'styled-components';
 
@@ -11,21 +10,25 @@ const SPACING = 15;
 
 const FeatureContainer = styled(Grid)`
   && {
-    width: calc(100% + ${props => props.theme.spacing(SPACING * 2)}px);
-    margin: -${props => props.theme.spacing(SPACING)}px;
+    @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
+      width: calc(100% + ${props => props.theme.spacing(SPACING * 2)}px);
+      margin: -${props => props.theme.spacing(SPACING)}px;
+    }
   }
 `;
 
 const FeatureItem = styled(Grid)`
   && {
-    padding: ${props => props.theme.spacing(SPACING)}px !important;
+    @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
+      padding: ${props => props.theme.spacing(SPACING)}px !important;
+    }
   }
 `;
 
 const FeatureGrid = ({ gridItems }) => (
-  <FeatureContainer container spacing={10}>
+  <FeatureContainer container spacing={3}>
     {gridItems.map(item => (
-      <FeatureItem item xs={4} key={item.title}>
+      <FeatureItem item xs={12} md={4} key={item.title}>
         <Box width="50%" mx="auto" my={2}>
           <PreviewCompatibleImage
             imageInfo={item}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
@@ -24,6 +24,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Tooltip from '@material-ui/core/Tooltip';
+import SiteContext from '../components/SiteContext';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Grow direction="up" ref={ref} {...props} />;
@@ -38,8 +39,13 @@ const ResponsivePaper = styled(Paper)`
   }
 `;
 
-export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2, aboutBlock3 }) => {
+export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
   const [openDialogId, setOpenDialogId] = useState(null);
+  const { setNavbarSettings } = useContext(SiteContext);
+
+  useEffect(() => {
+    setNavbarSettings({ scrolledColor: 'paper', textColor: 'dark' });
+  }, []);
   return (
     <>
       <ColorBlock backgroundColor="white" equalPadding showScrollDown scrollToId="about-anchor">
@@ -187,13 +193,11 @@ AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   aboutBlock1: PropTypes.object,
   aboutBlock2: PropTypes.object,
-  aboutBlock3: PropTypes.object,
 };
 
 AboutPageTemplate.defaultProps = {
   aboutBlock1: undefined,
   aboutBlock2: undefined,
-  aboutBlock3: undefined,
 };
 
 const AboutPage = ({ data }) => {
@@ -204,7 +208,6 @@ const AboutPage = ({ data }) => {
       title={frontmatter.aboutBlock1.title}
       aboutBlock1={frontmatter.aboutBlock1}
       aboutBlock2={frontmatter.aboutBlock2}
-      aboutBlock3={frontmatter.aboutBlock3}
     />
   );
 };
@@ -270,18 +273,6 @@ export const aboutPageQuery = graphql`
             position
             linkedIn
             mail
-          }
-        }
-        aboutBlock3 {
-          title
-          intro
-          parts {
-            title
-            text
-            cta {
-              text
-              url
-            }
           }
         }
       }

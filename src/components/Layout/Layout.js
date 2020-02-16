@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { withPrefix } from 'gatsby';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import { Helmet } from 'react-helmet';
 import useSiteMetadata from '../SiteMetadata';
+import SiteContext from '../SiteContext';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
+  const [navbarSettings, setNavbarSettings] = useState({
+    staticColor: 'paper',
+    scrolledColor: 'paper',
+    textColor: 'light',
+  });
+
   return (
     <>
       <Helmet>
@@ -35,9 +42,11 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
       </Helmet>
-      <Header />
-      <div style={{ zIndex: 2, position: 'relative', backgroundColor: '#fff' }}>{children}</div>
-      <Footer />
+      <SiteContext.Provider value={{ navbarSettings, setNavbarSettings }}>
+        <Header />
+        <div style={{ zIndex: 2, position: 'relative', backgroundColor: '#fff' }}>{children}</div>
+        <Footer />
+      </SiteContext.Provider>
     </>
   );
 };

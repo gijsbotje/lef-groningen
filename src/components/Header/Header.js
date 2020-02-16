@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import PropTypes from 'prop-types';
 import LefLogo from '../../img/logo.svg';
 import AppBar from '@material-ui/core/AppBar';
@@ -18,9 +18,9 @@ import Hidden from '@material-ui/core/Hidden';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
+import SiteContext from '../SiteContext';
 
-function ElevationScroll(props) {
-  const { children, window } = props;
+function ElevationScroll({ children, window, scrolledColor, transparentTextColor }) {
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 200,
@@ -29,7 +29,8 @@ function ElevationScroll(props) {
 
   return React.cloneElement(children, {
     elevation: trigger ? 4 : 0,
-    color: trigger ? 'paper' : 'transparent',
+    color: trigger ? scrolledColor : 'transparent',
+    className: `text-color-${trigger ? 'dark' : transparentTextColor}`,
   });
 }
 
@@ -37,6 +38,19 @@ ElevationScroll.propTypes = {
   children: PropTypes.element.isRequired,
   window: PropTypes.func,
 };
+
+const ScrollAppBar = styled(AppBar)`
+  && {
+    &.text-color- {
+      &dark {
+        color: ${props => props.theme.palette.common.black};
+      }
+      &light {
+        color: ${props => props.theme.palette.common.white};
+      }
+    }
+  }
+`;
 
 const StyledToolBar = styled(ToolBar)`
   && {
@@ -77,13 +91,15 @@ const menuItems = [
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const { navbarSettings } = useContext(SiteContext);
+  const { scrolledColor, textColor } = navbarSettings;
 
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
     <>
-      <ElevationScroll>
-        <AppBar color="transparent" position="fixed" style={{ transition: '.2s ease' }}>
+      <ElevationScroll scrolledColor={scrolledColor} transparentTextColor={textColor}>
+        <ScrollAppBar color="transparent" position="fixed" style={{ transition: '.2s ease' }}>
           <Container maxWidth="lg">
             <StyledToolBar>
               <Logo href="/" title="Lef Groningen - home">
@@ -99,7 +115,7 @@ const Header = () => {
               </Hidden>
             </StyledToolBar>
           </Container>
-        </AppBar>
+        </ScrollAppBar>
       </ElevationScroll>
       <Drawer anchor="right" open={showMenu} onClose={toggleMenu}>
         <Box width={240}>

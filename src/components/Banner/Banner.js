@@ -8,24 +8,21 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 const Heading = styled(Typography)`
   && {
-    font-size: 6rem;
-    text-transform: uppercase;
-    line-height: 1;
-    margin-bottom: 0;
+    font-size: 2.5rem;
 
     @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
-      font-size: 5rem;
+      font-size: 4rem;
     }
   }
 `;
 
-const HeadingContainer = styled.div`
-  grid-area: heading;
+const Text = styled(Typography)`
+  && {
+    font-size: 1rem;
 
-  @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
+      font-size: 1.2rem;
+    }
   }
 `;
 
@@ -33,17 +30,15 @@ const BannerInner = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 32px;
-  grid-template-areas:
-    'heading'
-    'text';
-  font-size: 8rem;
+  grid-template-areas: 'text';
+  font-size: 6rem;
 
   color: #fff;
 
   @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
     grid-gap: 32px 72px;
-    grid-template-columns: 2fr 3fr;
-    grid-template-areas: 'heading text';
+    grid-template-columns: 4fr 2fr;
+    grid-template-areas: 'text empty';
     font-size: 12rem;
   }
 `;
@@ -58,21 +53,13 @@ const BannerText = styled.div`
 
 const Banner = ({ title, text, cta, titleTypographyProps }) => (
   <BannerInner>
-    <HeadingContainer>
-      <Heading {...titleTypographyProps} gutterBottom>
-        {title &&
-          title.split(' ').map(part => (
-            <React.Fragment key={part}>
-              {part}
-              <br />
-            </React.Fragment>
-          ))}
-      </Heading>
-    </HeadingContainer>
     <BannerText>
-      <Typography variant="body1" style={{ fontSize: '1.5rem' }} paragraph>
+      <Heading {...titleTypographyProps} gutterBottom>
+        {title}
+      </Heading>
+      <Text variant="body1" style={{ marginBottom: '2rem' }} paragraph>
         {text}
-      </Typography>
+      </Text>
       <Button
         component={Link}
         to={cta.url}

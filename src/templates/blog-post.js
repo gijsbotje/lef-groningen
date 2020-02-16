@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
@@ -11,6 +11,7 @@ import { navigate } from 'gatsby-link';
 import Chip from '@material-ui/core/Chip';
 import Section from '../components/Section';
 import ColorBlock from '../components/ColorBlock';
+import SiteContext from '../components/SiteContext/SiteContext';
 
 export const BlogPostTemplate = ({
   content,
@@ -77,6 +78,11 @@ BlogPostTemplate.defaultProps = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
+  const { setNavbarSettings } = useContext(SiteContext);
+
+  useEffect(() => {
+    setNavbarSettings({ scrolledColor: 'paper', textColor: 'dark' });
+  }, []);
 
   return (
     <BlogPostTemplate

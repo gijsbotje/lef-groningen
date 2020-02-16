@@ -64,7 +64,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Libre Franklin:400,500,600,700,900', 'Libre Baskerville:400,500,600,700'],
+          families: ['Montserrat:400,700'],
         },
       },
     },
