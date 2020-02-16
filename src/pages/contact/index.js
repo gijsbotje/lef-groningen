@@ -1,10 +1,18 @@
-import React, { useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import { navigate } from 'gatsby-link';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Section from '../../components/Section';
 import Container from '../../components/Container';
+import SiteContext from '../../components/SiteContext';
+import { useStaticQuery, graphql } from 'gatsby';
+import ColorBlock from '../../components/ColorBlock';
+import ContactForm from '../../components/ContactForm';
+import Grid from '@material-ui/core/Grid';
+import Link from '@material-ui/core/Link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function encode(data) {
   return Object.keys(data)
@@ -15,6 +23,19 @@ function encode(data) {
 const Index = () => {
   const [isValidated, setIsValided] = useState(false);
   const [fields, setFields] = useState({});
+  const { setNavbarSettings } = useContext(SiteContext);
+
+  const data = useStaticQuery(graphql`
+    query contactPage {
+      file(relativePath: { eq: "yellow-phone.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920, quality: 90) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `);
 
   const handleChange = e => {
     setFields({ [e.target.name]: e.target.value });
@@ -35,68 +56,49 @@ const Index = () => {
       .catch(error => alert(error));
   };
 
+  useEffect(() => {
+    setNavbarSettings({ scrolledColor: 'paper', textColor: 'dark' });
+  }, []);
+
   return (
-    <Container>
-      <Typography variant="h3" component="h1">
-        Contact
-      </Typography>
-      <Section>
-        <form
-          name="contact"
-          method="post"
-          action="/contact/thanks/"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          onSubmit={handleSubmit}
-        >
-          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-          <input type="hidden" name="form-name" value="contact" />
-          <div hidden>
-            <label htmlFor="bot-field">
-              Don’t fill this out: <input name="bot-field" id="bot-field" onChange={handleChange}/>
-            </label>
-          </div>
-          <TextField
-            variant="outlined"
-            label="Naam"
-            name="name"
-            id="name"
-            type="text"
-            fullWidth
-            margin="normal"
-            onChange={handleChange}
-            required
-          />
-          <TextField
-            variant="outlined"
-            label="E-mail"
-            name="email"
-            id="email"
-            type="email"
-            fullWidth
-            margin="normal"
-            onChange={handleChange}
-            required
-          />
-          <TextField
-            variant="outlined"
-            label="Bericht"
-            name="message"
-            id="message"
-            type="email"
-            multiline
-            fullWidth
-            margin="normal"
-            onChange={handleChange}
-            required
-            rows={5}
-          />
-          <Button type="submit" variant="contained" color="secondary" size="large">
-            Verstuur
-          </Button>
-        </form>
-      </Section>
-    </Container>
+    <>
+      <ColorBlock backgroundColor="yellow" backgroundImage={data.file.childImageSharp.fluid.src}>
+        <Typography variant="h3" component="h1" align="center">
+          WERKEN MET LEF
+        </Typography>
+      </ColorBlock>
+      <Container>
+        <Section>
+          <Grid container>
+            <Grid item xs={6}>
+              <Typography variant="h6" component="div" gutterBottom>
+                LEF Groningen
+              </Typography>
+              <Typography>LEF Groningen</Typography>
+              <Typography>Poelestraat 28A</Typography>
+              <Typography gutterBottom>9712 KB Groningen</Typography>
+              <Typography component={Link} href="mailto:info@lefgroningen.nl" target="_blank">
+                info@lefgroningen.nl
+              </Typography>
+              <br />
+              <Typography component={Link} href="tel:06 13 97 26 93" target="_blank">
+                06 13 97 26 93
+              </Typography>
+              <br />
+              <Link href="https://linkedin.com" target="_blank">
+                <FontAwesomeIcon icon="linkedIn" /> LinkedIn
+              </Link>
+            </Grid>
+            <Grid item xs={6}>
+              <Typography variant="h6" component="h2">
+                Contactformulier
+              </Typography>
+              <ContactForm handleChange={handleChange} handleSubmit={handleSubmit} />
+            </Grid>
+          </Grid>
+        </Section>
+      </Container>
+    </>
   );
 };
 

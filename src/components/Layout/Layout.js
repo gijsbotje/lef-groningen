@@ -10,7 +10,6 @@ import SiteContext from '../SiteContext';
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   const [navbarSettings, setNavbarSettings] = useState({
-    staticColor: 'paper',
     scrolledColor: 'paper',
     textColor: 'light',
   });

@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import styled from 'styled-components';
 
-const SPACING = 15;
+const SPACING = 6;
 
 const FeatureContainer = styled(Grid)`
   && {
@@ -26,9 +26,9 @@ const FeatureItem = styled(Grid)`
 `;
 
 const FeatureGrid = ({ gridItems }) => (
-  <FeatureContainer container spacing={3}>
+  <Grid container spacing={3} justify="space-between">
     {gridItems.map(item => (
-      <FeatureItem item xs={12} md={4} key={item.title}>
+      <Grid item xs={12} md={3} key={item.title}>
         <Box width="50%" mx="auto" my={2}>
           <PreviewCompatibleImage
             imageInfo={item}
@@ -46,9 +46,9 @@ const FeatureGrid = ({ gridItems }) => (
         <Typography paragraph variant="body1" color="textSecondary">
           {item.text}
         </Typography>
-      </FeatureItem>
+      </Grid>
     ))}
-  </FeatureContainer>
+  </Grid>
 );
 
 FeatureGrid.propTypes = {

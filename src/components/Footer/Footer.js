@@ -10,6 +10,8 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContentText from '@material-ui/core/DialogContentText';
+import Link from '@material-ui/core/Link';
+import Box from '@material-ui/core/Box';
 
 const FooterBase = styled.footer`
   position: sticky;
@@ -26,13 +28,16 @@ const LightTextField = styled(TextField)`
     .MuiFormLabel-root {
       color: rgba(255, 255, 255, 0.54);
     }
-    .MuiInput-underline:before {
+    .MuiFilledInput-underline {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .MuiFilledInput-underline:before {
       border-color: rgba(255, 255, 255, 0.42);
     }
-    .MuiInput-underline:hover:not(.Mui-disabled):before {
+    .MuiFilledInput-underline:hover:not(.Mui-disabled):before {
       border-color: rgba(255, 255, 255, 0.87);
     }
-    .MuiInput-underline:after {
+    .MuiFilledInput-underline:after {
       border-color: rgba(255, 255, 255, 1);
     }
   }
@@ -71,13 +76,23 @@ const Footer = () => {
     <>
       <FooterBase>
         <Container maxWidth="lg" equalPadding>
+          <Typography variant="h6" gutterBottom>
+            LEF Groningen
+          </Typography>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={4}>
-              <Typography variant="h6" gutterBottom>
-                LEF Groningen
-              </Typography>
+              <Typography variant="body1">Poelestraat 28a</Typography>
+              <Typography variant="body1">9712KB Groningen</Typography>
               <Typography variant="body1">info@lefgroningen.nl</Typography>
               <Typography variant="body1">+31 6 13972693</Typography>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Typography variant="body1">
+                <Link color="inherit" href="mailto:info@lefgroningen.nl">
+                  info@lefgroningen.nl
+                </Link>
+              </Typography>
+              <Typography variant="body1">KvK: 767765291</Typography>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <form
@@ -97,7 +112,7 @@ const Footer = () => {
                   </label>
                 </div>
                 <LightTextField
-                  variant="standard"
+                  variant="filled"
                   label="Naam"
                   name="name"
                   id="name"
@@ -106,9 +121,10 @@ const Footer = () => {
                   margin="dense"
                   onChange={handleChange}
                   required
+                  color="secondary"
                 />
                 <LightTextField
-                  variant="standard"
+                  variant="filled"
                   label="E-mail"
                   name="email"
                   id="email"
@@ -117,18 +133,25 @@ const Footer = () => {
                   margin="dense"
                   onChange={handleChange}
                   required
+                  color="secondary"
                 />
-                <Button type="submit" variant="contained" color="secondary" size="large">
+                <Button
+                  type="submit"
+                  variant="contained"
+                  color="secondary"
+                  size="large"
+                  style={{ marginTop: '1rem' }}
+                >
                   Neem contact op
                 </Button>
               </form>
             </Grid>
           </Grid>
-          <Grid container justifyContent="flex-end">
+          <Box display="flex" justifyContent="flex-end" mt={2} mb="-1.5rem">
             <Typography color="inherit" style={{ marginLeft: 'auto' }}>
               LEF Groningen &copy;
             </Typography>
-          </Grid>
+          </Box>
         </Container>
       </FooterBase>
       <Dialog open={showThanks}>

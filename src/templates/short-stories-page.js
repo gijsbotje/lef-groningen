@@ -11,7 +11,7 @@ export const ShortStoriesTemplate = ({ title, background }) => {
   const { setNavbarSettings } = useContext(SiteContext);
 
   useEffect(() => {
-    setNavbarSettings({ scrolledColor: 'paper', textColor: 'light' });
+    setNavbarSettings({ scrolledColor: 'primary', textColor: 'light' });
   }, []);
 
   return (

@@ -4,7 +4,7 @@ title: LEF groningen
 
 homeBlock1:
   title: Werk met lef.
-  text: Om te vernieuwen moet je lef hebben. Wij zijn LEF, een team van twintigers met bravoure en een scherpe blik. Door te confronteren en te verrassen dagen wij organisaties uit om te innoveren.
+  text: Om te vernieuwen moet je lef hebben. Wij zijn LEF, een team van twintigers met bravoure en een scherpe blik. Door te confronteren en te verrassen dagen wij organisaties uit om te innoveren en te veranderen.
   image: /img/blue-orange.jpg
   link:
     text: Lees meer over LEF

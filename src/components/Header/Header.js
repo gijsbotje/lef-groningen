@@ -41,7 +41,7 @@ ElevationScroll.propTypes = {
 
 const ScrollAppBar = styled(AppBar)`
   && {
-    &.text-color- {
+    &.MuiAppBar-colorTransparent.text-color- {
       &dark {
         color: ${props => props.theme.palette.common.black};
       }
@@ -72,11 +72,11 @@ const MobileMenuItemText = styled(ListItemText)`
 
 const menuItems = [
   {
-    to: '/services',
-    label: 'Services',
+    to: '/diensten',
+    label: 'Diensten',
   },
   {
-    to: '/over-ons',
+    to: '/ons-verhaal',
     label: 'Ons verhaal',
   },
   {

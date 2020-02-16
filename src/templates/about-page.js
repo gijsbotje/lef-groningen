@@ -44,7 +44,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
   const { setNavbarSettings } = useContext(SiteContext);
 
   useEffect(() => {
-    setNavbarSettings({ scrolledColor: 'paper', textColor: 'dark' });
+    setNavbarSettings({ scrolledColor: 'primary', textColor: 'dark' });
   }, []);
   return (
     <>

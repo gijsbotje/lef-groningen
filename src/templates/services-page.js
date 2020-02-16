@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Section from '../components/Section';
 import Grid from '@material-ui/core/Grid';
@@ -8,8 +8,6 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import ColorBlock from '../components/ColorBlock';
-// import Button from '@material-ui/core/Button';
-// import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import Box from '@material-ui/core/Box';
 import CardMedia from '@material-ui/core/CardMedia';
 import SiteContext from '../components/SiteContext';
@@ -18,7 +16,7 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
   const { setNavbarSettings } = useContext(SiteContext);
 
   useEffect(() => {
-    setNavbarSettings({ scrolledColor: 'paper', textColor: 'dark' });
+    setNavbarSettings({ scrolledColor: 'primary', textColor: 'dark' });
   }, []);
 
   return (
@@ -117,60 +115,10 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
             ))}
           </Grid>
         </Section>
-        {/* <Section style={{ marginTop: '2rem' }}> */}
-        {/*  <Grid container spacing={2} justify="flex-end"> */}
-        {/*    <Grid item xs={12} md={9}> */}
-        {/*      <Typography variant="h3" component="div" gutterBottom> */}
-        {/*        {ideeenbrouwerij.cta.question} */}
-        {/*      </Typography> */}
-        {/*      <Typography variant="body1" paragraph> */}
-        {/*        {ideeenbrouwerij.lead} */}
-        {/*      </Typography> */}
-        {/*      <Button */}
-        {/*        variant="outlined" */}
-        {/*        color="inherit" */}
-        {/*        component={Link} */}
-        {/*        to={ideeenbrouwerij.cta.linkUrl} */}
-        {/*        endIcon={<ChevronRightIcon />} */}
-        {/*        size="large" */}
-        {/*      > */}
-        {/*        {ideeenbrouwerij.cta.linkText} */}
-        {/*      </Button> */}
-        {/*    </Grid> */}
-        {/*  </Grid> */}
-        {/* </Section> */}
       </ColorBlock>
-
-      {/* <ColorBlock */}
-      {/*  backgroundColor="yellow" */}
-      {/*  maxWidth="lg" */}
-      {/*  id={veranderAanjagers.title.toLowerCase().replace(/ /g, '-')} */}
-      {/* > */}
-      {/*  <Section style={{ marginTop: '3rem' }}> */}
-      {/*    */}
-      {/*  </Section> */}
-      {/*  <Section style={{ marginTop: '2rem' }}> */}
-      {/*    <Typography variant="h3" component="div" gutterBottom> */}
-      {/*      {veranderAanjagers.cta.question} */}
-      {/*    </Typography> */}
-      {/*    <Typography variant="body1" paragraph> */}
-      {/*      {veranderAanjagers.lead} */}
-      {/*    </Typography> */}
-      {/*    <Button */}
-      {/*      variant="outlined" */}
-      {/*      color="inherit" */}
-      {/*      component={Link} */}
-      {/*      to={veranderAanjagers.cta.linkUrl} */}
-      {/*      endIcon={<ChevronRightIcon />} */}
-      {/*      size="large" */}
-      {/*    > */}
-      {/*      {veranderAanjagers.cta.linkText} */}
-      {/*    </Button> */}
-      {/*  </Section> */}
-      {/* </ColorBlock> */}
     </>
   );
-}
+};
 
 ServicesPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,

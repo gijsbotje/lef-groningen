@@ -16,7 +16,7 @@ const palette = {
     main: '#20b046',
   },
   info: {
-    main: '#00b8f1',
+    main: '#0E6CB4',
     contrastText: '#fff',
   },
   background: {

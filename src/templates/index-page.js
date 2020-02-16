@@ -21,7 +21,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
   const { setNavbarSettings } = useContext(SiteContext);
 
   useEffect(() => {
-    setNavbarSettings({ scrolledColor: 'paper', textColor: 'light' });
+    setNavbarSettings({ scrolledColor: 'primary', textColor: 'light' });
   }, []);
 
   return (
@@ -41,7 +41,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
       >
         <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
       </ColorBlock>
-      <ColorBlock backgroundColor={bgColor} id="home-block-2" fullHeight={false} maxWidth="lg">
+      <ColorBlock backgroundColor={bgColor} id="home-block-2" fullHeight={false} maxWidth="md">
         <Section>
           <Features gridItems={homeBlock2.tools} />
         </Section>
@@ -69,8 +69,8 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
                 elevation={6}
                 style={{
                   height: '100%',
-                  backgroundColor: '#FFD600',
-                  color: '#000',
+                  backgroundColor: '#0E6CB4',
+                  color: '#fff',
                 }}
               >
                 {index === 0 || index === 5 ? (
@@ -115,7 +115,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
       </ColorBlock>
     </>
   );
-}
+};
 
 IndexPageTemplate.propTypes = {
   title: PropTypes.string,
