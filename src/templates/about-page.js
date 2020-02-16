@@ -48,7 +48,13 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
   }, []);
   return (
     <>
-      <ColorBlock backgroundColor="white" equalPadding showScrollDown scrollToId="about-anchor">
+      <ColorBlock
+        backgroundColor="white"
+        equalPadding
+        showScrollDown
+        scrollToId="about-anchor"
+        backgroundImage={aboutBlock1.background.childImageSharp.fluid.src}
+      >
         <Container>
           <Typography variant="h3" component="h1" align="center" gutterBottom>
             {title}
@@ -79,9 +85,9 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
           </Typography>
         </Section>
         <Grid container spacing={4}>
-          {[aboutBlock2.person1, aboutBlock2.person2].map((item, index) => (
+          {aboutBlock2.persons.map((item, index) => (
             <>
-              <Grid key={item.text} item xs={12} md={6}>
+              <Grid key={item.text} item xs={12} md={4}>
                 <Card style={{ height: '100%' }} elevation={6}>
                   <CardActionArea onClick={() => setOpenDialogId(index)}>
                     <HoverBlock
@@ -171,7 +177,11 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                         </Grid>
                         <Grid item>
                           <Tooltip title="E-mail">
-                            <IconButton href={`mailto:${item.mail}`} target="_blank" color="primary">
+                            <IconButton
+                              href={`mailto:${item.mail}`}
+                              target="_blank"
+                              color="primary"
+                            >
                               <FontAwesomeIcon icon={faEnvelope} />
                             </IconButton>
                           </Tooltip>
@@ -183,6 +193,40 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
               </Dialog>
             </>
           ))}
+          <Grid item xs={12} md={4}>
+            <Card style={{ height: '100%' }} elevation={6}>
+              <CardActionArea component={Link} to="/contact">
+                <HoverBlock
+                  overlay={
+                    <Box
+                      bgcolor="rgba(255, 214, 0, .9)"
+                      height="100%"
+                      display="flex"
+                      alignItems="center"
+                      justifyContent="center"
+                    >
+                      <CardContent>
+                        <Typography variant="h5" component="div" gutterBottom align="center">
+                          {aboutBlock2.extraBlock.title}
+                        </Typography>
+                        <Typography variant="h6" component="div" gutterBottom align="center">
+                          {aboutBlock2.extraBlock.subTitle}
+                        </Typography>
+                      </CardContent>
+                    </Box>
+                  }
+                >
+                  <PreviewCompatibleImage
+                    imageInfo={aboutBlock2.extraBlock.image}
+                    style={{
+                      objectFit: 'cover',
+                      height: '100%',
+                    }}
+                  />
+                </HoverBlock>
+              </CardActionArea>
+            </Card>
+          </Grid>
         </Grid>
       </ColorBlock>
     </>
@@ -237,10 +281,17 @@ export const aboutPageQuery = graphql`
         aboutBlock1 {
           title
           intro
+          background {
+            childImageSharp {
+              fluid(maxWidth: 1920, quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         aboutBlock2 {
           title
-          person1 {
+          persons {
             title
             list {
               question
@@ -248,7 +299,7 @@ export const aboutPageQuery = graphql`
             }
             image {
               childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 600, quality: 80) {
+                fluid(maxWidth: 800, maxHeight: 800, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -257,22 +308,16 @@ export const aboutPageQuery = graphql`
             linkedIn
             mail
           }
-          person2 {
+          extraBlock {
             title
-            list {
-              question
-              answer
-            }
+            subTitle
             image {
               childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 600, quality: 80) {
+                fluid(maxWidth: 800, maxHeight: 800, quality: 80) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-            position
-            linkedIn
-            mail
           }
         }
       }

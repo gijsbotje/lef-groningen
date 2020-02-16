@@ -77,7 +77,7 @@ const menuItems = [
   },
   {
     to: '/over-ons',
-    label: 'Het LEF-verhaal',
+    label: 'Ons verhaal',
   },
   {
     to: '/short-stories',
