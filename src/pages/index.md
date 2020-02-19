@@ -8,19 +8,19 @@ homeBlock1:
   image: /img/blue-orange.jpg
   link:
     text: Lees meer over LEF
-    url: /over-ons
+    url: /ons-verhaal
 
 homeBlock2:
   title: De gereedschapskist
   text: Wij zijn in te zetten als ideeënbrouwers, sparringpartners of aanjagers. We beginnen klein en creëren stap voor stap iets groots. Zo bewegen wij, en zo willen we anderen in beweging brengen.
   tools:
-    - image: /img/Geen-advies-maar-resultaat-black.png
+    - image: /img/raket-laptop.jpg
       title: Wij maken meters.
       text: Met een snelle, praktische aanpak vertalen we ideeën naar tastbaar resultaat.
-    - image: /img/fail-quickly-learn-fast-black.png
+    - image: /img/fail-quickly-learn-fast-blue-liquid.jpg
       title: Wij maken fouten.
       text: Door te experimenteren en onze blunders te vieren komen we verder.
-    - image: /img/buiten-de-organisatie-bubbel-black.png
+    - image: /img/buiten-de-organisatie-bubbel.jpg
       title: Wij denken anders.
       text: We kijken van buiten de organisatie naar binnen, waardoor we kritisch en onbevangen zijn.
 
@@ -30,31 +30,31 @@ homeBlock3:
   block1:
     image: /img/ted-en-thijs-camera-square.jpg
     title: Ideeënbrouwerij
-    link: '/services#ideeenbrouwerij'
+    link: '/diensten'
     text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
   block2:
     image: /img/thijs-tekenen-square.jpg
     title: Ideeënbrouwerij
-    link: '/services#ideeenbrouwerij'
+    link: '/diensten'
     text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
   block3:
     image: /img/ted-en-thijs-camera-square.jpg
     title: Ideeënbrouwerij
-    link: '/services#ideeenbrouwerij'
+    link: '/diensten'
     text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
   block4:
     image: /img/ted-en-thijs-square.jpg
     title: Ideeënbrouwerij
-    link: '/services#ideeenbrouwerij'
+    link: '/diensten'
     text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
   block5:
     image: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     title: Ideeënbrouwerij
-    link: '/services#ideeenbrouwerij'
+    link: '/diensten'
     text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
   block6:
     image: /img/ted-en-thijs-camera-square.jpg
     title: Verander aanjagers
-    link: '/services#ideeenbrouwerij'
+    link: '/diensten'
     text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet.
 ---

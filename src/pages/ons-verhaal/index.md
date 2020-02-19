@@ -13,7 +13,7 @@ aboutBlock2:
           answer: Automonteur voor Volkswagen Kevers.
         - question: Dit heb ik ervoor gestudeerd
           answer: Rechten aan de Rijksuniversiteit Groningen.
-        - question: Dit heb ik ervoor gestudeerd
+        - question: Dit was mijn eerste baan
           answer: Oprichter van Axios, een onderneming waarbij we studenten inzetten als kistdragers.
       position: Oprichter
       image: /img/thijs-portret.jpg

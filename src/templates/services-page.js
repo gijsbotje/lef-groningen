@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Section from '../components/Section';
 import Grid from '@material-ui/core/Grid';
@@ -11,8 +11,9 @@ import ColorBlock from '../components/ColorBlock';
 import Box from '@material-ui/core/Box';
 import CardMedia from '@material-ui/core/CardMedia';
 import SiteContext from '../components/SiteContext';
+import Button from '@material-ui/core/Button';
 
-export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers }) => {
+export const ServicesPageTemplate = ({ title, intro, ideeenbrouwerij, veranderAanjagers }) => {
   const { setNavbarSettings } = useContext(SiteContext);
 
   useEffect(() => {
@@ -29,18 +30,14 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
         showScrollDown
         scrollToId={ideeenbrouwerij.title.toLowerCase().replace(/ /g, '-')}
         backgroundImage={ideeenbrouwerij.background.childImageSharp.fluid.src}
+        maxWidth="sm"
       >
         <Section>
           <Typography variant="h2" component="h2" gutterBottom align="center">
             {title}
           </Typography>
           <Typography variant="body1" align="center" paragraph style={{ fontSize: '1.2rem' }}>
-            Wij dagen organisaties uit om te veranderen en te innoveren. Dit doen we op twee
-            verschillende manieren. Als ideeenbrouwes, of als projectaanjagers.
-          </Typography>
-          <Typography variant="body1" align="center" paragraph style={{ fontSize: '1.2rem' }}>
-            We beginnen klein en creëren stap voor stap iets groots. Zo bewegen wij, en zo willen we
-            anderen in beweging brengen.
+            {intro}
           </Typography>
         </Section>
       </ColorBlock>
@@ -48,14 +45,19 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
         backgroundColor="white"
         maxWidth="lg"
         id={ideeenbrouwerij.title.toLowerCase().replace(/ /g, '-')}
+        fullHeight={false}
       >
         <Section style={{ marginTop: '3rem' }}>
+          <Typography
+            variant="h3"
+            component="h2"
+            align="center"
+            gutterBottom
+            style={{ marginBottom: '4rem' }}
+          >
+            {ideeenbrouwerij.title}
+          </Typography>
           <Grid container spacing={2}>
-            <Grid item xs={12} sm={12} md={3}>
-              <Typography variant="h4" component="h2" gutterBottom>
-                {ideeenbrouwerij.title}
-              </Typography>
-            </Grid>
             {ideeenbrouwerij.items.map(({ text, image }) => (
               <Grid item xs={12} sm={6} md={3}>
                 <Card elevation={6} style={{ height: '100%' }}>
@@ -82,11 +84,33 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
                 </Card>
               </Grid>
             ))}
-            <Grid item xs={12} sm={12} md={3}>
-              <Typography variant="h4" component="h2">
-                {veranderAanjagers.title}
-              </Typography>
+            <Grid item xs={12} sm={6} md={3}>
+              <Card elevation={6} style={{ height: '100%' }}>
+                <Box
+                  bgcolor="secondary.main"
+                  height="100%"
+                  display="flex"
+                  flexDirection="column"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <CardContent>
+                    <Typography variant="body1" align="center">
+                      Klik
+                    </Typography>
+                  </CardContent>
+                </Box>
+              </Card>
             </Grid>
+          </Grid>
+        </Section>
+      </ColorBlock>
+      <ColorBlock backgroundColor="white" maxWidth="lg" fullHeight={false}>
+        <Section>
+          <Typography variant="h3" component="h2" align="center" style={{ marginBottom: '4rem' }}>
+            {veranderAanjagers.title}
+          </Typography>
+          <Grid container spacing={2}>
             {veranderAanjagers.items.map(({ text, image }) => (
               <Grid item xs={12} sm={6} md={3}>
                 <Card elevation={6} style={{ height: '100%' }}>
@@ -113,8 +137,44 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
                 </Card>
               </Grid>
             ))}
+            <Grid item xs={12} sm={6} md={3}>
+              <Card elevation={6} style={{ height: '100%' }}>
+                <Box
+                  bgcolor="secondary.main"
+                  height="100%"
+                  display="flex"
+                  flexDirection="column"
+                  justifyContent="center"
+                  alignItems="center"
+                >
+                  <CardContent>
+                    <Typography variant="body1" align="center">
+                      Klik
+                    </Typography>
+                  </CardContent>
+                </Box>
+              </Card>
+            </Grid>
           </Grid>
         </Section>
+      </ColorBlock>
+      <ColorBlock>
+        <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+          <Typography variant="h3" component="div" gutterBottom align="center">
+            Wil jij met ons ideeën brouwen of projecten aanjagen?
+          </Typography>
+          <Box mt={5}>
+            <Button
+              variant="contained"
+              component={Link}
+              to="/contact"
+              size="large"
+              color="secondary"
+            >
+              Neem contact op
+            </Button>
+          </Box>
+        </Box>
       </ColorBlock>
     </>
   );
@@ -122,11 +182,13 @@ export const ServicesPageTemplate = ({ title, ideeenbrouwerij, veranderAanjagers
 
 ServicesPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  intro: PropTypes.string,
   ideeenbrouwerij: PropTypes.object,
   veranderAanjagers: PropTypes.object,
 };
 
 ServicesPageTemplate.defaultProps = {
+  intro: undefined,
   ideeenbrouwerij: {},
   veranderAanjagers: {},
 };
@@ -137,6 +199,7 @@ const ServicesPage = ({ data }) => {
   return (
     <ServicesPageTemplate
       title={frontmatter.title}
+      intro={frontmatter.intro}
       ideeenbrouwerij={frontmatter.ideeenbrouwerij}
       veranderAanjagers={frontmatter.veranderAanjagers}
     />
@@ -166,6 +229,7 @@ export const ServicesPageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "services-page" } }) {
       frontmatter {
         title
+          intro
         ideeenbrouwerij {
           title
           lead

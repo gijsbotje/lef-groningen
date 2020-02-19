@@ -62,15 +62,19 @@ const Index = () => {
 
   return (
     <>
-      <ColorBlock backgroundColor="yellow" backgroundImage={data.file.childImageSharp.fluid.src}>
-        <Typography variant="h3" component="h1" align="center">
+      <ColorBlock
+        backgroundColor="yellow"
+        backgroundImage={data.file.childImageSharp.fluid.src}
+        backgroundPosition="center bottom"
+      >
+        <Typography variant="h3" component="h1" align="center" style={{ marginBottom: '15rem' }}>
           WERKEN MET LEF
         </Typography>
       </ColorBlock>
       <Container>
         <Section>
-          <Grid container>
-            <Grid item xs={6}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} sm={6}>
               <Typography variant="h6" component="div" gutterBottom>
                 LEF Groningen
               </Typography>
@@ -89,7 +93,7 @@ const Index = () => {
                 <FontAwesomeIcon icon="linkedIn" /> LinkedIn
               </Link>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12} sm={6}>
               <Typography variant="h6" component="h2">
                 Contactformulier
               </Typography>

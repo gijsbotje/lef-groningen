@@ -25,6 +25,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Tooltip from '@material-ui/core/Tooltip';
 import SiteContext from '../components/SiteContext';
+import VisibilityIcon from '@material-ui/icons/Visibility';
+import Button from '@material-ui/core/Button';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Grow direction="up" ref={ref} {...props} />;
@@ -54,6 +56,8 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
         showScrollDown
         scrollToId="about-anchor"
         backgroundImage={aboutBlock1.background.childImageSharp.fluid.src}
+        backgroundPosition="bottom left"
+        maxWidth="sm"
       >
         <Container>
           <Typography variant="h3" component="h1" align="center" gutterBottom>
@@ -112,6 +116,19 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                             >
                               {item.position}
                             </Typography>
+                            <Button
+                              size="small"
+                              variant="outlined"
+                              color="primary"
+                              style={{
+                                display: 'block',
+                                marginTop: '1.5rem',
+                                marginLeft: 'auto',
+                                marginRight: 'auto',
+                              }}
+                            >
+                              Lees meer
+                            </Button>
                           </CardContent>
                         </Box>
                       }
