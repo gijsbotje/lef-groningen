@@ -18,10 +18,15 @@ import SiteContext from '../components/SiteContext';
 const bgColor = 'white';
 
 export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 }) => {
-  const { setNavbarSettings } = useContext(SiteContext);
+  const { setNavbarSettings, setFooterSettings } = useContext(SiteContext);
 
   useEffect(() => {
     setNavbarSettings({ scrolledColor: 'primary', textColor: 'light' });
+    setFooterSettings({ color: 'info' });
+
+    return () => {
+      setFooterSettings({ color: 'secondary' });
+    };
   }, []);
 
   return (

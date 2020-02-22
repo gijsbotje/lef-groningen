@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Typography from '@material-ui/core/Typography';
 import styled from 'styled-components';
 import Grid from '@material-ui/core/Grid';
@@ -12,6 +12,8 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import Link from '@material-ui/core/Link';
 import Box from '@material-ui/core/Box';
+import SiteContext from '../SiteContext';
+import clsx from 'clsx';
 
 const FooterBase = styled.footer`
   position: sticky;
@@ -43,6 +45,15 @@ const LightTextField = styled(TextField)`
   }
 `;
 
+const ColoredButton = styled(Button)`
+  && {
+    &.button-info {
+      background-color: ${props => props.theme.palette.info.main};
+      color: ${props => props.theme.palette.info.contrastText};
+    }
+  }
+`;
+
 function encode(data) {
   return Object.keys(data)
     .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
@@ -52,6 +63,7 @@ function encode(data) {
 const Footer = () => {
   const [fields, setFields] = useState({});
   const [showThanks, setShowThanks] = useState(false);
+  const { footerSettings } = useContext(SiteContext);
 
   const handleChange = e => {
     setFields({ [e.target.name]: e.target.value });
@@ -135,15 +147,16 @@ const Footer = () => {
                   required
                   color="secondary"
                 />
-                <Button
+                <ColoredButton
                   type="submit"
                   variant="contained"
-                  color="secondary"
+                  color={footerSettings.color}
                   size="large"
                   style={{ marginTop: '1rem' }}
+                  className={clsx(`button-${footerSettings.color}`)}
                 >
                   Neem contact op
-                </Button>
+                </ColoredButton>
               </form>
             </Grid>
           </Grid>

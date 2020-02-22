@@ -13,6 +13,9 @@ const TemplateWrapper = ({ children }) => {
     scrolledColor: 'paper',
     textColor: 'light',
   });
+  const [footerSettings, setFooterSettings] = useState({
+    color: 'secondary',
+  });
 
   return (
     <>
@@ -41,7 +44,9 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
       </Helmet>
-      <SiteContext.Provider value={{ navbarSettings, setNavbarSettings }}>
+      <SiteContext.Provider
+        value={{ navbarSettings, setNavbarSettings, footerSettings, setFooterSettings }}
+      >
         <Header />
         <div style={{ zIndex: 2, position: 'relative', backgroundColor: '#fff' }}>{children}</div>
         <Footer />
