@@ -25,7 +25,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Tooltip from '@material-ui/core/Tooltip';
 import SiteContext from '../components/SiteContext';
-import VisibilityIcon from '@material-ui/icons/Visibility';
 import Button from '@material-ui/core/Button';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -91,7 +90,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
         <Grid container spacing={4}>
           {aboutBlock2.persons.map((item, index) => (
             <>
-              <Grid key={item.text} item xs={12} md={4}>
+              <Grid key={item.text} item xs={12} sm={6} md={4}>
                 <Card style={{ height: '100%' }} elevation={6}>
                   <CardActionArea onClick={() => setOpenDialogId(index)}>
                     <HoverBlock
@@ -174,35 +173,40 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                       <Typography variant="h4" gutterBottom>
                         {item.title}
                       </Typography>
-                      {item.list.map(({ question, answer }) => (
-                        <>
-                          <Typography variant="subtitle1" style={{ fontWeight: 900 }}>
-                            {question}
-                          </Typography>
-                          <Typography paragraph variant="body2">
-                            {answer}
-                          </Typography>
-                        </>
-                      ))}
+                      {item.list &&
+                        item.list.map(({ question, answer }) => (
+                          <>
+                            <Typography variant="subtitle1" style={{ fontWeight: 900 }}>
+                              {question}
+                            </Typography>
+                            <Typography paragraph variant="body2">
+                              {answer}
+                            </Typography>
+                          </>
+                        ))}
                       <Grid container spacing={2}>
-                        <Grid item>
-                          <Tooltip title="LinkedIn">
-                            <IconButton href={item.linkedIn} target="_blank" color="primary">
-                              <FontAwesomeIcon icon={faLinkedin} />
-                            </IconButton>
-                          </Tooltip>
-                        </Grid>
-                        <Grid item>
-                          <Tooltip title="E-mail">
-                            <IconButton
-                              href={`mailto:${item.mail}`}
-                              target="_blank"
-                              color="primary"
-                            >
-                              <FontAwesomeIcon icon={faEnvelope} />
-                            </IconButton>
-                          </Tooltip>
-                        </Grid>
+                        {item.linkedIn !== '' && (
+                          <Grid item>
+                            <Tooltip title="LinkedIn">
+                              <IconButton href={item.linkedIn} target="_blank" color="primary">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                              </IconButton>
+                            </Tooltip>
+                          </Grid>
+                        )}
+                        {item.mail && (
+                          <Grid item>
+                            <Tooltip title="E-mail">
+                              <IconButton
+                                href={`mailto:${item.mail}`}
+                                target="_blank"
+                                color="primary"
+                              >
+                                <FontAwesomeIcon icon={faEnvelope} />
+                              </IconButton>
+                            </Tooltip>
+                          </Grid>
+                        )}
                       </Grid>
                     </DialogContent>
                   </Grid>
@@ -210,7 +214,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
               </Dialog>
             </>
           ))}
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Card style={{ height: '100%' }} elevation={6}>
               <CardActionArea component={Link} to="/contact">
                 <HoverBlock

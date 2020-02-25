@@ -161,7 +161,7 @@ export const ServicesPageTemplate = ({ title, intro, ideeenbrouwerij, veranderAa
       <ColorBlock>
         <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
           <Typography variant="h3" component="div" gutterBottom align="center">
-            Wil jij met ons ideeën brouwen of projecten aanjagen?
+            Get in touch!
           </Typography>
           <Box mt={5}>
             <Button

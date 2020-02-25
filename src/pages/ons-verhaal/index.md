@@ -31,6 +31,126 @@ aboutBlock2:
       image: /img/ted-portret.jpg
       linkedIn: https://www.linkedin.com/in/teddy-monninkhof-77725372/
       mail: teddy@lefgroningen.nl
+    - title: Victor
+      list: 
+        - question: Leeftijd
+          answer: '25'
+        - question: Studie
+          answer: 'Economische geografie'
+      position: ''
+      image: /img/victor.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Nadja
+      list: 
+        - question: Leeftijd
+          answer: '22'
+        - question: Studie
+          answer: 'Religiewetenschappen'
+      position: ''
+      image: /img/nadja.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Marel
+      list: 
+        - question: Leeftijd
+          answer: '21'
+        - question: Studie
+          answer: 'Communicatie & multimedia design - Photography & brand design'
+      position: ''
+      image: /img/marel.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Camilla
+      list: 
+        - question: Leeftijd
+          answer: '22'
+        - question: Studie
+          answer: 'International business'
+      position: ''
+      image: /img/camilla.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Jacco
+      list: 
+        - question: Leeftijd
+          answer: '18'
+        - question: Studie
+          answer: 'Communicatie & multimedia design'
+      position: ''
+      image: /img/jacco.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Line
+      list: 
+        - question: Leeftijd
+          answer: '18'
+        - question: Studie
+          answer: 'Econometrie'
+      position: ''
+      image: /img/linde.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Liset
+      list: 
+        - question: Leeftijd
+          answer: '22'
+        - question: Studie
+          answer: 'Change Management'
+      position: ''
+      image: /img/liset.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Willem
+      list: 
+        - question: Leeftijd
+          answer: '23'
+        - question: Studie
+          answer: 'Psychologie'
+      position: ''
+      image: /img/unknown1.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Matthijs
+      list: 
+        - question: Leeftijd
+          answer: '23'
+        - question: Studie
+          answer: 'Psychologie'
+      position: ''
+      image: /img/unknown2.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Ruben
+      list: 
+        - question: Leeftijd
+          answer: '24'
+        - question: Studie
+          answer: 'Strategic Innovation Management & Change Management'
+      position: ''
+      image: /img/unknown3.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Michiel
+      list: 
+        - question: Leeftijd
+          answer: '25'
+        - question: Studie
+          answer: 'European Spatial Planning and Environmental Policy - Environment and Society Studies'
+      position: ''
+      image: /img/unknown4.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Eline
+      list: 
+        - question: Leeftijd
+          answer: '25'
+        - question: Studie
+          answer: 'Economics & business economics en American Studies'
+      position: ''
+      image: /img/unknown5.jpg
+      linkedIn: ''
+      mail: ''
   extraBlock:
     title: Heb jij LEF?
     subTitle: Kom eens langs!
