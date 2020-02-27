@@ -46,7 +46,13 @@ export const ServicesPageTemplate = ({
       </ColorBlock>
       <ColorBlock backgroundColor="white" maxWidth="md" fullHeight={false}>
         <Section>
-          <Typography variant="h3" component="h2" gutterBottom align="center" style={{ marginBottom: '2rem' }}>
+          <Typography
+            variant="h3"
+            component="h2"
+            gutterBottom
+            align="center"
+            style={{ marginBottom: '2rem' }}
+          >
             {subTitle}
           </Typography>
           <Typography variant="body1" align="center" paragraph style={{ fontSize: '1.2rem' }}>

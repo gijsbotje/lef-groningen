@@ -3,7 +3,7 @@ templateKey: index-page
 title: LEF groningen
 
 homeBlock1:
-  title: Werk met lef.
+  title: Werk met LEF.
   text: Om te vernieuwen moet je lef hebben. Wij zijn LEF, een team van twintigers met bravoure en een scherpe blik. Door te confronteren en te verrassen dagen wij organisaties uit om te innoveren en te veranderen.
   image: /img/blue-orange.jpg
   link:
@@ -27,34 +27,29 @@ homeBlock2:
 homeBlock3:
   title: Durf jij het aan om te werken met LEF?
   backgroundImage: /img/ted-en-thijs.jpg
-  block1:
-    image: /img/ted-en-thijs-camera-square.jpg
-    title: Ideeënbrouwerij
-    link: '/diensten'
-    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
-  block2:
-    image: /img/thijs-tekenen-square.jpg
-    title: Ideeënbrouwerij
-    link: '/diensten'
-    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
-  block3:
-    image: /img/ted-en-thijs-camera-square.jpg
-    title: Ideeënbrouwerij
-    link: '/diensten'
-    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
-  block4:
-    image: /img/ted-en-thijs-square.jpg
-    title: Ideeënbrouwerij
-    link: '/diensten'
-    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
-  block5:
-    image: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
-    title: Ideeënbrouwerij
-    link: '/diensten'
-    text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
-  block6:
-    image: /img/ted-en-thijs-camera-square.jpg
-    title: Verander aanjagers
-    link: '/diensten'
-    text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet.
+  blocks:
+    - image: /img/ted-en-thijs-camera-square.jpg
+      title: Ideeënbrouwerij
+      link: '/diensten'
+      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+    - image: /img/thijs-tekenen-square.jpg
+      title: Ideeënbrouwerij
+      link: '/diensten'
+      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+    - image: /img/ted-en-thijs-camera-square.jpg
+      title: Ideeënbrouwerij
+      link: '/diensten'
+      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+    - image: /img/ted-en-thijs-square.jpg
+      title: Ideeënbrouwerij
+      link: '/diensten'
+      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+    - image: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
+      title: Ideeënbrouwerij
+      link: '/diensten'
+      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+    - image: /img/ted-en-thijs-camera-square.jpg
+      title: Verander aanjagers
+      link: '/diensten'
+      text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet.
 ---

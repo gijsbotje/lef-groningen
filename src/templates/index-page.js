@@ -61,14 +61,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
           {homeBlock3.title}
         </Typography>
         <Grid container spacing={4}>
-          {[
-            homeBlock3.block1,
-            homeBlock3.block2,
-            homeBlock3.block3,
-            homeBlock3.block4,
-            homeBlock3.block5,
-            homeBlock3.block6,
-          ].map((block, index) => (
+          {homeBlock3.blocks.map((block, index) => (
             <Grid item xs={12} sm={6} md={4}>
               <Card
                 elevation={6}
@@ -202,67 +195,7 @@ export const pageQuery = graphql`
         }
         homeBlock3 {
           title
-          block1 {
-            title
-            text
-            link
-            image {
-              childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          block2 {
-            title
-            text
-            link
-            image {
-              childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          block3 {
-            title
-            text
-            link
-            image {
-              childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          block4 {
-            title
-            text
-            link
-            image {
-              childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          block5 {
-            title
-            text
-            link
-            image {
-              childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          block6 {
+          blocks {
             title
             text
             link

@@ -36,6 +36,9 @@ collections:
               - label: "Text"
                 name: "text"
                 widget: "text"
+              - label: "Image"
+                name: "image"
+                widget: "image"
               - label: "Link"
                 name: "link"
                 widget: "object"
@@ -82,10 +85,13 @@ collections:
               - label: "Achtergrond afbeelding"
                 name: "backgroundImage"
                 widget: "image"
-              - label: "Tekst links"
-                name: "block1"
-                widget: "object"
+              - label: "Blokken"
+                name: "blocks"
+                widget: "list"
                 fields:
+                  - label: "Image"
+                    name: "image"
+                    widget: "image"
                   - label: "Title"
                     name: "title"
                     widget: "string"
@@ -95,24 +101,11 @@ collections:
                   - label: "Link"
                     name: "link"
                     widget: "string"
-              - label: "Tekst rechts"
-                name: "block2"
-                widget: "object"
-                fields:
-                  - label: "Title"
-                    name: "title"
-                    widget: "string"
-                  - label: "Text"
-                    name: "text"
-                    widget: "text"
-                  - label: "Link"
-                    name: "link"
-                    widget: "string"
-      - file: "src/pages/denktank/index.md"
-        label: "Denktank"
-        name: "denktank"
+      - file: "src/pages/diensten/index.md"
+        label: "Diensten"
+        name: "diensten"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "anders-denken-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-page"}
           - {label: "Title", name: "title", widget: "string"}
           - label: "Intro"
             name: "intro"
@@ -154,11 +147,11 @@ collections:
                   - label: "Image"
                     name: "image"
                     widget: "image"
-      - file: "src/pages/aanjagers/index.md"
-        label: "Aanjagers"
-        name: "aanjagers"
+      - file: "src/pages/ons-verhaal/index.md"
+        label: "Ons verhaal"
+        name: "ons-verhaal"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "aanjagers-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - label: "Intro"
             name: "intro"

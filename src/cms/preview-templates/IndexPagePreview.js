@@ -9,12 +9,9 @@ const IndexPagePreview = ({ entry }) => {
     return (
       <IndexPageTemplate
         title={data.title}
-        banner={data.banner}
-        lead={data.lead}
-        features={data.features}
-        how={data.how}
-        result={data.result}
-        contact={data.contact}
+        homeBlock1={data.homeBlock1}
+        homeBlock2={data.homeBlock2}
+        homeBlock3={data.homeBlock3}
       />
     );
   }

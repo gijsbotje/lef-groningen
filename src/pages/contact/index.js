@@ -68,7 +68,7 @@ const Index = () => {
         backgroundPosition="center bottom"
       >
         <Typography variant="h3" component="h1" align="center" style={{ marginBottom: '15rem' }}>
-          WERKEN MET LEF
+          Bel met LEF.
         </Typography>
       </ColorBlock>
       <Container>

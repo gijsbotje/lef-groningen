@@ -104,7 +104,7 @@ const Footer = () => {
                   info@lefgroningen.nl
                 </Link>
               </Typography>
-              <Typography variant="body1">KvK: 767765291</Typography>
+              <Typography variant="body1">KvK: 76775291</Typography>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <form

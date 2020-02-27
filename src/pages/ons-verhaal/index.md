@@ -16,6 +16,8 @@ aboutBlock2:
           answer: Rechten aan de Rijksuniversiteit Groningen.
         - question: Dit was mijn eerste baan
           answer: Oprichter van Axios, een onderneming waarbij we studenten inzetten als kistdragers.
+        - question: Dit is mijn ambitie
+          answer: Toen ik 19 was ben ik mijn eerste onderneming begonnen. Op een korte pauze op een advocatenkantoor na, ben ik altijd blijven ondernemen. Voor mij is de vrijheid en de lol die dat met zich meebrengt fantastisch, en ik hoop dit nog een hele poos te kunnen blijven doen.
       position: Oprichter
       image: /img/thijs-portret.jpg
       linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
@@ -28,7 +30,9 @@ aboutBlock2:
         - question: Dit heb ik ervoor gestudeerd
           answer: HRM aan de Hanzehogeschool en Change management aan de Rijksuniversiteit Groningen.
         - question: Dit was mijn eerste baan
-          answer: Oprichter van LEF Groningen.
+          answer: Vanuit de schoolbanken meteen het ondernemerspad opgegaan. Geen baan in de Randstad, geen 9 tot 5 werktijden, maar wel oprichter van LEF. Beter kan bijna niet.
+        - question: Dit is mijn ambitie
+          answer: Bewijzen dat het ook anders kan. De sprong in het diepe blijven wagen. Niet zoeken naar zekerheid, maar wel naar avontuur!
       position: Oprichter
       image: /img/ted-portret.jpg
       linkedIn: https://www.linkedin.com/in/teddy-monninkhof-77725372/
