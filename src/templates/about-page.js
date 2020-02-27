@@ -92,7 +92,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
             <>
               <Grid key={item.text} item xs={12} sm={6} md={4}>
                 <Card style={{ height: '100%' }} elevation={6}>
-                  <CardActionArea onClick={() => setOpenDialogId(index)}>
+                  <CardActionArea onClick={() => (item.featured ? setOpenDialogId(index) : null)}>
                     <HoverBlock
                       overlay={
                         <Box
@@ -102,33 +102,57 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                           alignItems="center"
                           justifyContent="center"
                         >
-                          <CardContent>
-                            <Typography variant="h5" component="div" gutterBottom align="center">
-                              {item.title}
-                            </Typography>
-                            <Typography
-                              variant="body1"
-                              component="div"
-                              gutterBottom
-                              align="center"
-                              color="textSecondary"
-                            >
-                              {item.position}
-                            </Typography>
-                            <Button
-                              size="small"
-                              variant="outlined"
-                              color="primary"
-                              style={{
-                                display: 'block',
-                                marginTop: '1.5rem',
-                                marginLeft: 'auto',
-                                marginRight: 'auto',
-                              }}
-                            >
-                              Lees meer
-                            </Button>
-                          </CardContent>
+                          {item.featured ? (
+                            <CardContent>
+                              <Typography variant="h5" component="div" gutterBottom align="center">
+                                {item.title}
+                              </Typography>
+                              <Typography
+                                variant="body1"
+                                component="div"
+                                gutterBottom
+                                align="center"
+                                color="textSecondary"
+                              >
+                                {item.position}
+                              </Typography>
+                              <Button
+                                size="small"
+                                variant="outlined"
+                                color="primary"
+                                style={{
+                                  display: 'block',
+                                  marginTop: '1.5rem',
+                                  marginLeft: 'auto',
+                                  marginRight: 'auto',
+                                }}
+                              >
+                                Lees meer
+                              </Button>
+                            </CardContent>
+                          ) : (
+                            <CardContent>
+                              <Typography variant="h5" component="div" gutterBottom align="center">
+                                {item.title}
+                              </Typography>
+                              <Typography
+                                variant="body1"
+                                component="div"
+                                gutterBottom
+                                align="center"
+                                color="textSecondary"
+                              >
+                                {item.position}
+                              </Typography>
+                              <Typography variant="body2" align="center">
+                                {item.list
+                                  .map(({ question, answer }) =>
+                                    question === 'Leeftijd' ? `${answer} jaar` : answer,
+                                  )
+                                  .join(' - ')}
+                              </Typography>
+                            </CardContent>
+                          )}
                         </Box>
                       }
                     >
@@ -143,75 +167,77 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                   </CardActionArea>
                 </Card>
               </Grid>
-              <Dialog
-                open={openDialogId === index}
-                onClose={() => setOpenDialogId(null)}
-                maxWidth="md"
-                fullWidth
-                TransitionComponent={Transition}
-                PaperComponent={ResponsivePaper}
-              >
-                <Grid container direction="row-reverse" style={{ height: '100%' }}>
-                  <Grid xs={12} md={6}>
-                    <Box position="relative" height="100%">
-                      <PreviewCompatibleImage
-                        imageInfo={item}
-                        style={{
-                          objectFit: 'cover',
-                          height: '100%',
-                        }}
-                      />
-                      <Box position="absolute" top=".5rem" right=".5rem" color="#fff">
-                        <Fab onClick={() => setOpenDialogId(null)} color="secondary" size="small">
-                          <CloseIcon />
-                        </Fab>
+              {item.featured && (
+                <Dialog
+                  open={openDialogId === index}
+                  onClose={() => setOpenDialogId(null)}
+                  maxWidth="md"
+                  fullWidth
+                  TransitionComponent={Transition}
+                  PaperComponent={ResponsivePaper}
+                >
+                  <Grid container direction="row-reverse" style={{ height: '100%' }}>
+                    <Grid xs={12} md={6}>
+                      <Box position="relative" height="100%">
+                        <PreviewCompatibleImage
+                          imageInfo={item}
+                          style={{
+                            objectFit: 'cover',
+                            height: '100%',
+                          }}
+                        />
+                        <Box position="absolute" top=".5rem" right=".5rem" color="#fff">
+                          <Fab onClick={() => setOpenDialogId(null)} color="secondary" size="small">
+                            <CloseIcon />
+                          </Fab>
+                        </Box>
                       </Box>
-                    </Box>
+                    </Grid>
+                    <Grid xs={12} md={6}>
+                      <DialogContent>
+                        <Typography variant="h4" gutterBottom>
+                          {item.title}
+                        </Typography>
+                        {item.list &&
+                          item.list.map(({ question, answer }) => (
+                            <>
+                              <Typography variant="subtitle1" style={{ fontWeight: 900 }}>
+                                {question}
+                              </Typography>
+                              <Typography paragraph variant="body2">
+                                {answer}
+                              </Typography>
+                            </>
+                          ))}
+                        <Grid container spacing={2}>
+                          {item.linkedIn !== '' && (
+                            <Grid item>
+                              <Tooltip title="LinkedIn">
+                                <IconButton href={item.linkedIn} target="_blank" color="primary">
+                                  <FontAwesomeIcon icon={faLinkedin} />
+                                </IconButton>
+                              </Tooltip>
+                            </Grid>
+                          )}
+                          {item.mail && (
+                            <Grid item>
+                              <Tooltip title="E-mail">
+                                <IconButton
+                                  href={`mailto:${item.mail}`}
+                                  target="_blank"
+                                  color="primary"
+                                >
+                                  <FontAwesomeIcon icon={faEnvelope} />
+                                </IconButton>
+                              </Tooltip>
+                            </Grid>
+                          )}
+                        </Grid>
+                      </DialogContent>
+                    </Grid>
                   </Grid>
-                  <Grid xs={12} md={6}>
-                    <DialogContent>
-                      <Typography variant="h4" gutterBottom>
-                        {item.title}
-                      </Typography>
-                      {item.list &&
-                        item.list.map(({ question, answer }) => (
-                          <>
-                            <Typography variant="subtitle1" style={{ fontWeight: 900 }}>
-                              {question}
-                            </Typography>
-                            <Typography paragraph variant="body2">
-                              {answer}
-                            </Typography>
-                          </>
-                        ))}
-                      <Grid container spacing={2}>
-                        {item.linkedIn !== '' && (
-                          <Grid item>
-                            <Tooltip title="LinkedIn">
-                              <IconButton href={item.linkedIn} target="_blank" color="primary">
-                                <FontAwesomeIcon icon={faLinkedin} />
-                              </IconButton>
-                            </Tooltip>
-                          </Grid>
-                        )}
-                        {item.mail && (
-                          <Grid item>
-                            <Tooltip title="E-mail">
-                              <IconButton
-                                href={`mailto:${item.mail}`}
-                                target="_blank"
-                                color="primary"
-                              >
-                                <FontAwesomeIcon icon={faEnvelope} />
-                              </IconButton>
-                            </Tooltip>
-                          </Grid>
-                        )}
-                      </Grid>
-                    </DialogContent>
-                  </Grid>
-                </Grid>
-              </Dialog>
+                </Dialog>
+              )}
             </>
           ))}
           <Grid item xs={12} sm={6} md={4}>
@@ -314,6 +340,7 @@ export const aboutPageQuery = graphql`
           title
           persons {
             title
+            featured
             list {
               question
               answer

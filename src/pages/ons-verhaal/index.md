@@ -8,6 +8,7 @@ aboutBlock2:
   title: Het LEF team
   persons:
     - title: Thijs de Vries
+      featured: true
       list: 
         - question: Dit wou ik vroeger worden
           answer: Automonteur voor Volkswagen Kevers.
@@ -20,6 +21,7 @@ aboutBlock2:
       linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
       mail: thijs@lefgroningen.nl
     - title: Teddy Monninkhof
+      featured: true
       list: 
         - question: Dit wou ik vroeger worden
           answer: Dolfijnentrainer. Dit carrièrepad heb ik uit milieuvriendelijke overwegingen gestaakt.
@@ -31,7 +33,8 @@ aboutBlock2:
       image: /img/ted-portret.jpg
       linkedIn: https://www.linkedin.com/in/teddy-monninkhof-77725372/
       mail: teddy@lefgroningen.nl
-    - title: Victor
+    - title: Viktor
+      featured: false
       list: 
         - question: Leeftijd
           answer: '25'
@@ -42,6 +45,7 @@ aboutBlock2:
       linkedIn: ''
       mail: ''
     - title: Nadja
+      featured: false
       list: 
         - question: Leeftijd
           answer: '22'
@@ -52,6 +56,7 @@ aboutBlock2:
       linkedIn: ''
       mail: ''
     - title: Marel
+      featured: false
       list: 
         - question: Leeftijd
           answer: '21'
@@ -62,6 +67,7 @@ aboutBlock2:
       linkedIn: ''
       mail: ''
     - title: Camilla
+      featured: false
       list: 
         - question: Leeftijd
           answer: '22'
@@ -72,6 +78,7 @@ aboutBlock2:
       linkedIn: ''
       mail: ''
     - title: Jacco
+      featured: false
       list: 
         - question: Leeftijd
           answer: '18'
@@ -82,6 +89,7 @@ aboutBlock2:
       linkedIn: ''
       mail: ''
     - title: Linde
+      featured: false
       list: 
         - question: Leeftijd
           answer: '18'
@@ -92,6 +100,7 @@ aboutBlock2:
       linkedIn: ''
       mail: ''
     - title: Liset
+      featured: false
       list: 
         - question: Leeftijd
           answer: '22'
@@ -102,6 +111,18 @@ aboutBlock2:
       linkedIn: ''
       mail: ''
     - title: Willem
+      featured: false
+      list: 
+        - question: Leeftijd
+          answer: '23'
+        - question: Studie
+          answer: 'Psychologie'
+      position: ''
+      image: /img/unknown5.jpg
+      linkedIn: ''
+      mail: ''
+    - title: Matthijs
+      featured: false
       list: 
         - question: Leeftijd
           answer: '23'
@@ -111,44 +132,37 @@ aboutBlock2:
       image: /img/unknown1.jpg
       linkedIn: ''
       mail: ''
-    - title: Matthijs
-      list: 
-        - question: Leeftijd
-          answer: '23'
-        - question: Studie
-          answer: 'Psychologie'
-      position: ''
-      image: /img/unknown2.jpg
-      linkedIn: ''
-      mail: ''
     - title: Ruben
+      featured: false
       list: 
         - question: Leeftijd
           answer: '24'
         - question: Studie
           answer: 'Strategic Innovation Management & Change Management'
       position: ''
-      image: /img/unknown3.jpg
+      image: /img/unknown4.jpg
       linkedIn: ''
       mail: ''
     - title: Michiel
+      featured: false
       list: 
         - question: Leeftijd
           answer: '25'
         - question: Studie
           answer: 'European Spatial Planning and Environmental Policy - Environment and Society Studies'
       position: ''
-      image: /img/unknown4.jpg
+      image: /img/unknown2.jpg
       linkedIn: ''
       mail: ''
     - title: Eline
+      featured: false
       list: 
         - question: Leeftijd
           answer: '25'
         - question: Studie
           answer: 'Economics & business economics en American Studies'
       position: ''
-      image: /img/unknown5.jpg
+      image: /img/unknown3.jpg
       linkedIn: ''
       mail: ''
   extraBlock:
