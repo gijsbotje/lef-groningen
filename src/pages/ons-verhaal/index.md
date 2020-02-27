@@ -2,7 +2,7 @@
 templateKey: about-page
 aboutBlock1:
   title: Ons verhaal
-  intro: "Je moet lef hebben om te doen waar je blij van wordt. Voor ons is dat ondernemen: een heftige cocktail van adrenaline, enorme blunders en grootste successen, maar vooral heel veel lol. Dit is voor ons ook een manier van werken geworden, klein beginnen en stap-voor-stap iets groots creëren. Daar willen we andere mee inspireren."
+  intro: "Je moet lef hebben om te doen waar je blij van wordt. Voor ons is dat ondernemen: een heftige cocktail van adrenaline, enorme blunders en grootste successen, maar vooral heel veel lol. Dit is voor ons ook een manier van werken geworden, klein beginnen en stap-voor-stap iets groots creëren. Daar willen we anderen mee inspireren."
   background: /img/coffee-cup.jpg
 aboutBlock2:
   title: Het LEF team
@@ -28,7 +28,7 @@ aboutBlock2:
         - question: Dit wou ik vroeger worden
           answer: Dolfijnentrainer. Dit carrièrepad heb ik uit milieuvriendelijke overwegingen gestaakt.
         - question: Dit heb ik ervoor gestudeerd
-          answer: HRM aan de Hanzehogeschool en Change management aan de Rijksuniversiteit Groningen.
+          answer: HRM aan de Hanzehogeschool en Change Management aan de Rijksuniversiteit Groningen.
         - question: Dit was mijn eerste baan
           answer: Vanuit de schoolbanken meteen het ondernemerspad opgegaan. Geen baan in de Randstad, geen 9 tot 5 werktijden, maar wel oprichter van LEF. Beter kan bijna niet.
         - question: Dit is mijn ambitie
