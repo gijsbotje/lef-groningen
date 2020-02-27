@@ -9,6 +9,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import lefTheme from '../../theme';
 import { jssPreset, StylesProvider } from '@material-ui/styles';
 import { create } from 'jss';
+import SiteContext from '../../components/SiteContext/SiteContext';
 
 let theme = createMuiTheme(lefTheme);
 theme = responsiveFontSizes(theme);
@@ -19,6 +20,14 @@ const StyleInjector = ({ children }) => {
   const [ready, setReady] = useState(false);
   const [jss, setJss] = useState(null);
   const [sheetsManager, setSheetsManager] = useState(null);
+
+  const [navbarSettings, setNavbarSettings] = useState({
+    scrolledColor: 'paper',
+    textColor: 'light',
+  });
+  const [footerSettings, setFooterSettings] = useState({
+    color: 'secondary',
+  });
 
   const handleRef = refParam => {
     const ownerDocument = refParam ? refParam.ownerDocument : null;
@@ -52,7 +61,11 @@ const StyleInjector = ({ children }) => {
               <MuiThemeProvider theme={theme}>
                 <ThemeProvider theme={theme}>
                   <CssBaseline />
-                  {children}
+                  <SiteContext.Provider
+                    value={{ navbarSettings, setNavbarSettings, footerSettings, setFooterSettings }}
+                  >
+                    {children}
+                  </SiteContext.Provider>
                 </ThemeProvider>
               </MuiThemeProvider>
             </StyleSheetManager>
