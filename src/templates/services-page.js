@@ -46,13 +46,13 @@ export const ServicesPageTemplate = ({
       </ColorBlock>
       <ColorBlock backgroundColor="white" maxWidth="md" fullHeight={false}>
         <Section>
-          <Typography variant="h3" component="h2" gutterBottom align="center">
+          <Typography variant="h3" component="h2" gutterBottom align="center" style={{ marginBottom: '2rem' }}>
             {subTitle}
           </Typography>
           <Typography variant="body1" align="center" paragraph style={{ fontSize: '1.2rem' }}>
             {intro}
           </Typography>
-          <Grid container spacing={5} style={{ marginTop: '24px' }}>
+          <Grid container spacing={5} style={{ marginTop: '40px' }}>
             {[ideeenBrouwerij, veranderAanjagers].map(({ title: itemTitle, image }) => (
               <Grid item xs={12} sm={6} style={{ textAlign: 'center' }}>
                 <ScrollTo selector={`#${itemTitle.toLowerCase().replace(/ /g, '-')}`}>
@@ -158,7 +158,7 @@ export const ServicesPageTemplate = ({
           <Typography variant="body1" align="center" paragraph>
             {dienstAnnouncement.announcement}
           </Typography>
-          <Typography variant="body1" align="center">
+          <Typography variant="h6" align="center">
             {dienstAnnouncement.finish}
           </Typography>
         </Section>
@@ -264,7 +264,6 @@ export const ServicesPageQuery = graphql`
         }
         veranderAanjagers {
           title
-          lead
           image {
             childImageSharp {
               fluid(maxWidth: 240, quality: 90) {

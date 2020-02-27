@@ -62,9 +62,6 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
           <Typography variant="h3" component="h1" align="center" gutterBottom>
             {title}
           </Typography>
-          <Typography variant="body1" align="center" paragraph style={{ fontSize: '1.2rem' }}>
-            {aboutBlock1.intro}
-          </Typography>
         </Container>
       </ColorBlock>
       <ColorBlock
@@ -75,16 +72,13 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
         elevation={0}
         equalPadding
         maxWidth="md"
-        style={{
-          marginTop: '-1rem',
-          marginBottom: '-1rem',
-          paddingTop: '0rem',
-          paddingBottom: '0rem',
-        }}
       >
         <Section>
-          <Typography variant="h3" component="h1" align="center" gutterBottom>
+          <Typography variant="h3" component="h1" align="center" style={{ marginBottom: '40px' }}>
             {aboutBlock2.title}
+          </Typography>
+          <Typography variant="body1" align="center" paragraph style={{ fontSize: '1.2rem', marginBottom: '56px' }}>
+            {aboutBlock1.intro}
           </Typography>
         </Section>
         <Grid container spacing={4}>

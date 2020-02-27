@@ -27,7 +27,6 @@ ideeenBrouwerij:
 veranderAanjagers:
   title: Project aanjagers
   image: /img/vuur.jpg
-  lead: 'TO BE ANNOUNCED'
   items:
       - title: Praktisch resultaat
         text: Wij creëren tastbaar resultaat. Daarom kun je ons benaderen als er iets op touw moet worden gezet. We helpen met een plan en verbinden onze ondernemende manier van werken aan jouw organisatie.
@@ -40,8 +39,8 @@ veranderAanjagers:
         image: /img/wood-light-creative-space-68562.jpg
         
 dienstAnnouncement:
-  title: 'TOO BE ANNOUNCED'
-  subTitle: 'BEN JIJ KLAAR VOOR HET NIEUWE WERKEN?'
-  announcement: 'Met onze samenwerkingspartners ontwikkelen wij een uniek sector-overstijgend talenprogramma, gebaseerd op kennisdelen en opdrachtgericht werken.'
+  title: 'TO BE ANNOUNCED'
+  subTitle: 'Uniek sector-overstijgend talentprogramma'
+  announcement: 'Ben jij klaar voor het nieuwe werken? Met onze samenwerkingspartners ontwikkelen wij een uniek sector-overstijgend talentprogramma, gebaseerd op kennisdelen en opdrachtgericht werken tussen organisaties.'
   finish: 'Stay tuned, meer nieuws volgt!'
 ---
