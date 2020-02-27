@@ -81,7 +81,7 @@ aboutBlock2:
       image: /img/jacco.jpg
       linkedIn: ''
       mail: ''
-    - title: Line
+    - title: Linde
       list: 
         - question: Leeftijd
           answer: '18'

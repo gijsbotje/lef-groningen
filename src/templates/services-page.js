@@ -1,19 +1,25 @@
 import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Section from '../components/Section';
 import Grid from '@material-ui/core/Grid';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
 import ColorBlock from '../components/ColorBlock';
 import Box from '@material-ui/core/Box';
-import CardMedia from '@material-ui/core/CardMedia';
 import SiteContext from '../components/SiteContext';
 import Button from '@material-ui/core/Button';
+import ScrollTo from 'react-scroll-into-view';
 
-export const ServicesPageTemplate = ({ title, intro, ideeenbrouwerij, veranderAanjagers }) => {
+export const ServicesPageTemplate = ({
+  title,
+  bannerImage,
+  subTitle,
+  intro,
+  ideeenBrouwerij,
+  veranderAanjagers,
+  dienstAnnouncement,
+}) => {
   const { setNavbarSettings } = useContext(SiteContext);
 
   useEffect(() => {
@@ -28,26 +34,56 @@ export const ServicesPageTemplate = ({ title, intro, ideeenbrouwerij, veranderAa
       <ColorBlock
         backgroundColor="yellow"
         showScrollDown
-        scrollToId={ideeenbrouwerij.title.toLowerCase().replace(/ /g, '-')}
-        backgroundImage={ideeenbrouwerij.background.childImageSharp.fluid.src}
+        scrollToId={ideeenBrouwerij.title.toLowerCase().replace(/ /g, '-')}
+        backgroundImage={bannerImage.childImageSharp.fluid.src}
         maxWidth="sm"
       >
         <Section>
           <Typography variant="h2" component="h2" gutterBottom align="center">
             {title}
           </Typography>
+        </Section>
+      </ColorBlock>
+      <ColorBlock backgroundColor="white" maxWidth="md" fullHeight={false}>
+        <Section>
+          <Typography variant="h3" component="h2" gutterBottom align="center">
+            {subTitle}
+          </Typography>
           <Typography variant="body1" align="center" paragraph style={{ fontSize: '1.2rem' }}>
             {intro}
           </Typography>
+          <Grid container spacing={5} style={{ marginTop: '24px' }}>
+            {[ideeenBrouwerij, veranderAanjagers].map(({ title: itemTitle, image }) => (
+              <Grid item xs={12} sm={6} style={{ textAlign: 'center' }}>
+                <ScrollTo selector={`#${itemTitle.toLowerCase().replace(/ /g, '-')}`}>
+                  <Typography variant="h5" gutterBottom>
+                    {itemTitle}
+                  </Typography>
+                  <PreviewCompatibleImage
+                    imageInfo={image}
+                    style={{
+                      maxWidth: '240px',
+                      marginLeft: 'auto',
+                      marginRight: 'auto',
+                      marginBottom: '16px',
+                    }}
+                  />
+                  <Button type="button" variant="text" color="primary">
+                    Lees meer
+                  </Button>
+                </ScrollTo>
+              </Grid>
+            ))}
+          </Grid>
         </Section>
       </ColorBlock>
       <ColorBlock
         backgroundColor="white"
-        maxWidth="lg"
-        id={ideeenbrouwerij.title.toLowerCase().replace(/ /g, '-')}
+        maxWidth="md"
+        id={ideeenBrouwerij.title.toLowerCase().replace(/ /g, '-')}
         fullHeight={false}
       >
-        <Section style={{ marginTop: '3rem' }}>
+        <Section>
           <Typography
             variant="h3"
             component="h2"
@@ -55,126 +91,77 @@ export const ServicesPageTemplate = ({ title, intro, ideeenbrouwerij, veranderAa
             gutterBottom
             style={{ marginBottom: '4rem' }}
           >
-            {ideeenbrouwerij.title}
+            {ideeenBrouwerij.title}
           </Typography>
-          <Grid container spacing={2}>
-            {ideeenbrouwerij.items.map(({ text, image }) => (
-              <Grid item xs={12} sm={6} md={3}>
-                <Card elevation={6} style={{ height: '100%' }}>
-                  <CardMedia>
-                    <Box width="50%" mx="auto" my={2}>
-                      <PreviewCompatibleImage imageInfo={image} />
-                    </Box>
-                  </CardMedia>
-                  <CardContent>
-                    <Box
-                      display="flex"
-                      flexDirection="column"
-                      justifyContent="center"
-                      alignItems="center"
-                      height="100%"
-                      mb={3}
-                      px={2}
-                    >
-                      <Typography variant="body1" align="center">
-                        {text}
-                      </Typography>
-                    </Box>
-                  </CardContent>
-                </Card>
+          {ideeenBrouwerij.items.map(({ title: itemTitle, text, image }, index) => (
+            <Grid container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
+              <Grid item xs={12} sm={6}>
+                <PreviewCompatibleImage imageInfo={image} />
               </Grid>
-            ))}
-            <Grid item xs={12} sm={6} md={3}>
-              <Card elevation={6} style={{ height: '100%' }}>
-                <Box
-                  bgcolor="secondary.main"
-                  height="100%"
-                  display="flex"
-                  flexDirection="column"
-                  justifyContent="center"
-                  alignItems="center"
-                >
-                  <CardContent>
-                    <Typography variant="body1" align="center">
-                      Klik
-                    </Typography>
-                  </CardContent>
+              <Grid item xs={12} sm={6} container direction="column" justify="center">
+                <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5}>
+                  <Typography variant="h6" align={index % 2 === 0 ? 'right' : 'left'}>
+                    {itemTitle}
+                  </Typography>
+                  <Typography variant="body1" align={index % 2 === 0 ? 'right' : 'left'}>
+                    {text}
+                  </Typography>
                 </Box>
-              </Card>
+              </Grid>
             </Grid>
-          </Grid>
+          ))}
         </Section>
       </ColorBlock>
-      <ColorBlock backgroundColor="white" maxWidth="lg" fullHeight={false}>
+      <ColorBlock
+        backgroundColor="white"
+        maxWidth="md"
+        id={veranderAanjagers.title.toLowerCase().replace(/ /g, '-')}
+        fullHeight={false}
+      >
         <Section>
-          <Typography variant="h3" component="h2" align="center" style={{ marginBottom: '4rem' }}>
+          <Typography
+            variant="h3"
+            component="h2"
+            align="center"
+            gutterBottom
+            style={{ marginBottom: '4rem' }}
+          >
             {veranderAanjagers.title}
           </Typography>
-          <Grid container spacing={2}>
-            {veranderAanjagers.items.map(({ text, image }) => (
-              <Grid item xs={12} sm={6} md={3}>
-                <Card elevation={6} style={{ height: '100%' }}>
-                  <CardMedia>
-                    <Box width="50%" mx="auto" my={2}>
-                      <PreviewCompatibleImage imageInfo={image} />
-                    </Box>
-                  </CardMedia>
-                  <CardContent>
-                    <Box
-                      display="flex"
-                      flexDirection="column"
-                      justifyContent="center"
-                      alignItems="center"
-                      height="100%"
-                      mb={3}
-                      px={2}
-                    >
-                      <Typography variant="body1" align="center">
-                        {text}
-                      </Typography>
-                    </Box>
-                  </CardContent>
-                </Card>
+          {veranderAanjagers.items.map(({ title: itemTitle, text, image }, index) => (
+            <Grid container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
+              <Grid item xs={12} sm={6}>
+                <PreviewCompatibleImage imageInfo={image} />
               </Grid>
-            ))}
-            <Grid item xs={12} sm={6} md={3}>
-              <Card elevation={6} style={{ height: '100%' }}>
-                <Box
-                  bgcolor="secondary.main"
-                  height="100%"
-                  display="flex"
-                  flexDirection="column"
-                  justifyContent="center"
-                  alignItems="center"
-                >
-                  <CardContent>
-                    <Typography variant="body1" align="center">
-                      Klik
-                    </Typography>
-                  </CardContent>
+              <Grid item xs={12} sm={6} container direction="column" justify="center">
+                <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5}>
+                  <Typography variant="h6" align={index % 2 === 0 ? 'right' : 'left'}>
+                    {itemTitle}
+                  </Typography>
+                  <Typography variant="body1" align={index % 2 === 0 ? 'right' : 'left'}>
+                    {text}
+                  </Typography>
                 </Box>
-              </Card>
+              </Grid>
             </Grid>
-          </Grid>
+          ))}
         </Section>
       </ColorBlock>
-      <ColorBlock>
-        <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
-          <Typography variant="h3" component="div" gutterBottom align="center">
-            Get in touch!
+      <ColorBlock backgroundColor="white" maxWidth="sm" fullHeight={false}>
+        <Section>
+          <Typography variant="h6" align="center" color="textSecondary" gutterBottom>
+            {dienstAnnouncement.title}
           </Typography>
-          <Box mt={5}>
-            <Button
-              variant="contained"
-              component={Link}
-              to="/contact"
-              size="large"
-              color="secondary"
-            >
-              Neem contact op
-            </Button>
-          </Box>
-        </Box>
+          <Typography variant="h4" component="h2" align="center" gutterBottom>
+            {dienstAnnouncement.subTitle}
+          </Typography>
+          <Typography variant="body1" align="center" paragraph>
+            {dienstAnnouncement.announcement}
+          </Typography>
+          <Typography variant="body1" align="center">
+            {dienstAnnouncement.finish}
+          </Typography>
+        </Section>
       </ColorBlock>
     </>
   );
@@ -182,15 +169,21 @@ export const ServicesPageTemplate = ({ title, intro, ideeenbrouwerij, veranderAa
 
 ServicesPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  bannerImage: PropTypes.object,
+  subTitle: PropTypes.string,
   intro: PropTypes.string,
-  ideeenbrouwerij: PropTypes.object,
+  ideeenBrouwerij: PropTypes.object,
   veranderAanjagers: PropTypes.object,
+  dienstAnnouncement: PropTypes.object,
 };
 
 ServicesPageTemplate.defaultProps = {
   intro: undefined,
-  ideeenbrouwerij: {},
+  bannerImage: undefined,
+  subTitle: undefined,
+  ideeenBrouwerij: {},
   veranderAanjagers: {},
+  dienstAnnouncement: {},
 };
 
 const ServicesPage = ({ data }) => {
@@ -199,9 +192,12 @@ const ServicesPage = ({ data }) => {
   return (
     <ServicesPageTemplate
       title={frontmatter.title}
+      bannerImage={frontmatter.bannerImage}
+      subTitle={frontmatter.subTitle}
       intro={frontmatter.intro}
-      ideeenbrouwerij={frontmatter.ideeenbrouwerij}
+      ideeenBrouwerij={frontmatter.ideeenBrouwerij}
       veranderAanjagers={frontmatter.veranderAanjagers}
+      dienstAnnouncement={frontmatter.dienstAnnouncement}
     />
   );
 };
@@ -229,14 +225,22 @@ export const ServicesPageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "services-page" } }) {
       frontmatter {
         title
-          intro
-        ideeenbrouwerij {
+        subTitle
+        intro
+        bannerImage {
+          childImageSharp {
+            fluid(maxWidth: 1920, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        ideeenBrouwerij {
           title
           lead
           intro
-          background {
+          image {
             childImageSharp {
-              fluid(maxWidth: 1920, quality: 90) {
+              fluid(maxWidth: 240, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -246,7 +250,7 @@ export const ServicesPageQuery = graphql`
             text
             image {
               childImageSharp {
-                fluid(maxWidth: 500, quality: 64) {
+                fluid(maxWidth: 600, maxHeight: 500, quality: 80, cropFocus: CENTER) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -261,23 +265,30 @@ export const ServicesPageQuery = graphql`
         veranderAanjagers {
           title
           lead
-          intro
+          image {
+            childImageSharp {
+              fluid(maxWidth: 240, quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           items {
             title
             text
             image {
               childImageSharp {
-                fluid(maxWidth: 100, quality: 64) {
+                fluid(maxWidth: 600, maxHeight: 500, quality: 80, cropFocus: CENTER) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
           }
-          cta {
-            question
-            linkText
-            linkUrl
-          }
+        }
+        dienstAnnouncement {
+          title
+          subTitle
+          announcement
+          finish
         }
       }
     }
