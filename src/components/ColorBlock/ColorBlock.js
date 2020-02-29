@@ -4,8 +4,59 @@ import styled, { keyframes } from 'styled-components';
 import clsx from 'clsx';
 import Container from '../Container';
 import ScrollTo from 'react-scroll-into-view';
+import BackgroundImage from 'gatsby-background-image';
 
-const ColorBlockBG = styled.div`
+const ImageBlockBG = styled(BackgroundImage)`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+  background-size: cover;
+  background-position: ${props => props.backgroundPosition};
+
+  &.equal-padding {
+    padding-top: 1rem;
+  }
+
+  &.full-height {
+    min-height: 100vh;
+  }
+
+  &.bg-red {
+    background-color: ${props => props.theme.palette.error.main};
+    color: ${props => props.theme.palette.error.contrastText};
+  }
+
+  &.bg-green {
+    background-color: ${props => props.theme.palette.success.main};
+    color: ${props => props.theme.palette.success.contrastText};
+  }
+
+  &.bg-blue {
+    background-color: ${props => props.theme.palette.info.main};
+    color: ${props => props.theme.palette.info.contrastText};
+  }
+
+  &.bg-yellow {
+    background-color: ${props => props.theme.palette.secondary.main};
+    color: ${props => props.theme.palette.secondary.contrastText};
+  }
+
+  &.bg-dark {
+    background-color: ${props => props.theme.palette.common.black};
+    color: ${props => props.theme.palette.common.white};
+  }
+
+  &.bg-white {
+    background-color: ${props => props.theme.palette.common.white};
+    color: ${props => props.theme.palette.common.black};
+  }
+`;
+
+const ColorBlockBG = styled.section`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -51,12 +102,6 @@ const ColorBlockBG = styled.div`
     &-7 {
       box-shadow: ${props => props.theme.shadows[7]};
     }
-  }
-
-  &.has-bg-image {
-    background-size: cover;
-    background-position: ${props => props.backgroundPosition};
-    background-origin: ${props => props.backgroundOrigin};
   }
 
   &.bg-red {
@@ -123,7 +168,6 @@ const ScrollDownIndicator = styled.svg`
 
 const ColorBlock = ({
   backgroundColor,
-  backgroundImage,
   backgroundPosition,
   elevation,
   equalPadding,
@@ -136,38 +180,66 @@ const ColorBlock = ({
   maxWidth,
   disableGutters,
   minHeight,
-}) => (
-  <ColorBlockBG
-    id={id}
-    className={clsx(`bg-${backgroundColor} elevation-${elevation || 0}`, {
-      'has-bg-image': backgroundImage,
-      'is-first': isFirst,
-      'full-height': fullHeight,
-      'equal-padding': equalPadding,
-      rounded: !!elevation,
-    })}
-    minHeight={minHeight}
-    backgroundPosition={backgroundPosition}
-    style={{ backgroundImage: backgroundImage && `url(${backgroundImage})`, ...style }}
-  >
-    <Container maxWidth={maxWidth} disableGutters={disableGutters}>
-      {children}
-    </Container>
-    {scrollToId && (
-      <ScrollTo selector={`#${scrollToId || ''}`}>
-        <ScrollDownBox>
-          <ScrollDownIndicator viewBox="0 0 95 54">
-            <path fill="CurrentColor" d="M95 6l-7-6-41 41L6 0 0 6l47 48L95 6z" />
-          </ScrollDownIndicator>
-        </ScrollDownBox>
-      </ScrollTo>
-    )}
-  </ColorBlockBG>
-);
+  fluid,
+}) => {
+  const BlockContent = () => (
+    <>
+      <Container maxWidth={maxWidth} disableGutters={disableGutters}>
+        {children}
+      </Container>
+      {scrollToId && (
+        <ScrollTo selector={`#${scrollToId || ''}`}>
+          <ScrollDownBox>
+            <ScrollDownIndicator viewBox="0 0 95 54">
+              <path fill="CurrentColor" d="M95 6l-7-6-41 41L6 0 0 6l47 48L95 6z" />
+            </ScrollDownIndicator>
+          </ScrollDownBox>
+        </ScrollTo>
+      )}
+    </>
+  );
+
+  if (fluid) {
+    return (
+      <ImageBlockBG
+        Tag="section"
+        fluid={fluid}
+        id={id}
+        className={clsx(`bg-${backgroundColor} elevation-${elevation || 0}`, {
+          'is-first': isFirst,
+          'full-height': fullHeight,
+          'equal-padding': equalPadding,
+          rounded: !!elevation,
+        })}
+        backgroundPosition={backgroundPosition}
+        minHeight={minHeight}
+        style={{ ...style }}
+      >
+        <BlockContent />
+      </ImageBlockBG>
+    );
+  }
+
+  return (
+    <ColorBlockBG
+      id={id}
+      className={clsx(`bg-${backgroundColor} elevation-${elevation || 0}`, {
+        'is-first': isFirst,
+        'full-height': fullHeight,
+        'equal-padding': equalPadding,
+        rounded: !!elevation,
+      })}
+      minHeight={minHeight}
+      backgroundPosition={backgroundPosition}
+      style={{ ...style }}
+    >
+      <BlockContent />
+    </ColorBlockBG>
+  );
+};
 
 ColorBlock.propTypes = {
   backgroundColor: PropTypes.oneOf(['red', 'blue', 'yellow', 'dark', 'white']),
-  backgroundImage: PropTypes.string,
   backgroundPosition: PropTypes.string,
   children: PropTypes.any,
   fullHeight: PropTypes.bool,
@@ -179,7 +251,6 @@ ColorBlock.propTypes = {
 
 ColorBlock.defaultProps = {
   backgroundColor: 'white',
-  backgroundImage: undefined,
   backgroundPosition: 'center center',
   children: undefined,
   fullHeight: true,

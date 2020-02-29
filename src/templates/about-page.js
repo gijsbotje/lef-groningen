@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { Fragment, useContext, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
@@ -54,7 +54,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
         equalPadding
         showScrollDown
         scrollToId="about-anchor"
-        backgroundImage={aboutBlock1.background.childImageSharp.fluid.src}
+        fluid={aboutBlock1.background.childImageSharp.fluid}
         backgroundPosition="bottom left"
         maxWidth="sm"
       >
@@ -77,16 +77,24 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
           <Typography variant="h3" component="h1" align="center" style={{ marginBottom: '40px' }}>
             {aboutBlock2.title}
           </Typography>
-          <Typography variant="body1" align="center" paragraph style={{ fontSize: '1.2rem', marginBottom: '56px' }}>
+          <Typography
+            variant="body1"
+            align="center"
+            paragraph
+            style={{ fontSize: '1.2rem', marginBottom: '56px' }}
+          >
             {aboutBlock1.intro}
           </Typography>
         </Section>
         <Grid container spacing={4}>
           {aboutBlock2.persons.map((item, index) => (
-            <>
-              <Grid key={item.text} item xs={12} sm={6} md={4}>
+            <Fragment key={item.title}>
+              <Grid item xs={12} sm={6} md={4}>
                 <Card style={{ height: '100%' }} elevation={6}>
-                  <CardActionArea onClick={() => (item.featured ? setOpenDialogId(index) : null)}>
+                  <CardActionArea
+                    component="div"
+                    onClick={() => (item.featured ? setOpenDialogId(index) : null)}
+                  >
                     <HoverBlock
                       overlay={
                         <Box
@@ -171,7 +179,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                   PaperComponent={ResponsivePaper}
                 >
                   <Grid container direction="row-reverse" style={{ height: '100%' }}>
-                    <Grid xs={12} md={6}>
+                    <Grid item xs={12} md={6}>
                       <Box position="relative" height="100%">
                         <PreviewCompatibleImage
                           imageInfo={item}
@@ -187,21 +195,21 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                         </Box>
                       </Box>
                     </Grid>
-                    <Grid xs={12} md={6}>
+                    <Grid item xs={12} md={6}>
                       <DialogContent>
                         <Typography variant="h4" gutterBottom>
                           {item.title}
                         </Typography>
                         {item.list &&
                           item.list.map(({ question, answer }) => (
-                            <>
+                            <Fragment key={question}>
                               <Typography variant="subtitle1" style={{ fontWeight: 900 }}>
                                 {question}
                               </Typography>
                               <Typography paragraph variant="body2">
                                 {answer}
                               </Typography>
-                            </>
+                            </Fragment>
                           ))}
                         <Grid container spacing={2}>
                           {item.linkedIn !== '' && (
@@ -232,7 +240,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                   </Grid>
                 </Dialog>
               )}
-            </>
+            </Fragment>
           ))}
           <Grid item xs={12} sm={6} md={4}>
             <Card style={{ height: '100%' }} elevation={6}>
@@ -258,7 +266,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                   }
                 >
                   <PreviewCompatibleImage
-                    imageInfo={aboutBlock2.extraBlock.image}
+                    imageInfo={{ image: aboutBlock2.extraBlock.image }}
                     style={{
                       objectFit: 'cover',
                       height: '100%',
@@ -325,7 +333,7 @@ export const aboutPageQuery = graphql`
           background {
             childImageSharp {
               fluid(maxWidth: 1920, quality: 90) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -342,7 +350,7 @@ export const aboutPageQuery = graphql`
             image {
               childImageSharp {
                 fluid(maxWidth: 800, maxHeight: 800, quality: 80) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }
@@ -356,7 +364,7 @@ export const aboutPageQuery = graphql`
             image {
               childImageSharp {
                 fluid(maxWidth: 800, maxHeight: 800, quality: 80) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }

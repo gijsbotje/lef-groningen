@@ -1,18 +1,16 @@
 import React, { useContext, useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
 import { navigate } from 'gatsby-link';
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Section from '../../components/Section';
 import Container from '../../components/Container';
 import SiteContext from '../../components/SiteContext';
-import { useStaticQuery, graphql } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import ColorBlock from '../../components/ColorBlock';
 import ContactForm from '../../components/ContactForm';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function encode(data) {
   return Object.keys(data)
@@ -21,7 +19,6 @@ function encode(data) {
 }
 
 const Index = () => {
-  const [isValidated, setIsValided] = useState(false);
   const [fields, setFields] = useState({});
   const { setNavbarSettings } = useContext(SiteContext);
 
@@ -30,7 +27,7 @@ const Index = () => {
       file(relativePath: { eq: "yellow-phone.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1920, quality: 90) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
@@ -38,7 +35,7 @@ const Index = () => {
   `);
 
   const handleChange = e => {
-    setFields({ [e.target.name]: e.target.value });
+    setFields({ ...fields, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = e => {
@@ -64,7 +61,7 @@ const Index = () => {
     <>
       <ColorBlock
         backgroundColor="yellow"
-        backgroundImage={data.file.childImageSharp.fluid.src}
+        fluid={data.file.childImageSharp.fluid}
         backgroundPosition="center bottom"
       >
         <Typography variant="h3" component="h1" align="center" style={{ marginBottom: '15rem' }}>
@@ -90,7 +87,7 @@ const Index = () => {
               </Typography>
               <br />
               <Link href="https://linkedin.com" target="_blank">
-                <FontAwesomeIcon icon="linkedIn" /> LinkedIn
+                <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
               </Link>
             </Grid>
             <Grid item xs={12} sm={6}>

@@ -87,7 +87,7 @@ const Footer = () => {
   return (
     <>
       <FooterBase>
-        <Container maxWidth="lg" equalPadding>
+        <Container maxWidth="lg">
           <Typography variant="h6" gutterBottom>
             LEF Groningen
           </Typography>
@@ -150,7 +150,11 @@ const Footer = () => {
                 <ColoredButton
                   type="submit"
                   variant="contained"
-                  color={footerSettings.color}
+                  color={
+                    ['default', 'inherit', 'primary', 'secondary'].includes(footerSettings.color)
+                      ? footerSettings.color
+                      : 'inherit'
+                  }
                   size="large"
                   style={{ marginTop: '1rem' }}
                   className={clsx(`button-${footerSettings.color}`)}

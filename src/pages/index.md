@@ -29,27 +29,27 @@ homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
   blocks:
     - image: /img/ted-en-thijs-camera-square.jpg
-      title: Ideeënbrouwerij
+      title: 1
       link: '/diensten'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
     - image: /img/thijs-tekenen-square.jpg
-      title: Ideeënbrouwerij
+      title: 2
       link: '/diensten'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
     - image: /img/ted-en-thijs-camera-square.jpg
-      title: Ideeënbrouwerij
+      title: 3
       link: '/diensten'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
     - image: /img/ted-en-thijs-square.jpg
-      title: Ideeënbrouwerij
+      title: 4
       link: '/diensten'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
     - image: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
-      title: Ideeënbrouwerij
+      title: 5
       link: '/diensten'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
     - image: /img/ted-en-thijs-camera-square.jpg
-      title: Verander aanjagers
+      title: 6
       link: '/diensten'
       text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet.
 ---

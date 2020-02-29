@@ -35,7 +35,7 @@ export const ServicesPageTemplate = ({
         backgroundColor="yellow"
         showScrollDown
         scrollToId={ideeenBrouwerij.title.toLowerCase().replace(/ /g, '-')}
-        backgroundImage={bannerImage.childImageSharp.fluid.src}
+        fluid={bannerImage.childImageSharp.fluid}
         maxWidth="sm"
       >
         <Section>
@@ -60,13 +60,13 @@ export const ServicesPageTemplate = ({
           </Typography>
           <Grid container spacing={5} style={{ marginTop: '40px' }}>
             {[ideeenBrouwerij, veranderAanjagers].map(({ title: itemTitle, image }) => (
-              <Grid item xs={12} sm={6} style={{ textAlign: 'center' }}>
+              <Grid key={itemTitle} item xs={12} sm={6} style={{ textAlign: 'center' }}>
                 <ScrollTo selector={`#${itemTitle.toLowerCase().replace(/ /g, '-')}`}>
                   <Typography variant="h5" gutterBottom>
                     {itemTitle}
                   </Typography>
                   <PreviewCompatibleImage
-                    imageInfo={image}
+                    imageInfo={{ image }}
                     style={{
                       maxWidth: '240px',
                       marginLeft: 'auto',
@@ -100,9 +100,9 @@ export const ServicesPageTemplate = ({
             {ideeenBrouwerij.title}
           </Typography>
           {ideeenBrouwerij.items.map(({ title: itemTitle, text, image }, index) => (
-            <Grid container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
+            <Grid key={itemTitle} container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
               <Grid item xs={12} sm={6}>
-                <PreviewCompatibleImage imageInfo={image} />
+                <PreviewCompatibleImage imageInfo={{ image }} />
               </Grid>
               <Grid item xs={12} sm={6} container direction="column" justify="center">
                 <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5}>
@@ -135,9 +135,9 @@ export const ServicesPageTemplate = ({
             {veranderAanjagers.title}
           </Typography>
           {veranderAanjagers.items.map(({ title: itemTitle, text, image }, index) => (
-            <Grid container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
+            <Grid key={itemTitle} container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
               <Grid item xs={12} sm={6}>
-                <PreviewCompatibleImage imageInfo={image} />
+                <PreviewCompatibleImage imageInfo={{ image }} />
               </Grid>
               <Grid item xs={12} sm={6} container direction="column" justify="center">
                 <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5}>
@@ -236,7 +236,7 @@ export const ServicesPageQuery = graphql`
         bannerImage {
           childImageSharp {
             fluid(maxWidth: 1920, quality: 90) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -247,7 +247,7 @@ export const ServicesPageQuery = graphql`
           image {
             childImageSharp {
               fluid(maxWidth: 240, quality: 90) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -257,7 +257,7 @@ export const ServicesPageQuery = graphql`
             image {
               childImageSharp {
                 fluid(maxWidth: 600, maxHeight: 500, quality: 80, cropFocus: CENTER) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }
@@ -273,7 +273,7 @@ export const ServicesPageQuery = graphql`
           image {
             childImageSharp {
               fluid(maxWidth: 240, quality: 90) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -283,7 +283,7 @@ export const ServicesPageQuery = graphql`
             image {
               childImageSharp {
                 fluid(maxWidth: 600, maxHeight: 500, quality: 80, cropFocus: CENTER) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }

@@ -3,7 +3,7 @@ templateKey: about-page
 aboutBlock1:
   title: Ons verhaal
   intro: "Je moet lef hebben om te doen waar je blij van wordt. Voor ons is dat ondernemen: een heftige cocktail van adrenaline, enorme blunders en grootste successen, maar vooral heel veel lol. Dit is voor ons ook een manier van werken geworden, klein beginnen en stap-voor-stap iets groots creëren. Daar willen we anderen mee inspireren."
-  background: /img/coffee-cup.jpg
+  background: /img/coffee-cup-with-logo.jpg
 aboutBlock2:
   title: Het LEF team
   persons:

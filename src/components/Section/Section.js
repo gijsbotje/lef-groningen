@@ -9,7 +9,7 @@ const Section = ({ children, style }) => (
 );
 
 Section.propTypes = {
-  children: PropTypes.elementType,
+  children: PropTypes.any,
   style: PropTypes.object,
 };
 

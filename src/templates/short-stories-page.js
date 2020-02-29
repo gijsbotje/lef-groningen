@@ -19,7 +19,7 @@ export const ShortStoriesTemplate = ({ title, background }) => {
       <ColorBlock
         backgroundColor="blue"
         scrollToId={title.toLowerCase().replace(/ /g, '-')}
-        backgroundImage={background.childImageSharp.fluid.src}
+        fluid={background.childImageSharp.fluid}
       >
         <Section>
           <Typography variant="h2" component="h2" gutterBottom align="center">
@@ -69,7 +69,7 @@ export const ShortStoriesQuery = graphql`
         background {
           childImageSharp {
             fluid(maxWidth: 1920, quality: 90) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }

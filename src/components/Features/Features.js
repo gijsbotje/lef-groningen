@@ -4,26 +4,6 @@ import PreviewCompatibleImage from '../PreviewCompatibleImage/PreviewCompatibleI
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import styled from 'styled-components';
-
-const SPACING = 6;
-
-const FeatureContainer = styled(Grid)`
-  && {
-    @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
-      width: calc(100% + ${props => props.theme.spacing(SPACING * 2)}px);
-      margin: -${props => props.theme.spacing(SPACING)}px;
-    }
-  }
-`;
-
-const FeatureItem = styled(Grid)`
-  && {
-    @media (min-width: ${props => props.theme.breakpoints.values.sm}px) {
-      padding: ${props => props.theme.spacing(SPACING)}px !important;
-    }
-  }
-`;
 
 const FeatureGrid = ({ gridItems }) => (
   <Grid container spacing={3} justify="space-between">

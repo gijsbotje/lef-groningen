@@ -35,7 +35,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
         {title}
       </Typography>
       <ColorBlock
-        backgroundColor={bgColor}
+        backgroundColor="blue"
         backgroundImage={homeBlock1.image.childImageSharp.fluid.src}
         backgroundPosition="bottom right"
         isFirst
@@ -43,6 +43,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
         showScrollDown
         equalPadding
         style={{ color: '#fff' }}
+        fluid={homeBlock1.image.childImageSharp.fluid}
       >
         <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
       </ColorBlock>
@@ -62,7 +63,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
         </Typography>
         <Grid container spacing={4}>
           {homeBlock3.blocks.map((block, index) => (
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid key={block.title} item xs={12} sm={6} md={4}>
               <Card
                 elevation={6}
                 style={{
@@ -173,7 +174,7 @@ export const pageQuery = graphql`
           image {
             childImageSharp {
               fluid(maxWidth: 1920, quality: 90) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -185,7 +186,7 @@ export const pageQuery = graphql`
             image {
               childImageSharp {
                 fluid(maxWidth: 800, quality: 50) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }
@@ -202,7 +203,7 @@ export const pageQuery = graphql`
             image {
               childImageSharp {
                 fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }

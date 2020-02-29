@@ -22,6 +22,7 @@
     "gatsby-background-image": "^0.10.2",
     "gatsby-image": "^2.0.23",
     "gatsby-plugin-compile-es6-packages": "^2.1.0",
+    "gatsby-plugin-google-analytics": "^2.1.36",
     "gatsby-plugin-material-ui": "^2.1.6",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-netlify-cms": "^4.1.6",
@@ -29,6 +30,7 @@
     "gatsby-plugin-react-helmet": "^3.0.4",
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-sharp": "^2.2.9",
+    "gatsby-plugin-sitemap": "^2.2.27",
     "gatsby-plugin-styled-components": "^3.1.17",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-attr": "^0.0.3",
@@ -63,6 +65,7 @@
     "clean": "gatsby clean",
     "start": "yarn develop",
     "build": "yarn clean && gatsby build",
+    "serve": "gatsby serve",
     "develop": "yarn clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
