@@ -19,7 +19,7 @@ aboutBlock2:
         - question: Dit is mijn ambitie
           answer: Toen ik 19 was ben ik mijn eerste onderneming begonnen. Op een korte pauze op een advocatenkantoor na, ben ik altijd blijven ondernemen. Voor mij is de vrijheid en de lol die dat met zich meebrengt fantastisch, en ik hoop dit nog een hele poos te kunnen blijven doen.
       position: Oprichter
-      image: /img/thijs-portret.jpg
+      image: /img/thijs-portret-2.jpg
       linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
       mail: thijs@lefgroningen.nl
     - title: Teddy Monninkhof
@@ -34,7 +34,7 @@ aboutBlock2:
         - question: Dit is mijn ambitie
           answer: Bewijzen dat het ook anders kan. De sprong in het diepe blijven wagen. Niet zoeken naar zekerheid, maar wel naar avontuur!
       position: Oprichter
-      image: /img/ted-portret.jpg
+      image: /img/teddy-portret-2.jpg
       linkedIn: https://www.linkedin.com/in/teddy-monninkhof-77725372/
       mail: teddy@lefgroningen.nl
     - title: Viktor

@@ -66,7 +66,7 @@ export const ServicesPageTemplate = ({
           <Typography variant="body1" align="center" paragraph style={{ fontSize: '1.2rem' }}>
             {intro}
           </Typography>
-          <Grid container spacing={5} style={{ marginTop: '40px' }}>
+          <Grid container spacing={4} style={{ marginTop: '40px' }}>
             {[ideeenBrouwerij, veranderAanjagers].map(({ title: itemTitle, image }) => (
               <Grid key={itemTitle} item xs={12} sm={6} style={{ textAlign: 'center' }}>
                 <ScrollTo selector={`#${itemTitle.toLowerCase().replace(/ /g, '-')}`}>
@@ -113,7 +113,7 @@ export const ServicesPageTemplate = ({
                 <PreviewCompatibleImage imageInfo={{ image, alt: itemTitle }} />
               </Grid>
               <Grid item xs={12} sm={6} container direction="column" justify="center">
-                <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5}>
+                <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5} py={5}>
                   <Typography
                     variant="h6"
                     component="div"
@@ -152,8 +152,12 @@ export const ServicesPageTemplate = ({
                 <PreviewCompatibleImage imageInfo={{ image, alt: itemTitle }} />
               </Grid>
               <Grid item xs={12} sm={6} container direction="column" justify="center">
-                <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5}>
-                  <Typography variant="h6" component="div" align={index % 2 === 0 ? 'right' : 'left'}>
+                <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5} py={5}>
+                  <Typography
+                    variant="h6"
+                    component="div"
+                    align={index % 2 === 0 ? 'right' : 'left'}
+                  >
                     {itemTitle}
                   </Typography>
                   <Typography variant="body1" align={index % 2 === 0 ? 'right' : 'left'}>

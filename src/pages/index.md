@@ -43,7 +43,7 @@ homeBlock3:
       link: '/diensten/'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       textOnly: true
-    - image: /img/ted-en-thijs-square.jpg
+    - image: /img/teddy-en-thijs-portret.jpg
       title: Teddy en Thijs
       link: '/diensten/'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.

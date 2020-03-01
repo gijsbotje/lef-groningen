@@ -9,10 +9,15 @@ import BlogRoll from '../components/BlogRoll/BlogRoll';
 import { Helmet } from 'react-helmet';
 
 export const ShortStoriesTemplate = ({ title, background }) => {
-  const { setNavbarSettings } = useContext(SiteContext);
+  const { setNavbarSettings, setFooterSettings } = useContext(SiteContext);
 
   useEffect(() => {
     setNavbarSettings({ scrolledColor: 'primary', textColor: 'light' });
+    setFooterSettings({ color: 'info' });
+
+    return () => {
+      setFooterSettings({ color: 'secondary' });
+    };
   }, []);
 
   return (
