@@ -268,7 +268,7 @@ export const ServicesPageQuery = graphql`
             text
             image {
               childImageSharp {
-                fluid(maxWidth: 600, maxHeight: 500, quality: 80, cropFocus: CENTER) {
+                fluid(maxWidth: 456, maxHeight: 380, quality: 80, cropFocus: CENTER) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
               }
@@ -294,7 +294,7 @@ export const ServicesPageQuery = graphql`
             text
             image {
               childImageSharp {
-                fluid(maxWidth: 600, maxHeight: 500, quality: 80, cropFocus: CENTER) {
+                fluid(maxWidth: 456, maxHeight: 380, quality: 80, cropFocus: CENTER) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
               }
