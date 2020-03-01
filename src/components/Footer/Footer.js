@@ -66,7 +66,7 @@ const Footer = () => {
   const { footerSettings } = useContext(SiteContext);
 
   const handleChange = e => {
-    setFields({ [e.target.name]: e.target.value });
+    setFields({ ...fields, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = e => {
