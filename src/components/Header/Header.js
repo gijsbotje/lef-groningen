@@ -72,19 +72,19 @@ const MobileMenuItemText = styled(ListItemText)`
 
 const menuItems = [
   {
-    to: '/diensten',
+    to: '/diensten/',
     label: 'Diensten',
   },
   {
-    to: '/ons-verhaal',
+    to: '/ons-verhaal/',
     label: 'Ons verhaal',
   },
   {
-    to: '/short-stories',
+    to: '/short-stories/',
     label: 'Short stories',
   },
   {
-    to: '/contact',
+    to: '/contact/',
     label: 'Contact',
   },
 ];

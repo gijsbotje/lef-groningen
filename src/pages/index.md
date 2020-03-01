@@ -8,7 +8,7 @@ homeBlock1:
   image: /img/blue-orange.jpg
   link:
     text: Lees meer over LEF
-    url: /ons-verhaal
+    url: /ons-verhaal/
 
 homeBlock2:
   title: De gereedschapskist
@@ -30,26 +30,26 @@ homeBlock3:
   blocks:
     - image: /img/ted-en-thijs-camera-square.jpg
       title: 1
-      link: '/diensten'
+      link: '/diensten/'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
     - image: /img/thijs-tekenen-square.jpg
       title: 2
-      link: '/diensten'
+      link: '/diensten/'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
     - image: /img/ted-en-thijs-camera-square.jpg
       title: 3
-      link: '/diensten'
+      link: '/diensten/'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
     - image: /img/ted-en-thijs-square.jpg
       title: 4
-      link: '/diensten'
+      link: '/diensten/'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
     - image: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
       title: 5
-      link: '/diensten'
+      link: '/diensten/'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
     - image: /img/ted-en-thijs-camera-square.jpg
       title: 6
-      link: '/diensten'
+      link: '/diensten/'
       text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet.
 ---
