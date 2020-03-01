@@ -102,7 +102,7 @@ const Header = () => {
         <ScrollAppBar color="transparent" position="fixed" style={{ transition: '.2s ease' }}>
           <Container maxWidth="lg">
             <StyledToolBar>
-              <Logo href="/" title="Lef Groningen - home">
+              <Logo href="/" title="LEF Groningen - home">
                 <LefLogo style={{ height: '100%' }} />
               </Logo>
               <Hidden implementation="css" xsDown>

@@ -3,8 +3,8 @@ const pkg = require(`./package.json`);
 module.exports = {
   siteMetadata: {
     siteUrl: 'http://lefgroningen.nl',
-    title: 'Lef groningen',
-    description: 'Lef groningen, het advies bureau met lef',
+    title: 'LEF Groningen',
+    description: 'LEF Groningen, het advies bureau met lef',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
