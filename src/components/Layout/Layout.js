@@ -37,6 +37,8 @@ const TemplateWrapper = ({ children }) => {
           sizes="16x16"
         />
 
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
