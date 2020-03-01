@@ -45,7 +45,7 @@ const BlogRoll = ({ data }) => {
                 ) : null}
               </CardActionArea>
               <CardContent>
-                <Typography variant="h5" gutterBottom display="block">
+                <Typography variant="h5" component="h2" gutterBottom display="block">
                   {post.frontmatter.title}
                 </Typography>
                 <Typography paragraph>{post.excerpt}</Typography>

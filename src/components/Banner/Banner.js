@@ -67,6 +67,7 @@ const Banner = ({ title, text, cta, titleTypographyProps }) => (
         color="inherit"
         size="large"
         endIcon={<ChevronRightIcon />}
+        title={cta.text}
       >
         {cta.text}
       </Button>

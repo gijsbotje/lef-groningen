@@ -11,7 +11,7 @@ const FeatureGrid = ({ gridItems }) => (
       <Grid item xs={12} md={3} key={item.title}>
         <Box width="50%" mx="auto" my={2}>
           <PreviewCompatibleImage
-            imageInfo={item}
+            imageInfo={{ image: item.image, alt: item.title }}
             style={{
               maxWidth: 300,
               objectFit: 'contain',

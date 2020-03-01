@@ -26,6 +26,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Tooltip from '@material-ui/core/Tooltip';
 import SiteContext from '../components/SiteContext';
 import Button from '@material-ui/core/Button';
+import { Helmet } from 'react-helmet';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Grow direction="up" ref={ref} {...props} />;
@@ -49,6 +50,13 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
   }, []);
   return (
     <>
+      <Helmet>
+        <title>LEF Groningen - Ons verhaal & het team</title>
+        <meta
+          name="description"
+          content="Je moet lef hebben om te doen waar je blij van wordt. Voor ons is dat ondernemen: een heftige cocktail van adrenaline, enorme blunders en grootste successen, maar vooral heel veel lol."
+        />
+      </Helmet>
       <ColorBlock
         backgroundColor="white"
         equalPadding
@@ -74,7 +82,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
         maxWidth="md"
       >
         <Section>
-          <Typography variant="h3" component="h1" align="center" style={{ marginBottom: '40px' }}>
+          <Typography variant="h3" component="h2" align="center" style={{ marginBottom: '40px' }}>
             {aboutBlock2.title}
           </Typography>
           <Typography
@@ -159,7 +167,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                       }
                     >
                       <PreviewCompatibleImage
-                        imageInfo={item}
+                        imageInfo={{ image: item.image, alt: item.title }}
                         style={{
                           objectFit: 'cover',
                           height: '100%',
@@ -182,7 +190,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                     <Grid item xs={12} md={6}>
                       <Box position="relative" height="100%">
                         <PreviewCompatibleImage
-                          imageInfo={item}
+                          imageInfo={{ image: item.image, alt: item.title }}
                           style={{
                             objectFit: 'cover',
                             height: '100%',
@@ -215,7 +223,12 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                           {item.linkedIn !== '' && (
                             <Grid item>
                               <Tooltip title="LinkedIn">
-                                <IconButton href={item.linkedIn} target="_blank" color="primary">
+                                <IconButton
+                                  href={item.linkedIn}
+                                  target="_blank"
+                                  color="primary"
+                                  title="LEF op LinkedIn"
+                                >
                                   <FontAwesomeIcon icon={faLinkedin} />
                                 </IconButton>
                               </Tooltip>
@@ -228,6 +241,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                                   href={`mailto:${item.mail}`}
                                   target="_blank"
                                   color="primary"
+                                  title="Mail met LEF"
                                 >
                                   <FontAwesomeIcon icon={faEnvelope} />
                                 </IconButton>
@@ -244,7 +258,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
           ))}
           <Grid item xs={12} sm={6} md={4}>
             <Card style={{ height: '100%' }} elevation={6}>
-              <CardActionArea component={Link} to="/contact">
+              <CardActionArea component={Link} to="/contact/" title={aboutBlock2.extraBlock.title}>
                 <HoverBlock
                   overlay={
                     <Box
@@ -266,7 +280,10 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                   }
                 >
                   <PreviewCompatibleImage
-                    imageInfo={{ image: aboutBlock2.extraBlock.image }}
+                    imageInfo={{
+                      image: aboutBlock2.extraBlock.image,
+                      alt: aboutBlock2.extraBlock.title,
+                    }}
                     style={{
                       objectFit: 'cover',
                       height: '100%',
@@ -349,7 +366,7 @@ export const aboutPageQuery = graphql`
             }
             image {
               childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 800, quality: 80) {
+                fluid(maxWidth: 500, maxHeight: 500, quality: 80) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
               }
@@ -363,7 +380,7 @@ export const aboutPageQuery = graphql`
             subTitle
             image {
               childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 800, quality: 80) {
+                fluid(maxWidth: 300, maxHeight: 300, quality: 80) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
               }

@@ -20,7 +20,7 @@ const TemplateWrapper = ({ children }) => {
   return (
     <>
       <Helmet>
-        <html lang="en" />
+        <html lang="nl" />
         <title>{title}</title>
         <meta name="description" content={description} />
 
@@ -47,7 +47,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
-        <meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
+        {/*<meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />*/}
       </Helmet>
       <SiteContext.Provider
         value={{ navbarSettings, setNavbarSettings, footerSettings, setFooterSettings }}

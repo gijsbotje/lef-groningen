@@ -14,6 +14,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
 import SiteContext from '../components/SiteContext';
+import { Helmet } from 'react-helmet';
 
 const bgColor = 'white';
 
@@ -31,6 +32,13 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
 
   return (
     <>
+      <Helmet>
+        <title>LEF Groningen - Durf jij het aan om te werken met LEF?</title>
+        <meta
+          name="description"
+          content="Om te vernieuwen moet je lef hebben. Wij zijn LEF, een team van twintigers met bravoure en een scherpe blik. Door te confronteren en te verrassen dagen wij organisaties uit om te innoveren en te veranderen."
+        />
+      </Helmet>
       <Typography variant="h1" hidden>
         {title}
       </Typography>
@@ -62,7 +70,7 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
           {homeBlock3.title}
         </Typography>
         <Grid container spacing={4}>
-          {homeBlock3.blocks.map((block, index) => (
+          {homeBlock3.blocks.map(block => (
             <Grid key={block.title} item xs={12} sm={6} md={4}>
               <Card
                 elevation={6}
@@ -72,7 +80,17 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
                   color: '#fff',
                 }}
               >
-                {index === 0 || index === 5 ? (
+                {block.textOnly ? (
+                  <PreviewCompatibleImage
+                    imageInfo={{ image: block.image, alt: block.title }}
+                    style={{
+                      maxWidth: 600,
+                      objectFit: 'cover',
+                      marginLeft: 'auto',
+                      marginRight: 'auto',
+                    }}
+                  />
+                ) : (
                   <CardContent style={{ height: '100%' }}>
                     <Box
                       display="flex"
@@ -91,21 +109,12 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
                         color="inherit"
                         endIcon={<ChevronRightIcon />}
                         style={{ marginLeft: 'auto', marginRight: 'auto' }}
+                        title="Lees meer"
                       >
                         Lees meer
                       </Button>
                     </Box>
                   </CardContent>
-                ) : (
-                  <PreviewCompatibleImage
-                    imageInfo={block}
-                    style={{
-                      maxWidth: 600,
-                      objectFit: 'cover',
-                      marginLeft: 'auto',
-                      marginRight: 'auto',
-                    }}
-                  />
                 )}
               </Card>
             </Grid>
@@ -200,6 +209,7 @@ export const pageQuery = graphql`
             title
             text
             link
+            textOnly
             image {
               childImageSharp {
                 fluid(maxWidth: 800, maxHeight: 800, quality: 50) {

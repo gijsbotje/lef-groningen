@@ -6,6 +6,7 @@ import Section from '../components/Section';
 import ColorBlock from '../components/ColorBlock';
 import SiteContext from '../components/SiteContext';
 import BlogRoll from '../components/BlogRoll/BlogRoll';
+import { Helmet } from 'react-helmet';
 
 export const ShortStoriesTemplate = ({ title, background }) => {
   const { setNavbarSettings } = useContext(SiteContext);
@@ -16,13 +17,20 @@ export const ShortStoriesTemplate = ({ title, background }) => {
 
   return (
     <>
+      <Helmet>
+        <title>LEF Groningen - Short stories over projecten en samenwerkingen</title>
+        <meta
+          name="description"
+          content="Korte verhalen over onze projecten en samenwerkingen met verschillende bedrijven. Benieuwd wat we voor jou kunnen bedenken? Neem contact op."
+        />
+      </Helmet>
       <ColorBlock
         backgroundColor="blue"
         scrollToId={title.toLowerCase().replace(/ /g, '-')}
         fluid={background.childImageSharp.fluid}
       >
         <Section>
-          <Typography variant="h2" component="h2" gutterBottom align="center">
+          <Typography variant="h2" component="h1" gutterBottom align="center">
             {title}
           </Typography>
         </Section>

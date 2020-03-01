@@ -14,7 +14,7 @@ const NavbarLink = styled(Link)`
 `;
 
 const NavbarItem = ({ to, label }) => (
-  <NavbarLink to={to} component={NavLink} color="inherit">
+  <NavbarLink to={to} component={NavLink} title={label} color="inherit">
     {label}
   </NavbarLink>
 );

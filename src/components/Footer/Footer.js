@@ -88,7 +88,7 @@ const Footer = () => {
     <>
       <FooterBase>
         <Container maxWidth="lg">
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h6" component="div" gutterBottom>
             LEF Groningen
           </Typography>
           <Grid container spacing={2}>
@@ -100,7 +100,7 @@ const Footer = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Typography variant="body1">
-                <Link color="inherit" href="mailto:info@lefgroningen.nl">
+                <Link color="inherit" href="mailto:info@lefgroningen.nl" title="Mail met LEF">
                   info@lefgroningen.nl
                 </Link>
               </Typography>

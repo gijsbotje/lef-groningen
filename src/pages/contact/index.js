@@ -11,6 +11,7 @@ import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { Helmet } from 'react-helmet';
 
 function encode(data) {
   return Object.keys(data)
@@ -59,6 +60,13 @@ const Index = () => {
 
   return (
     <>
+      <Helmet>
+        <title>LEF Groningen - Bel of mail met LEF</title>
+        <meta
+          name="description"
+          content="Benieuwd wat we voor jou kunnen bedenken? Bel met ons of stuur een email. Vul het contact formulier in en we zullen zo snel mogelijk contact met je op."
+        />
+      </Helmet>
       <ColorBlock
         backgroundColor="yellow"
         fluid={data.file.childImageSharp.fluid}
@@ -78,15 +86,25 @@ const Index = () => {
               <Typography>LEF Groningen</Typography>
               <Typography>Poelestraat 28A</Typography>
               <Typography gutterBottom>9712 KB Groningen</Typography>
-              <Typography component={Link} href="mailto:info@lefgroningen.nl" target="_blank">
+              <Typography
+                component={Link}
+                title="Mail met LEF"
+                href="mailto:info@lefgroningen.nl"
+                target="_blank"
+              >
                 info@lefgroningen.nl
               </Typography>
               <br />
-              <Typography component={Link} href="tel:06 13 97 26 93" target="_blank">
+              <Typography
+                component={Link}
+                title="Bel met LEF"
+                href="tel:06 13 97 26 93"
+                target="_blank"
+              >
                 06 13 97 26 93
               </Typography>
               <br />
-              <Link href="https://linkedin.com" target="_blank">
+              <Link href="https://linkedin.com" title="LEF op LinkedIn" target="_blank">
                 <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
               </Link>
             </Grid>

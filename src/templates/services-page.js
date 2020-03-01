@@ -10,6 +10,7 @@ import Box from '@material-ui/core/Box';
 import SiteContext from '../components/SiteContext';
 import Button from '@material-ui/core/Button';
 import ScrollTo from 'react-scroll-into-view';
+import { Helmet } from 'react-helmet';
 
 export const ServicesPageTemplate = ({
   title,
@@ -28,6 +29,13 @@ export const ServicesPageTemplate = ({
 
   return (
     <>
+      <Helmet>
+        <title>LEF Groningen - Onze diensten</title>
+        <meta
+          name="description"
+          content="Wij dagen organisaties uit om te veranderen en te innoveren. Dit doen we op twee verschillende manieren. Als ideeënbrouwers, of als projectaanjagers."
+        />
+      </Helmet>
       <Typography variant="h1" hidden>
         {title}
       </Typography>
@@ -39,7 +47,7 @@ export const ServicesPageTemplate = ({
         maxWidth="sm"
       >
         <Section>
-          <Typography variant="h2" component="h2" gutterBottom align="center">
+          <Typography variant="h2" component="div" gutterBottom align="center">
             {title}
           </Typography>
         </Section>
@@ -48,7 +56,7 @@ export const ServicesPageTemplate = ({
         <Section>
           <Typography
             variant="h3"
-            component="h2"
+            component="div"
             gutterBottom
             align="center"
             style={{ marginBottom: '2rem' }}
@@ -62,11 +70,11 @@ export const ServicesPageTemplate = ({
             {[ideeenBrouwerij, veranderAanjagers].map(({ title: itemTitle, image }) => (
               <Grid key={itemTitle} item xs={12} sm={6} style={{ textAlign: 'center' }}>
                 <ScrollTo selector={`#${itemTitle.toLowerCase().replace(/ /g, '-')}`}>
-                  <Typography variant="h5" gutterBottom>
+                  <Typography variant="h5" component="div" gutterBottom>
                     {itemTitle}
                   </Typography>
                   <PreviewCompatibleImage
-                    imageInfo={{ image }}
+                    imageInfo={{ image, alt: itemTitle }}
                     style={{
                       maxWidth: '240px',
                       marginLeft: 'auto',
@@ -102,11 +110,15 @@ export const ServicesPageTemplate = ({
           {ideeenBrouwerij.items.map(({ title: itemTitle, text, image }, index) => (
             <Grid key={itemTitle} container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
               <Grid item xs={12} sm={6}>
-                <PreviewCompatibleImage imageInfo={{ image }} />
+                <PreviewCompatibleImage imageInfo={{ image, alt: itemTitle }} />
               </Grid>
               <Grid item xs={12} sm={6} container direction="column" justify="center">
                 <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5}>
-                  <Typography variant="h6" align={index % 2 === 0 ? 'right' : 'left'}>
+                  <Typography
+                    variant="h6"
+                    component="div"
+                    align={index % 2 === 0 ? 'right' : 'left'}
+                  >
                     {itemTitle}
                   </Typography>
                   <Typography variant="body1" align={index % 2 === 0 ? 'right' : 'left'}>
@@ -137,11 +149,11 @@ export const ServicesPageTemplate = ({
           {veranderAanjagers.items.map(({ title: itemTitle, text, image }, index) => (
             <Grid key={itemTitle} container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
               <Grid item xs={12} sm={6}>
-                <PreviewCompatibleImage imageInfo={{ image }} />
+                <PreviewCompatibleImage imageInfo={{ image, alt: itemTitle }} />
               </Grid>
               <Grid item xs={12} sm={6} container direction="column" justify="center">
                 <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5}>
-                  <Typography variant="h6" align={index % 2 === 0 ? 'right' : 'left'}>
+                  <Typography variant="h6" component="div" align={index % 2 === 0 ? 'right' : 'left'}>
                     {itemTitle}
                   </Typography>
                   <Typography variant="body1" align={index % 2 === 0 ? 'right' : 'left'}>
@@ -155,16 +167,16 @@ export const ServicesPageTemplate = ({
       </ColorBlock>
       <ColorBlock backgroundColor="white" maxWidth="sm" fullHeight={false}>
         <Section>
-          <Typography variant="h6" align="center" color="textSecondary" gutterBottom>
+          <Typography variant="h6" component="div" align="center" color="textSecondary" gutterBottom>
             {dienstAnnouncement.title}
           </Typography>
-          <Typography variant="h4" component="h2" align="center" gutterBottom>
+          <Typography variant="h4" component="div" align="center" gutterBottom>
             {dienstAnnouncement.subTitle}
           </Typography>
-          <Typography variant="body1" align="center" paragraph>
+          <Typography variant="body1" component="div" align="center" paragraph>
             {dienstAnnouncement.announcement}
           </Typography>
-          <Typography variant="h6" align="center">
+          <Typography variant="h6" component="div" align="center">
             {dienstAnnouncement.finish}
           </Typography>
         </Section>
