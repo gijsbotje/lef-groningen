@@ -44,10 +44,33 @@ const TemplateWrapper = ({ children }) => {
 
         <meta name="theme-color" content="#fff" />
 
+        <script type="application/ld+json">{`
+          [
+            {
+              "@context": "http://schema.org",
+              "@type": "Organization",
+              "name": "LEF Groningen",
+              "email": "info@lefgroningen.nl",
+              "url": "lefgroningen.nl",
+              "sameAs": [
+                "https://www.facebook.com/lefgroningen.nl/",
+                "https://www.instagram.com/lefgroningen/",
+                "https://www.linkedin.com/company/lefgroningen/",
+                ],
+            },
+            , {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "name": "lefgroningen.nl",
+                "url": "https://www.lefgroningen.nl/",
+              }
+          ]
+        `}</script>
+
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
-        {/*<meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />*/}
+        {/* <meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} /> */}
       </Helmet>
       <SiteContext.Provider
         value={{ navbarSettings, setNavbarSettings, footerSettings, setFooterSettings }}

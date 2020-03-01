@@ -33,13 +33,13 @@ homeBlock3:
       link: '/diensten/'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       textOnly: false
-    - image: /img/thijs-tekenen-square.jpg
+    - image: /img/leffers-brainstormend-op-tafel.jpg
       title: Work in progress
       link: '/diensten/'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       textOnly: true
-    - image: /img/ted-en-thijs-camera-square.jpg
-      title: Teddy en Thijs in een camera
+    - image: /img/leffers-op-vloer-brainstormen.jpg
+      title: Leffers brainstormend op de vloer
       link: '/diensten/'
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       textOnly: true
