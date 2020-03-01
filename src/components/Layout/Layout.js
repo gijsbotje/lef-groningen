@@ -37,7 +37,8 @@ const TemplateWrapper = ({ children }) => {
           sizes="16x16"
         />
 
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="preload" href="https://fonts.googleapis.com" />
+        <link rel="preload" href="https://fonts.gstatic.com" />
 
         <meta name="theme-color" content="#fff" />
 
