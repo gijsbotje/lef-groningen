@@ -2,7 +2,7 @@ const pkg = require(`./package.json`);
 
 module.exports = {
   siteMetadata: {
-    siteUrl: 'http://lefgroningen.nl',
+    siteUrl: 'https://lefgroningen.nl/',
     title: 'LEF Groningen',
     description: 'LEF Groningen, het advies bureau met lef',
   },
