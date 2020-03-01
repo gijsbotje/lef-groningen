@@ -96,7 +96,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/short-stories/*`, `/rommelkamer/`, `/tags`],
+        exclude: [`/short-stories/*`, `/rommelkamer/`, `/tags/*`],
       },
     },
     {
