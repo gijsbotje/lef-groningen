@@ -109,7 +109,7 @@ const Header = () => {
                 <Navbar items={menuItems} />
               </Hidden>
               <Hidden implementation="css" smUp>
-                <IconButton onClick={toggleMenu} color="inherit">
+                <IconButton onClick={toggleMenu} color="inherit" title="Open menu">
                   <MenuIcon />
                 </IconButton>
               </Hidden>
