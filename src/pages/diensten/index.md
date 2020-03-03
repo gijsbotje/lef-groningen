@@ -2,7 +2,7 @@
 templateKey: services-page
 title: Diensten
 subTitle: Wat doen we?
-intro: Wij dagen organisaties uit om te veranderen en te innoveren. Dit doen we op twee verschillende manieren. Als ideeënbrouwers, of als projectaanjagers. We beginnen klein en creëren stap voor stap iets groots. Zo bewegen wij, en zo willen we anderen in brengen.
+intro: Wij dagen organisaties uit om te veranderen en te innoveren. Dit doen we op twee verschillende manieren. Als ideeënbrouwers, of als projectaanjagers. We beginnen klein en creëren stap voor stap iets groots. Zo bewegen wij, en zo willen we anderen in beweging brengen.
 bannerImage: /img/services-front-page-foot.jpg
 ideeenBrouwerij:
   title: Ideeënbrouwerij
