@@ -55,7 +55,7 @@ const TemplateWrapper = ({ children }) => {
               "sameAs": [
                 "https://www.facebook.com/lefgroningen.nl/",
                 "https://www.instagram.com/lefgroningen/",
-                "https://www.linkedin.com/company/lefgroningen/",
+                "https://www.linkedin.com/company/lefgroningen/"
                 ]
             },
             , {
