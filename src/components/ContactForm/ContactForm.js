@@ -2,6 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import styled from 'styled-components';
+
+const StyledField = styled(TextField)`
+  && {
+    .MuiFormLabel-root {
+      color: #777;
+    }
+  }
+`;
 
 const ContactForm = ({ handleSubmit, handleChange }) => (
   <form
@@ -20,7 +29,7 @@ const ContactForm = ({ handleSubmit, handleChange }) => (
         <input name="bot-field" id="contact_bot-field" onChange={handleChange} />
       </label>
     </div>
-    <TextField
+    <StyledField
       variant="filled"
       label="Naam"
       name="name"
@@ -31,7 +40,7 @@ const ContactForm = ({ handleSubmit, handleChange }) => (
       onChange={handleChange}
       required
     />
-    <TextField
+    <StyledField
       variant="filled"
       label="E-mail"
       name="email"
@@ -42,7 +51,7 @@ const ContactForm = ({ handleSubmit, handleChange }) => (
       onChange={handleChange}
       required
     />
-    <TextField
+    <StyledField
       variant="filled"
       label="Bericht"
       name="message"
@@ -61,8 +70,14 @@ const ContactForm = ({ handleSubmit, handleChange }) => (
   </form>
 );
 
-ContactForm.propTypes = {};
+ContactForm.propTypes = {
+  handleSubmit: PropTypes.func,
+  handleChange: PropTypes.func,
+};
 
-ContactForm.defaultProps = {};
+ContactForm.defaultProps = {
+  handleSubmit: undefined,
+  handleChange: undefined,
+};
 
 export default ContactForm;
