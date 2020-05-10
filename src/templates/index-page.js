@@ -15,10 +15,17 @@ import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
 import SiteContext from '../components/SiteContext';
 import { Helmet } from 'react-helmet';
+import Carousel from '../components/Carousel';
 
 const bgColor = 'white';
 
-export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 }) => {
+export const IndexPageTemplate = ({
+  title,
+  homeBlock1,
+  homeBlock2,
+  homeBlock3,
+  customerDisplay,
+}) => {
   const { setNavbarSettings, setFooterSettings } = useContext(SiteContext);
 
   useEffect(() => {
@@ -60,12 +67,45 @@ export const IndexPageTemplate = ({ title, homeBlock1, homeBlock2, homeBlock3 })
           <Features gridItems={homeBlock2.tools} />
         </Section>
       </ColorBlock>
+
+      <ColorBlock
+        backgroundColor={bgColor}
+        id="home-block-4"
+        fullHeight={false}
+        maxWidth="md"
+        equalPadding
+      >
+        <Typography
+          variant="h4"
+          component="h2"
+          align="center"
+          style={{ marginBottom: '3rem', marginTop: '-3rem' }}
+        >
+          {customerDisplay.title}
+        </Typography>
+        <Carousel slidesPerView={3} spaceBetween={32} autoplay={{ delay: 4000 }}>
+          {customerDisplay.logos.map(customer => (
+            <a key={customer.image} href={customer.url} target="_blank" rel="noopener norefferer" title={customer.url}>
+              <PreviewCompatibleImage
+                imageInfo={{ image: customer.image, alt: customer.title }}
+                style={{
+                  maxWidth: 150,
+                  objectFit: 'contain',
+                  marginLeft: 'auto',
+                  marginRight: 'auto',
+                }}
+              />
+            </a>
+          ))}
+        </Carousel>
+      </ColorBlock>
+
       <ColorBlock backgroundColor={bgColor} id="home-block-3" equalPadding maxWidth="lg">
         <Typography
           variant="h3"
           component="h2"
           align="center"
-          style={{ marginTop: '-2rem', marginBottom: '5rem', alignSelf: 'flex-start' }}
+          style={{ marginTop: '2rem', marginBottom: '5rem', alignSelf: 'flex-start' }}
         >
           {homeBlock3.title}
         </Typography>
@@ -130,12 +170,15 @@ IndexPageTemplate.propTypes = {
   homeBlock1: PropTypes.object,
   homeBlock2: PropTypes.object,
   homeBlock3: PropTypes.object,
+  customerDisplay: PropTypes.object,
 };
+
 IndexPageTemplate.defaultProps = {
   title: null,
   homeBlock1: {},
   homeBlock2: {},
   homeBlock3: {},
+  customerDisplay: {},
 };
 
 const IndexPage = ({ data }) => {
@@ -147,6 +190,7 @@ const IndexPage = ({ data }) => {
       homeBlock1={frontmatter.homeBlock1}
       homeBlock2={frontmatter.homeBlock2}
       homeBlock3={frontmatter.homeBlock3}
+      customerDisplay={frontmatter.customerDisplay}
     />
   );
 };
@@ -201,6 +245,19 @@ export const pageQuery = graphql`
             }
             title
             text
+          }
+        }
+        customerDisplay {
+          title
+          logos {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 150, quality: 50) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
+            url
           }
         }
         homeBlock3 {

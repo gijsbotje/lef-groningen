@@ -51,9 +51,11 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
+    "react-id-swiper": "^3.0.0",
     "react-jss": "^10.0.3",
     "react-scroll-into-view": "^1.7.0",
     "styled-components": "^4.4.1",
+    "swiper": "^5.3.8",
     "uuid": "^3.2.1"
   },
   "keywords": [

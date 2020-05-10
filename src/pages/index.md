@@ -23,6 +23,16 @@ homeBlock2:
     - image: /img/buiten-de-organisatie-bubbel.jpg
       title: Wij denken anders.
       text: We kijken van buiten de organisatie naar binnen, waardoor we kritisch en onbevangen zijn.
+      
+customerDisplay:
+  title: 'Wij werken samen met'
+  logos:
+    - image: /img/royal-goedewaagen-logo.png
+      url: https://www.goedewaagen.nl/
+    - image: /img/faktoo-logo.png
+      url: https://www.faktoo.nl/
+    - image: /img/pentascope-logo-cut.jpg
+      url: https://www.pentascope.nl/
 
 homeBlock3:
   title: Durf jij het aan om te werken met LEF?
