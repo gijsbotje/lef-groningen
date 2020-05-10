@@ -83,9 +83,20 @@ export const IndexPageTemplate = ({
         >
           {customerDisplay.title}
         </Typography>
-        <Carousel slidesPerView={3} spaceBetween={32} autoplay={{ delay: 4000 }}>
+        <Carousel
+          slidesPerView={3}
+          spaceBetween={32}
+          autoplay={{ delay: 4000 }}
+          allowTouchMove={false}
+        >
           {customerDisplay.logos.map(customer => (
-            <a key={customer.image} href={customer.url} target="_blank" rel="noopener norefferer" title={customer.url}>
+            <a
+              key={customer.image}
+              href={customer.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={customer.url}
+            >
               <PreviewCompatibleImage
                 imageInfo={{ image: customer.image, alt: customer.title }}
                 style={{
