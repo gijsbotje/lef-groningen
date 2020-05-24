@@ -234,8 +234,8 @@ collections:
                     name: "mail"
                     widget: "string"
   - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+    label: "Short stories"
+    folder: "src/pages/short-stories"
     create: true
     slug: "{{slug}}"
     fields:
