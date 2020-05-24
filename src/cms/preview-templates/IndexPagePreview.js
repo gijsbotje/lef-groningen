@@ -12,6 +12,7 @@ const IndexPagePreview = ({ entry }) => {
         homeBlock1={data.homeBlock1}
         homeBlock2={data.homeBlock2}
         homeBlock3={data.homeBlock3}
+        customerDisplay={data.customerDisplay}
       />
     );
   }

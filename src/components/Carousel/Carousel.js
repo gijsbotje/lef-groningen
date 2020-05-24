@@ -10,15 +10,13 @@ const StyledSwiperWrapper = styled.div`
   }
 `;
 
-const Carousel = ({ children, pagination, navigation, spaceBetween, ...rest }) => {
-  return (
-    <StyledSwiperWrapper>
-      <Swiper pagination={pagination} navigation={navigation} spaceBetween={spaceBetween} {...rest}>
-        {children}
-      </Swiper>
-    </StyledSwiperWrapper>
-  );
-};
+const Carousel = ({ children, pagination, navigation, spaceBetween, ...rest }) => (
+  <StyledSwiperWrapper>
+    <Swiper pagination={pagination} navigation={navigation} spaceBetween={spaceBetween} {...rest}>
+      {children}
+    </Swiper>
+  </StyledSwiperWrapper>
+);
 
 Carousel.propTypes = {
   children: PropTypes.any,
