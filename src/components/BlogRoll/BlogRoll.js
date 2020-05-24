@@ -43,13 +43,13 @@ const BlogRoll = ({ data }) => {
                     />
                   </CardMedia>
                 ) : null}
+                <CardContent>
+                  <Typography variant="h5" component="h2" gutterBottom display="block">
+                    {post.frontmatter.title}
+                  </Typography>
+                  <Typography paragraph>{post.excerpt}</Typography>
+                </CardContent>
               </CardActionArea>
-              <CardContent>
-                <Typography variant="h5" component="h2" gutterBottom display="block">
-                  {post.frontmatter.title}
-                </Typography>
-                <Typography paragraph>{post.excerpt}</Typography>
-              </CardContent>
             </Card>
             <Dialog
               open={openShortStory === post.fields.slug}
