@@ -51,24 +51,28 @@ homeBlock3:
         Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Problemen oplossen
+      imageOnly: false
     - image: /img/leffers-brainstormend-op-tafel.jpg
       link: /diensten/
       text: >-
         Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Work in progress
+      imageOnly: true
     - image: /img/leffers-op-vloer-brainstormen.jpg
       link: /diensten/
       text: >-
         Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Leffers brainstormend op de vloer
+      imageOnly: true
     - image: /img/teddy-en-thijs-portret.jpg
       link: /diensten/
       text: >-
         Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Teddy en Thijs
+      imageOnly: true
     - image: >-
         /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
       link: /diensten/
@@ -76,12 +80,14 @@ homeBlock3:
         Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Werk op tafel
+      imageOnly: true
     - image: /img/ted-en-thijs-camera-square.jpg
       link: /diensten/
       text: >-
         Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er
         iets op touw moet worden gezet.
       title: tastbaar resultaat
+      imageOnly: false
   title: Durf jij het aan om te werken met LEF?
 ---
 

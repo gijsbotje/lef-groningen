@@ -131,7 +131,7 @@ export const IndexPageTemplate = ({
                   color: '#fff',
                 }}
               >
-                {block.textOnly ? (
+                {block.imageOnly ? (
                   <PreviewCompatibleImage
                     imageInfo={{ image: block.image, alt: block.title }}
                     style={{
@@ -277,7 +277,7 @@ export const pageQuery = graphql`
             title
             text
             link
-            textOnly
+            imageOnly
             image {
               childImageSharp {
                 fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
