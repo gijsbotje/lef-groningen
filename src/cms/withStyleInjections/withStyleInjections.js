@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { StyleSheetManager, ThemeProvider } from 'styled-components';
 import {
   createMuiTheme,
@@ -9,7 +10,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import lefTheme from '../../theme';
 import { jssPreset, StylesProvider } from '@material-ui/styles';
 import { create } from 'jss';
-import SiteContext from '../../components/SiteContext/SiteContext';
+import SiteContext from '../../components/SiteContext';
 
 let theme = createMuiTheme(lefTheme);
 theme = responsiveFontSizes(theme);
@@ -76,43 +77,47 @@ const StyleInjector = ({ children }) => {
   );
 };
 
-class NewStyleInjector extends React.Component {
-  state = {
-    ready: false,
-  };
+StyleInjector.propTypes = {
+  children: PropTypes.any.isRequired,
+};
 
-  handleRef = ref => {
-    const ownerDocument = ref ? ref.ownerDocument : null;
-    this.setState({
-      ready: true,
-      jss: create({
-        ...jssPreset(),
-        insertionPoint: ownerDocument ? ownerDocument.querySelector('#demo-frame-jss') : null,
-      }),
-      sheetsManager: new Map(),
-    });
-  };
-
-  render() {
-    const { children } = this.props;
-    const { ready, sheetsManager, jss } = this.state;
-
-    return (
-      <React.Fragment>
-        <div id="demo-frame-jss" ref={this.handleRef} />
-        {ready ? (
-          <StylesProvider jss={jss} sheetsManager={sheetsManager}>
-            <ThemeProvider theme={theme}>
-              {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-              <CssBaseline />
-              {children}
-            </ThemeProvider>
-          </StylesProvider>
-        ) : null}
-      </React.Fragment>
-    );
-  }
-}
+// class NewStyleInjector extends React.Component {
+//   state = {
+//     ready: false,
+//   };
+//
+//   handleRef = ref => {
+//     const ownerDocument = ref ? ref.ownerDocument : null;
+//     this.setState({
+//       ready: true,
+//       jss: create({
+//         ...jssPreset(),
+//         insertionPoint: ownerDocument ? ownerDocument.querySelector('#demo-frame-jss') : null,
+//       }),
+//       sheetsManager: new Map(),
+//     });
+//   };
+//
+//   render() {
+//     const { children } = this.props;
+//     const { ready, sheetsManager, jss } = this.state;
+//
+//     return (
+//       <React.Fragment>
+//         <div id="demo-frame-jss" ref={this.handleRef} />
+//         {ready ? (
+//           <StylesProvider jss={jss} sheetsManager={sheetsManager}>
+//             <ThemeProvider theme={theme}>
+//               {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+//               <CssBaseline />
+//               {children}
+//             </ThemeProvider>
+//           </StylesProvider>
+//         ) : null}
+//       </React.Fragment>
+//     );
+//   }
+// }
 
 export default function withStyleInjections(Comp) {
   return props => (

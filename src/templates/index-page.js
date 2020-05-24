@@ -91,7 +91,7 @@ export const IndexPageTemplate = ({
         >
           {customerDisplay.logos?.map(customer => (
             <a
-              key={customer.title}
+              key={customer.url}
               href={customer.url}
               target="_blank"
               rel="noopener noreferrer"
