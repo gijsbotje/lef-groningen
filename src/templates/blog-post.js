@@ -2,16 +2,15 @@ import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Content, { HTMLContent } from '../components/Content/Content';
-import Container from '../components/Container';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { navigate } from 'gatsby-link';
 import Chip from '@material-ui/core/Chip';
 import Section from '../components/Section';
 import ColorBlock from '../components/ColorBlock';
-import SiteContext from '../components/SiteContext/SiteContext';
+import SiteContext from '../components/SiteContext';
 
 export const BlogPostTemplate = ({
   content,
@@ -29,7 +28,7 @@ export const BlogPostTemplate = ({
         backgroundColor="yellow"
         maxWidth="lg"
         id={title.toLowerCase().replace(/ /g, '-')}
-        backgroundImage={featuredimage.childImageSharp.fluid.src}
+        backgroundImage={featuredimage?.childImageSharp?.fluid.src}
         minHeight="50vh"
       >
         <Section>
@@ -70,10 +69,10 @@ BlogPostTemplate.propTypes = {
 };
 BlogPostTemplate.defaultProps = {
   contentComponent: undefined,
-  title: undefined,
+  title: '',
   featuredimage: undefined,
   helmet: undefined,
-  tags: undefined,
+  tags: [],
 };
 
 const BlogPost = ({ data }) => {
