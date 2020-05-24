@@ -51,14 +51,14 @@ export const IndexPageTemplate = ({
       </Typography>
       <ColorBlock
         backgroundColor="blue"
-        backgroundImage={homeBlock1.image.childImageSharp.fluid.src}
+        backgroundImage={homeBlock1.image?.childImageSharp?.fluid?.src}
         backgroundPosition="bottom right"
         isFirst
         scrollToId="home-block-2"
         showScrollDown
         equalPadding
         style={{ color: '#fff' }}
-        fluid={homeBlock1.image.childImageSharp.fluid}
+        fluid={homeBlock1.image.childImageSharp?.fluid}
       >
         <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
       </ColorBlock>
@@ -89,9 +89,9 @@ export const IndexPageTemplate = ({
           autoplay={{ delay: 4000 }}
           allowTouchMove={false}
         >
-          {customerDisplay.logos.map(customer => (
+          {customerDisplay.logos?.map(customer => (
             <a
-              key={customer.image}
+              key={customer.title}
               href={customer.url}
               target="_blank"
               rel="noopener noreferrer"
@@ -121,7 +121,7 @@ export const IndexPageTemplate = ({
           {homeBlock3.title}
         </Typography>
         <Grid container spacing={4}>
-          {homeBlock3.blocks.map(block => (
+          {homeBlock3?.blocks.map(block => (
             <Grid key={block.title} item xs={12} sm={6} md={4}>
               <Card
                 elevation={6}
