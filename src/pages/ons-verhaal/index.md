@@ -169,8 +169,4 @@ aboutBlock2:
       image: /img/unknown3.jpg
       linkedIn: ''
       mail: ''
-  extraBlock:
-    title: Heb jij LEF?
-    subTitle: Kom eens langs!
-    image: /img/question-mark-chalk.jpg
 ---

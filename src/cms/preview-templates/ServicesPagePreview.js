@@ -9,8 +9,11 @@ const ServicesPagePreview = ({ entry }) => {
     return (
       <ServicesPageTemplate
         title={data.title}
-        ideeenbrouwerij={data.ideeenbrouwerij}
-        veranderAanjagers={data.veranderAanjagers}
+        bannerImage={data.bannerImage}
+        subTitle={data.subtitle}
+        intro={data.intro}
+        aboutSections={data.aboutSections}
+        dienstAnnouncement={data.dienstAnnouncement}
       />
     );
   }

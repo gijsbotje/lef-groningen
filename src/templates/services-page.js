@@ -17,8 +17,7 @@ export const ServicesPageTemplate = ({
   bannerImage,
   subTitle,
   intro,
-  ideeenBrouwerij,
-  veranderAanjagers,
+  aboutSections,
   dienstAnnouncement,
 }) => {
   const { setNavbarSettings } = useContext(SiteContext);
@@ -42,7 +41,7 @@ export const ServicesPageTemplate = ({
       <ColorBlock
         backgroundColor="yellow"
         showScrollDown
-        scrollToId={ideeenBrouwerij.title.toLowerCase().replace(/ /g, '-')}
+        scrollToId={aboutSections && aboutSections[0].title.toLowerCase().replace(/ /g, '-')}
         fluid={bannerImage.childImageSharp.fluid}
         maxWidth="sm"
       >
@@ -67,7 +66,7 @@ export const ServicesPageTemplate = ({
             {intro}
           </Typography>
           <Grid container spacing={4} style={{ marginTop: '40px' }}>
-            {[ideeenBrouwerij, veranderAanjagers].map(({ title: itemTitle, image }) => (
+            {aboutSections.map(({ title: itemTitle, image }) => (
               <Grid key={itemTitle} item xs={12} sm={6} style={{ textAlign: 'center' }}>
                 <ScrollTo selector={`#${itemTitle.toLowerCase().replace(/ /g, '-')}`}>
                   <Typography variant="h5" component="div" gutterBottom>
@@ -91,87 +90,56 @@ export const ServicesPageTemplate = ({
           </Grid>
         </Section>
       </ColorBlock>
-      <ColorBlock
-        backgroundColor="white"
-        maxWidth="md"
-        id={ideeenBrouwerij.title.toLowerCase().replace(/ /g, '-')}
-        fullHeight={false}
-      >
-        <Section>
-          <Typography
-            variant="h3"
-            component="h2"
-            align="center"
-            gutterBottom
-            style={{ marginBottom: '4rem' }}
-          >
-            {ideeenBrouwerij.title}
-          </Typography>
-          {ideeenBrouwerij.items.map(({ title: itemTitle, text, image }, index) => (
-            <Grid key={itemTitle} container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
-              <Grid item xs={12} sm={6}>
-                <PreviewCompatibleImage imageInfo={{ image, alt: itemTitle }} />
+      {aboutSections.map(section => (
+        <ColorBlock
+          backgroundColor="white"
+          maxWidth="md"
+          id={section.title.toLowerCase().replace(/ /g, '-')}
+          fullHeight={false}
+        >
+          <Section>
+            <Typography
+              variant="h3"
+              component="h2"
+              align="center"
+              gutterBottom
+              style={{ marginBottom: '4rem' }}
+            >
+              {section.title}
+            </Typography>
+            {section.items.map(({ title: itemTitle, text, image }, index) => (
+              <Grid key={itemTitle} container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
+                <Grid item xs={12} sm={6}>
+                  <PreviewCompatibleImage imageInfo={{ image, alt: itemTitle }} />
+                </Grid>
+                <Grid item xs={12} sm={6} container direction="column" justify="center">
+                  <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5} py={5}>
+                    <Typography
+                      variant="h6"
+                      component="div"
+                      align={index % 2 === 0 ? 'right' : 'left'}
+                    >
+                      {itemTitle}
+                    </Typography>
+                    <Typography variant="body1" align={index % 2 === 0 ? 'right' : 'left'}>
+                      {text}
+                    </Typography>
+                  </Box>
+                </Grid>
               </Grid>
-              <Grid item xs={12} sm={6} container direction="column" justify="center">
-                <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5} py={5}>
-                  <Typography
-                    variant="h6"
-                    component="div"
-                    align={index % 2 === 0 ? 'right' : 'left'}
-                  >
-                    {itemTitle}
-                  </Typography>
-                  <Typography variant="body1" align={index % 2 === 0 ? 'right' : 'left'}>
-                    {text}
-                  </Typography>
-                </Box>
-              </Grid>
-            </Grid>
-          ))}
-        </Section>
-      </ColorBlock>
-      <ColorBlock
-        backgroundColor="white"
-        maxWidth="md"
-        id={veranderAanjagers.title.toLowerCase().replace(/ /g, '-')}
-        fullHeight={false}
-      >
-        <Section>
-          <Typography
-            variant="h3"
-            component="h2"
-            align="center"
-            gutterBottom
-            style={{ marginBottom: '4rem' }}
-          >
-            {veranderAanjagers.title}
-          </Typography>
-          {veranderAanjagers.items.map(({ title: itemTitle, text, image }, index) => (
-            <Grid key={itemTitle} container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
-              <Grid item xs={12} sm={6}>
-                <PreviewCompatibleImage imageInfo={{ image, alt: itemTitle }} />
-              </Grid>
-              <Grid item xs={12} sm={6} container direction="column" justify="center">
-                <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5} py={5}>
-                  <Typography
-                    variant="h6"
-                    component="div"
-                    align={index % 2 === 0 ? 'right' : 'left'}
-                  >
-                    {itemTitle}
-                  </Typography>
-                  <Typography variant="body1" align={index % 2 === 0 ? 'right' : 'left'}>
-                    {text}
-                  </Typography>
-                </Box>
-              </Grid>
-            </Grid>
-          ))}
-        </Section>
-      </ColorBlock>
+            ))}
+          </Section>
+        </ColorBlock>
+      ))}
       <ColorBlock backgroundColor="white" maxWidth="sm" fullHeight={false}>
         <Section>
-          <Typography variant="h6" component="div" align="center" color="textSecondary" gutterBottom>
+          <Typography
+            variant="h6"
+            component="div"
+            align="center"
+            color="textSecondary"
+            gutterBottom
+          >
             {dienstAnnouncement.title}
           </Typography>
           <Typography variant="h4" component="div" align="center" gutterBottom>
@@ -194,8 +162,7 @@ ServicesPageTemplate.propTypes = {
   bannerImage: PropTypes.object,
   subTitle: PropTypes.string,
   intro: PropTypes.string,
-  ideeenBrouwerij: PropTypes.object,
-  veranderAanjagers: PropTypes.object,
+  aboutSections: PropTypes.array,
   dienstAnnouncement: PropTypes.object,
 };
 
@@ -203,8 +170,7 @@ ServicesPageTemplate.defaultProps = {
   intro: undefined,
   bannerImage: undefined,
   subTitle: undefined,
-  ideeenBrouwerij: {},
-  veranderAanjagers: {},
+  aboutSections: [],
   dienstAnnouncement: {},
 };
 
@@ -217,8 +183,7 @@ const ServicesPage = ({ data }) => {
       bannerImage={frontmatter.bannerImage}
       subTitle={frontmatter.subTitle}
       intro={frontmatter.intro}
-      ideeenBrouwerij={frontmatter.ideeenBrouwerij}
-      veranderAanjagers={frontmatter.veranderAanjagers}
+      aboutSections={frontmatter.aboutSections}
       dienstAnnouncement={frontmatter.dienstAnnouncement}
     />
   );
@@ -256,35 +221,7 @@ export const ServicesPageQuery = graphql`
             }
           }
         }
-        ideeenBrouwerij {
-          title
-          lead
-          intro
-          image {
-            childImageSharp {
-              fluid(maxWidth: 240, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-          items {
-            title
-            text
-            image {
-              childImageSharp {
-                fluid(maxWidth: 456, maxHeight: 380, quality: 80, cropFocus: CENTER) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
-            }
-          }
-          cta {
-            question
-            linkText
-            linkUrl
-          }
-        }
-        veranderAanjagers {
+        aboutSections {
           title
           image {
             childImageSharp {

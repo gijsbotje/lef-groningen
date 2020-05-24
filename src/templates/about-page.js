@@ -375,17 +375,6 @@ export const aboutPageQuery = graphql`
             linkedIn
             mail
           }
-          extraBlock {
-            title
-            subTitle
-            image {
-              childImageSharp {
-                fluid(maxWidth: 300, maxHeight: 300, quality: 80) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
-            }
-          }
         }
       }
     }
