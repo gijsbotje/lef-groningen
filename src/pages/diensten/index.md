@@ -40,23 +40,26 @@ aboutSections:
     items:
       - image: /img/white-click-pens-1017502.jpg
         text: >-
-          Wij creëren tastbaar resultaat. Daarom kun je ons benaderen als er
-          iets op touw moet worden gezet. We helpen met een plan en verbinden
-          onze ondernemende manier van werken aan jouw organisatie.
-        title: Praktisch resultaat
+          Je kunt je ook ons benaderen als er iets op touw moet worden gezet.
+          Wij creëren tastbaar resultaat in projecten op het gebied van
+          innovatie, organisatieontwikkeling, duurzaamheid, digitalisering en
+          marketing en communicatie. 
+        title: Wat is het?
       - image: /img/helloquence-5fNmWej4tAA-unsplash.jpg
         text: >-
-          Samen met de opdrachtgever vormen we een team van talenten en
-          specialisten uit de organisatie. Daarnaast werken we samen met ervaren
-          partners, waardoor we beschikken over expertise in verschillende
-          methodieken en vakgebieden.
-        title: Samenwerking
+          Projecten zetten we op als een start-up: snel, creatief en met korte
+          lijnen. Buiten de bureaucratie en de stroperigheid van de organisatie
+          om. Hierdoor hebben we een ander perspectief, stellen we andere vragen
+          en vormen wij een kritische sparringpartner. Deze vonk brengen we over
+          om medewerkers nieuwsgierig en eager te houden. 
+        title: Hoe werkt het?
       - image: /img/wood-light-creative-space-68562.jpg
         text: >-
-          Wij werken buiten het dagelijkse stramien van organisaties. Hierdoor
-          hebben we een ander perspectief, stellen we andere vragen en vormen
-          wij een kritische sparringpartner.
-        title: Onbevangen
+          Juist bij de uitvoering van een idee is een constante energie-boost en
+          frisse blik nodig. Dat leveren wij. Door volgens een start-up
+          methodiek te werken creëren we samen een omgeving waar structureel aan
+          innovatie en verandering gewerkt wordt. 
+        title: Wat levert het op?
     title: Projectaanjagers
 dienstAnnouncement:
   announcement: >-
