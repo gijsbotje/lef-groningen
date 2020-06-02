@@ -13,23 +13,28 @@ aboutSections:
     items:
       - image: /img/top-view-of-people-at-the-meeting-3184287.jpg
         text: >-
-          Inspiratie heeft soms een duwtje nodig. Daarom stellen wij vragen
-          vanuit andere denkwijzen, buiten de kaders. We creëren zoveel mogelijk
-          ideeën, des te groter de kans op een sterke originele oplossing.
-        title: Inspiratie
+          Je kunt een probleem niet oplossen met de denkwijze die het
+          veroorzaakt heeft. Soms heb je iemand nodig die van buiten naar binnen
+          kijkt, en niet gehinderd is door kokervisie of interne belangen.
+        title: Wat is het?
       - image: /img/gray-pen-near-white-pad-paper-159686.jpg
         text: >-
-          We selecteren een multidisciplinair team van studenten. Deskundigheid
-          over het onderwerp is niet vereist, een nieuwsgierige en open blik des
-          te meer.
-        title: Selectie
+          We beschikken over een poule met meer dan 100 studenten vanuit talloze
+          studierichtingen. Op basis van de vraag van de opdrachtgever
+          selecteren we vanuit deze poule een gevarieerd team met verschillende
+          persoonlijkheden en verschillende expertises. Samen met het team
+          diepen we het onderwerp uit in drie sessies en komen met een concreet
+          resultaat.
+        title: Hoe werkt het?
       - image: /img/andrew-neel-QLqNalPe0RA-unsplash.jpg
         text: >-
-          Om de opdrachtgever zoveel mogelijk te betrekken in het proces wordt
-          een groepsdicussie georganiseerd met de deelnemers en de betrokkenen
-          van de organisatie. Het resultaat wordt opgeleverd in een creatieve
-          vorm.
-        title: Resultaat
+          Onze methodes zijn gebaseerd op Design Thinking. Hierdoor komen we
+          snel met veel nieuwe ideeën. Een Ideeënbrouwerij is daarom enorm
+          waardevol. Het zet koers naar een nieuwe strategie, een visie of het
+          levert een kant en klaar marketingplan op. Er komt in ieder geval iets
+          uit wat je niet verwacht. Een praktisch resultaat waar je mee verder
+          kunt.
+        title: Wat levert het op?
     title: Ideeënbrouwerij
   - image: /img/vuur.jpg
     items:
