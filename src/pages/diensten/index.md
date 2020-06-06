@@ -40,10 +40,10 @@ aboutSections:
     items:
       - image: /img/white-click-pens-1017502.jpg
         text: >-
-          Je kunt je ook ons benaderen als er iets op touw moet worden gezet.
-          Wij creëren tastbaar resultaat in projecten op het gebied van
-          innovatie, organisatieontwikkeling, duurzaamheid, digitalisering en
-          marketing en communicatie. 
+          Je kunt ons ook benaderen als er iets op touw moet worden gezet. Wij
+          creëren tastbaar resultaat in projecten op het gebied van innovatie,
+          organisatieontwikkeling, duurzaamheid, digitalisering en marketing en
+          communicatie. 
         title: Wat is het?
       - image: /img/helloquence-5fNmWej4tAA-unsplash.jpg
         text: >-
