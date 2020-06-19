@@ -47,19 +47,19 @@ aboutSections:
         title: Wat is het?
       - image: /img/helloquence-5fNmWej4tAA-unsplash.jpg
         text: >-
-          Wij lossen problemen op waar jij niet aan toe komst. Projecten zetten
+          Wij lossen problemen op waar jij niet aan toe komt. Projecten zetten
           we op als een start-up: snel, creatief en met korte lijnen. Wij hebben
-          een ander perspectief, stellen we andere vragen en vormen wij een
-          kritische sparringpartner. Naast kennis brengen we onze vonk over om
-          medewerkers nieuwsgierig en eager te houden. 
+          een ander perspectief, stellen andere vragen en vormen een kritische
+          sparringpartner. Naast kennis brengen we onze vonk over om medewerkers
+          nieuwsgierig en eager te houden. 
         title: Hoe werkt het?
       - image: /img/wood-light-creative-space-68562.jpg
         text: >-
           Wij zijn jouw flexibele communicatie afdeling, of we regelen de
           financiële administratie. Beheren van de website of hulp nodig bij
           recruitment? Geen probleem. Wij pakken het voor je op zodat jij je
-          kunt focus op de core-business. Flexibel, voor een betaalbare prijs en
-          met een hoog rendement. 
+          kunt focussen op de core-business. Flexibel, voor een betaalbare prijs
+          en met een hoog rendement. 
         title: Wat levert het op?
     title: Projectaanjagers
 dienstAnnouncement:
