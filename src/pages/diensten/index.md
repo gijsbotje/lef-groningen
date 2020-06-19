@@ -40,10 +40,10 @@ aboutSections:
     items:
       - image: /img/white-click-pens-1017502.jpg
         text: >-
-          Je kunt ons ook benaderen als er iets op touw moet worden gezet. Wij
-          creëren tastbaar resultaat in projecten op het gebied van innovatie,
-          organisatieontwikkeling, duurzaamheid, digitalisering en marketing en
-          communicatie. 
+          Heb je geen behoefte aan nieuw personeel, maar heb je wel
+          ondersteuning nodig? Wij beschikken over een poule van meer dan
+          honderd HBO en WO studenten gespecialiseerd in onder andere marketing,
+          finance, HR en juridische vraagstukken. 
         title: Wat is het?
       - image: /img/helloquence-5fNmWej4tAA-unsplash.jpg
         text: >-
