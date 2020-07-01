@@ -41,6 +41,8 @@ customerDisplay:
       url: 'https://www.arriva.nl/'
     - image: /img/faktoo-logo.png
       url: 'https://www.faktoo.nl/'
+    - image: /img/1TV_Noorderpoort_1605182a.png
+      url: 'https://www.noorderpoort.nl/'
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
