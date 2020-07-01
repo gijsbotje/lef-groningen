@@ -33,16 +33,16 @@ homeBlock2:
       title: Wij denken anders.
 customerDisplay:
   logos:
-    - image: /img/pentascope-logo-cut.jpg
-      url: 'https://www.pentascope.nl/'
-    - image: /img/royal-goedewaagen-logo.png
-      url: 'https://www.goedewaagen.nl/'
     - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
       url: 'https://www.arriva.nl/'
-    - image: /img/faktoo-logo.png
-      url: 'https://www.faktoo.nl/'
     - image: /img/1TV_Noorderpoort_1605182a.png
       url: 'https://www.noorderpoort.nl/'
+    - image: /img/royal-goedewaagen-logo.png
+      url: 'https://www.goedewaagen.nl/'
+    - image: /img/pentascope-logo-cut.jpg
+      url: 'https://www.pentascope.nl/'
+    - image: /img/faktoo-logo.png
+      url: 'https://www.faktoo.nl/'
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
