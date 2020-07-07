@@ -33,12 +33,12 @@ homeBlock2:
       title: Wij denken anders.
 customerDisplay:
   logos:
-    - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
-      url: 'https://www.arriva.nl/'
-    - image: /img/1TV_Noorderpoort_1605182a.png
-      url: 'https://www.noorderpoort.nl/'
     - image: /img/royal-goedewaagen-logo.png
       url: 'https://www.goedewaagen.nl/'
+    - image: /img/1TV_Noorderpoort_1605182a.png
+      url: 'https://www.noorderpoort.nl/'
+    - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
+      url: 'https://www.arriva.nl/'
     - image: /img/pentascope-logo-cut.jpg
       url: 'https://www.pentascope.nl/'
     - image: /img/faktoo-logo.png
