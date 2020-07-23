@@ -1,15 +1,13 @@
 ---
 templateKey: blog-post
-title: Pentascope
-date: 2020-01-07T12:30:00.708Z
-description: Hunting the cool
+title: 'Krachten bundelen: Streekdiensten'
+date: 2020-04-22T11:30:00.708Z
+description: 'Krachten bundelen: Streekdiensten'
 featuredpost: false
-featuredimage: /img/pentascope-logo.jpg
+featuredimage: /img/0 (1).jpeg
 tags:
   - Story
 ---
-De behoefte aan ambitieus talent in het bedrijfsleven is groot. Door samen te werken met ervaren partners koppelen we ervaring en jong talent aan elkaar. 
-LEF en Pentascope versterken elkaar. LEF’ers, met een ambitie voor consultancy, voorzien Pentascope van een frisse blik en creatieve oplossingen. Via Pentascope krijgen wij inhoudelijke begeleiding. Zo hebben we bakken aan kennis en ervaring op de achterbank.
-
-[lees meer over pentascope](https://www.pentascope.nl/){target="_blank"}
-
+Heb je net een nieuwe onderneming, slaat de Corona Crisis toe. Zul je altijd zien. Voor ons en voor veel ondernemers om ons heen vormt dit een enorme uitdaging. Gelukkig heten wij LEF. Dit is wat wij doen. Wij pakken een uitdaging bij de lurven, bedenken nieuwe ideeën en zetten het op touw.\
+\
+En zo kwam [www.streekdiensten.nl](http://www.streekdiensten.nl/) tot leven. In rap tempo hebben wij en andere ondernemers onze krachten gebundeld: een idee bedacht, een crowdfundingsactie opgezet en een website ontworpen, geschreven en vormgegeven. Alles binnen een maand. Ook in tijden van crisis blijkt ‘samen kun je meer dan alleen’.
