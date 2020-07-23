@@ -4,7 +4,7 @@ title: LEFGO
 date: 2020-07-23T12:23:18.760Z
 description: LEFGO
 featuredpost: false
-featuredimage: /img/0.jpeg
+featuredimage: /img/Schermafbeelding 2020-07-23 om 14.39.25.png
 tags:
   - Staatsloterij
 ---
