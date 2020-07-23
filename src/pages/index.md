@@ -54,7 +54,7 @@ homeBlock3:
         Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Problemen oplossen
-    - image: /img/leffers-brainstormend-op-tafel.jpg
+    - image: /img/2.jpeg
       imageOnly: true
       link: /diensten/
       text: >-
@@ -75,8 +75,7 @@ homeBlock3:
         Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Teddy en Thijs
-    - image: >-
-        /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
+    - image: /img/leffers-brainstormend-op-tafel.jpg
       imageOnly: true
       link: /diensten/
       text: >-
