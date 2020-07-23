@@ -3,7 +3,7 @@ templateKey: blog-post
 title: LEFGO
 date: 2020-07-23T12:23:18.760Z
 description: LEFGO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/0.jpeg
 tags:
   - Staatsloterij
