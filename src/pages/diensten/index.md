@@ -63,12 +63,9 @@ aboutSections:
         title: Wat levert het op?
     title: Projectaanjagers
 dienstAnnouncement:
-  announcement: >-
-    Ben jij klaar voor het nieuwe werken? Met onze samenwerkingspartners
-    ontwikkelen wij een uniek sector-overstijgend talentprogramma, gebaseerd op
-    kennisdeling en opdrachtgericht werken tussen organisaties.
-  finish: 'Stay tuned, meer nieuws volgt!'
-  title: TO BE ANNOUNCED
-  subTitle: Uniek sector-overstijgend talentprogramma
+  announcement: .
+  finish: .
+  title: .
+  subTitle: .
 ---
 
