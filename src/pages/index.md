@@ -39,12 +39,12 @@ customerDisplay:
       url: 'https://www.noorderpoort.nl/'
     - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
       url: 'https://www.arriva.nl/'
+    - image: /img/Gem Groningen.jpg
+      url: 'https://gemeente.groningen.nl/'
     - image: /img/pentascope-logo-cut.jpg
       url: 'https://www.pentascope.nl/'
     - image: /img/faktoo-logo.png
       url: 'https://www.faktoo.nl/'
-    - image: /img/Gem Groningen.jpg
-      url: 'https://gemeente.groningen.nl/'
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
