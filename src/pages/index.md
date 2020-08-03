@@ -43,6 +43,8 @@ customerDisplay:
       url: 'https://www.pentascope.nl/'
     - image: /img/faktoo-logo.png
       url: 'https://www.faktoo.nl/'
+    - image: /img/Gem Groningen.jpg
+      url: 'https://gemeente.groningen.nl/'
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
