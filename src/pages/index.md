@@ -45,6 +45,10 @@ customerDisplay:
       url: 'https://www.pentascope.nl/'
     - image: /img/faktoo-logo.png
       url: 'https://www.faktoo.nl/'
+    - image: /img/LOGO-MARTINIPLAZA.jpg
+      url: 'https://martiniplaza.nl/'
+    - image: /img/data.1120xC867x578+58+0.1120x747.jpg
+      url: 'https://www.dehoven.nl/'
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
