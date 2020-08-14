@@ -49,6 +49,8 @@ customerDisplay:
       url: 'https://martiniplaza.nl/'
     - image: /img/data.1120xC867x578+58+0.1120x747.jpg
       url: 'https://www.dehoven.nl/'
+    - image: /img/Schermafbeelding 2020-08-14 om 16.30.58.png
+      url: 'https://streekdiensten.nl/'
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
