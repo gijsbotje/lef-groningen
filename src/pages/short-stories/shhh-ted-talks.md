@@ -3,7 +3,7 @@ templateKey: blog-post
 title: SHHH! TED TALKS.
 date: 2020-08-14T11:48:36.150Z
 description: SHHH! TED TALKS.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/d.jpeg
 tags:
   - Story
