@@ -266,7 +266,7 @@ ColorBlock.defaultProps = {
   fullHeight: true,
   id: undefined,
   isFirst: false,
-  maxWidth: null,
+  maxWidth: undefined,
   minHeight: '100vh',
   scrollToId: undefined,
   style: undefined,
