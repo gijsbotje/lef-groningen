@@ -33,14 +33,24 @@ homeBlock2:
       title: Wij denken anders.
 customerDisplay:
   logos:
-    - image: /img/pentascope-logo-cut.jpg
-      url: 'https://www.pentascope.nl/'
     - image: /img/royal-goedewaagen-logo.png
       url: 'https://www.goedewaagen.nl/'
+    - image: /img/1TV_Noorderpoort_1605182a.png
+      url: 'https://www.noorderpoort.nl/'
     - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
       url: 'https://www.arriva.nl/'
+    - image: /img/Gem Groningen.jpg
+      url: 'https://gemeente.groningen.nl/'
+    - image: /img/pentascope-logo-cut.jpg
+      url: 'https://www.pentascope.nl/'
     - image: /img/faktoo-logo.png
       url: 'https://www.faktoo.nl/'
+    - image: /img/LOGO-MARTINIPLAZA.jpg
+      url: 'https://martiniplaza.nl/'
+    - image: /img/data.1120xC867x578+58+0.1120x747.jpg
+      url: 'https://www.dehoven.nl/'
+    - image: /img/Schermafbeelding 2020-08-14 om 16.30.58.png
+      url: 'https://streekdiensten.nl/'
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
@@ -52,7 +62,7 @@ homeBlock3:
         Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Problemen oplossen
-    - image: /img/leffers-brainstormend-op-tafel.jpg
+    - image: /img/Schermafbeelding 2020-07-23 om 14.41.43.png
       imageOnly: true
       link: /diensten/
       text: >-
@@ -73,8 +83,7 @@ homeBlock3:
         Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Teddy en Thijs
-    - image: >-
-        /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
+    - image: /img/leffers-brainstormend-op-tafel.jpg
       imageOnly: true
       link: /diensten/
       text: >-
