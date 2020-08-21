@@ -32,7 +32,7 @@ export const ShortStoriesTemplate = ({ title, background }) => {
       <ColorBlock
         backgroundColor="blue"
         scrollToId={title.toLowerCase().replace(/ /g, '-')}
-        fluid={background.childImageSharp.fluid}
+        backgroundImage={{ image: background, ...background }}
       >
         <Section>
           <Typography variant="h2" component="h1" gutterBottom align="center">

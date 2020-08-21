@@ -42,8 +42,8 @@ export const ServicesPageTemplate = ({
         backgroundColor="yellow"
         showScrollDown
         scrollToId={aboutSections && aboutSections[0].title.toLowerCase().replace(/ /g, '-')}
-        fluid={bannerImage.childImageSharp.fluid}
         maxWidth="sm"
+        backgroundImage={{ image: bannerImage, ...bannerImage }}
       >
         <Section>
           <Typography variant="h2" component="div" gutterBottom align="center">
@@ -66,7 +66,7 @@ export const ServicesPageTemplate = ({
             {intro}
           </Typography>
           <Grid container spacing={4} style={{ marginTop: '40px' }}>
-            {aboutSections.map(({ title: itemTitle, image }) => (
+            {aboutSections?.map(({ title: itemTitle, image }) => (
               <Grid key={itemTitle} item xs={12} sm={6} style={{ textAlign: 'center' }}>
                 <ScrollTo selector={`#${itemTitle.toLowerCase().replace(/ /g, '-')}`}>
                   <Typography variant="h5" component="div" gutterBottom>
@@ -107,10 +107,13 @@ export const ServicesPageTemplate = ({
             >
               {section.title}
             </Typography>
-            {section.items.map(({ title: itemTitle, text, image }, index) => (
+            {section?.items?.map(({ title: itemTitle, text, image }, index) => (
               <Grid key={itemTitle} container direction={index % 2 === 0 ? 'row' : 'row-reverse'}>
                 <Grid item xs={12} sm={6}>
-                  <PreviewCompatibleImage imageInfo={{ image, alt: itemTitle }} />
+                  <PreviewCompatibleImage
+                    imageInfo={{ image, alt: itemTitle }}
+                    style={{ width: '100%' }}
+                  />
                 </Grid>
                 <Grid item xs={12} sm={6} container direction="column" justify="center">
                   <Box pl={index % 2 === 0 ? 5 : 0} pr={index % 2 === 0 ? 0 : 5} py={5}>

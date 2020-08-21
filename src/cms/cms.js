@@ -10,6 +10,6 @@ import ServicesPagePreview from './preview-templates/ServicesPagePreview';
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewTemplate('index', withStyleInjections(IndexPagePreview));
-CMS.registerPreviewTemplate('services', withStyleInjections(ServicesPagePreview));
-CMS.registerPreviewTemplate('about', withStyleInjections(AboutPagePreview));
+CMS.registerPreviewTemplate('diensten', withStyleInjections(ServicesPagePreview));
+CMS.registerPreviewTemplate('ons-verhaal', withStyleInjections(AboutPagePreview));
 CMS.registerPreviewTemplate('blog', withStyleInjections(BlogPostPreview));

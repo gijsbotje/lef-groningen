@@ -4,9 +4,9 @@ import styled, { keyframes } from 'styled-components';
 import clsx from 'clsx';
 import Container from '../Container';
 import ScrollTo from 'react-scroll-into-view';
-import BackgroundImage from 'gatsby-background-image';
+import PreviewCompatibleBackgroundImage from '../PreviewCompatibleBackgroundImage';
 
-const ImageBlockBG = styled(BackgroundImage)`
+const ImageBlockBG = styled(PreviewCompatibleBackgroundImage)`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -169,6 +169,7 @@ const ScrollDownIndicator = styled.svg`
 const ColorBlock = ({
   backgroundColor,
   backgroundPosition,
+  backgroundImage,
   elevation,
   equalPadding,
   id,
@@ -180,8 +181,8 @@ const ColorBlock = ({
   maxWidth,
   disableGutters,
   minHeight,
-  fluid,
 }) => {
+  console.log(backgroundImage);
   const BlockContent = () => (
     <>
       <Container maxWidth={maxWidth} disableGutters={disableGutters}>
@@ -199,11 +200,11 @@ const ColorBlock = ({
     </>
   );
 
-  if (fluid) {
+  if (backgroundImage) {
     return (
       <ImageBlockBG
         Tag="section"
-        fluid={fluid}
+        imageInfo={backgroundImage}
         id={id}
         className={clsx(`bg-${backgroundColor} elevation-${elevation || 0}`, {
           'is-first': isFirst,

@@ -69,8 +69,8 @@ const Index = () => {
       </Helmet>
       <ColorBlock
         backgroundColor="yellow"
-        fluid={data.file.childImageSharp.fluid}
         backgroundPosition="center bottom"
+        backgroundImage={{ image: data.file, ...data.file }}
       >
         <Typography variant="h3" component="h1" align="center" style={{ marginBottom: '15rem' }}>
           Bel met LEF.

@@ -62,9 +62,9 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
         equalPadding
         showScrollDown
         scrollToId="about-anchor"
-        fluid={aboutBlock1.background.childImageSharp.fluid}
         backgroundPosition="bottom left"
         maxWidth="sm"
+        backgroundImage={{ image: aboutBlock1.background, ...aboutBlock1.background }}
       >
         <Container>
           <Typography variant="h3" component="h1" align="center" gutterBottom>
@@ -83,7 +83,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
       >
         <Section>
           <Typography variant="h3" component="h2" align="center" style={{ marginBottom: '40px' }}>
-            {aboutBlock2.title}
+            {aboutBlock2?.title}
           </Typography>
           <Typography
             variant="body1"
@@ -91,11 +91,11 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
             paragraph
             style={{ fontSize: '1.2rem', marginBottom: '56px' }}
           >
-            {aboutBlock1.intro}
+            {aboutBlock1?.intro}
           </Typography>
         </Section>
         <Grid container spacing={4}>
-          {aboutBlock2.persons.map((item, index) => (
+          {aboutBlock2?.persons?.map((item, index) => (
             <Fragment key={item.title}>
               <Grid item xs={12} sm={6} md={4}>
                 <Card style={{ height: '100%' }} elevation={6}>
@@ -171,6 +171,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                         style={{
                           objectFit: 'cover',
                           height: '100%',
+                          width: '100%',
                         }}
                       />
                     </HoverBlock>
@@ -194,6 +195,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                           style={{
                             objectFit: 'cover',
                             height: '100%',
+                            width: '100%',
                           }}
                         />
                         <Box position="absolute" top=".5rem" right=".5rem" color="#fff">
@@ -258,7 +260,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
           ))}
           <Grid item xs={12} sm={6} md={4}>
             <Card style={{ height: '100%' }} elevation={6}>
-              <CardActionArea component={Link} to="/contact/" title={aboutBlock2.extraBlock.title}>
+              <CardActionArea component={Link} to="/contact/" title={aboutBlock2.extraBlock?.title}>
                 <HoverBlock
                   overlay={
                     <Box
@@ -270,10 +272,10 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                     >
                       <CardContent>
                         <Typography variant="h5" component="div" gutterBottom align="center">
-                          {aboutBlock2.extraBlock.title}
+                          {aboutBlock2.extraBlock?.title}
                         </Typography>
                         <Typography variant="h6" component="div" gutterBottom align="center">
-                          {aboutBlock2.extraBlock.subTitle}
+                          {aboutBlock2.extraBlock?.subTitle}
                         </Typography>
                       </CardContent>
                     </Box>
@@ -281,12 +283,13 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                 >
                   <PreviewCompatibleImage
                     imageInfo={{
-                      image: aboutBlock2.extraBlock.image,
-                      alt: aboutBlock2.extraBlock.title,
+                      image: aboutBlock2.extraBlock?.image,
+                      alt: aboutBlock2.extraBlock?.title,
                     }}
                     style={{
                       objectFit: 'cover',
                       height: '100%',
+                      width: '100%',
                     }}
                   />
                 </HoverBlock>
