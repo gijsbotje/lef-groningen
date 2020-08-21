@@ -4,9 +4,7 @@ import BackgroundImage from 'gatsby-background-image';
 
 const PreviewCompatibleBackgroundImage = ({ imageInfo, ...rest }) => {
   const { alt = '', childImageSharp, image } = imageInfo;
-  
-  console.log(imageInfo);
-  
+
   if (!!image && !!image.childImageSharp) {
     // eslint-disable-next-line no-extra-boolean-cast
     if (!!image.childImageSharp.fluid) {

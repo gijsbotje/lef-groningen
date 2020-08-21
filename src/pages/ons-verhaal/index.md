@@ -192,5 +192,9 @@ aboutBlock2:
       position: ''
       title: Eline
   title: Het LEF team
+  extraBlock:
+    title: Heb jij LEF?
+    subTitle: Kom eens langs!
+    image: /img/question-mark-chalk.jpg
 ---
 

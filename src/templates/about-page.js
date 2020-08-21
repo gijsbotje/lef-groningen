@@ -45,6 +45,8 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
   const [openDialogId, setOpenDialogId] = useState(null);
   const { setNavbarSettings } = useContext(SiteContext);
 
+  console.log(aboutBlock1.background);
+
   useEffect(() => {
     setNavbarSettings({ scrolledColor: 'primary', textColor: 'dark' });
   }, []);

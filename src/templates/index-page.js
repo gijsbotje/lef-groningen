@@ -51,7 +51,7 @@ export const IndexPageTemplate = ({
       </Typography>
       <ColorBlock
         backgroundColor="blue"
-        backgroundImage={{ image: homeBlock1.image, ...homeBlock1.image }}
+        backgroundImage={{ image: homeBlock1?.image ?? null, ...homeBlock1.image }}
         backgroundPosition="bottom right"
         isFirst
         scrollToId="home-block-2"
