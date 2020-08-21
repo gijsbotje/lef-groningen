@@ -1,176 +1,196 @@
 ---
 templateKey: about-page
 aboutBlock1:
-  title: Ons verhaal
-  intro: "Je moet lef hebben om te doen waar je blij van wordt. Voor ons is dat ondernemen: een heftige cocktail van adrenaline, enorme blunders en grootse successen, maar vooral heel veel lol. Dit is voor ons ook een manier van werken geworden, klein beginnen en stap-voor-stap iets groots creëren. Daar willen we anderen mee inspireren."
   background: /img/coffee-cup-with-logo.jpg
+  intro: >-
+    Je moet lef hebben om te doen waar je blij van wordt. Voor ons is dat
+    ondernemen: een heftige cocktail van adrenaline, enorme blunders en grootse
+    successen, maar vooral heel veel lol. Dit is voor ons ook een manier van
+    werken geworden, klein beginnen en stap-voor-stap iets groots creëren. Daar
+    willen we anderen mee inspireren.
+  title: Ons verhaal
 aboutBlock2:
-  title: Het LEF team
   persons:
-    - title: Thijs de Vries
-      featured: true
-      list: 
-        - question: Dit wou ik vroeger worden
-          answer: Automonteur voor Volkswagen Kevers.
-        - question: Dit heb ik ervoor gestudeerd
-          answer: Rechten aan de Rijksuniversiteit Groningen.
-        - question: Dit was mijn eerste baan
-          answer: Oprichter van Axios, een onderneming waarbij we studenten inzetten als kistdragers.
-        - question: Dit is mijn ambitie
-          answer: Toen ik 19 was ben ik mijn eerste onderneming begonnen. Op een korte pauze op een advocatenkantoor na, ben ik altijd blijven ondernemen. Voor mij is de vrijheid en de lol die dat met zich meebrengt fantastisch, en ik hoop dit nog een hele poos te kunnen blijven doen.
-      position: Oprichter
+    - featured: true
       image: /img/thijs-portret-2.jpg
-      linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
+      linkedIn: 'https://www.linkedin.com/in/thijs-de-vries-78943b92/'
+      list:
+        - answer: Automonteur voor Volkswagen Kevers.
+          question: Dit wou ik vroeger worden
+        - answer: Rechten aan de Rijksuniversiteit Groningen.
+          question: Dit heb ik ervoor gestudeerd
+        - answer: >-
+            Oprichter van Axios, een onderneming waarbij we studenten inzetten
+            als kistdragers.
+          question: Dit was mijn eerste baan
+        - answer: >-
+            Toen ik 19 was ben ik mijn eerste onderneming begonnen. Op een korte
+            pauze op een advocatenkantoor na, ben ik altijd blijven ondernemen.
+            Voor mij is de vrijheid en de lol die dat met zich meebrengt
+            fantastisch, en ik hoop dit nog een hele poos te kunnen blijven
+            doen.
+          question: Dit is mijn ambitie
       mail: thijs@lefgroningen.nl
-    - title: Teddy Monninkhof
-      featured: true
-      list: 
-        - question: Dit wou ik vroeger worden
-          answer: Dolfijnentrainer. Dit carrièrepad heb ik uit milieuvriendelijke overwegingen gestaakt.
-        - question: Dit heb ik ervoor gestudeerd
-          answer: HRM aan de Hanzehogeschool en Change Management aan de Rijksuniversiteit Groningen.
-        - question: Dit was mijn eerste baan
-          answer: Vanuit de schoolbanken meteen het ondernemerspad opgegaan. Geen baan in de Randstad, geen 9 tot 5 werktijden, maar wel oprichter van LEF. Beter kan bijna niet.
-        - question: Dit is mijn ambitie
-          answer: Bewijzen dat het ook anders kan. De sprong in het diepe blijven wagen. Niet zoeken naar zekerheid, maar wel naar avontuur!
       position: Oprichter
+      title: Thijs de Vries
+    - featured: true
       image: /img/teddy-portret-2.jpg
-      linkedIn: https://www.linkedin.com/in/teddy-monninkhof-77725372/
+      linkedIn: 'https://www.linkedin.com/in/teddy-monninkhof-77725372/'
+      list:
+        - answer: >-
+            Dolfijnentrainer. Dit carrièrepad heb ik uit milieuvriendelijke
+            overwegingen gestaakt.
+          question: Dit wou ik vroeger worden
+        - answer: >-
+            HRM aan de Hanzehogeschool en Change Management aan de
+            Rijksuniversiteit Groningen.
+          question: Dit heb ik ervoor gestudeerd
+        - answer: >-
+            Vanuit de schoolbanken meteen het ondernemerspad opgegaan. Geen baan
+            in de Randstad, geen 9 tot 5 werktijden, maar wel oprichter van LEF.
+            Beter kan bijna niet.
+          question: Dit was mijn eerste baan
+        - answer: >-
+            Bewijzen dat het ook anders kan. De sprong in het diepe blijven
+            wagen. Niet zoeken naar zekerheid, maar wel naar avontuur!
+          question: Dit is mijn ambitie
       mail: teddy@lefgroningen.nl
-    - title: Viktor
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '25'
-        - question: Studie
-          answer: 'Economische geografie'
-      position: ''
+      position: Oprichter
+      title: Teddy Monninkhof
+    - featured: false
       image: /img/victor.jpg
       linkedIn: ''
+      list:
+        - answer: '25'
+          question: Leeftijd
+        - answer: Economische geografie
+          question: Studie
       mail: ''
-    - title: Nadja
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '22'
-        - question: Studie
-          answer: 'Religiewetenschappen'
       position: ''
+      title: Viktor
+    - featured: false
       image: /img/nadja.jpg
       linkedIn: ''
+      list:
+        - answer: '22'
+          question: Leeftijd
+        - answer: Religiewetenschappen
+          question: Studie
       mail: ''
-    - title: Marel
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '21'
-        - question: Studie
-          answer: 'Communicatie & multimedia design - Photography & brand design'
       position: ''
+      title: Nadja
+    - featured: false
       image: /img/marel.jpg
       linkedIn: ''
+      list:
+        - answer: '21'
+          question: Leeftijd
+        - answer: Communicatie & multimedia design - Photography & brand design
+          question: Studie
       mail: ''
-    - title: Camilla
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '22'
-        - question: Studie
-          answer: 'International business'
       position: ''
+      title: Marel
+    - featured: false
       image: /img/camilla.jpg
       linkedIn: ''
+      list:
+        - answer: '22'
+          question: Leeftijd
+        - answer: International business
+          question: Studie
       mail: ''
-    - title: Jacco
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '18'
-        - question: Studie
-          answer: 'Communicatie & multimedia design'
       position: ''
+      title: Camilla
+    - featured: false
       image: /img/jacco.jpg
       linkedIn: ''
+      list:
+        - answer: '18'
+          question: Leeftijd
+        - answer: Communicatie & multimedia design
+          question: Studie
       mail: ''
-    - title: Linde
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '18'
-        - question: Studie
-          answer: 'Econometrie'
       position: ''
+      title: Jacco
+    - featured: false
       image: /img/linde.jpg
       linkedIn: ''
+      list:
+        - answer: '18'
+          question: Leeftijd
+        - answer: Econometrie
+          question: Studie
       mail: ''
-    - title: Liset
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '22'
-        - question: Studie
-          answer: 'Change Management'
       position: ''
+      title: Linde
+    - featured: false
       image: /img/liset.jpg
       linkedIn: ''
+      list:
+        - answer: '22'
+          question: Leeftijd
+        - answer: Change Management
+          question: Studie
       mail: ''
-    - title: Willem
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '23'
-        - question: Studie
-          answer: 'Psychologie'
       position: ''
+      title: Liset
+    - featured: false
       image: /img/unknown5.jpg
       linkedIn: ''
+      list:
+        - answer: '23'
+          question: Leeftijd
+        - answer: Psychologie
+          question: Studie
       mail: ''
-    - title: Matthijs
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '23'
-        - question: Studie
-          answer: 'Psychologie'
       position: ''
+      title: Willem
+    - featured: false
       image: /img/unknown1.jpg
       linkedIn: ''
+      list:
+        - answer: '23'
+          question: Leeftijd
+        - answer: Psychologie
+          question: Studie
       mail: ''
-    - title: Ruben
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '24'
-        - question: Studie
-          answer: 'Strategic Innovation Management & Change Management'
       position: ''
+      title: Matthijs
+    - featured: false
       image: /img/unknown4.jpg
       linkedIn: ''
+      list:
+        - answer: '24'
+          question: Leeftijd
+        - answer: Strategic Innovation Management & Change Management
+          question: Studie
       mail: ''
-    - title: Michiel
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '25'
-        - question: Studie
-          answer: 'European Spatial Planning and Environmental Policy - Environment and Society Studies'
       position: ''
+      title: Ruben
+    - featured: false
       image: /img/unknown2.jpg
       linkedIn: ''
+      list:
+        - answer: '25'
+          question: Leeftijd
+        - answer: >-
+            European Spatial Planning and Environmental Policy - Environment and
+            Society Studies
+          question: Studie
       mail: ''
-    - title: Eline
-      featured: false
-      list: 
-        - question: Leeftijd
-          answer: '25'
-        - question: Studie
-          answer: 'Economics & business economics en American Studies'
       position: ''
+      title: Michiel
+    - featured: false
       image: /img/unknown3.jpg
       linkedIn: ''
+      list:
+        - answer: '25'
+          question: Leeftijd
+        - answer: Economics & business economics en American Studies
+          question: Studie
       mail: ''
-  extraBlock:
-    title: Heb jij LEF?
-    subTitle: Kom eens langs!
-    image: /img/question-mark-chalk.jpg
+      position: ''
+      title: Eline
+  title: Het LEF team
 ---
+
