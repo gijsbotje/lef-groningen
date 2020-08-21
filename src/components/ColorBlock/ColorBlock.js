@@ -4,9 +4,9 @@ import styled, { keyframes } from 'styled-components';
 import clsx from 'clsx';
 import Container from '../Container';
 import ScrollTo from 'react-scroll-into-view';
-import BackgroundImage from 'gatsby-background-image';
+import PreviewCompatibleBackgroundImage from '../PreviewCompatibleBackgroundImage';
 
-const ImageBlockBG = styled(BackgroundImage)`
+const ImageBlockBG = styled(PreviewCompatibleBackgroundImage)`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -169,6 +169,7 @@ const ScrollDownIndicator = styled.svg`
 const ColorBlock = ({
   backgroundColor,
   backgroundPosition,
+  backgroundImage,
   elevation,
   equalPadding,
   id,
@@ -180,7 +181,6 @@ const ColorBlock = ({
   maxWidth,
   disableGutters,
   minHeight,
-  fluid,
 }) => {
   const BlockContent = () => (
     <>
@@ -199,11 +199,11 @@ const ColorBlock = ({
     </>
   );
 
-  if (fluid) {
+  if (backgroundImage) {
     return (
       <ImageBlockBG
         Tag="section"
-        fluid={fluid}
+        imageInfo={backgroundImage}
         id={id}
         className={clsx(`bg-${backgroundColor} elevation-${elevation || 0}`, {
           'is-first': isFirst,
@@ -240,24 +240,36 @@ const ColorBlock = ({
 
 ColorBlock.propTypes = {
   backgroundColor: PropTypes.oneOf(['red', 'blue', 'yellow', 'dark', 'white']),
+  backgroundImage: PropTypes.object,
   backgroundPosition: PropTypes.string,
   children: PropTypes.any,
+  disableGutters: PropTypes.bool,
+  elevation: PropTypes.oneOf([0, 1, 2, 3, 4, 5, 6, 7]),
+  equalPadding: PropTypes.bool,
   fullHeight: PropTypes.bool,
   id: PropTypes.string,
   isFirst: PropTypes.bool,
-  scrollToId: PropTypes.string,
+  maxWidth: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl']),
   minHeight: PropTypes.string,
+  scrollToId: PropTypes.string,
+  style: PropTypes.any,
 };
 
 ColorBlock.defaultProps = {
   backgroundColor: 'white',
+  backgroundImage: null,
   backgroundPosition: 'center center',
   children: undefined,
+  disableGutters: false,
+  elevation: 0,
+  equalPadding: false,
   fullHeight: true,
   id: undefined,
   isFirst: false,
-  scrollToId: undefined,
+  maxWidth: undefined,
   minHeight: '100vh',
+  scrollToId: undefined,
+  style: undefined,
 };
 
 export default ColorBlock;
