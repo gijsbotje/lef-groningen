@@ -195,6 +195,14 @@ aboutBlock2:
       mail: ''
       position: ''
       title: Eline
+    - featured: false
+      image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
+      list:
+        - answer: '25'
+          question: Leeftijd
+        - answer: Communicatie multimedia design
+          question: Studie
+      title: Gijs
   title: Het LEF team
 ---
 
