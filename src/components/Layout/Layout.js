@@ -6,9 +6,14 @@ import Header from '../Header/Header';
 import { Helmet } from 'react-helmet';
 import useSiteMetadata from '../SiteMetadata';
 import SiteContext from '../SiteContext';
+import Button from '@material-ui/core/Button';
+import { useCookie } from '@use-hook/use-cookie';
+import Snackbar from '@material-ui/core/Snackbar';
+import Grid from '@material-ui/core/Grid';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
+  const [cookieConsent, setCoockieConsent] = useCookie('gatsby-gdpr-google-analytics');
   const [navbarSettings, setNavbarSettings] = useState({
     scrolledColor: 'paper',
     textColor: 'light',
@@ -16,6 +21,13 @@ const TemplateWrapper = ({ children }) => {
   const [footerSettings, setFooterSettings] = useState({
     color: 'secondary',
   });
+
+  const handleCookieConsent = answer => () => {
+    setCoockieConsent(answer);
+    if (answer === true) {
+      window.location.reload();
+    }
+  };
 
   return (
     <>
@@ -77,6 +89,35 @@ const TemplateWrapper = ({ children }) => {
       >
         <Header />
         <div style={{ zIndex: 2, position: 'relative', backgroundColor: '#fff' }}>{children}</div>
+        <Snackbar
+          anchorOrigin={{
+            vertical: 'bottom',
+            horizontal: 'right',
+          }}
+          style={{ maxWidth: 500 }}
+          open={cookieConsent === undefined}
+          message="Wij gebruiken cookies om te analyseren of onze site goed werkt.
+          Kies 'Weigeren' als je liever niet hebt dat er data wordt verzameld over je bezoek."
+          action={
+            <Grid container spacing={1}>
+              <Grid item>
+                <Button color="secondary" size="small" onClick={handleCookieConsent(false)}>
+                  Weigeren
+                </Button>
+              </Grid>
+              <Grid item>
+                <Button
+                  color="secondary"
+                  variant="outlined"
+                  size="small"
+                  onClick={handleCookieConsent(true)}
+                >
+                  Toestaan
+                </Button>
+              </Grid>
+            </Grid>
+          }
+        />
         <Footer />
       </SiteContext.Provider>
     </>

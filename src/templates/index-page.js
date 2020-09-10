@@ -15,7 +15,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
 import SiteContext from '../components/SiteContext';
 import { Helmet } from 'react-helmet';
-import Carousel from '../components/Carousel';
+import Flip from '../components/Flip';
 
 const bgColor = 'white';
 
@@ -82,32 +82,34 @@ export const IndexPageTemplate = ({
         >
           {customerDisplay.title}
         </Typography>
-        <Carousel
-          slidesPerView={3}
-          spaceBetween={32}
-          autoplay={{ delay: 4000 }}
-          allowTouchMove={false}
-        >
+        <Grid container spacing={2}>
           {customerDisplay.logos?.map(customer => (
-            <a
-              key={customer.url}
-              href={customer.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              title={customer.url}
-            >
-              <PreviewCompatibleImage
-                imageInfo={{ image: customer.image, alt: customer.title }}
-                style={{
-                  maxWidth: 150,
-                  objectFit: 'contain',
-                  marginLeft: 'auto',
-                  marginRight: 'auto',
-                }}
+            <Grid item xs={6} sm={3} key={customer.name}>
+              <Flip
+                front={
+                  <PreviewCompatibleImage
+                    imageInfo={{ image: customer.image, alt: customer.title }}
+                    style={{
+                      maxWidth: 150,
+                      filter: 'grayscale(1)',
+                      objectFit: 'contain',
+                      marginLeft: 'auto',
+                      marginRight: 'auto',
+                    }}
+                  />
+                }
+                back={
+                  <Card style={{ height: '100%' }}>
+                    <CardContent>
+                      <Typography variant="h6">{customer.name}</Typography>
+                      <Typography variant="body2">{customer.description}</Typography>
+                    </CardContent>
+                  </Card>
+                }
               />
-            </a>
+            </Grid>
           ))}
-        </Carousel>
+        </Grid>
       </ColorBlock>
 
       <ColorBlock backgroundColor={bgColor} id="home-block-3" equalPadding maxWidth="lg">
@@ -268,6 +270,8 @@ export const pageQuery = graphql`
               }
             }
             url
+            name
+            description
           }
         }
         homeBlock3 {

@@ -10,10 +10,8 @@ const ServicesPagePreview = ({ entry }) => {
       <ServicesPageTemplate
         title={data.title}
         bannerImage={data.bannerImage}
-        subTitle={data.subtitle}
-        intro={data.intro}
-        aboutSections={data.aboutSections}
-        dienstAnnouncement={data.dienstAnnouncement}
+        services={data.services}
+        contact={data.contact}
       />
     );
   }

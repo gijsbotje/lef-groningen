@@ -1,2 +1,5 @@
 lambda/**
+node_modules/**
+public/**
+.cache
 
