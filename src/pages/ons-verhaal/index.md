@@ -10,6 +10,10 @@ aboutBlock1:
     willen we anderen mee inspireren.
   title: Ons verhaal
 aboutBlock2:
+  extraBlock:
+    image: /img/question-mark-chalk.jpg
+    subTitle: Kom eens langs!
+    title: Heb jij LEF?
   persons:
     - featured: true
       image: /img/thijs-portret-2.jpg
@@ -191,6 +195,14 @@ aboutBlock2:
       mail: ''
       position: ''
       title: Eline
+    - featured: false
+      image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
+      list:
+        - answer: '25'
+          question: Leeftijd
+        - answer: Communicatie multimedia design
+          question: Studie
+      title: Gijs
   title: Het LEF team
   extraBlock:
       title: Heb jij LEF?

@@ -51,14 +51,13 @@ export const IndexPageTemplate = ({
       </Typography>
       <ColorBlock
         backgroundColor="blue"
-        backgroundImage={homeBlock1.image?.childImageSharp?.fluid?.src}
+        backgroundImage={{ image: homeBlock1?.image ?? null, ...homeBlock1.image }}
         backgroundPosition="bottom right"
         isFirst
         scrollToId="home-block-2"
         showScrollDown
         equalPadding
         style={{ color: '#fff' }}
-        fluid={homeBlock1.image.childImageSharp?.fluid}
       >
         <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
       </ColorBlock>

@@ -1,33 +1,13 @@
-// /*
-//   do this shit
-//   https://github.com/bluepeter/gatsby-material-ui-business-starter/blob/master/src/utils/getPageContext.js
-//  */
-//
-//
-//
-//
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import { ServerStyleSheets as MuiServerStyleSheets } from '@material-ui/styles';
 import {
   ServerStyleSheet as StyledComponentsServerStyleSheet,
   StyleSheetManager,
-  ThemeProvider,
 } from 'styled-components';
 import stylesProviderProps from './.cache/styles-provider-props';
 import { hasEntries } from './utils';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import {
-  createMuiTheme,
-  responsiveFontSizes,
-  ThemeProvider as MuiThemeProvider,
-} from '@material-ui/core/styles';
-import lefTheme from './src/theme';
-import Layout from './src/components/Layout';
 import wrapWithProvider from './src/components/wrapWithProvider';
-
-let theme = createMuiTheme(lefTheme);
-theme = responsiveFontSizes(theme);
 
 // Keep track of sheets for each page
 const globalLeak = new Map();
@@ -51,6 +31,16 @@ export const wrapRootElement = ({ element, pathname }, pluginOptions) => {
   return (
     <StyleSheetManager sheet={scSheet.instance}>{muiSheets.collect(element)}</StyleSheetManager>
   );
+};
+
+wrapRootElement.propTypes = {
+  element: PropTypes.object,
+  pathname: PropTypes.string,
+};
+
+wrapRootElement.defaultProps = {
+  element: undefined,
+  pathname: undefined,
 };
 
 export const wrapPageElement = wrapWithProvider;
@@ -90,9 +80,3 @@ export const onRenderBody = ({ setHeadComponents, pathname }) => {
 
   globalLeak.delete(pathname);
 };
-
-// import wrapWithProvider from './src/components/wrapWithProvider/wrapWithProvider';
-//
-// export const wrapRootElement = wrapWithProvider;
-//
-// export default wrapRootElement;

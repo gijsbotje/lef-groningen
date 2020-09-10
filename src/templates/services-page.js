@@ -78,8 +78,8 @@ export const ServicesPageTemplate = ({ title, bannerImage, services, contact }) 
       <ColorBlock
         backgroundColor="yellow"
         showScrollDown
-        fluid={bannerImage.childImageSharp.fluid}
         maxWidth="sm"
+        backgroundImage={{ image: bannerImage, ...bannerImage }}
       >
         <Section>
           <Typography variant="h2" component="h1" gutterBottom align="center">
@@ -91,21 +91,6 @@ export const ServicesPageTemplate = ({ title, bannerImage, services, contact }) 
       <Container maxWidth="lg" style={{ paddingBottom: 16 }}>
         {services.map((section, idx) => (
           <ServicesPageLayout className={clsx({ mirrored: idx % 2 === 0 })}>
-            {/* <Card */}
-            {/*  elevation={6} */}
-            {/*  style={{ */}
-            {/*    gridArea: 'title', */}
-            {/*    height: '100%', */}
-            {/*    backgroundColor: '#FFD600', */}
-            {/*    color: '#000', */}
-            {/*  }} */}
-            {/* > */}
-            {/*  <CardContent> */}
-            {/*    <Box display="flex" alignItems="center" justifyContent="center"> */}
-            {/*      <Typography variant="h3">{section.title}</Typography> */}
-            {/*    </Box> */}
-            {/*  </CardContent> */}
-            {/* </Card> */}
             <Card
               elevation={0}
               style={{
