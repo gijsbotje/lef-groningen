@@ -62,7 +62,6 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
         equalPadding
         showScrollDown
         scrollToId="about-anchor"
-        fluid={aboutBlock1.background.childImageSharp.fluid}
         backgroundPosition="bottom left"
         maxWidth="sm"
         backgroundImage={{ image: aboutBlock1.background, ...aboutBlock1.background }}

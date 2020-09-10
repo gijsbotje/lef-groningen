@@ -66,15 +66,15 @@ collections:
                   - label: "Image"
                     name: "image"
                     widget: "image"
-                    required: "false"
+                    required: false
                   - label: "Title"
                     name: "title"
                     widget: "string"
-                    required: "false"
+                    required: false
                   - label: "Text"
                     name: "text"
                     widget: "text"
-                    required: "false"
+                    required: false
           - label: "Logos"
             name: "customerDisplay"
             widget: "object"
