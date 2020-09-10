@@ -66,5 +66,3 @@ export const shouldUpdateScroll = ({ routerProps: { location }, getSavedScrollPo
   }
   return false;
 };
-
-export default wrapPageElement;
