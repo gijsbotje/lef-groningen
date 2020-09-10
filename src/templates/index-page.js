@@ -101,7 +101,9 @@ export const IndexPageTemplate = ({
                 back={
                   <Card style={{ height: '100%' }}>
                     <CardContent>
-                      <Typography variant="h6" component="div">{customer.name}</Typography>
+                      <Typography variant="h6" component="div">
+                        {customer.name}
+                      </Typography>
                       <Typography variant="body2">{customer.description}</Typography>
                     </CardContent>
                   </Card>
