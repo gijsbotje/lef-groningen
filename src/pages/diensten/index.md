@@ -24,9 +24,9 @@ services:
     
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
-    image3: /img/ted-en-thijs-camera-square.jpg
-    image4: /img/leffers-op-vloer-brainstormen.jpg
-    image5: /img/leffers-op-vloer-brainstormen.jpg
+    image3: /img/working-in-a-group-6224.jpg
+    image4: /img/helloquence-5fNmWej4tAA-unsplash.jpg
+    image5: /img/ted-en-thijs-square.jpg
     quote:
       text: Wij hadden behoefte aan nieuwe verfrissende inzichten. LEF was in staat dit te realiseren. Delfts Blauw werd Rebels Blauw.
       author: Ed Scherbeyn, directeur Royal Goedewaagen
@@ -46,11 +46,11 @@ services:
       ## Wat levert het op?
       
       Wij zijn jouw flexibele communicatie afdeling, of we regelen de financiële administratie. Beheren van de website of hulp nodig bij recruitment? Geen probleem. Wij pakken het voor je op zodat jij je kunt focussen op de core-business. Flexibel, voor een betaalbare prijs en met een hoog rendement.
-    image1: /img/leffers-op-vloer-brainstormen.jpg
-    image2: /img/ted-en-thijs-camera-square.jpg
-    image3: /img/ted-en-thijs-camera-square.jpg
-    image4: /img/leffers-op-vloer-brainstormen.jpg
-    image5: /img/leffers-op-vloer-brainstormen.jpg
+    image1: /img/lefgozers.jpg
+    image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
+    image3: /img/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
+    image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
+    image5: /img/Schermafbeelding 2020-07-23 om 14.41.43.png
     quote:
       text: Goeie en energieke begeleiding tijdens de sessies.
       author: Gijs Boddeus, CMD student
