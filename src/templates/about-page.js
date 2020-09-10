@@ -96,12 +96,12 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
         </Section>
         <Grid container spacing={4}>
           {aboutBlock2.persons.map((item, index) => (
-            <Fragment key={item.title}>
+            <Fragment key={item?.title}>
               <Grid item xs={12} sm={6} md={4}>
                 <Card style={{ height: '100%' }} elevation={6}>
                   <CardActionArea
                     component="div"
-                    onClick={() => (item.featured ? setOpenDialogId(index) : null)}
+                    onClick={() => (item?.featured ? setOpenDialogId(index) : null)}
                   >
                     <HoverBlock
                       overlay={
@@ -115,7 +115,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                           {item.featured ? (
                             <CardContent>
                               <Typography variant="h5" component="div" gutterBottom align="center">
-                                {item.title}
+                                {item?.title}
                               </Typography>
                               <Typography
                                 variant="body1"
@@ -124,7 +124,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                                 align="center"
                                 color="textSecondary"
                               >
-                                {item.position}
+                                {item?.position}
                               </Typography>
                               <Button
                                 size="small"
@@ -143,7 +143,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                           ) : (
                             <CardContent>
                               <Typography variant="h5" component="div" gutterBottom align="center">
-                                {item.title}
+                                {item?.title}
                               </Typography>
                               <Typography
                                 variant="body1"
@@ -152,11 +152,11 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                                 align="center"
                                 color="textSecondary"
                               >
-                                {item.position}
+                                {item?.position}
                               </Typography>
                               <Typography variant="body2" align="center">
-                                {item.list
-                                  .map(({ question, answer }) =>
+                                {item?.list
+                                  ?.map(({ question, answer }) =>
                                     question === 'Leeftijd' ? `${answer} jaar` : answer,
                                   )
                                   .join(' - ')}
@@ -167,7 +167,7 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                       }
                     >
                       <PreviewCompatibleImage
-                        imageInfo={{ image: item.image, alt: item.title }}
+                        imageInfo={{ image: item?.image, alt: item?.title }}
                         style={{
                           objectFit: 'cover',
                           height: '100%',

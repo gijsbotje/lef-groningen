@@ -35,22 +35,40 @@ customerDisplay:
   logos:
     - image: /img/royal-goedewaagen-logo.png
       url: 'https://www.goedewaagen.nl/'
+      name: Royal Goedewagen
+      description: Dit en dat gedaan
     - image: /img/1TV_Noorderpoort_1605182a.png
       url: 'https://www.noorderpoort.nl/'
+      name: Noorderpoort
+      description: Dit en dat gedaan
     - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
       url: 'https://www.arriva.nl/'
+      name: Arriva
+      description: Dit en dat gedaan
     - image: /img/Gem Groningen.jpg
       url: 'https://gemeente.groningen.nl/'
+      name: Gemeente Groningen
+      description: Dit en dat gedaan
     - image: /img/pentascope-logo-cut.jpg
       url: 'https://www.pentascope.nl/'
+      name: Pentascope
+      description: Dit en dat gedaan
     - image: /img/faktoo-logo.png
       url: 'https://www.faktoo.nl/'
+      name: Faktoo
+      description: Dit en dat gedaan
     - image: /img/LOGO-MARTINIPLAZA.jpg
       url: 'https://martiniplaza.nl/'
+      name: Martiniplaze
+      description: Dit en dat gedaan
     - image: /img/data.1120xC867x578+58+0.1120x747.jpg
       url: 'https://www.dehoven.nl/'
+      name: de Hoven
+      description: Dit en dat gedaan
     - image: /img/Schermafbeelding 2020-08-14 om 16.30.58.png
       url: 'https://streekdiensten.nl/'
+      name: Streekdiensten
+      description: Dit en dat gedaan
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
