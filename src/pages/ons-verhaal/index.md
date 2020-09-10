@@ -197,16 +197,15 @@ aboutBlock2:
       title: Eline
     - featured: false
       image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
+      linkedIn: ''
       list:
         - answer: '25'
           question: Leeftijd
         - answer: Communicatie multimedia design
           question: Studie
+      mail: ''
+      position: ''
       title: Gijs
   title: Het LEF team
-  extraBlock:
-      title: Heb jij LEF?
-      subTitle: Kom eens langs!
-      image: /img/question-mark-chalk.jpg
 ---
 
