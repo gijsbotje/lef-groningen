@@ -199,12 +199,44 @@ aboutBlock2:
       position: ""
       title: Gijs
     - featured: false
-      title: Tessa te Riele
+      title: Tessa
       image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
       list:
         - question: Leeftijd
           answer: "24"
         - question: Studie
           answer: Farmacie
+    - featured: false
+      title: Bob
+      list:
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Bedrijfskunde & Change Management
+      image: /img/whatsapp-image-2020-09-21-at-14.07.55.jpeg
+    - featured: false
+      title: Juul
+      list:
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Kunstacademie
+      image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
+    - featured: false
+      title: Gerjan
+      list:
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Rechten
+      image: /img/whatsapp-image-2020-09-21-at-14.07.54-1-.jpeg
+    - featured: false
+      title: Jelmer
+      list:
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Social Work
+      image: /img/whatsapp-image-2020-09-21-at-14.07.53.jpeg
   title: Het LEF team
 ---
