@@ -21,7 +21,7 @@ services:
       ## Wat levert het op?
 
 
-      Onze methodes zijn gebaseerd op Design Thinking. Hierdoor komen we snel met veel nieuwe ideeën. Een Ideeënbrouwerij is daarom enorm waardevol. Het zet koers naar een nieuwe strategie, een visie of het levert een kant en klaar marketingplan op. Er komt in ieder geval iets uit wat je niet verwacht. Een praktisch resultaat waar je mee verder kunt.
+      Onze methodes zijn gebaseerd op Design Thinking. Hierdoor komen we snel met veel nieuwe ideeën. Het zet koers naar een nieuwe strategie, een visie of het levert een kant en klaar marketingplan op. Projecten zetten we op als een start-up: snel, creatief en met korte lijnen. Wij hebben een ander perspectief, stellen andere vragen en vormen een kritische sparringpartner. Naast kennis brengen we onze vonk over om medewerkers nieuwsgierig en eager te houden. We komen in ieder geval met iets wat je niet verwacht. Een praktisch resultaat waar je mee verder kunt.
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
     image3: /img/working-in-a-group-6224.jpg
