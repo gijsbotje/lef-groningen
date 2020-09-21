@@ -77,6 +77,14 @@ aboutBlock2:
       position: ""
       title: Nadja
     - featured: false
+      title: Juul
+      list:
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Kunstacademie
+      image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
+    - featured: false
       image: /img/marel.jpg
       linkedIn: ""
       list:
@@ -110,6 +118,17 @@ aboutBlock2:
       position: ""
       title: Jacco
     - featured: false
+      image: /img/unknown1.jpg
+      linkedIn: ""
+      list:
+        - answer: "23"
+          question: Leeftijd
+        - answer: Psychologie
+          question: Studie
+      mail: ""
+      position: ""
+      title: Matthijs
+    - featured: false
       image: /img/linde.jpg
       linkedIn: ""
       list:
@@ -120,6 +139,14 @@ aboutBlock2:
       mail: ""
       position: ""
       title: Linde
+    - featured: false
+      title: Jelmer
+      list:
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Social Work
+      image: /img/whatsapp-image-2020-09-21-at-14.07.53.jpeg
     - featured: false
       image: /img/liset.jpg
       linkedIn: ""
@@ -143,27 +170,21 @@ aboutBlock2:
       position: ""
       title: Willem
     - featured: false
-      image: /img/unknown1.jpg
-      linkedIn: ""
+      title: Gerjan
       list:
-        - answer: "23"
-          question: Leeftijd
-        - answer: Psychologie
-          question: Studie
-      mail: ""
-      position: ""
-      title: Matthijs
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Rechten
+      image: /img/whatsapp-image-2020-09-21-at-14.07.54-1-.jpeg
     - featured: false
-      image: /img/unknown4.jpg
-      linkedIn: ""
+      title: Tessa
+      image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
       list:
-        - answer: "24"
-          question: Leeftijd
-        - answer: Strategic Innovation Management & Change Management
-          question: Studie
-      mail: ""
-      position: ""
-      title: Ruben
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Farmacie
     - featured: false
       image: /img/unknown2.jpg
       linkedIn: ""
@@ -177,6 +198,25 @@ aboutBlock2:
       position: ""
       title: Michiel
     - featured: false
+      image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
+      linkedIn: ""
+      list:
+        - answer: "25"
+          question: Leeftijd
+        - answer: ICT
+          question: Studie
+      mail: ""
+      position: ""
+      title: Gijs
+    - featured: false
+      title: Bob
+      list:
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Bedrijfskunde & Change Management
+      image: /img/whatsapp-image-2020-09-21-at-14.07.55.jpeg
+    - featured: false
       image: /img/unknown3.jpg
       linkedIn: ""
       list:
@@ -188,55 +228,15 @@ aboutBlock2:
       position: ""
       title: Eline
     - featured: false
-      image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
+      image: /img/unknown4.jpg
       linkedIn: ""
       list:
-        - answer: "25"
+        - answer: "24"
           question: Leeftijd
-        - answer: Communicatie & multimedia design
+        - answer: Strategic Innovation Management & Change Management
           question: Studie
       mail: ""
       position: ""
-      title: Gijs
-    - featured: false
-      title: Tessa
-      image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
-      list:
-        - question: Leeftijd
-          answer: "24"
-        - question: Studie
-          answer: Farmacie
-    - featured: false
-      title: Bob
-      list:
-        - question: Leeftijd
-          answer: "24"
-        - question: Studie
-          answer: Bedrijfskunde & Change Management
-      image: /img/whatsapp-image-2020-09-21-at-14.07.55.jpeg
-    - featured: false
-      title: Juul
-      list:
-        - question: Leeftijd
-          answer: "24"
-        - question: Studie
-          answer: Kunstacademie
-      image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
-    - featured: false
-      title: Gerjan
-      list:
-        - question: Leeftijd
-          answer: "24"
-        - question: Studie
-          answer: Rechten
-      image: /img/whatsapp-image-2020-09-21-at-14.07.54-1-.jpeg
-    - featured: false
-      title: Jelmer
-      list:
-        - question: Leeftijd
-          answer: "24"
-        - question: Studie
-          answer: Social Work
-      image: /img/whatsapp-image-2020-09-21-at-14.07.53.jpeg
+      title: Ruben
   title: Het LEF team
 ---
