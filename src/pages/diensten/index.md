@@ -32,7 +32,7 @@ services:
         de creatieve denkkracht van zowel studenten en starters met
         verschillende studie achtergronden.
     image4: /img/helloquence-5fNmWej4tAA-unsplash.jpg
-    image5: /img/ted-en-thijs-square.jpg
+    image5: /img/whatsapp-image-2020-09-21-at-15.50.20-1-.jpeg
     quote:
       text: Wij hadden behoefte aan nieuwe verfrissende inzichten. LEF was in staat
         dit te realiseren. Delfts Blauw werd Rebels Blauw.
@@ -54,9 +54,9 @@ services:
 
 
       Met Unboxing gaan medewerkers intensief aan de slag met een onderwerp of thema wat de organisatie aan het hart gaat. Op deze manier worden de medewerkers niet alleen betrokken in het proces, hun kennis en creativiteit wordt optimaal benut om het thema verder te brengen. Zo komen we samen tot een beter resultaat.
-    image1: /img/lefgozers.jpg
+    image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
-    image3: /img/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
+    image3: /img/whatsapp-image-2020-08-27-at-15.05.37.jpeg
     title: "Unboxing: Design Thinking"
     content:
       title: Why
@@ -65,7 +65,7 @@ services:
         geven aan een visie of strategie, en slaan op die manier een brug naar
         de praktijk.
     image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
-    image5: /img/Schermafbeelding 2020-07-23 om 14.41.43.png
+    image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     quote:
       text: Goeie en energieke begeleiding tijdens de sessies.
       author: Gijs Boddeus, CMD student
