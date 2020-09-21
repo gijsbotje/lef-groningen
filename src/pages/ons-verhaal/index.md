@@ -198,5 +198,13 @@ aboutBlock2:
       mail: ""
       position: ""
       title: Gijs
+    - featured: false
+      title: Tessa te Riele
+      image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
+      list:
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Farmacie
   title: Het LEF team
 ---
