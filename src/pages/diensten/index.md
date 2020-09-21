@@ -60,10 +60,10 @@ services:
     title: "Unboxing: Design Thinking"
     content:
       title: Why
-      text: "Onze methodes zijn gebaseerd op Design Thinking. Wij helpen medewerkers
-        om buiten de vaste patronen te denken en te doen. Met elkaar gaan we aan
-        de slag om Out of the Box te denken en komen we tot een praktisch
-        resultaat. "
+      text: Wij helpen medewerkers om buiten de vaste patronen te denken en te doen.
+        Wij gebruiken Design Thinking om medewerkers zelfstandig vorm te laten
+        geven aan een visie of strategie, en slaan op die manier een brug naar
+        de praktijk.
     image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
     image5: /img/Schermafbeelding 2020-07-23 om 14.41.43.png
     quote:
