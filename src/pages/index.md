@@ -31,8 +31,8 @@ customerDisplay:
   logos:
     - image: /img/royal-goedewaagen-logo.png
       url: https://www.goedewaagen.nl/
-      name: Royal Goedewagen
-      description: Royal Goedewagen
+      name: Royal Goedewaagen
+      description: "Hoe behoud je een 400 jaar oude traditie? Rebels Blauw! "
     - image: /img/1TV_Noorderpoort_1605182a.png
       url: https://www.noorderpoort.nl/
       name: Noorderpoort
