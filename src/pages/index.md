@@ -39,16 +39,16 @@ customerDisplay:
       description: Welk scholingsaanbod past bij het onderwijs van de toekomst?
     - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
       url: https://www.arriva.nl/
-      name: Arriva
-      description: Arriva
+      name: "Case: Expert Walkthrough"
+      description: Hoe kan de klantbeleving verbeterd worden in het huidige busvervoer?
     - image: /img/Gem Groningen.jpg
       url: https://gemeente.groningen.nl/
-      name: Gemeente Groningen
-      description: Gemeente Groningen
+      name: "Case: Summerboost"
+      description: Bouw vier Start-Ups in zeven weken.
     - image: /img/pentascope-logo-cut.jpg
       url: https://www.pentascope.nl/
-      name: Pentascope
-      description: Pentascope
+      name: "Case: Organisatie ontwikkeling"
+      description: Een samenwerking tussen expertise en ambitie.
     - image: /img/faktoo-logo.png
       url: https://www.faktoo.nl/
       name: Faktoo
