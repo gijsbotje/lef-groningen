@@ -45,25 +45,26 @@ customerDisplay:
     - image: /img/Gem Groningen.jpg
       url: https://gemeente.groningen.nl/
       name: Onboarding
-      description: Bouw vier Start-Ups in zeven weken. Van ideegeneratie tot het
-        uitwerken van nieuwe concepten.
+      description: "Nieuwe werknemers bouwen vier Start-Ups in zeven weken: van
+        ideegeneratie tot concepting."
     - image: /img/pentascope-logo-cut.jpg
       url: https://www.pentascope.nl/
       name: Organisatie- ontwikkeling
-      description: Een samenwerking tussen expertise en ambitie.
+      description: Een fris perspectief gebruiken om tot beter resultaat te komen.
     - image: /img/faktoo-logo.png
       url: https://www.faktoo.nl/
       name: Arbeidsmarkt
-      description: Met welke tool creëer je bewustwording om inclusief werkgever te worden?
+      description: Een applicatie om meer bewustwording te creëren om inclusief
+        werkgever te worden.
     - image: /img/LOGO-MARTINIPLAZA.jpg
       url: https://martiniplaza.nl/
-      name: Strategie
+      name: Innovatie
       description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5
         metereconomie?
     - image: /img/data.1120xC867x578+58+0.1120x747.jpg
       url: https://www.dehoven.nl/
       name: Marketing
-      description: Hoe krijg je hoogopgeleid (zorg)personeel naar een krimpregio?
+      description: Hoe krijg je hoogopgeleid (zorg) personeel naar een krimpregio?
     - image: /img/Schermafbeelding 2020-08-14 om 16.30.58.png
       url: https://streekdiensten.nl/
       name: Digitalisering
