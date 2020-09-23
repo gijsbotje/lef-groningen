@@ -29,8 +29,8 @@ services:
     content:
       title: Why
       text: Soms heb je iemand nodig die van binnen naar buiten kijkt. Wij combineren
-        de creatieve denkkracht van zowel studenten en starters met
-        verschillende studie achtergronden.
+        de denkkracht van zowel studenten en starters met verschillende studie
+        achtergronden. Zo komen wij tot creatieve ideeën én oplossingen.
     image4: /img/helloquence-5fNmWej4tAA-unsplash.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-1-.jpeg
     quote:
