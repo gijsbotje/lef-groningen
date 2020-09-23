@@ -43,7 +43,7 @@ customerDisplay:
       description: Hoe kan de klantbeleving verbeterd worden in het huidige busvervoer?
     - image: /img/Gem Groningen.jpg
       url: https://gemeente.groningen.nl/
-      name: Summerboost
+      name: Onboarding
       description: Bouw vier Start-Ups in zeven weken. Van ideegeneratie tot het
         uitwerken van nieuwe concepten.
     - image: /img/pentascope-logo-cut.jpg
