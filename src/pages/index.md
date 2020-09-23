@@ -31,12 +31,12 @@ customerDisplay:
   logos:
     - image: /img/royal-goedewaagen-logo.png
       url: https://www.goedewaagen.nl/
-      name: Royal Goedewaagen
-      description: "Hoe behoud je een 400 jaar oude traditie? Rebels Blauw! "
+      name: "Case: Marktpositionering"
+      description: Hoe behoud je een 400 jaar oude traditie?
     - image: /img/1TV_Noorderpoort_1605182a.png
       url: https://www.noorderpoort.nl/
-      name: Noorderpoort
-      description: Noorderpoort
+      name: "Case: Onderwijsvernieuwing"
+      description: Welk scholingsaanbod past bij het onderwijs van de toekomst?
     - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
       url: https://www.arriva.nl/
       name: Arriva
