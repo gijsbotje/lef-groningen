@@ -44,7 +44,8 @@ customerDisplay:
     - image: /img/Gem Groningen.jpg
       url: https://gemeente.groningen.nl/
       name: Summerboost
-      description: Bouw vier Start-Ups in zeven weken.
+      description: Bouw vier Start-Ups in zeven weken. Van ideegeneratie tot het
+        uitwerken van nieuwe concepten.
     - image: /img/pentascope-logo-cut.jpg
       url: https://www.pentascope.nl/
       name: Organisatie- ontwikkeling
@@ -52,19 +53,21 @@ customerDisplay:
     - image: /img/faktoo-logo.png
       url: https://www.faktoo.nl/
       name: Arbeidsmarkt
-      description: Met welke tool creëer je bewustwording voor inclusief werkgeverschap?
+      description: Met welke tool creëer je bewustwording om inclusief werkgever te worden?
     - image: /img/LOGO-MARTINIPLAZA.jpg
       url: https://martiniplaza.nl/
-      name: Martiniplaza
-      description: Martiniplaza
+      name: Strategie
+      description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5
+        metereconomie?
     - image: /img/data.1120xC867x578+58+0.1120x747.jpg
       url: https://www.dehoven.nl/
-      name: de Hoven
-      description: de Hoven
+      name: Marketing
+      description: De oplossing om hoogopgeleid personeel naar een krimpregio te krijgen.
     - image: /img/Schermafbeelding 2020-08-14 om 16.30.58.png
       url: https://streekdiensten.nl/
-      name: Streekdiensten
-      description: Streekdiensten
+      name: Digitalisering
+      description: "Van probleem (Coronacrisis) naar oplossing (platform voor
+        samenwerking) binnen een maand. "
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
