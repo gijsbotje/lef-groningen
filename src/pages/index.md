@@ -39,8 +39,9 @@ customerDisplay:
       description: Welk scholingsaanbod past bij het onderwijs van de toekomst?
     - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
       url: https://www.arriva.nl/
-      name: Expert Walkthrough
-      description: Hoe kan de klantbeleving verbeterd worden in het huidige busvervoer?
+      name: Klantbeleving
+      description: Door een Expert Walkthrough de klantbeleving verbeteren in het
+        busvervoer.
     - image: /img/Gem Groningen.jpg
       url: https://gemeente.groningen.nl/
       name: Onboarding
@@ -62,7 +63,7 @@ customerDisplay:
     - image: /img/data.1120xC867x578+58+0.1120x747.jpg
       url: https://www.dehoven.nl/
       name: Marketing
-      description: De oplossing om hoogopgeleid personeel naar een krimpregio te krijgen.
+      description: Hoe krijg je hoogopgeleid (zorg)personeel naar een krimpregio?
     - image: /img/Schermafbeelding 2020-08-14 om 16.30.58.png
       url: https://streekdiensten.nl/
       name: Digitalisering
