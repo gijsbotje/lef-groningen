@@ -31,28 +31,28 @@ customerDisplay:
   logos:
     - image: /img/royal-goedewaagen-logo.png
       url: https://www.goedewaagen.nl/
-      name: "Case: Marktpositionering"
+      name: Markt- positionering
       description: Hoe behoud je een 400 jaar oude traditie?
     - image: /img/1TV_Noorderpoort_1605182a.png
       url: https://www.noorderpoort.nl/
-      name: "Case: Onderwijsvernieuwing"
+      name: Onderwijs- vernieuwing
       description: Welk scholingsaanbod past bij het onderwijs van de toekomst?
     - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
       url: https://www.arriva.nl/
-      name: "Case: Expert Walkthrough"
+      name: Expert Walkthrough
       description: Hoe kan de klantbeleving verbeterd worden in het huidige busvervoer?
     - image: /img/Gem Groningen.jpg
       url: https://gemeente.groningen.nl/
-      name: "Case: Summerboost"
+      name: Summerboost
       description: Bouw vier Start-Ups in zeven weken.
     - image: /img/pentascope-logo-cut.jpg
       url: https://www.pentascope.nl/
-      name: "Case: Organisatie ontwikkeling"
+      name: Organisatie- ontwikkeling
       description: Een samenwerking tussen expertise en ambitie.
     - image: /img/faktoo-logo.png
       url: https://www.faktoo.nl/
-      name: Faktoo
-      description: Faktoo
+      name: Arbeidsmarkt
+      description: Met welke tool creëer je bewustwording voor inclusief werkgeverschap?
     - image: /img/LOGO-MARTINIPLAZA.jpg
       url: https://martiniplaza.nl/
       name: Martiniplaza
