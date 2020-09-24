@@ -56,7 +56,7 @@ services:
       Met Unboxing gaan medewerkers intensief aan de slag met een onderwerp of thema wat de organisatie aan het hart gaat. Op deze manier worden de medewerkers niet alleen betrokken in het proces, hun kennis en creativiteit wordt optimaal benut om het thema verder te brengen. Zo komen we samen tot een beter resultaat.
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
-    image3: /img/schermafbeelding-2020-09-21-om-16.53.37.png
+    image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
     title: "Unboxing: Design Thinking"
     content:
       title: Why
