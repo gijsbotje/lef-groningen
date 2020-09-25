@@ -96,16 +96,13 @@ aboutBlock2:
       position: ""
       title: Marel
     - featured: false
-      image: /img/camilla.jpg
-      linkedIn: ""
+      title: Tessa
+      image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
       list:
-        - answer: "22"
-          question: Leeftijd
-        - answer: International business
-          question: Studie
-      mail: ""
-      position: ""
-      title: Camilla
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Farmacie
     - featured: false
       image: /img/jacco.jpg
       linkedIn: ""
@@ -140,13 +137,13 @@ aboutBlock2:
       position: ""
       title: Linde
     - featured: false
-      title: Jelmer
+      title: Gerjan
       list:
         - question: Leeftijd
           answer: "24"
         - question: Studie
-          answer: Social Work
-      image: /img/whatsapp-image-2020-09-21-at-14.07.53.jpeg
+          answer: Rechten
+      image: /img/whatsapp-image-2020-09-21-at-14.07.54-1-.jpeg
     - featured: false
       image: /img/liset.jpg
       linkedIn: ""
@@ -170,21 +167,24 @@ aboutBlock2:
       position: ""
       title: Willem
     - featured: false
-      title: Gerjan
+      image: /img/camilla.jpg
+      linkedIn: ""
       list:
-        - question: Leeftijd
-          answer: "24"
-        - question: Studie
-          answer: Rechten
-      image: /img/whatsapp-image-2020-09-21-at-14.07.54-1-.jpeg
+        - answer: "22"
+          question: Leeftijd
+        - answer: International business
+          question: Studie
+      mail: ""
+      position: ""
+      title: Camilla
     - featured: false
-      title: Tessa
-      image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
+      title: Jelmer
       list:
         - question: Leeftijd
           answer: "24"
         - question: Studie
-          answer: Farmacie
+          answer: Social Work
+      image: /img/whatsapp-image-2020-09-21-at-14.07.53.jpeg
     - featured: false
       image: /img/unknown2.jpg
       linkedIn: ""
@@ -238,5 +238,21 @@ aboutBlock2:
       mail: ""
       position: ""
       title: Ruben
+    - featured: false
+      title: Jelle
+      list:
+        - question: Leeftijd
+          answer: "23"
+        - question: Studie
+          answer: Psychologie
+      image: /img/whatsapp-image-2020-09-25-at-15.25.39.jpeg
+    - featured: false
+      title: Lieke
+      image: /img/whatsapp-image-2020-09-25-at-15.25.39-1-.jpeg
+      list:
+        - question: Leeftijd
+          answer: "24"
+        - question: Studie
+          answer: Verpleegkunde
   title: Het LEF team
 ---
