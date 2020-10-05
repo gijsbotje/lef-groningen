@@ -66,6 +66,8 @@ services:
     image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     quote:
-      text: Goeie en energieke begeleiding tijdens de sessies.
-      author: Gijs Boddeus, CMD student
+      text: LEF weet elke keer weer het maximale uit de groep te halen. De sessies
+        zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en
+        concrete actiepunten naar huis.
+      author: "Koen Atema, programmamanager Noorderpoort "
 ---
