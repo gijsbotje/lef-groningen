@@ -74,6 +74,10 @@ customerDisplay:
       url: https://eelloo.nl/
       name: Nieuwe werken
       description: "to be announced! "
+    - image: /img/screenshot-2020-10-05-at-14.28.44.png
+      url: https://lefgroningen.nl/
+      name: Bel met Teddy
+      description: "0652251395"
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
