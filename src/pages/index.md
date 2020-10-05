@@ -70,6 +70,10 @@ customerDisplay:
       name: Digitalisering
       description: "Van probleem (Coronacrisis) naar oplossing (platform voor
         samenwerking) binnen een maand. "
+    - image: /img/eelloo.png
+      url: https://eelloo.nl/
+      name: Nieuwe werken
+      description: "to be announced! "
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
