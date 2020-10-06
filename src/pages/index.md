@@ -74,7 +74,7 @@ customerDisplay:
       url: https://eelloo.nl/
       name: Nieuwe werken
       description: "to be announced! "
-    - image: /img/screenshot-2020-10-05-at-14.28.44.png
+    - image: /img/whatsapp-image-2020-10-06-at-15.09.32.jpeg
       url: https://lefgroningen.nl/
       name: Bel met Teddy
       description: "0652251395"
