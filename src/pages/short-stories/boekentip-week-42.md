@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Boekentip week 42
 date: 2020-10-05T12:17:53.894Z
 description: Boekentip week 42
-featuredpost: true
+featuredpost: false
 featuredimage: /img/boekentip.jpeg
 tags:
   - Story
