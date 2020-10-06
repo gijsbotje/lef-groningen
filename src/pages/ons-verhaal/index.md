@@ -217,7 +217,7 @@ aboutBlock2:
           answer: Bedrijfskunde & Change Management
       image: /img/whatsapp-image-2020-09-21-at-14.07.55.jpeg
     - featured: false
-      image: /img/unknown3.jpg
+      image: /img/whatsapp-image-2020-10-06-at-15.00.33.jpeg
       linkedIn: ""
       list:
         - answer: "25"
