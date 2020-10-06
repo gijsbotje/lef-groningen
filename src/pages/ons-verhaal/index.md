@@ -145,7 +145,7 @@ aboutBlock2:
           answer: Rechten
       image: /img/whatsapp-image-2020-09-21-at-14.07.54-1-.jpeg
     - featured: false
-      image: /img/liset.jpg
+      image: /img/whatsapp-image-2020-10-06-at-15.30.33-1-.jpeg
       linkedIn: ""
       list:
         - answer: "22"
