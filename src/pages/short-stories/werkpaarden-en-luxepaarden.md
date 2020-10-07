@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Werkpaarden en luxepaarden
 date: 2020-10-07T13:29:26.630Z
 description: Werkpaarden en luxepaarden
-featuredpost: true
+featuredpost: false
 featuredimage: /img/0.jpeg
 tags:
   - Story
