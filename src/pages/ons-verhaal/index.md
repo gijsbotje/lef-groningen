@@ -150,7 +150,7 @@ aboutBlock2:
       list:
         - answer: "22"
           question: Leeftijd
-        - answer: Change Management
+        - answer: University College & Change Management
           question: Studie
       mail: ""
       position: ""
@@ -222,7 +222,7 @@ aboutBlock2:
       list:
         - answer: "25"
           question: Leeftijd
-        - answer: Economics & business economics en American Studies
+        - answer: American Studies & Economie
           question: Studie
       mail: ""
       position: ""
