@@ -8,18 +8,13 @@ services:
   - extraContent: >-
       ## Wat is het?
 
-
       Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Soms heb je iemand nodig die van buiten naar binnen kijkt, en niet gehinderd is door kokervisie of interne belangen.
-
 
       ## Hoe werkt het?
 
-
       We beschikken over een poule met meer dan 100 studenten vanuit talloze studierichtingen. Op basis van de vraag van de opdrachtgever selecteren we vanuit deze poule een gevarieerd team met verschillende persoonlijkheden en verschillende expertises. Samen met het team diepen we het onderwerp uit in drie sessies en komen met een creatieve oplossing.
 
-
       ## Wat levert het op?
-
 
       Onze methodes zijn gebaseerd op Design Thinking. Hierdoor komen we snel met veel nieuwe ideeën. Het zet koers naar een nieuwe strategie, een visie of het levert een kant en klaar marketingplan op. Projecten zetten we op als een start-up: snel, creatief en met korte lijnen. Wij hebben een ander perspectief, stellen andere vragen en vormen een kritische sparringpartner. Naast kennis brengen we onze vonk over om medewerkers nieuwsgierig en eager te houden. We komen in ieder geval met iets wat je niet verwacht. Een praktisch resultaat waar je mee verder kunt.
     image1: /img/ted-en-thijs-camera-square.jpg
@@ -40,18 +35,13 @@ services:
   - extraContent: >-
       ## Wat is het?
 
-
       We gebruiken Design Thinking om medewerkers van de organisatie zelfstandig vorm te laten geven aan bijvoorbeeld een geformuleerde visie of strategie, en slaan op die manier een brug naar de praktijk. Wij helpen om buiten de vaste patronen te denken en om tot een resultaat te komen waar je de volgende dag mee aan de slag kunt. 
-
 
       ## Hoe werkt het?
 
-
       Eerst werken we aan het genereren van zoveel mogelijk ideeën (divergeren). Daarna richten we ons op het trechteren en selecteren van de beste ideeën (convergeren). Door onze methodieken kunnen wij het proces op de juiste wijze begeleiden. Maar het zijn de deelnemers die de sessies tot leven brengen. Wij zorgen ervoor dat die energie en inspiratie leiden naar een praktisch resultaat.
 
-
       ## Wat levert het op?
-
 
       Met Unboxing gaan medewerkers intensief aan de slag met een onderwerp of thema wat de organisatie aan het hart gaat. Op deze manier worden de medewerkers niet alleen betrokken in het proces, hun kennis en creativiteit wordt optimaal benut om het thema verder te brengen. Zo komen we samen tot een beter resultaat.
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
