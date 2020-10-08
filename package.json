@@ -70,7 +70,7 @@
   "scripts": {
     "clean": "gatsby clean",
     "start": "yarn develop",
-    "build": "yarn clean && gatsby build",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "develop": "yarn clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
