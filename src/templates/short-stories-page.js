@@ -8,7 +8,7 @@ import SiteContext from '../components/SiteContext';
 import BlogRoll from '../components/BlogRoll/BlogRoll';
 import { Helmet } from 'react-helmet';
 
-export const ShortStoriesTemplate = ({ title }) => {
+export const ShortStoriesTemplate = ({ title, background }) => {
   const { setNavbarSettings, setFooterSettings } = useContext(SiteContext);
 
   useEffect(() => {
@@ -32,6 +32,7 @@ export const ShortStoriesTemplate = ({ title }) => {
       <ColorBlock
         backgroundColor="blue"
         scrollToId={title.toLowerCase().replace(/ /g, '-')}
+        backgroundImage={{ image: background, ...background }}
       >
         <Section>
           <Typography variant="h2" component="h1" gutterBottom align="center">
@@ -48,15 +49,17 @@ export const ShortStoriesTemplate = ({ title }) => {
 
 ShortStoriesTemplate.propTypes = {
   title: PropTypes.string,
+  background: PropTypes.object,
 };
 ShortStoriesTemplate.defaultProps = {
   title: undefined,
+  background: undefined,
 };
 
 const ShortStoriesPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
-  return <ShortStoriesTemplate title={frontmatter?.title} />;
+  return <ShortStoriesTemplate title={frontmatter.title} background={frontmatter.background} />;
 };
 
 ShortStoriesPage.propTypes = {
@@ -76,6 +79,13 @@ export const ShortStoriesQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "short-stories-page" } }) {
       frontmatter {
         title
+        background {
+          childImageSharp {
+            fluid(maxWidth: 1920, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
       }
     }
   }

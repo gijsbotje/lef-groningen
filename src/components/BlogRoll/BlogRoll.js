@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Link, graphql, StaticQuery, navigate } from 'gatsby';
+import { graphql, StaticQuery } from 'gatsby';
 import PreviewCompatibleImage from '../PreviewCompatibleImage/PreviewCompatibleImage';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
@@ -12,11 +12,9 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
 import { HTMLContent } from '../Content';
 import Grow from '@material-ui/core/Grow';
-import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Box from '@material-ui/core/Box';
 import Fab from '@material-ui/core/Fab';
-import Footer from '../Footer';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Grow direction="up" ref={ref} {...props} />;
