@@ -4,7 +4,7 @@ title: 'Krachten bundelen: Streekdiensten'
 date: 2020-04-22T11:30:00.708Z
 description: 'Krachten bundelen: Streekdiensten'
 featuredpost: false
-featuredimage: /img/0 (1).jpeg
+featuredimage: /img/0-(1).jpeg
 tags:
   - Story
 ---

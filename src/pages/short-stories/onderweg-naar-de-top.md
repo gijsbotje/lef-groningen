@@ -4,7 +4,7 @@ title: Onderweg naar de top!
 date: 2020-07-23T12:13:14.974Z
 description: Onderweg naar de top!
 featuredpost: false
-featuredimage: /img/Krantartikel LEF.jpeg
+featuredimage: /img/Krantartikel-LEF.jpeg
 tags:
   - Story
 ---
