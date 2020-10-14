@@ -245,7 +245,7 @@ aboutBlock2:
           answer: "23"
         - question: Studie
           answer: Psychologie
-      image: /img/whatsapp-image-2020-09-25-at-15.25.39.jpeg
+      image: /img/whatsapp-image-2020-10-14-at-14.17.01.jpeg
     - featured: false
       title: Lieke
       image: /img/whatsapp-image-2020-09-25-at-15.25.39-1-.jpeg
@@ -254,5 +254,13 @@ aboutBlock2:
           answer: "24"
         - question: Studie
           answer: Verpleegkunde
+    - featured: false
+      title: Lars
+      list:
+        - question: Leeftijd
+          answer: "20"
+        - question: Studie
+          answer: Geschiedenis
+      image: /img/whatsapp-image-2020-10-14-at-14.16.40.jpeg
   title: Het LEF team
 ---
