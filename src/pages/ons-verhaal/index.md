@@ -55,17 +55,6 @@ aboutBlock2:
       position: Oprichter
       title: Teddy Monninkhof
     - featured: false
-      image: /img/victor.jpg
-      linkedIn: ""
-      list:
-        - answer: "25"
-          question: Leeftijd
-        - answer: Economische geografie
-          question: Studie
-      mail: ""
-      position: ""
-      title: Viktor
-    - featured: false
       image: /img/nadja.jpg
       linkedIn: ""
       list:
