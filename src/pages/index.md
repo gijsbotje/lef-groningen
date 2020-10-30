@@ -78,6 +78,10 @@ customerDisplay:
       url: https://lefgroningen.nl/
       name: Bel met Teddy
       description: "0652251395"
+    - name: Leefbaarheid
+      description: Stimuleren van betrokkenheid onder bewoners.
+      image: /img/logo-lefier.png
+      url: https://www.lefier.nl/
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
