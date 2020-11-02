@@ -55,17 +55,6 @@ aboutBlock2:
       position: Oprichter
       title: Teddy Monninkhof
     - featured: false
-      image: /img/nadja.jpg
-      linkedIn: ""
-      list:
-        - answer: "22"
-          question: Leeftijd
-        - answer: Religiewetenschappen
-          question: Studie
-      mail: ""
-      position: ""
-      title: Nadja
-    - featured: false
       title: Juul
       list:
         - question: Leeftijd
@@ -84,6 +73,17 @@ aboutBlock2:
       mail: ""
       position: ""
       title: Marel
+    - featured: false
+      image: /img/unknown1.jpg
+      linkedIn: ""
+      list:
+        - answer: "23"
+          question: Leeftijd
+        - answer: Psychologie
+          question: Studie
+      mail: ""
+      position: ""
+      title: Matthijs
     - featured: false
       title: Tessa
       image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
@@ -104,17 +104,6 @@ aboutBlock2:
       position: ""
       title: Jacco
     - featured: false
-      image: /img/unknown1.jpg
-      linkedIn: ""
-      list:
-        - answer: "23"
-          question: Leeftijd
-        - answer: Psychologie
-          question: Studie
-      mail: ""
-      position: ""
-      title: Matthijs
-    - featured: false
       image: /img/linde.jpg
       linkedIn: ""
       list:
@@ -134,7 +123,15 @@ aboutBlock2:
           answer: Rechten
       image: /img/whatsapp-image-2020-09-21-at-14.07.54-1-.jpeg
     - featured: false
-      image: /img/whatsapp-image-2020-10-06-at-15.30.33-1-.jpeg
+      title: Lars
+      list:
+        - question: Leeftijd
+          answer: "20"
+        - question: Studie
+          answer: Geschiedenis
+      image: /img/whatsapp-image-2020-10-14-at-14.16.40.jpeg
+    - featured: false
+      image: /img/screenshot-2020-11-02-at-15.07.11.png
       linkedIn: ""
       list:
         - answer: "22"
@@ -156,12 +153,23 @@ aboutBlock2:
       position: ""
       title: Willem
     - featured: false
-      image: /img/camilla.jpg
+      image: /img/nadja.jpg
       linkedIn: ""
       list:
         - answer: "22"
           question: Leeftijd
-        - answer: International business
+        - answer: Religiewetenschappen
+          question: Studie
+      mail: ""
+      position: ""
+      title: Nadja
+    - featured: false
+      image: /img/camilla.jpg
+      linkedIn: ""
+      list:
+        - answer: "23"
+          question: Leeftijd
+        - answer: Marketing Analytics and Data Science
           question: Studie
       mail: ""
       position: ""
@@ -174,18 +182,6 @@ aboutBlock2:
         - question: Studie
           answer: Social Work
       image: /img/whatsapp-image-2020-09-21-at-14.07.53.jpeg
-    - featured: false
-      image: /img/unknown2.jpg
-      linkedIn: ""
-      list:
-        - answer: "25"
-          question: Leeftijd
-        - answer: European Spatial Planning and Environmental Policy - Environment and
-            Society Studies
-          question: Studie
-      mail: ""
-      position: ""
-      title: Michiel
     - featured: false
       image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
       linkedIn: ""
@@ -217,17 +213,6 @@ aboutBlock2:
       position: ""
       title: Eline
     - featured: false
-      image: /img/unknown4.jpg
-      linkedIn: ""
-      list:
-        - answer: "24"
-          question: Leeftijd
-        - answer: Strategic Innovation Management & Change Management
-          question: Studie
-      mail: ""
-      position: ""
-      title: Ruben
-    - featured: false
       title: Jelle
       list:
         - question: Leeftijd
@@ -243,13 +228,5 @@ aboutBlock2:
           answer: "24"
         - question: Studie
           answer: Verpleegkunde
-    - featured: false
-      title: Lars
-      list:
-        - question: Leeftijd
-          answer: "20"
-        - question: Studie
-          answer: Geschiedenis
-      image: /img/whatsapp-image-2020-10-14-at-14.16.40.jpeg
   title: Het LEF team
 ---
