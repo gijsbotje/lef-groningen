@@ -82,6 +82,10 @@ customerDisplay:
       description: Stimuleren van betrokkenheid onder bewoners.
       image: /img/logo-lefier.png
       url: https://www.lefier.nl/
+    - name: Marketing
+      description: Bereiken van early adopters.
+      image: /img/untitled-design.png
+      url: https://www.arriva.nl/
   title: Wij werken samen met
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
