@@ -192,7 +192,7 @@ aboutBlock2:
       list:
         - answer: "25"
           question: Leeftijd
-        - answer: ICT
+        - answer: Communication & Multimedia Design
           question: Studie
       mail: ""
       position: ""
