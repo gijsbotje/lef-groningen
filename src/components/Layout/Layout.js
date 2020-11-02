@@ -23,7 +23,7 @@ const TemplateWrapper = ({ children }) => {
   });
 
   const handleCookieConsent = answer => () => {
-    setCoockieConsent(answer);
+    setCoockieConsent(answer, { expires: 365 });
     if (answer === true) {
       window.location.reload();
     }
