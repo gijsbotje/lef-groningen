@@ -65,11 +65,6 @@ customerDisplay:
       url: https://www.dehoven.nl/
       name: Marketing
       description: Hoe krijg je hoogopgeleid (zorg) personeel naar een krimpregio?
-    - image: /img/Schermafbeelding 2020-08-14 om 16.30.58.png
-      url: https://streekdiensten.nl/
-      name: Digitalisering
-      description: "Van probleem (Coronacrisis) naar oplossing (platform voor
-        samenwerking) binnen een maand. "
     - image: /img/eelloo.png
       url: https://eelloo.nl/
       name: Nieuwe werken
@@ -84,7 +79,7 @@ customerDisplay:
       url: https://www.lefier.nl/
     - name: Marketing
       description: Bereiken van early adopters.
-      image: /img/untitled-design.png
+      image: /img/screenshot-2020-11-02-at-15.01.30.png
       url: https://www.arriva.nl/
   title: Wij werken samen met
 homeBlock3:
