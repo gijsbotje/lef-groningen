@@ -126,7 +126,7 @@ aboutBlock2:
       title: Lars
       list:
         - question: Leeftijd
-          answer: "20"
+          answer: "21"
         - question: Studie
           answer: Geschiedenis
       image: /img/whatsapp-image-2020-10-14-at-14.16.40.jpeg
@@ -228,5 +228,13 @@ aboutBlock2:
           answer: "24"
         - question: Studie
           answer: Verpleegkunde
+    - featured: false
+      title: Joost
+      list:
+        - question: "Leeftijd "
+          answer: "22"
+        - question: "Studie "
+          answer: "Ondernemerschap "
+      image: /img/whatsapp-image-2020-11-06-at-11.01.53.jpeg
   title: Het LEF team
 ---
