@@ -236,5 +236,13 @@ aboutBlock2:
         - question: "Studie "
           answer: "Associate degree ondernemen "
       image: /img/whatsapp-image-2020-11-06-at-11.01.53.jpeg
+    - featured: false
+      title: "Jasper "
+      list:
+        - question: Leeftijd
+          answer: "30"
+        - question: Studie
+          answer: "Werktuigbouwkunde - "
+      image: /img/whatsapp-image-2020-11-09-at-15.44.15.jpeg
   title: Het LEF team
 ---
