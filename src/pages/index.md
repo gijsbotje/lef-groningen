@@ -78,7 +78,8 @@ customerDisplay:
       image: /img/logo-lefier.png
       url: https://www.lefier.nl/
     - name: Marketing
-      description: Bereiken van early adopters.
+      description: "Wie zijn de early adopters en hoe zetten we ze aan om onze
+        reisapplicatie te gebruiken? "
       image: /img/screenshot-2020-11-02-at-15.01.30.png
       url: https://www.arriva.nl/
   title: Wij werken samen met
