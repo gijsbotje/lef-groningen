@@ -4,7 +4,7 @@ title: Werkpaarden en luxepaarden
 date: 2020-10-07T13:29:26.630Z
 description: Werkpaarden en luxepaarden
 featuredpost: false
-featuredimage: /img/untitled-design.png
+featuredimage: /img/0.jpeg
 tags:
   - Story
 ---
