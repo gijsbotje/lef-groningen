@@ -40,15 +40,20 @@ services:
   - extraContent: >-
       ## Wat is het?
 
-      We gebruiken Design Thinking om medewerkers van de organisatie zelfstandig vorm te laten geven aan bijvoorbeeld een geformuleerde visie of strategie, en slaan op die manier een brug naar de praktijk. Wij helpen om buiten de vaste patronen te denken en om tot een resultaat te komen waar je de volgende dag mee aan de slag kunt. 
+
+      Met Unboxing gaan medewerkers intensief aan de slag met een onderwerp of thema wat de organisatie aan het hart gaat. Wij helpen om buiten de vaste patronen te denken en om tot een resultaat te komen waar je de volgende dag mee aan de slag kunt. 
+
 
       ## Hoe werkt het?
 
-      Eerst werken we aan het genereren van zoveel mogelijk ideeën (divergeren). Daarna richten we ons op het trechteren en selecteren van de beste ideeën (convergeren). Door onze methodieken kunnen wij het proces op de juiste wijze begeleiden. Maar het zijn de deelnemers die de sessies tot leven brengen. Wij zorgen ervoor dat die energie en inspiratie leiden naar een praktisch resultaat.
+
+      We gebruiken Design Thinking om medewerkers van de organisatie zelfstandig vorm te laten geven aan bijvoorbeeld een geformuleerde visie of strategie. Maar het zijn de medewerkers die de sessie écht tot leven brengen. Wij zorgen ervoor dat die energie en inspiratie leiden naar een praktisch resultaat.
+
 
       ## Wat levert het op?
 
-      Met Unboxing gaan medewerkers intensief aan de slag met een onderwerp of thema wat de organisatie aan het hart gaat. Op deze manier worden de medewerkers niet alleen betrokken in het proces, hun kennis en creativiteit wordt optimaal benut om het thema verder te brengen. Zo komen we samen tot een beter resultaat.
+
+      Door Unboxing worden de medewerkers niet alleen betrokken in het proces, hun kennis en creativiteit wordt optimaal benut om het thema verder te brengen in de organisatie. Zo sla je een brug naar de praktijk.
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
