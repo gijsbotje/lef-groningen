@@ -39,8 +39,7 @@ aboutBlock2:
       image: /img/teddy-portret-2.jpg
       linkedIn: https://www.linkedin.com/in/teddy-monninkhof-77725372/
       list:
-        - answer: Dolfijnentrainer. Dit carrièrepad heb ik uit milieuvriendelijke
-            overwegingen gestaakt.
+        - answer: Dolfijnentrainer.
           question: Dit wou ik vroeger worden
         - answer: HRM aan de Hanzehogeschool en Change Management aan de Rijksuniversiteit
             Groningen.
