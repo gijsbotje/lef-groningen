@@ -6,13 +6,10 @@ homeBlock1:
   link:
     text: Lees meer over LEF.
     url: /ons-verhaal/
-  text: >-
-    Om te vernieuwen moet je lef hebben. 
-
-    Wij helpen jou om buiten de vaste patronen te denken, daar zijn we goed in! Mede door onze scherpe blik, een nieuw DNA de scherpe blik van onze nieuwe generatie
-
-
-    Wij zijn LEF, een team van twintigers met bravoure en een scherpe blik. Door Out of the Box te denken komen wij met creatieve ideeën en oplossingen voor organisaties. 
+  text: "Een team van twintigers met bravoure en een scherpe blik. Wij zijn goed
+    in het bedenken van creatieve ideeën die een tikkeltje anders zijn: ludiek,
+    met het DNA van een nieuwe generatie en altijd met impact voor jou
+    organisatie. Wij helpen jou buiten de lijntjes te kleuren."
   title: Hallo! Wij zijn LEF.
 homeBlock2:
   text: Wij zijn in te zetten als ideeënbrouwers, sparringpartners of aanjagers.
