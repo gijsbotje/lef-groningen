@@ -17,7 +17,7 @@ homeBlock2:
     zo willen we anderen in beweging brengen.
   title: De gereedschapskist
   tools:
-    - image: /img/leffers-brainstormend-op-tafel.jpg
+    - image: /img/raket-laptop.jpg
       text: Met een snelle, praktische aanpak vertalen we ideeën naar tastbaar
         resultaat.
       title: Wij maken meters.
