@@ -8,15 +8,20 @@ services:
   - extraContent: >-
       ## Wat is het?
 
-      Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Soms heb je iemand nodig die van buiten naar binnen kijkt, en niet gehinderd is door kokervisie of interne belangen.
+
+      Organisaties slaan vaak de veilige weg in. Zonde! Zo loop je een hoop creativiteit mis. Je kunt een probleem namelijk niet oplossen met de denkwijze die het veroorzaakt heeft. Soms heb je iemand nodig die van buiten naar binnen kijkt, niet gehinderd door een kokervisie of interne belangen. Daarom hebben wij een Ideeeënbrouwerij ontwikkeld.
+
 
       ## Hoe werkt het?
 
-      We beschikken over een poule met meer dan 100 studenten vanuit talloze studierichtingen. Op basis van de vraag van de opdrachtgever selecteren we vanuit deze poule een gevarieerd team met verschillende persoonlijkheden en verschillende expertises. Samen met het team diepen we het onderwerp uit in drie sessies en komen met een creatieve oplossing.
+
+      Tijdens een Ideeeënbrouwerij behandelen wij een challenge waar jij een multidisciplinair team van twintigers wel eens een blik op wilt laten werpen. In een aantal sessies werken we aan het genereren van zoveel mogelijk ideeën en komen met een creatieve oplossing. Een oplossing die je in ieder geval niet verwacht.
+
 
       ## Wat levert het op?
 
-      Onze methodes zijn gebaseerd op Design Thinking. Hierdoor komen we snel met veel nieuwe ideeën. Het zet koers naar een nieuwe strategie, een visie of het levert een kant en klaar marketingplan op. Projecten zetten we op als een start-up: snel, creatief en met korte lijnen. Wij hebben een ander perspectief, stellen andere vragen en vormen een kritische sparringpartner. Naast kennis brengen we onze vonk over om medewerkers nieuwsgierig en eager te houden. We komen in ieder geval met iets wat je niet verwacht. Een praktisch resultaat waar je mee verder kunt.
+
+      Onze methodes zijn gebaseerd op Design Thinking. We denken buiten de vaste patronen, stellen andere vragen en vormen een kritische sparringspartner. Hierdoor komen we snel met veel nieuwe ideeën. Het zet koers naar een nieuwe strategie, een visie of het levert een nieuw marketingplan op. Een praktisch resultaat waar je meteen mee aan de slag kunt.
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
     image3: /img/working-in-a-group-6224.jpg
