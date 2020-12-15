@@ -56,8 +56,8 @@ services:
     content:
       title: Why
       text: Wij helpen jou en je collega's om buiten de vaste patronen te denken en te
-        doen. Medewerkers gaan intensief aan de slag met een visie of strategie,
-        en slaan op die manier een brug naar de praktijk.
+        doen. Samen gaan we aan de slag met een challenge wat de jullie aan het
+        hart gaat. Zo slaan we een brug naar de praktijk.
     image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     quote:
