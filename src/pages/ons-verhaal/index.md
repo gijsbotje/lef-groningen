@@ -243,6 +243,6 @@ aboutBlock2:
           answer: "30"
         - question: Studie
           answer: "Werktuigbouwkunde - "
-      image: /img/whatsapp-image-2020-11-09-at-15.44.15.jpeg
+      image: /img/whatsapp-image-2020-12-15-at-15.53.02.jpeg
   title: Het LEF team
 ---
