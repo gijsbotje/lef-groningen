@@ -6,10 +6,10 @@ homeBlock1:
   link:
     text: Lees meer over LEF.
     url: /ons-verhaal/
-  text: "Een team van twintigers met bravoure en een scherpe blik. Wij zijn goed
-    in het bedenken van creatieve ideeën die een tikkeltje anders zijn: ludiek,
-    met het DNA van een nieuwe generatie en altijd met impact voor jou
-    organisatie. Wij helpen jou buiten de lijntjes te kleuren."
+  text: "Een team van twintigers met bravoure en een scherpe blik. Wij bedenken
+    creatieve ideeën die een tikkeltje anders zijn: ludiek, met het DNA van een
+    nieuwe generatie en altijd met impact voor jou organisatie. Wij helpen jou
+    buiten de lijntjes te kleuren, daar zijn we goed in!"
   title: Hallo! Wij zijn LEF.
 homeBlock2:
   text: Wij zijn in te zetten als ideeënbrouwers, sparringpartners of aanjagers.
