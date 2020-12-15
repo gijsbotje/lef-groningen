@@ -2,11 +2,12 @@
 templateKey: about-page
 aboutBlock1:
   background: /img/coffee-cup-with-logo.jpg
-  intro: "Je moet lef hebben om te doen waar je blij van wordt. Voor ons is dat
-    ondernemen: een heftige cocktail van adrenaline, enorme blunders en grootse
-    successen, maar vooral heel veel lol. Dit is voor ons ook een manier van
-    werken geworden, klein beginnen en stap-voor-stap iets groots creëren. Daar
-    willen we anderen mee inspireren."
+  intro: "Je moet lef hebben om te doen waar je blij van wordt. Dat betekent ook
+    af en toe van de veilige route afwijken. En zo ontstond lef: een heftige
+    cocktail van adrenaline, enorme blunders en grootse successen, maar vooral
+    heel veel lol. Dit is voor ons ook een manier van werken geworden. Door
+    nieuwsgierig te blijven, buiten de lijntjes te kleuren en te doen waar je
+    blij van wordt houden we onszelf en anderen geïnspireerd en scherp."
   title: Ons verhaal
 aboutBlock2:
   extraBlock:
