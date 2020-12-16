@@ -60,9 +60,9 @@ services:
     title: "Unboxing: Design Thinking"
     content:
       title: Why
-      text: Wij helpen jou en je collega's om buiten de vaste patronen te denken en te
-        doen. Samen gaan we aan de slag met een challenge wat de jullie aan het
-        hart gaat. Zo slaan we een brug naar de praktijk.
+      text: Wij helpen jou en je collega's om buiten de vaste patronen te denken.
+        Samen gaan we aan de slag met een challenge wat jullie aan het hart
+        gaat. Zo slaan we een brug naar de praktijk.
     image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     quote:
