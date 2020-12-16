@@ -235,7 +235,7 @@ aboutBlock2:
           answer: "22"
         - question: "Studie "
           answer: "Associate degree ondernemen "
-      image: /img/whatsapp-image-2020-11-06-at-11.01.53.jpeg
+      image: /img/whatsapp-image-2020-12-16-at-14.36.29.jpeg
     - featured: false
       title: "Jasper "
       list:
