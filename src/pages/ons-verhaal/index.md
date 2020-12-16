@@ -129,7 +129,7 @@ aboutBlock2:
           answer: "21"
         - question: Studie
           answer: Geschiedenis
-      image: /img/whatsapp-image-2020-10-14-at-14.16.40.jpeg
+      image: /img/whatsapp-image-2020-12-16-at-14.41.39.jpeg
     - featured: false
       image: /img/screenshot-2020-11-02-at-15.07.11.png
       linkedIn: ""
@@ -181,7 +181,7 @@ aboutBlock2:
           answer: "24"
         - question: Studie
           answer: Social Work
-      image: /img/whatsapp-image-2020-09-21-at-14.07.53.jpeg
+      image: /img/whatsapp-image-2020-12-16-at-14.41.12.jpeg
     - featured: false
       image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
       linkedIn: ""
