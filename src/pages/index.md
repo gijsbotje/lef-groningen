@@ -6,11 +6,9 @@ homeBlock1:
   link:
     text: Lees meer over LEF.
     url: /ons-verhaal/
-  text: Twintigers met bravoure en een scherpe blik. Wij bedenken creatieve ideeën
-    en oplossingen die anders zijn. Want als je echt wilt innoveren of
-    veranderen, moet je buiten de lijntjes kleuren. Wij, de nieuwe generatie,
-    laten zien dat het ook anders kan.
-  title: Hallo! Wij zijn LEF
+  text: De nieuwe generatie die laat zien dat het ook anders kan. Wij bedenken
+    creatieve ideeën en oplossingen. Geen uitdaging is ons te groot!
+  title: Hallo!              Wij zijn LEF.
 homeBlock2:
   text: Wij zijn in te zetten als ideeënbrouwers, sparringpartners of aanjagers.
     We beginnen klein en creëren stap voor stap iets groots. Zo bewegen wij, en
