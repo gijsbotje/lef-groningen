@@ -7,7 +7,7 @@ backend:
     delete: 'Delete {{collection}} “{{slug}}”'
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
-
+local_backend: true
 media_folder: static/img
 public_folder: /img
 
@@ -59,22 +59,6 @@ collections:
               - label: "Text"
                 name: "text"
                 widget: "text"
-              - label: "Tools"
-                name: "tools"
-                widget: "list"
-                fields:
-                  - label: "Image"
-                    name: "image"
-                    widget: "image"
-                    required: false
-                  - label: "Title"
-                    name: "title"
-                    widget: "string"
-                    required: false
-                  - label: "Text"
-                    name: "text"
-                    widget: "text"
-                    required: false
           - label: "Logos"
             name: "customerDisplay"
             widget: "object"
@@ -199,6 +183,22 @@ collections:
               - label: "Achtergrond afbeelding"
                 name: "background"
                 widget: "image"
+              - label: "Tools"
+                name: "tools"
+                widget: "list"
+                fields:
+                  - label: "Image"
+                    name: "image"
+                    widget: "image"
+                    required: false
+                  - label: "Title"
+                    name: "title"
+                    widget: "string"
+                    required: false
+                  - label: "Text"
+                    name: "text"
+                    widget: "text"
+                    required: false
           - label: "Blok 2"
             name: "aboutBlock2"
             widget: "object"

@@ -8,8 +8,23 @@ aboutBlock1:
     heel veel lol. Dit is voor ons ook een manier van werken geworden. Door
     nieuwsgierig te blijven, buiten de lijntjes te kleuren en te doen waar je
     blij van wordt houden we onszelf en anderen geïnspireerd en scherp."
+  tools:
+    - image: /img/raket-laptop.jpg
+      text: Met een snelle, praktische aanpak vertalen we ideeën naar tastbaar resultaat.
+      title: Wij maken meters.
+    - image: /img/fail-quickly-learn-fast-blue-liquid.jpg
+      text: Door te experimenteren en onze blunders te vieren komen we verder.
+      title: Wij maken fouten.
+    - image: /img/buiten-de-organisatie-bubbel.jpg
+      text: We kijken van buiten de organisatie naar binnen, waardoor we kritisch en onbevangen zijn.
+      title: Wij denken anders.
   title: Ons verhaal
 aboutBlock2:
+  quotes:
+    - text: Wij hadden behoefte aan nieuwe verfrissende inzichten. LEF was in staat dit te realiseren. Delfts Blauw werd Rebels Blauw.
+      author: Ed Scherbeyn, directeur Royal Goedewaagen
+    - text: LEF weet elke keer weer het maximale uit de groep te halen. De sessies zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en concrete actiepunten naar huis.
+      author: "Koen Atema, programmamanager Noorderpoort"
   extraBlock:
     image: /img/question-mark-chalk.jpg
     subTitle: Kom eens langs!

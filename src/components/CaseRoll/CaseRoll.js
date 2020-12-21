@@ -20,7 +20,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Grow direction="up" ref={ref} {...props} />;
 });
 
-const BlogRollGrid = ({ data, max, width }) => {
+const CaseRollGrid = ({ data, max, width }) => {
   const { edges: posts } = data.allMarkdownRemark;
   const [openShortStory, setOpenShortStory] = useState(null);
 
@@ -98,7 +98,7 @@ const BlogRollGrid = ({ data, max, width }) => {
   );
 };
 
-BlogRollGrid.propTypes = {
+CaseRollGrid.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -108,7 +108,7 @@ BlogRollGrid.propTypes = {
   width: PropTypes.number,
 };
 
-BlogRollGrid.defaultProps = {
+CaseRollGrid.defaultProps = {
   data: {
     allMarkdownRemark: {
       edges: [],
@@ -118,13 +118,13 @@ BlogRollGrid.defaultProps = {
   width: 6,
 };
 
-const BlogRoll = ({ max, width }) => (
+const CaseRoll = ({ max, width }) => (
   <StaticQuery
     query={graphql`
-      query BlogRollQuery {
+      query CaseRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "case-post" } } }
         ) {
           edges {
             node {
@@ -138,7 +138,6 @@ const BlogRoll = ({ max, width }) => (
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
-                featuredpost
                 featuredimage {
                   childImageSharp {
                     fluid(maxHeight: 400, maxWidth: 800, quality: 100) {
@@ -152,18 +151,18 @@ const BlogRoll = ({ max, width }) => (
         }
       }
     `}
-    render={(data, count) => <BlogRollGrid data={data} count={count} max={max} width={width} />}
+    render={(data, count) => <CaseRollGrid data={data} count={count} max={max} width={width} />}
   />
 );
 
-BlogRoll.propTypes = {
+CaseRoll.propTypes = {
   max: PropTypes.number,
   width: PropTypes.number,
 };
 
-BlogRoll.defaultProps = {
+CaseRoll.defaultProps = {
   max: null,
   width: 6,
 };
 
-export default BlogRoll;
+export default CaseRoll;

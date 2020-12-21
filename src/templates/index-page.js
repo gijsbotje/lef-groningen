@@ -1,10 +1,8 @@
 import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
-import Features from '../components/Features/Features';
 import Typography from '@material-ui/core/Typography';
 import Banner from '../components/Banner';
-import Section from '../components/Section';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
@@ -15,7 +13,11 @@ import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
 import SiteContext from '../components/SiteContext';
 import { Helmet } from 'react-helmet';
-import Flip from '../components/Flip';
+import BlogRoll from '../components/BlogRoll';
+import Container from '../components/Container';
+import BrandsGrid from '../components/BrandsGrid';
+import CaseRoll from '../components/CaseRoll';
+import Quote from '../components/Quote/Quote';
 
 const bgColor = 'white';
 
@@ -24,6 +26,7 @@ export const IndexPageTemplate = ({
   homeBlock1,
   homeBlock2,
   homeBlock3,
+  homeBlock4,
   customerDisplay,
 }) => {
   const { setNavbarSettings, setFooterSettings } = useContext(SiteContext);
@@ -61,11 +64,20 @@ export const IndexPageTemplate = ({
       >
         <Banner title={homeBlock1.title} text={homeBlock1.text} cta={homeBlock1.link} />
       </ColorBlock>
-      <ColorBlock backgroundColor={bgColor} id="home-block-2" fullHeight={false} maxWidth="md">
-        <Section>
-          <Features gridItems={homeBlock2.tools} />
-        </Section>
+
+      <ColorBlock
+        backgroundColor={bgColor}
+        fullHeight={false}
+        maxWidth="lg"
+        equalPadding
+        style={{ paddingTop: 112, paddingBottom: 16 }}
+      >
+        <BlogRoll max={3} width={4} />
       </ColorBlock>
+
+      <Container maxWidth="lg" style={{ paddingBottom: 16 }}>
+        <Quote author={homeBlock2.quote.author} text={homeBlock2.quote.text} />
+      </Container>
 
       <ColorBlock
         backgroundColor={bgColor}
@@ -82,47 +94,24 @@ export const IndexPageTemplate = ({
         >
           {customerDisplay.title}
         </Typography>
-        <Grid container spacing={2}>
-          {customerDisplay.logos?.map(customer => (
-            <Grid item xs={6} sm={3} key={customer.name}>
-              <Flip
-                front={
-                  <PreviewCompatibleImage
-                    imageInfo={{ image: customer.image, alt: customer.title }}
-                    style={{
-                      maxWidth: 150,
-                      filter: 'grayscale(1)',
-                      objectFit: 'contain',
-                      marginLeft: 'auto',
-                      marginRight: 'auto',
-                    }}
-                  />
-                }
-                back={
-                  <Card style={{ height: '100%' }}>
-                    <CardContent>
-                      <Typography variant="h6" component="div">
-                        {customer.name}
-                      </Typography>
-                      <Typography variant="body2">{customer.description}</Typography>
-                    </CardContent>
-                  </Card>
-                }
-              />
-            </Grid>
-          ))}
-        </Grid>
+
+        <BrandsGrid brands={customerDisplay.logos} centerBrand={customerDisplay?.yourLogoImage} />
+      </ColorBlock>
+
+      <ColorBlock
+        backgroundColor={bgColor}
+        fullHeight={false}
+        maxWidth="lg"
+        equalPadding
+        style={{ paddingTop: 112, paddingBottom: 16 }}
+      >
+        <CaseRoll max={3} width={4} />
       </ColorBlock>
 
       <ColorBlock backgroundColor={bgColor} id="home-block-3" equalPadding maxWidth="lg">
-        <Typography
-          variant="h3"
-          component="h2"
-          align="center"
-          style={{ marginTop: '2rem', marginBottom: '5rem', alignSelf: 'flex-start' }}
-        >
-          {homeBlock3.title}
-        </Typography>
+        <Container maxWidth="lg" style={{ paddingBottom: 40 }}>
+          <Quote author={homeBlock4?.quote?.author} text={homeBlock4?.quote?.text} />
+        </Container>
         <Grid container spacing={4}>
           {homeBlock3?.blocks.map(block => (
             <Grid key={block.title} item xs={12} sm={6} md={4}>
@@ -184,6 +173,7 @@ IndexPageTemplate.propTypes = {
   homeBlock1: PropTypes.object,
   homeBlock2: PropTypes.object,
   homeBlock3: PropTypes.object,
+  homeBlock4: PropTypes.object,
   customerDisplay: PropTypes.object,
 };
 
@@ -192,6 +182,7 @@ IndexPageTemplate.defaultProps = {
   homeBlock1: {},
   homeBlock2: {},
   homeBlock3: {},
+  homeBlock4: {},
   customerDisplay: {},
 };
 
@@ -204,6 +195,7 @@ const IndexPage = ({ data }) => {
       homeBlock1={frontmatter.homeBlock1}
       homeBlock2={frontmatter.homeBlock2}
       homeBlock3={frontmatter.homeBlock3}
+      homeBlock4={frontmatter.homeBlock4}
       customerDisplay={frontmatter.customerDisplay}
     />
   );
@@ -247,18 +239,9 @@ export const pageQuery = graphql`
           }
         }
         homeBlock2 {
-          title
-          text
-          tools {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 800, quality: 50) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
-            }
-            title
+          quote {
             text
+            author
           }
         }
         customerDisplay {
@@ -275,9 +258,15 @@ export const pageQuery = graphql`
             name
             description
           }
+          yourLogoImage {
+            childImageSharp {
+              fluid(maxWidth: 150, quality: 50) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
         }
         homeBlock3 {
-          title
           blocks {
             title
             text
@@ -290,6 +279,12 @@ export const pageQuery = graphql`
                 }
               }
             }
+          }
+        }
+        homeBlock4 {
+          quote {
+            text
+            author
           }
         }
       }

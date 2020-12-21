@@ -246,11 +246,11 @@ export const ServicesPageTemplate = ({ title, bannerImage, services, contact }) 
             >
               <CardContent style={{ padding: 56 }}>
                 <Typography variant="h5" component="div" paragraph style={{ marginBottom: 40 }}>
-                  Ben je geïnteresseerd? Bel ons dan op{' '}
+                  Ben je geïnteresseerd? Bel dan met Thijs op{' '}
                   <MuiLink href="tel:+31613972693" color="inherit">
                     +31 6 13972693
                   </MuiLink>{' '}
-                  of vul ons contact ons contact formulier in.
+                  of vul ons contact formulier in.
                 </Typography>
                 <Button
                   component={Link}
