@@ -8,24 +8,11 @@ homeBlock1:
     url: /ons-verhaal/
   text: De nieuwe generatie die laat zien dat het ook anders kan. Wij bedenken
     creatieve ideeën en oplossingen. Geen uitdaging is ons te groot!
-  title: Hallo!              Wij zijn LEF.
+  title: Hallo! <br />Wij zijn LEF.
 homeBlock2:
-  text: Wij zijn in te zetten als ideeënbrouwers, sparringpartners of aanjagers.
-    We beginnen klein en creëren stap voor stap iets groots. Zo bewegen wij, en
-    zo willen we anderen in beweging brengen.
-  title: De gereedschapskist
-  tools:
-    - image: /img/raket-laptop.jpg
-      text: Met een snelle, praktische aanpak vertalen we ideeën naar tastbaar
-        resultaat.
-      title: Wij maken meters.
-    - image: /img/fail-quickly-learn-fast-blue-liquid.jpg
-      text: Door te experimenteren en onze blunders te vieren komen we verder.
-      title: Wij maken fouten.
-    - image: /img/buiten-de-organisatie-bubbel.jpg
-      text: We kijken van buiten de organisatie naar binnen, waardoor we kritisch en
-        onbevangen zijn.
-      title: Wij denken anders.
+  quote:
+    text: "LEF weet elke keer weer het maximale uit de groep te halen. De sessies zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en concrete actiepunten naar huis."
+    author: Koen Atema, programmamanager Noorderpoort
 customerDisplay:
   logos:
     - image: /img/royal-goedewaagen-logo.png
@@ -68,10 +55,6 @@ customerDisplay:
       url: https://eelloo.nl/
       name: Nieuwe werken
       description: "to be announced! "
-    - image: /img/whatsapp-image-2020-10-06-at-15.09.32.jpeg
-      url: https://lefgroningen.nl/
-      name: Bel met Teddy
-      description: "0652251395"
     - name: Leefbaarheid
       description: Stimuleren van betrokkenheid onder bewoners.
       image: /img/logo-lefier.png
@@ -82,6 +65,7 @@ customerDisplay:
       image: /img/screenshot-2020-11-02-at-15.01.30.png
       url: https://www.arriva.nl/
   title: Wij werken samen met
+  yourLogoImage: /img/whatsapp-image-2020-10-06-at-15.09.32.jpeg
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
   blocks:
@@ -121,5 +105,8 @@ homeBlock3:
       text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er
         iets op touw moet worden gezet.
       title: tastbaar resultaat
-  title: Durf jij het aan om te werken met LEF?
+homeBlock4:
+  quote:
+    text: "LEF weet elke keer weer het maximale uit de groep te halen. De sessies zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en concrete actiepunten naar huis."
+    author: Koen Atema, programmamanager Noorderpoort
 ---

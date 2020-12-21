@@ -27,6 +27,8 @@ import Tooltip from '@material-ui/core/Tooltip';
 import SiteContext from '../components/SiteContext';
 import Button from '@material-ui/core/Button';
 import { Helmet } from 'react-helmet';
+import Features from '../components/Features/Features';
+import Quote from '../components/Quote/Quote';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Grow direction="up" ref={ref} {...props} />;
@@ -74,26 +76,37 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
       </ColorBlock>
       <ColorBlock
         id="about-anchor"
-        fullHeight
+        backgroundColor="white"
+        showScrollDown={false}
+        elevation={0}
+        equalPadding
+        maxWidth="md"
+        fullHeight={false}
+      >
+        <Section>
+          <Typography variant="h3" component="h2" align="center" style={{ marginBottom: '40px' }}>
+            {aboutBlock2?.title}
+          </Typography>
+          <Typography variant="body1" align="center" paragraph style={{ fontSize: '1.2rem' }}>
+            {aboutBlock1?.intro}
+          </Typography>
+        </Section>
+      </ColorBlock>
+
+      <ColorBlock backgroundColor="white" fullHeight={false} maxWidth="md" equalPadding>
+        <Section>
+          <Features gridItems={aboutBlock1.tools} />
+        </Section>
+      </ColorBlock>
+
+      <ColorBlock
+        fullHeight={false}
         backgroundColor="white"
         showScrollDown={false}
         elevation={0}
         equalPadding
         maxWidth="md"
       >
-        <Section>
-          <Typography variant="h3" component="h2" align="center" style={{ marginBottom: '40px' }}>
-            {aboutBlock2?.title}
-          </Typography>
-          <Typography
-            variant="body1"
-            align="center"
-            paragraph
-            style={{ fontSize: '1.2rem', marginBottom: '56px' }}
-          >
-            {aboutBlock1?.intro}
-          </Typography>
-        </Section>
         <Grid container spacing={4}>
           {aboutBlock2?.persons?.map((item, index) => (
             <Fragment key={item?.title}>
@@ -178,6 +191,14 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
                   </CardActionArea>
                 </Card>
               </Grid>
+              {(index + 1) % 9 === 0 && aboutBlock2?.quotes[(index + 1) / 9 - 1] && (
+                <Grid item xs={12}>
+                  <Quote
+                    author={aboutBlock2?.quotes[(index + 1) / 9 - 1]?.author}
+                    text={aboutBlock2?.quotes[(index + 1) / 9 - 1]?.text}
+                  />
+                </Grid>
+              )}
               {item.featured && (
                 <Dialog
                   open={openDialogId === index}
@@ -357,6 +378,17 @@ export const aboutPageQuery = graphql`
               }
             }
           }
+          tools {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800, quality: 50) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
+            title
+            text
+          }
         }
         aboutBlock2 {
           title
@@ -377,6 +409,10 @@ export const aboutPageQuery = graphql`
             position
             linkedIn
             mail
+          }
+          quotes {
+            author
+            text
           }
           extraBlock {
             title

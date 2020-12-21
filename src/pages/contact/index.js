@@ -71,11 +71,7 @@ const Index = () => {
         backgroundColor="yellow"
         backgroundPosition="center bottom"
         backgroundImage={{ image: data.file, ...data.file }}
-      >
-        <Typography variant="h3" component="h1" align="center" style={{ marginBottom: '15rem' }}>
-          Bel met LEF.
-        </Typography>
-      </ColorBlock>
+      />
       <Container>
         <Section>
           <Grid container spacing={3}>

@@ -1,12 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const FlipContainer = styled.div`
   perspective: 600px;
-
-  &:hover .flip-element {
-    transform: rotateY(180deg);
-  }
 `;
 
 const FlipElement = styled.div`
@@ -23,22 +20,22 @@ const FlipFace = styled.div`
   width: 100%;
   backface-visibility: hidden;
   background-color: #fff;
-  ${props => (props.face === 'back' ? `transform: rotateY(180deg);` : null)}
 `;
 
-const Flip = ({ front, back }) => {
-  return (
-    <FlipContainer>
-      <FlipElement className="flip-element">
-        <FlipFace>
-          {front}
-        </FlipFace>
-        <FlipFace face="back">
-          {back}
-        </FlipFace>
-      </FlipElement>
-    </FlipContainer>
-  );
-};
+const Flip = ({ front }) => (
+  <FlipContainer>
+    <FlipElement>
+      <FlipFace>{front}</FlipFace>
+    </FlipElement>
+  </FlipContainer>
+);
 
 export default Flip;
+
+Flip.propTypes = {
+  front: PropTypes.elementType,
+};
+
+Flip.defaultProps = {
+  front: undefined,
+};

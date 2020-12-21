@@ -54,9 +54,7 @@ const BannerText = styled.div`
 const Banner = ({ title, text, cta, titleTypographyProps }) => (
   <BannerInner>
     <BannerText>
-      <Heading {...titleTypographyProps} gutterBottom>
-        {title}
-      </Heading>
+      <Heading {...titleTypographyProps} gutterBottom dangerouslySetInnerHTML={{ __html: title }} />
       <Text variant="body1" style={{ marginBottom: '2rem' }} paragraph>
         {text}
       </Text>
