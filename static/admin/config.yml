@@ -255,6 +255,18 @@ collections:
                     name: "mail"
                     widget: "string"
                     required: false
+              - label: "Quotes"
+                name: "quotes"
+                widget: "list"
+                fields:
+                  - label: "Auteur"
+                    name: "author"
+                    widget: "string"
+                  - label: "Tekst"
+                    name: "text"
+                    widget: "string"
+
+
   - name: "blog"
     label: "Short stories"
     folder: "src/pages/short-stories"
