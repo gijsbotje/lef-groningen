@@ -53,12 +53,16 @@ collections:
             name: "homeBlock2"
             widget: "object"
             fields:
-              - label: "Title"
-                name: "title"
-                widget: "string"
-              - label: "Text"
-                name: "text"
-                widget: "text"
+              - label: "Quote"
+                name: "quote"
+                widget: "object"
+                fields:
+                  - label: "Text"
+                    name: "text"
+                    widget: "text"
+                  - label: "Author"
+                    name: "author"
+                    widget: "string"
           - label: "Logos"
             name: "customerDisplay"
             widget: "object"
@@ -111,6 +115,21 @@ collections:
                   - label: "Alleen afbeelding weergeven"
                     name: "imageOnly"
                     widget: "boolean"
+          - label: "Blok 4"
+            name: "homeBlock4"
+            widget: "object"
+            fields:
+              - label: "Quote"
+                name: "quote"
+                widget: "object"
+                fields:
+                  - label: "Text"
+                    name: "text"
+                    widget: "text"
+                  - label: "Author"
+                    name: "author"
+                    widget: "string"
+
       - file: "src/pages/diensten/index.md"
         label: "Diensten"
         name: "diensten"
@@ -259,11 +278,11 @@ collections:
                 name: "quotes"
                 widget: "list"
                 fields:
-                  - label: "Auteur"
-                    name: "author"
-                    widget: "string"
                   - label: "Tekst"
                     name: "text"
+                    widget: "string"
+                  - label: "Auteur"
+                    name: "author"
                     widget: "string"
 
 
@@ -281,4 +300,32 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list", default: ['Story']}
+  - name: "case"
+    label: "Case studies"
+    folder: "src/pages/case-studies"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "case-post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
+      - { label: "Featured Image", name: "featuredimage", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", default: [ 'Story' ] }
+  - name: "home-block"
+    label: "Home blokken onder banner"
+    folder: "src/pages/home-blocks"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "home-block-post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
+      - { label: "Featured Image", name: "featuredimage", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", default: [ 'Story' ] }
 

@@ -20,7 +20,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Grow direction="up" ref={ref} {...props} />;
 });
 
-const CaseRollGrid = ({ data, max, width }) => {
+const BlockRollGrid = ({ data, max, width }) => {
   const { edges: posts } = data.allMarkdownRemark;
   const [openShortStory, setOpenShortStory] = useState(null);
 
@@ -98,7 +98,7 @@ const CaseRollGrid = ({ data, max, width }) => {
   );
 };
 
-CaseRollGrid.propTypes = {
+BlockRollGrid.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -108,7 +108,7 @@ CaseRollGrid.propTypes = {
   width: PropTypes.number,
 };
 
-CaseRollGrid.defaultProps = {
+BlockRollGrid.defaultProps = {
   data: {
     allMarkdownRemark: {
       edges: [],
@@ -118,13 +118,13 @@ CaseRollGrid.defaultProps = {
   width: 6,
 };
 
-const CaseRoll = ({ max, width }) => (
+const BlockRoll = ({ max, width }) => (
   <StaticQuery
     query={graphql`
-      query CaseRollQuery {
+      query BlockRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "case-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "home-block-post" } } }
         ) {
           edges {
             node {
@@ -152,18 +152,18 @@ const CaseRoll = ({ max, width }) => (
         }
       }
     `}
-    render={(data, count) => <CaseRollGrid data={data} count={count} max={max} width={width} />}
+    render={(data, count) => <BlockRollGrid data={data} count={count} max={max} width={width} />}
   />
 );
 
-CaseRoll.propTypes = {
+BlockRoll.propTypes = {
   max: PropTypes.number,
   width: PropTypes.number,
 };
 
-CaseRoll.defaultProps = {
+BlockRoll.defaultProps = {
   max: null,
   width: 6,
 };
 
-export default CaseRoll;
+export default BlockRoll;

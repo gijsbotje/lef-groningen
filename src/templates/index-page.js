@@ -13,11 +13,11 @@ import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
 import SiteContext from '../components/SiteContext';
 import { Helmet } from 'react-helmet';
-import BlogRoll from '../components/BlogRoll';
 import Container from '../components/Container';
 import BrandsGrid from '../components/BrandsGrid';
 import CaseRoll from '../components/CaseRoll';
 import Quote from '../components/Quote/Quote';
+import BlockRoll from '../components/BlockRoll';
 
 const bgColor = 'white';
 
@@ -70,12 +70,12 @@ export const IndexPageTemplate = ({
         fullHeight={false}
         maxWidth="lg"
         equalPadding
-        style={{ paddingTop: 112, paddingBottom: 16 }}
+        style={{ paddingTop: 112, paddingBottom: 0 }}
       >
-        <BlogRoll max={3} width={4} />
+        <BlockRoll max={3} width={4} />
       </ColorBlock>
 
-      <Container maxWidth="lg" style={{ paddingBottom: 16 }}>
+      <Container maxWidth="lg" style={{ paddingBottom: 56 }}>
         <Quote author={homeBlock2.quote.author} text={homeBlock2.quote.text} />
       </Container>
 
@@ -109,9 +109,10 @@ export const IndexPageTemplate = ({
       </ColorBlock>
 
       <ColorBlock backgroundColor={bgColor} id="home-block-3" equalPadding maxWidth="lg">
-        <Container maxWidth="lg" style={{ paddingBottom: 40 }}>
+        <Container maxWidth="lg" style={{ paddingBottom: 80, paddingTop: 0 }}>
           <Quote author={homeBlock4?.quote?.author} text={homeBlock4?.quote?.text} />
         </Container>
+
         <Grid container spacing={4}>
           {homeBlock3?.blocks.map(block => (
             <Grid key={block.title} item xs={12} sm={6} md={4}>
