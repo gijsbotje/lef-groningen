@@ -11,58 +11,60 @@ homeBlock1:
   title: Hallo! <br />Wij zijn LEF.
 homeBlock2:
   quote:
-    text: "LEF weet elke keer weer het maximale uit de groep te halen. De sessies zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en concrete actiepunten naar huis."
+    text: LEF weet elke keer weer het maximale uit de groep te halen. De sessies
+      zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en
+      concrete actiepunten naar huis.
     author: Koen Atema, programmamanager Noorderpoort
 customerDisplay:
   logos:
-    - image: /img/royal-goedewaagen-logo.png
+    - image: /img/logo-template-7-.png
       url: https://www.goedewaagen.nl/
       name: Markt- positionering
       description: Hoe behoud je een 400 jaar oude traditie?
-    - image: /img/1TV_Noorderpoort_1605182a.png
+    - image: /img/logo-template-1-.png
       url: https://www.noorderpoort.nl/
       name: Onderwijs- vernieuwing
       description: Welk scholingsaanbod past bij het onderwijs van de toekomst?
-    - image: /img/Arriva_2017_Stack_Blue_RGB_AW.png
+    - image: /img/logo-template-9-.png
       url: https://www.arriva.nl/
       name: Klantbeleving
       description: Door een Expert Walkthrough de klantbeleving verbeteren in het
         busvervoer.
-    - image: /img/Gem Groningen.jpg
+    - image: /img/logo-template.png
       url: https://gemeente.groningen.nl/
       name: Onboarding
       description: "Nieuwe werknemers bouwen vier Start-Ups in zeven weken: van
         ideegeneratie tot concepting."
-    - image: /img/pentascope-logo-cut.jpg
+    - image: /img/logo-template-8-.png
       url: https://www.pentascope.nl/
       name: Organisatie- ontwikkeling
       description: Een fris perspectief gebruiken om tot beter resultaat te komen.
-    - image: /img/faktoo-logo.png
+    - image: /img/logo-template-10-.png
       url: https://www.faktoo.nl/
       name: Arbeidsmarkt
       description: Een applicatie om meer bewustwording te creëren om inclusief
         werkgever te worden.
-    - image: /img/LOGO-MARTINIPLAZA.jpg
+    - image: /img/logo-template-5-.png
       url: https://martiniplaza.nl/
       name: Innovatie
       description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5
         metereconomie?
-    - image: /img/data.1120xC867x578+58+0.1120x747.jpg
+    - image: /img/logo-template-6-.png
       url: https://www.dehoven.nl/
       name: Marketing
       description: Hoe krijg je hoogopgeleid (zorg) personeel naar een krimpregio?
-    - image: /img/eelloo.png
+    - image: /img/logo-template-4-.png
       url: https://eelloo.nl/
       name: Nieuwe werken
       description: "to be announced! "
     - name: Leefbaarheid
       description: Stimuleren van betrokkenheid onder bewoners.
-      image: /img/logo-lefier.png
+      image: /img/logo-template-3-.png
       url: https://www.lefier.nl/
     - name: Marketing
       description: "Wie zijn de early adopters en hoe zetten we ze aan om onze
         reisapplicatie te gebruiken? "
-      image: /img/screenshot-2020-11-02-at-15.01.30.png
+      image: /img/logo-template-2-.png
       url: https://www.arriva.nl/
   title: Wij werken samen met
   yourLogoImage: /img/whatsapp-image-2020-10-06-at-15.09.32.jpeg
@@ -105,8 +107,11 @@ homeBlock3:
       text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er
         iets op touw moet worden gezet.
       title: tastbaar resultaat
+  title: .
 homeBlock4:
   quote:
-    text: "LEF weet elke keer weer het maximale uit de groep te halen. De sessies zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en concrete actiepunten naar huis."
+    text: LEF weet elke keer weer het maximale uit de groep te halen. De sessies
+      zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en
+      concrete actiepunten naar huis.
     author: Koen Atema, programmamanager Noorderpoort
 ---
