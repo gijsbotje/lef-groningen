@@ -1,8 +1,8 @@
 ---
 templateKey: home-block-post
-title: HOERA WE HEBBEN DE FINALE GEWONNEN!
+title: Wij begeleiden projecten.
 date: 2020-11-20T09:26:40.816Z
-description: HOERA. WE HEBBEN DE FINALE GEWONNEN!
+description: .
 featuredpost: false
 featuredimage: /img/lef-cloetta.jpg
 tags:
