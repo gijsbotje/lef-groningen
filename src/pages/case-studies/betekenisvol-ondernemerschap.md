@@ -1,8 +1,8 @@
 ---
 templateKey: case-post
-title: Betekenisvol ondernemerschap
+title: "Case Study: Arriva"
 date: 2020-12-23T09:31:52.959Z
-description: Betekenisvol ondernemerschap
+description: Het busvervoer van de toekomst.
 featuredpost: true
 featuredimage: /img/teddy-betekeniseconomie.jpg
 tags:
