@@ -1,8 +1,8 @@
 ---
 templateKey: home-block-post
-title: Cloetta, FC Groningen en MercachemSyncom starten samenwerking met startups
+title: Wij brouwen ideeën.
 date: 2020-11-20T09:35:54.614Z
-description: Cloetta, FC Groningen en MercachemSyncom starten samenwerking met startups
+description: .
 featuredpost: true
 featuredimage: /img/whatsapp-image-2020-11-20-at-10.38.49.jpeg
 tags:
