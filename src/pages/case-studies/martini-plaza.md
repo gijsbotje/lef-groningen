@@ -1,11 +1,12 @@
 ---
 templateKey: case-post
-title: Betekenisvol ondernemerschap
+title: "Case Study: Gemeente Groningen"
 date: 2020-03-29T12:30:00.708Z
-description: Betekenisvol ondernemerschap
+description: "Begeleiden van de trainee-groep tijdens de Summerboost 2020. "
+featuredpost: true
 featuredimage: /img/teddy-betekeniseconomie.jpg
 tags:
-- Case
+  - Case
 ---
 
 De 'betekeniseconomie' is een term die je te pas en te onpas om de oren vliegt. Zo ook
