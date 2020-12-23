@@ -1,8 +1,8 @@
 ---
 templateKey: home-block-post
-title: Werkpaarden en luxepaarden
+title: We leiden creatieve sessies.
 date: 2020-10-07T13:29:26.630Z
-description: Werkpaarden en luxepaarden
+description: .
 featuredpost: false
 featuredimage: /img/werkpaarden-en-luxepaarden.jpeg
 tags:
