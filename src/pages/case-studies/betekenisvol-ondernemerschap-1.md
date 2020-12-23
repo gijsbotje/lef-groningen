@@ -1,8 +1,8 @@
 ---
 templateKey: case-post
-title: Betekenisvol ondernemerschap
+title: "Case Study: Lefier"
 date: 2020-12-23T09:32:18.567Z
-description: Betekenisvol ondernemerschap
+description: Bewonersbetrokkenheid en leefbaarheid.
 featuredpost: true
 featuredimage: /img/teddy-betekeniseconomie.jpg
 tags:
