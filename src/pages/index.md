@@ -30,11 +30,11 @@ customerDisplay:
       name: Klantbeleving
       description: Door een Expert Walkthrough de klantbeleving verbeteren in het
         busvervoer.
-    - image: /img/logo-template.png
-      url: https://gemeente.groningen.nl/
-      name: Onboarding
-      description: "Nieuwe werknemers bouwen vier Start-Ups in zeven weken: van
-        ideegeneratie tot concepting."
+    - image: /img/logo-template-5-.png
+      url: https://martiniplaza.nl/
+      name: Innovatie
+      description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5
+        metereconomie?
     - image: /img/logo-template-8-.png
       url: https://www.pentascope.nl/
       name: Organisatie- ontwikkeling
@@ -44,28 +44,32 @@ customerDisplay:
       name: Arbeidsmarkt
       description: Een applicatie om meer bewustwording te creëren om inclusief
         werkgever te worden.
-    - image: /img/logo-template-5-.png
-      url: https://martiniplaza.nl/
-      name: Innovatie
-      description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5
-        metereconomie?
-    - image: /img/logo-template-6-.png
-      url: https://www.dehoven.nl/
-      name: Marketing
-      description: Hoe krijg je hoogopgeleid (zorg) personeel naar een krimpregio?
-    - image: /img/logo-template-4-.png
-      url: https://eelloo.nl/
-      name: Nieuwe werken
-      description: "to be announced! "
+    - image: /img/logo-template.png
+      url: https://gemeente.groningen.nl/
+      name: Onboarding
+      description: "Nieuwe werknemers bouwen vier Start-Ups in zeven weken: van
+        ideegeneratie tot concepting."
     - name: Leefbaarheid
       description: Stimuleren van betrokkenheid onder bewoners.
       image: /img/logo-template-3-.png
       url: https://www.lefier.nl/
+    - image: /img/logo-template-4-.png
+      url: https://eelloo.nl/
+      name: Nieuwe werken
+      description: "to be announced! "
+    - image: /img/logo-template-6-.png
+      url: https://www.dehoven.nl/
+      name: Marketing
+      description: Hoe krijg je hoogopgeleid (zorg) personeel naar een krimpregio?
     - name: Marketing
       description: "Wie zijn de early adopters en hoe zetten we ze aan om onze
         reisapplicatie te gebruiken? "
       image: /img/logo-template-2-.png
       url: https://www.arriva.nl/
+    - name: Interzorg
+      description: Hoe maak je de Ondernemingsraad aantrekkelijk?
+      image: /img/logo-template-13-.png
+      url: https://www.interzorg.nl/
   title: Wij werken samen met
   yourLogoImage: /img/whatsapp-image-2020-10-06-at-15.09.32.jpeg
 homeBlock3:
