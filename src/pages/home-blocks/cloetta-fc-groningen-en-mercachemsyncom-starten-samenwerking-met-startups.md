@@ -6,7 +6,7 @@ description: Wij zijn goed in het verzinnen van nieuwe inzichten en ideeën. In
   onze ideeënbrouwerij experimenten, vormen, ontwerpen en herontwerpen we om tot
   de beste ideeën te komen.
 featuredpost: true
-featuredimage: /img/lefgozers.jpg
+featuredimage: /img/white-click-pens-1017502.jpg
 tags:
   - Story
 ---
