@@ -2,34 +2,21 @@
 templateKey: case-post
 title: "Case Study: Lefier"
 date: 2020-12-23T09:32:18.567Z
-description: Bewonersbetrokkenheid en leefbaarheid.
+description: Hoe kunnen we de betrokkenheid van onze huurders naar elkaar en bij
+  hun wooncomplex vergroten? Met welke tools kunnen we onze huurders uitnodigen
+  om ideeën aan te dragen?
 featuredpost: true
-featuredimage: /img/teddy-betekeniseconomie.jpg
+featuredimage: /img/untitled-design-2-.jpg
 tags:
   - Case
 ---
+**Vraag**
+Hoe kunnen we de betrokkenheid van onze huurders naar elkaar en bij hun wooncomplex vergroten? Met welke tools kunnen we onze huurders uitnodigen om ideeën aan te dragen? 
 
-De 'betekeniseconomie' is een term die je te pas en te onpas om de oren vliegt. Zo ook
-afgelopen week tijdens de masterclass Innovatief Organiseren van Kees Klomp en Engbert
-Breuker. Als kersverse ondernemer was ik natuurlijk getriggerd: zou ik dit kunnen toepassen
-binnen ons nieuwe bedrijf? Maar toch ook een beetje sceptisch, want in mijn ééntje kan ik de
-wereld toch niet redden?
+**Organisatie**
+Lefier is een woningcorporatie in Noord Groningen en heeft ruim dertigduizend woningen in Groningen en Drenthe. Samen met adviseurs van leefbaarheid en de bewoners participanten zijn we de Ideeenbrouwerij gestart. 
 
-Meteen werd ik geconfronteerd met een duidelijke boodschap: we hebben allemaal
-geprofiteerd van bedrijven die onze welvaartseconomie hebben gecreëerd, maar we kunnen
-daar nu verandering in brengen. De betekeniseconomie gaat ons daarbij helpen. Een
-maatschappelijke ontwikkeling waarbij de focus niet langer alleen op welvaart ligt, maar ook
-op het welzijn en welbevinden van onze maatschappij. Langzaamaan beginnen we te
-ontdekken dat er bedrijfsvoering mogelijk is die geen schade berokkent aan de medemens of
-de omgeving, maar dat we juist een positieve bijdrage kunnen leveren. Vanuit een nieuw
-paradigma lieten Kees en Engbert ons zien hoe dit onze business kan veranderen. Andere
-parameters, zoals gezondheid en geluk, worden net zo belangrijk als geld – óf misschien nog
-wel belangrijker.
+**Werkwijze**
+Om huurders betrokkenheid te vergroten zijn we gestart met het genereren van ideeën. Wat zou betrokkenheid in de buurt kunnen vergroten en hoe zet je iemand aan om meer betrokken te zijn? Vervolgens hebben we de eerste impressies samengevat in een aantal kernwaarden.
 
-Maar wat betekent dit dan voor mij en mijn onderneming? Moeten we allemaal het roer
-omgooien, fulltime wereldverbeteraars worden om van betekenis te kunnen zijn? Nee, want
-op mijn eigen manier ben ik óók van betekenis. Lef hebben om te doen waar je blij van wordt
-en het anders aan te pakken. Je verdiepen in anderen om te kijken wat ze nodig hebben en
-daarop inspelen. Impact maken met creatieve ideeën: klein beginnen en stap voor stap iets
-groots creëren. En daar anderen mee inspireren. Een wereldveranderaar ben ik nog niet, maar
-van betekenis ben ik zeker!
+Deze kernwaarden zijn een veilige en schone leefomgeving, vertrouwen en een goede sfeer. Een eerste stap naar betrokkenheid zou volgens de uitkomsten van de eerste fase van het project gemaakt moeten worden op een laagdrempelige en ongedwongen manier. Het gaat immers om het bewustzijn van je omgeving en bewustwording van elkaar. Vanuit deze kernwaarden zijn we tot een menukaart van een vijftal ideeën gekomen. Onder andere de Plug & Pleur bus voor zichtbaarheid, een Demoflat als testlocatie, meerdere Kettingacties om betrokkenheid te stimuleren, een online omgeving in de vorm van de Bibliobuurt en een Serious Game om op een laagdrempelige en speelse manier ideeën en suggesties boven tafel te krijgen.
