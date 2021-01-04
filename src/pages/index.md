@@ -70,7 +70,7 @@ customerDisplay:
       description: Hoe maak je de Ondernemingsraad aantrekkelijk?
       image: /img/logo-template-13-.png
       url: https://www.interzorg.nl/
-  title: Wij werken samen met
+  title: "Wij werken samen met:"
   yourLogoImage: /img/whatsapp-image-2020-10-06-at-15.09.32.jpeg
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
