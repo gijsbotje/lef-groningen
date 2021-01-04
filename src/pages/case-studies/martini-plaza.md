@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: "Case Study: Noorderpoort"
+title: "Case: Noorderpoort"
 date: 2020-03-29T12:30:00.708Z
 description: >
   Welke doelgroepen zou het Noorderpoort nog meer kunnen bereiken – buiten de
