@@ -11,10 +11,10 @@ homeBlock1:
   title: Hallo! <br />Wij zijn LEF.
 homeBlock2:
   quote:
-    text: LEF weet elke keer weer het maximale uit de groep te halen. De sessies
-      zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en
-      concrete actiepunten naar huis.
-    author: Koen Atema, programmamanager Noorderpoort
+    text: LEF heeft ons geholpen met concrete ideeën voor ons vraagstuk. Een fijne
+      club jonge mensen die met een frisse blik een geheel andere kijk geven op
+      vraagstukken en out-of-the-box durven te denken.
+    author: Ellen Stutterheim, Adviseur maatschappelijke thema's Lefier
 customerDisplay:
   logos:
     - image: /img/logo-template-7-.png
