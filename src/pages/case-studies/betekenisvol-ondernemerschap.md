@@ -1,13 +1,13 @@
 ---
 templateKey: case-post
-title: "Case Study: Arriva"
+title: "Case: Arriva"
 date: 2020-12-23T09:31:52.959Z
 description: >
   "Help ons met het in kaart brengen van een toekomstbestendig OV". Hoe beleeft
   de nieuwe generatie het huidige busvervoer en wat zouden we kunnen veranderen
   om dit toekomstbestendig en innovatief te maken?
 featuredpost: true
-featuredimage: /img/leffers-brainstormend-op-tafel.jpg
+featuredimage: /img/untitled-design-3-.jpg
 tags:
   - Case
 ---
