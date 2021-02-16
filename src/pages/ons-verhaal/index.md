@@ -128,16 +128,16 @@ aboutBlock2:
       position: ""
       title: Jacco
     - featured: false
-      image: /img/linde.jpg
+      image: /img/whatsapp-image-2021-02-16-at-16.52.26.jpeg
       linkedIn: ""
       list:
-        - answer: "18"
+        - answer: "23"
           question: Leeftijd
-        - answer: Econometrie
+        - answer: Marketing, communicatie en vormgeving
           question: Studie
       mail: ""
       position: ""
-      title: Linde
+      title: Lisa-mae
     - featured: false
       title: Gerjan
       list:
