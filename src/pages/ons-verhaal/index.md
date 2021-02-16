@@ -276,5 +276,13 @@ aboutBlock2:
         - question: Studie
           answer: Technische bedrijfskunde
       image: /img/whatsapp-image-2021-02-16-at-16.52.26-2-.jpeg
+    - featured: false
+      title: Andrea
+      list:
+        - question: Leeftijd
+          answer: "19"
+        - question: Studie
+          answer: Communicatie en Multimediadesign
+      image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
   title: Het LEF team
 ---
