@@ -280,7 +280,7 @@ aboutBlock2:
       title: Andrea
       list:
         - question: Leeftijd
-          answer: "19"
+          answer: "21"
         - question: Studie
           answer: Communicatie en Multimediadesign
       image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
