@@ -268,5 +268,13 @@ aboutBlock2:
         - question: Studie
           answer: "Werktuigbouwkunde - "
       image: /img/whatsapp-image-2020-12-15-at-15.53.02.jpeg
+    - featured: false
+      title: Brandus
+      list:
+        - question: Leeftijd
+          answer: "21"
+        - question: Studie
+          answer: Technische bedrijfskunde
+      image: /img/whatsapp-image-2021-02-16-at-16.52.26-2-.jpeg
   title: Het LEF team
 ---
