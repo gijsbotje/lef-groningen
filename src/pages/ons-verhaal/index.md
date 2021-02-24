@@ -282,7 +282,7 @@ aboutBlock2:
         - question: Leeftijd
           answer: "21"
         - question: Studie
-          answer: Communicatie en Multimediadesign
+          answer: Communicatie
       image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
   title: Het LEF team
 ---
