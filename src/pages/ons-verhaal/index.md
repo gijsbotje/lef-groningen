@@ -275,7 +275,7 @@ aboutBlock2:
           answer: "21"
         - question: Studie
           answer: Technische bedrijfskunde
-      image: /img/whatsapp-image-2021-02-16-at-16.52.26-2-.jpeg
+      image: /img/whatsapp-image-2021-02-24-at-14.27.03-1-.jpeg
     - featured: false
       title: Andrea
       list:
