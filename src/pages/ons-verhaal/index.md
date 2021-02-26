@@ -292,5 +292,13 @@ aboutBlock2:
         - question: Studie
           answer: Strategic Innovation Management + Small Business & Entrepreneurship
       image: /img/whatsapp-image-2021-02-26-at-14.39.16.jpeg
+    - featured: false
+      title: Eliane
+      list:
+        - question: Leeftijd
+          answer: "23"
+        - question: Studie
+          answer: Bedrijfskunde
+      image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
   title: Het LEF team
 ---
