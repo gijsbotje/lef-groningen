@@ -284,5 +284,13 @@ aboutBlock2:
         - question: Studie
           answer: Communicatie
       image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
+    - featured: false
+      title: Lars
+      list:
+        - question: Leeftijd
+          answer: "22"
+        - question: Studie
+          answer: Strategic Innovation Management + Small Business & Entrepreneurship
+      image: /img/whatsapp-image-2021-02-26-at-14.39.16.jpeg
   title: Het LEF team
 ---
