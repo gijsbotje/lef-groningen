@@ -245,14 +245,6 @@ aboutBlock2:
           answer: Psychologie
       image: /img/whatsapp-image-2020-10-14-at-14.17.01.jpeg
     - featured: false
-      title: Lieke
-      image: /img/whatsapp-image-2020-09-25-at-15.25.39-1-.jpeg
-      list:
-        - question: Leeftijd
-          answer: "24"
-        - question: Studie
-          answer: Verpleegkunde
-    - featured: false
       title: Joost
       list:
         - question: "Leeftijd "
