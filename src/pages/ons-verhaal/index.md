@@ -243,7 +243,7 @@ aboutBlock2:
           answer: "23"
         - question: Studie
           answer: Psychologie
-      image: /img/whatsapp-image-2020-10-14-at-14.17.01.jpeg
+      image: /img/whatsapp-image-2021-03-04-at-16.50.04.jpeg
     - featured: false
       title: Joost
       list:
