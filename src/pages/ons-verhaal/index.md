@@ -177,7 +177,7 @@ aboutBlock2:
       position: ""
       title: Willem
     - featured: false
-      image: /img/nadja.jpeg
+      image: /img/whatsapp-image-2021-03-04-at-18.46.15.jpeg
       linkedIn: ""
       list:
         - answer: "22"
