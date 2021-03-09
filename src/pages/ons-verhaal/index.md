@@ -117,7 +117,7 @@ aboutBlock2:
         - question: Studie
           answer: Farmacie
     - featured: false
-      image: /img/jacco.jpg
+      image: /img/whatsapp-image-2021-03-09-at-14.43.05.jpeg
       linkedIn: ""
       list:
         - answer: "18"
