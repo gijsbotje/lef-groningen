@@ -71,6 +71,10 @@ customerDisplay:
       description: Hoe maak je de Ondernemingsraad aantrekkelijk?
       image: /img/logo-template-13-.png
       url: https://www.interzorg.nl/
+    - name: Sportlife
+      description: Sportlife
+      image: /img/whatsapp-image-2021-04-29-at-14.45.40.jpeg
+      url: https://www.cloetta.com/en/
   title: "Wij werken samen met:"
   yourLogoImage: /img/whatsapp-image-2020-10-06-at-15.09.32.jpeg
 homeBlock3:
