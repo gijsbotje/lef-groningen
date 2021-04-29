@@ -4,7 +4,7 @@ title: "Sportlife: top secret!"
 date: 2021-04-29T08:58:11.665Z
 description: "Sportlife: top secret!"
 featuredpost: true
-featuredimage: /img/whatsapp-image-2021-04-22-at-19.10.00-1-.jpeg
+featuredimage: /img/whatsapp-image-2021-04-29-at-14.31.58.jpeg
 tags:
   - Story
 ---
