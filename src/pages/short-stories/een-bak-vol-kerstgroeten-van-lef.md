@@ -4,7 +4,7 @@ title: Een bak vol kerstgroeten van LEF!
 date: 2021-03-04T15:35:28.405Z
 description: Een bak vol kerstgroeten van LEF!
 featuredpost: true
-featuredimage: /img/whatsapp-image-2021-04-29-at-14.43.50.jpeg
+featuredimage: /img/whatsapp-image-2021-04-29-at-16.29.47.jpeg
 tags:
   - Story
 ---
