@@ -75,6 +75,10 @@ customerDisplay:
       description: Sportlife
       image: /img/whatsapp-image-2021-04-29-at-14.45.40.jpeg
       url: https://www.cloetta.com/en/
+    - name: FNV
+      image: /img/logo-template.png
+      url: https://www.fnv.nl/
+      description: FNV
   title: "Wij werken samen met:"
   yourLogoImage: /img/whatsapp-image-2020-10-06-at-15.09.32.jpeg
 homeBlock3:
