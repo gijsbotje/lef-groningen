@@ -22,7 +22,7 @@ customerDisplay:
       url: https://www.goedewaagen.nl/
       name: Markt- positionering
       description: Hoe behoud je een 400 jaar oude traditie?
-    - image: /img/logo-template-1-.png
+    - image: /img/1TV_Noorderpoort_1605182a.png
       url: https://www.noorderpoort.nl/
       name: Onderwijs- vernieuwing
       description: Welk scholingsaanbod past bij het onderwijs van de toekomst?
@@ -45,7 +45,7 @@ customerDisplay:
       name: Arbeidsmarkt
       description: Een applicatie om meer bewustwording te creëren om inclusief
         werkgever te worden.
-    - image: /img/logo-template.png
+    - image: /img/Gem Groningen.jpg
       url: https://gemeente.groningen.nl/
       name: Onboarding
       description: "Nieuwe werknemers bouwen vier Start-Ups in zeven weken: van
