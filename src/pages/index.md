@@ -18,7 +18,7 @@ homeBlock2:
     author: "André van der Schaaf, Innovatiemanager Cloetta "
 customerDisplay:
   logos:
-    - image: /img/logo-template-7-.png
+    - image: /img/logo-template-1-.png
       url: https://www.goedewaagen.nl/
       name: Markt- positionering
       description: Hoe behoud je een 400 jaar oude traditie?
