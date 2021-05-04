@@ -12,8 +12,8 @@ homeBlock1:
 homeBlock2:
   quote:
     text: >+
-      LEF is professioneel, ze hebben een goede energie, zoeken de grenzen op en
-      komen tot innovatieve ideeën voor ons merk Sportlife.
+      LEF is professioneel, ze hebben een aanstekelijke energie, zoeken de
+      grenzen op en komen tot innovatieve ideeën voor onze producten.
 
     author: "André van der Schaaf, Innovatiemanager Cloetta "
 customerDisplay:
