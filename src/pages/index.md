@@ -5,10 +5,10 @@ homeBlock1:
   image: /img/blue-orange.jpg
   link:
     text: Lees meer over LEF.
-    url: /ons-verhaal/
-  text: De nieuwe generatie die laat zien dat het ook anders kan. Wij bedenken
-    creatieve ideeën en oplossingen. Geen uitdaging is ons te groot!
-  title: Hallo! <br />Wij zijn LEF.
+    url: /diensten/
+  text: "De nieuwe generatie die laat zien dat het ook anders kan. Schakel ons in
+    als de creatieve buitenboordmotor voor jouw organisatie. "
+  title: Wij zijn LEF.
 homeBlock2:
   quote:
     text: >+
