@@ -87,16 +87,16 @@ aboutBlock2:
           answer: Kunstacademie
       image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
     - featured: false
-      image: /img/marel.jpg
+      image: /img/whatsapp-image-2021-05-18-at-12.02.57.jpeg
       linkedIn: ""
       list:
         - answer: "21"
           question: Leeftijd
-        - answer: Communicatie & multimedia design - Photography & brand design
+        - answer: Filmmaker
           question: Studie
       mail: ""
       position: ""
-      title: Marel
+      title: Ward
     - featured: false
       image: /img/unknown1.jpg
       linkedIn: ""
@@ -212,8 +212,8 @@ aboutBlock2:
       list:
         - answer: "25"
           question: Leeftijd
-        - answer: Communication & Multimedia Design
-          question: Studie
+        - answer: Programmeur
+          question: Werk
       mail: ""
       position: ""
       title: Gijs
