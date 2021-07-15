@@ -40,7 +40,7 @@ customerDisplay:
       url: https://www.pentascope.nl/
       name: Organisatie- ontwikkeling
       description: Een fris perspectief gebruiken om tot beter resultaat te komen.
-    - image: /img/logo-template-10-.png
+    - image: /img/kawlogo.jpeg
       url: https://www.faktoo.nl/
       name: Arbeidsmarkt
       description: Een applicatie om meer bewustwording te creëren om inclusief
