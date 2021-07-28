@@ -6,8 +6,12 @@ homeBlock1:
   link:
     text: Lees meer over LEF.
     url: /diensten/
-  text: "De nieuwe generatie die laat zien dat het ook anders kan. Schakel ons in
-    als de creatieve buitenboordmotor voor jouw organisatie. "
+  text: >
+    Soms heb je iemand nodig die van binnen naar buiten kijkt om met nieuwe
+    ideeën te komen. Wij bundelen de denkkracht van jong talent. Een nieuwe
+    generatie die laat zien dat het ook anders kan. Met veel ervaring in het
+    bedenken van vernieuwende oplossingen en het behalen van praktisch
+    resultaat. 
   title: Wij zijn LEF.
 homeBlock2:
   quote:
