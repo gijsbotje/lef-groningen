@@ -3,11 +3,15 @@ templateKey: about-page
 aboutBlock1:
   background: /img/coffee-cup-with-logo.jpg
   intro: "Je moet lef hebben om te doen waar je blij van wordt. Dat betekent ook
-    af en toe van de veilige route afwijken. En zo ontstond lef: een heftige
+    af en toe van de veilige route afwijken. En zo ontstond LEF: een heftige
     cocktail van adrenaline, enorme blunders en grootse successen, maar vooral
-    heel veel lol. Dit is voor ons ook een manier van werken geworden. Door
-    nieuwsgierig te blijven, buiten de lijntjes te kleuren en te doen waar je
-    blij van wordt houden we onszelf en anderen geïnspireerd en scherp."
+    heel veel lol. Dit is voor ons ook een manier van werken geworden. Inmiddels
+    hebben we een track record in diverse sectoren bij verschillende grote
+    organisaties. Hierdoor hebben we veel kennis en ervaring opgebouwd in het
+    realiseren van innovatieve ideeën en concepten, en zijn we goed in het
+    bereiken en naar boven halen van de behoefte van betrokken doelgroepen. Door
+    nieuwsgierig te blijven, buiten de lijntjes te kleuren houden we
+    organisaties geïnspireerd en scherp. Met LEF."
   tools:
     - image: /img/raket-laptop.jpg
       text: Met een snelle, praktische aanpak vertalen we ideeën naar tastbaar
