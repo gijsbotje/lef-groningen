@@ -9,28 +9,32 @@ services:
       ## Wat is het?
 
 
-      Organisaties slaan vaak de veilige weg in. Zonde! Zo loop je een hoop creativiteit mis. Je kunt een probleem namelijk niet oplossen met de denkwijze die het veroorzaakt heeft. Soms heb je iemand nodig die van buiten naar binnen kijkt, niet gehinderd door een kokervisie of interne belangen. Daarom hebben wij een Ideeeënbrouwerij ontwikkeld.
+      Organisaties slaan vaak de veilige weg in. Zonde! Zo loop je een hoop creativiteit mis. Je kunt een probleem namelijk niet oplossen met de denkwijze die het veroorzaakt heeft. Het unieke van onze werkwijze is dat we de denkkracht bundelen van een team jong talent tussen de 18 en 35 jaar. Allemaal met verschillende expertises en studieachtergronden. Onze poule bestaat uit meer dan vijftig studenten, ondernemers en starters met een HBO of WO denkniveau.
 
 
       ## Hoe werkt het?
 
 
-      Tijdens een Ideeeënbrouwerij behandelen wij een challenge waar jij een multidisciplinair team van twintigers wel eens een blik op wilt laten werpen. In een aantal sessies werken we aan het genereren van zoveel mogelijk ideeën en komen met een creatieve oplossing. Een oplossing die je in ieder geval niet verwacht.
+      Tijdens een Ideeënbrouwerij behandelen wij een challenge waar jij een multidisciplinair team van twintigers wel eens een blik op wilt laten werpen. In een aantal sessies werken we aan het genereren van zoveel mogelijk ideeën en komen met een creatieve oplossing. Een oplossing die je in ieder geval niet verwacht.
 
 
       ## Wat levert het op?
 
 
-      Onze methodes zijn gebaseerd op Design Thinking. We denken buiten de vaste patronen, stellen andere vragen en vormen een kritische sparringspartner. Hierdoor komen we snel met veel nieuwe ideeën. Het zet koers naar een nieuwe strategie, een visie of het levert een nieuw marketingplan op. Een praktisch resultaat waar je meteen mee aan de slag kunt.
+      Onze methodes zijn gebaseerd op Design Thinking.  Het zet koers naar een nieuwe strategie, een visie of het levert een nieuw marketingplan op. Het eindresultaat wordt opgeleverd aan de hand van een presentatie met een menukaart van ideeën en concepten en een groepsdiscussie. Hiervan selecteren we gezamenlijk met jou de beste en meest veelbelovende. Vervolgens maken we een plan hoe dit praktisch uit te voeren. Een praktisch resultaat waar je meteen mee aan de slag kunt.
+
+
+      Met behulp van de voucher “Groninger Ondernemersregeling” is het voor Groningse ondernemers zelfs mogelijk de helft gesubsidieerd te krijgen van de Provincie Groningen! Neem hiervoor contact op met Teddy +31652251395
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
     image3: /img/working-in-a-group-6224.jpg
     title: Ideeënbrouwerij
     content:
       title: Why
-      text: Soms heb je iemand nodig die van binnen naar buiten kijkt. Wij combineren
-        de denkkracht van zowel studenten en starters met verschillende studie
-        achtergronden. Zo komen wij tot creatieve ideeën én oplossingen.
+      text: Soms heb je iemand nodig die van buiten naar binnen kijkt. Dat doen wij in
+        onze Ideeënbrouwerij. Ons team bestaat uit jong talent met verschillende
+        expertises. Door deze unieke benadering komen we tot échte innovatieve
+        ideeën en oplossingen.
     image4: /img/helloquence-5fNmWej4tAA-unsplash.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-1-.jpeg
     quote:
