@@ -64,7 +64,7 @@ services:
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
-    title: "Sessie: toepassen van Design Thinking"
+    title: Sessie Creative Design Thinking
     content:
       title: Why
       text: "Wij helpen jou en je collega's om buiten de vaste patronen te denken.
