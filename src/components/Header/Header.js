@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react';
 import PropTypes from 'prop-types';
-import LefLogo from '../../img/logo.svg';
 import AppBar from '@material-ui/core/AppBar';
 import ToolBar from '@material-ui/core/Toolbar';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
@@ -102,9 +101,7 @@ const Header = () => {
         <ScrollAppBar color="transparent" position="fixed" style={{ transition: '.2s ease' }}>
           <Container maxWidth="lg">
             <StyledToolBar>
-              <Logo href="/" title="LEF Groningen - home">
-                <LefLogo style={{ height: '100%' }} />
-              </Logo>
+              <Logo href="/" title="LEF Groningen - home" />
               <Hidden implementation="css" xsDown>
                 <Navbar items={menuItems} />
               </Hidden>
