@@ -1,35 +1,26 @@
 ---
 templateKey: case-post
-title: "Case Study: Arriva"
+title: "Case: Arriva"
 date: 2020-12-23T09:31:52.959Z
-description: Het busvervoer van de toekomst.
+description: >
+  "Help ons met het in kaart brengen van een toekomstbestendig OV". Hoe beleeft
+  de nieuwe generatie het huidige busvervoer en wat zouden we kunnen veranderen
+  om dit toekomstbestendig en innovatief te maken?
 featuredpost: true
-featuredimage: /img/teddy-betekeniseconomie.jpg
+featuredimage: /img/untitled-design-3-.jpg
 tags:
   - Case
 ---
+**Vraag**
+‘’Help ons met het in kaart brengen van een toekomstbestendig OV’’. Hoe beleeft de nieuwe generatie het huidige busvervoer en wat zouden we kunnen veranderen om dit toekomstbestendig en innovatief te maken? 
 
-De 'betekeniseconomie' is een term die je te pas en te onpas om de oren vliegt. Zo ook
-afgelopen week tijdens de masterclass Innovatief Organiseren van Kees Klomp en Engbert
-Breuker. Als kersverse ondernemer was ik natuurlijk getriggerd: zou ik dit kunnen toepassen
-binnen ons nieuwe bedrijf? Maar toch ook een beetje sceptisch, want in mijn ééntje kan ik de
-wereld toch niet redden?
+**Organisatie**
+Arriva verzorgt het openbaar vervoer in 10 van de 12 provincies in Nederland. Ze hebben een stuk of 1.500 bussen op de weg rijden en 147 treinen. Niet alleen de trein en de bus horen bij Arriva, maar ook 14 schepen zijn in het water te vinden. 
 
-Meteen werd ik geconfronteerd met een duidelijke boodschap: we hebben allemaal
-geprofiteerd van bedrijven die onze welvaartseconomie hebben gecreëerd, maar we kunnen
-daar nu verandering in brengen. De betekeniseconomie gaat ons daarbij helpen. Een
-maatschappelijke ontwikkeling waarbij de focus niet langer alleen op welvaart ligt, maar ook
-op het welzijn en welbevinden van onze maatschappij. Langzaamaan beginnen we te
-ontdekken dat er bedrijfsvoering mogelijk is die geen schade berokkent aan de medemens of
-de omgeving, maar dat we juist een positieve bijdrage kunnen leveren. Vanuit een nieuw
-paradigma lieten Kees en Engbert ons zien hoe dit onze business kan veranderen. Andere
-parameters, zoals gezondheid en geluk, worden net zo belangrijk als geld – óf misschien nog
-wel belangrijker.
+**Werkwijze**
+Arriva heeft LEF gevraagd om met de nieuwe generatie naar het huidige busvervoer te kijken en op basis daarvan een innovatieve oplossing aan te dragen. Ons team heeft Arriva geholpen om inzicht te geven in de rol van het OV op het gebied van duurzaamheid (positieve bijdrage aan de maatschappij), verbinding (het OV is meer dan een middel om van A naar B te komen) en innovatie (het toekomstperspectief van het OV). 
 
-Maar wat betekent dit dan voor mij en mijn onderneming? Moeten we allemaal het roer
-omgooien, fulltime wereldverbeteraars worden om van betekenis te kunnen zijn? Nee, want
-op mijn eigen manier ben ik óók van betekenis. Lef hebben om te doen waar je blij van wordt
-en het anders aan te pakken. Je verdiepen in anderen om te kijken wat ze nodig hebben en
-daarop inspelen. Impact maken met creatieve ideeën: klein beginnen en stap voor stap iets
-groots creëren. En daar anderen mee inspireren. Een wereldveranderaar ben ik nog niet, maar
-van betekenis ben ik zeker!
+De innovatiebus bleek het recept voor een innovatieve oplossing. “Om van deze tijd te zijn, moet je al in de toekomst rijden’’. Met deze perspectieven gingen we vervolgens in gesprek met het management. Hoe ziet de innovatiebus eruit en hoe kun je dit in de praktijk invullen?
+
+
+Wil je meer weten over dit project neem dan contact op met Thijs! +31613972693
