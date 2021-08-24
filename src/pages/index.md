@@ -7,11 +7,12 @@ homeBlock1:
     text: Lees meer over LEF.
     url: /diensten/
   text: >
-    Soms heb je iemand nodig die van binnen naar buiten kijkt om met nieuwe
-    ideeën te komen. Wij bundelen de denkkracht van jong talent. Een nieuwe
-    generatie die laat zien dat het ook anders kan. Met veel ervaring in het
-    bedenken van vernieuwende oplossingen en het behalen van praktisch
-    resultaat. 
+    Wij brouwen vernieuwende ideeën en zetten projecten op met blijvende impact.
+    Dit doen we samen met jou, én ons netwerk van jong talent: de nieuwe
+    generatie die laat zien dat het ook anders kan.
+
+
+    Een bom energie waar jij baat bij hebt.  
   title: Wij zijn LEF.
 homeBlock2:
   quote:
