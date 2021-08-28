@@ -27,16 +27,11 @@ aboutBlock1:
   title: Ons verhaal
 aboutBlock2:
   quotes:
-    - text: "Ik vind het tof dat ons grote, actuele uitdagingen van organisaties wordt
-        toevertrouwd die we met een dosis creativiteit en een frisse blik
-        oplossen. "
+    - text: "Ik vind het tof dat ons grote actuele uitdagingen van organisaties wordt toevertrouwd die we met een dosis creativiteit en een frisse blik oplossen. "
       author: Camilla - Marketing Analytics and Data Science
-    - text: "Het is inspirerend om te kunnen sparren met mensen van buiten mijn eigen
-        vakgebied. Samen kom je tot verassende oplossingen voor organisaties. "
-      author: Gijs - Software Development & Multimedia Design
-    - text: Het is elke opdracht weer leuk om met andere jonge en gemotiveerde mensen
-        vanuit een brainstormsessie – waar de meest uiteenlopende en soms gekke
-        ideeën op tafel komen – naar een concrete oplossing toe te werken.
+    - text: "Het is inspirerend om te kunnen sparren met mensen van buiten mijn eigen vakgebied. Samen kom je tot verassende oplossingen voor organisaties. "
+      author: "Gijs - Communicatie & Multimedia Design"
+    - text: Het is elke opdracht weer leuk om met andere jonge en gemotiveerde mensen vanuit een brainstormsessie – waar de meest uiteenlopende en soms gekke ideeën op tafel komen – naar een concrete oplossing toe te werken.
       author: Eline - American Studies & Economie
   extraBlock:
     image: /img/question-mark-chalk.jpg
@@ -51,14 +46,9 @@ aboutBlock2:
           question: Dit wou ik vroeger worden
         - answer: Rechten aan de Rijksuniversiteit Groningen.
           question: Dit heb ik ervoor gestudeerd
-        - answer: Oprichter van Axios, een onderneming waarbij we studenten inzetten als
-            kistdragers.
+        - answer: Oprichter van Axios, een onderneming waarbij we studenten inzetten als kistdragers.
           question: Dit was mijn eerste baan
-        - answer: Toen ik 19 was ben ik mijn eerste onderneming begonnen. Op een korte
-            pauze op een advocatenkantoor na, ben ik altijd blijven ondernemen.
-            Voor mij is de vrijheid en de lol die dat met zich meebrengt
-            fantastisch, en ik hoop dit nog een hele poos te kunnen blijven
-            doen.
+        - answer: Toen ik 19 was ben ik mijn eerste onderneming begonnen. Op een korte pauze op een advocatenkantoor na, ben ik altijd blijven ondernemen. Voor mij is de vrijheid en de lol die dat met zich meebrengt fantastisch, en ik hoop dit nog een hele poos te kunnen blijven doen.
           question: Dit is mijn ambitie
       mail: thijs@lefgroningen.nl
       position: Oprichter
@@ -69,15 +59,11 @@ aboutBlock2:
       list:
         - answer: Dolfijnentrainer.
           question: Dit wou ik vroeger worden
-        - answer: HRM aan de Hanzehogeschool en Change Management aan de Rijksuniversiteit
-            Groningen.
+        - answer: HRM aan de Hanzehogeschool en Change Management aan de Rijksuniversiteit Groningen.
           question: Dit heb ik ervoor gestudeerd
-        - answer: Vanuit de schoolbanken meteen het ondernemerspad opgegaan. Geen baan in
-            de Randstad, geen 9 tot 5 werktijden, maar wel oprichter van LEF.
-            Beter kan bijna niet.
+        - answer: Vanuit de schoolbanken meteen het ondernemerspad opgegaan. Geen baan in de Randstad, geen 9 tot 5 werktijden, maar wel oprichter van LEF. Beter kan bijna niet.
           question: Dit was mijn eerste baan
-        - answer: Bewijzen dat het ook anders kan. De sprong in het diepe blijven wagen.
-            Niet zoeken naar zekerheid, maar wel naar avontuur!
+        - answer: Bewijzen dat het ook anders kan. De sprong in het diepe blijven wagen. Niet zoeken naar zekerheid, maar wel naar avontuur!
           question: Dit is mijn ambitie
       mail: teddy@lefgroningen.nl
       position: Oprichter
@@ -124,7 +110,7 @@ aboutBlock2:
       image: /img/whatsapp-image-2021-03-09-at-14.43.05.jpeg
       linkedIn: ""
       list:
-        - answer: "18"
+        - answer: "23"
           question: Leeftijd
         - answer: Communicatie & multimedia design
           question: Studie
@@ -214,9 +200,11 @@ aboutBlock2:
       image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
       linkedIn: ""
       list:
-        - answer: "25"
+        - answer: "26"
           question: Leeftijd
-        - answer: Programmeur
+        - answer: Communication & Multimedia Design
+          question: Studie
+        - answer: Frontend Developer
           question: Werk
       mail: ""
       position: ""
@@ -247,7 +235,7 @@ aboutBlock2:
           answer: "23"
         - question: Studie
           answer: Psychologie
-      image: /img/whatsapp-image-2021-03-04-at-16.50.04.jpeg
+      image: /img//img/whatsapp-image-2021-03-04-at-16.50.04.jpeg
     - featured: false
       title: Joost
       list:
@@ -262,7 +250,7 @@ aboutBlock2:
         - question: Leeftijd
           answer: "30"
         - question: Studie
-          answer: "Werktuigbouwkunde - "
+          answer: "Werktuigbouwkunde"
       image: /img/whatsapp-image-2020-12-15-at-15.53.02.jpeg
     - featured: false
       title: Brandus
