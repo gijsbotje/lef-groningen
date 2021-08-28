@@ -6,21 +6,20 @@ homeBlock1:
   link:
     text: Lees meer over LEF.
     url: /diensten/
-  text: >
+  text: >-
     Wij brouwen vernieuwende ideeën en zetten projecten op met blijvende impact.
     Dit doen we samen met jou, én ons netwerk van jong talent: de nieuwe
-    generatie die laat zien dat het ook anders kan.
+    generatie die laat zien dat het ook anders kan. 
 
 
-    Een bom energie waar jij baat bij hebt.  
+    Een bom energie waar jij baat bij hebt.
   title: Wij zijn LEF.
 homeBlock2:
   quote:
-    text: >+
+    text: >-
       LEF is professioneel, ze hebben een aanstekelijke energie, zoeken de
       grenzen op en komen tot innovatieve ideeën voor onze producten.
-
-    author: "André van der Schaaf, Innovatiemanager Cloetta "
+    author: André van der Schaaf, Innovatiemanager Cloetta
 customerDisplay:
   logos:
     - image: /img/logo-template-1-.png
@@ -34,13 +33,11 @@ customerDisplay:
     - image: /img/logo-template-9-.png
       url: https://www.arriva.nl/
       name: Klantbeleving
-      description: Door een Expert Walkthrough de klantbeleving verbeteren in het
-        busvervoer.
+      description: Door een Expert Walkthrough de klantbeleving verbeteren in het busvervoer.
     - image: /img/logo-template-5-.png
       url: https://martiniplaza.nl/
       name: Innovatie
-      description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5
-        metereconomie?
+      description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5 metereconomie?
     - image: /img/logo-template-8-.png
       url: https://www.pentascope.nl/
       name: Organisatie- ontwikkeling
@@ -48,13 +45,11 @@ customerDisplay:
     - image: /img/untitled-design-1-.png
       url: https://www.faktoo.nl/
       name: Arbeidsmarkt
-      description: Een applicatie om meer bewustwording te creëren om inclusief
-        werkgever te worden.
+      description: Een applicatie om meer bewustwording te creëren om inclusief werkgever te worden.
     - image: /img/Gem Groningen.jpg
       url: https://gemeente.groningen.nl/
       name: Onboarding
-      description: "Nieuwe werknemers bouwen vier Start-Ups in zeven weken: van
-        ideegeneratie tot concepting."
+      description: "Nieuwe werknemers bouwen vier Start-Ups in zeven weken: van ideegeneratie tot concepting."
     - name: Leefbaarheid
       description: Stimuleren van betrokkenheid onder bewoners.
       image: /img/logo-template-3-.png
@@ -68,8 +63,7 @@ customerDisplay:
       name: Marketing
       description: Hoe krijg je hoogopgeleid (zorg) personeel naar een krimpregio?
     - name: Marketing
-      description: "Wie zijn de early adopters en hoe zetten we ze aan om onze
-        reisapplicatie te gebruiken? "
+      description: "Wie zijn de early adopters en hoe zetten we ze aan om onze reisapplicatie te gebruiken? "
       image: /img/logo-template-2-.png
       url: https://www.arriva.nl/
     - name: Interzorg
@@ -83,7 +77,7 @@ customerDisplay:
     - name: FNV
       image: /img/logo-template.png
       url: https://www.fnv.nl/
-      description: FNV
+      description: FNV 
   title: "Wij werken samen met:"
   yourLogoImage: /img/whatsapp-image-2020-10-06-at-15.09.32.jpeg
 homeBlock3:
@@ -92,44 +86,36 @@ homeBlock3:
     - image: /img/ted-en-thijs-camera-square.jpg
       imageOnly: false
       link: /diensten/
-      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
-        heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Problemen oplossen
     - image: /img/Schermafbeelding 2020-07-23 om 14.41.43.png
       imageOnly: true
       link: /diensten/
-      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
-        heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Work in progress
     - image: /img/leffers-op-vloer-brainstormen.jpg
       imageOnly: true
       link: /diensten/
-      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
-        heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Leffers brainstormend op de vloer
     - image: /img/teddy-en-thijs-portret.jpg
       imageOnly: true
       link: /diensten/
-      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
-        heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Teddy en Thijs
     - image: /img/leffers-brainstormend-op-tafel.jpg
       imageOnly: true
       link: /diensten/
-      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
-        heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
+      text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Werk op tafel
     - image: /img/ted-en-thijs-camera-square.jpg
       imageOnly: false
       link: /diensten/
-      text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er
-        iets op touw moet worden gezet.
+      text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er iets op touw moet worden gezet.
       title: tastbaar resultaat
-  title: .
+  title: "."
 homeBlock4:
   quote:
-    text: LEF heeft ons geholpen met concrete ideeën voor ons vraagstuk. Een fijne
-      club jonge mensen die met een frisse blik een geheel andere kijk geven op
-      vraagstukken en out-of-the-box durven te denken.
+    text: LEF heeft ons geholpen met concrete ideeën voor ons vraagstuk. Een fijne club jonge mensen die met een frisse blik een geheel andere kijk geven op vraagstukken en out-of-the-box durven te denken.
     author: Ellen Stutterheim, Adviseur maatschappelijke thema's Lefier
 ---

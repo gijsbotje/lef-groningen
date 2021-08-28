@@ -9,7 +9,7 @@ services:
       ## Wat is het?
 
 
-      Organisaties slaan vaak de veilige weg in. Zonde! Zo loop je een hoop creativiteit mis. Je kunt een probleem namelijk niet oplossen met de denkwijze die het veroorzaakt heeft. Het unieke van onze werkwijze is dat we de denkkracht bundelen van een team jong talent tussen de 18 en 35 jaar. Allemaal met verschillende expertises en studieachtergronden. Onze poule bestaat uit meer dan vijftig studenten, ondernemers en starters met een HBO of WO denkniveau - bijvoorbeeld werktuigbouwkunde, psychologie, bedrijfskunde en changemanagement. 
+      Organisaties slaan vaak de veilige weg in. Zonde! Zo loop je een hoop creativiteit mis. Je kunt een probleem namelijk niet oplossen met de denkwijze die het veroorzaakt heeft. Het unieke van onze werkwijze is dat we de denkkracht bundelen van een team jong talent tussen de 18 en 35 jaar. Allemaal met verschillende expertises en studieachtergronden. Onze poule bestaat uit meer dan vijftig studenten, ondernemers en starters met een HBO of WO denkniveau - bijvoorbeeld werktuigbouwkunde, psychologie, bedrijfskunde en changemanagement.
 
 
       ## Hoe werkt het?
@@ -22,9 +22,7 @@ services:
 
 
       We hebben een track record in diverse sectoren en bij verschillende grote organisaties. Hierdoor hebben we veel kennis en ervaring opgebouwd in het realiseren van innovatieve ideeën en concepten, en zijn we goed in het bereiken en naar boven halen van de **behoefte van betrokken doelgroepen**. Het zet koers naar een nieuwe strategie, een visie of het levert een nieuw marketingplan op. 
-
-
-      Met behulp van de voucher “Groninger Ondernemersregeling” is het voor Groningse ondernemers zelfs mogelijk de helft gesubsidieerd te krijgen van de Provincie Groningen! Neem hiervoor contact op met Teddy +31652251395
+            Met behulp van de voucher “Groninger Ondernemersregeling” is het voor Groningse ondernemers zelfs mogelijk de helft gesubsidieerd te krijgen van de Provincie Groningen! Neem hiervoor contact op met Teddy +31652251395
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
     image3: /img/working-in-a-group-6224.jpg
@@ -45,7 +43,7 @@ services:
       ## Wat is het?
 
 
-      Silicon Valley is dé plek waar talloze Startups vanuit garages en zolderkamertjes worden omgetoverd tot de grootste bedrijven van de wereld. En al die bedrijven beginnen bij hetzelfde startpunt: een goed idee! Om tot innovatie te komen wordt in de Startup-scene veel gebruik gemaakt van **Design Thinking.** Voor veel medewerkers is het een mooie manier om Design Thinking eens in de praktijk toe te passen. 
+      Silicon Valley is dé plek waar talloze Startups vanuit garages en zolderkamertjes worden omgetoverd tot de grootste bedrijven van de wereld. En al die bedrijven beginnen bij hetzelfde startpunt: een goed idee! Om tot innovatie te komen wordt in de Startup-scene veel gebruik gemaakt van **Design Thinking.** Voor veel medewerkers is het een mooie manier om Design Thinking eens in de praktijk toe te passen.  
 
 
       ## Hoe werkt het?
@@ -59,7 +57,6 @@ services:
 
       Een superleuke dag. **Work is play**, zeggen ze dan. Maar belangrijker dan dat: je leert door Design Thinking op een andere manier nadenken en werken. Nu kun je je afvragen waarom het nuttig is je te verdiepen in een werkmethode die 8.680,79 kilometer verderop in smoezelige garages wordt gebruikt. Vergeet dan niet dat in Silicon Valley de snelst groeiende bedrijven ter wereld actief zijn, die ondanks hun omvang zijn gestructureerd op wendbaarheid en innovatie, onder andere door middel van **Design Thinking.** Om met een metafoor te spreken, licht op de voeten staan en je snel kunnen aanpassen. Dat zijn ongelofelijk belangrijke kwaliteiten voor iedereen die werkt of gaat werken bij (grote) organisaties. 
 
-
       Met behulp van onze creatieve tricks & tools ben je in de toekomst in staat om tot betere en innovatieve oplossingen te komen voor de uitdagingen waar je in je dagelijkse werk tegenaan loopt.
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
@@ -67,10 +64,10 @@ services:
     title: Sessie Creative Design Thinking
     content:
       title: Why
-      text: "Wij helpen jou en je collega's om buiten de vaste patronen te denken.
+      text: "\"Wij helpen jou en je collega's om buiten de vaste patronen te denken.
         Samen gaan we aan de slag met een challenge wat jullie aan het hart
         gaat. De methode is bij uitstek geschikt om ideeën in korte tijd om te
-        vormen tot realistische oplossingen. "
+        vormen tot realistische oplossingen. \""
     image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     quote:
