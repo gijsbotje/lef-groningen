@@ -1,35 +1,26 @@
 ---
 templateKey: case-post
-title: "Case Study: Gemeente Groningen"
+title: "Case: Noorderpoort"
 date: 2020-03-29T12:30:00.708Z
-description: "Begeleiden van de trainee-groep tijdens de Summerboost 2020. "
+description: Welke doelgroepen zou het Noorderpoort nog meer kunnen bereiken –
+  buiten de reguliere studenten om – en welk aanbod kan er in de toekomst aan
+  deze doelgroepen worden geleverd?
 featuredpost: true
-featuredimage: /img/teddy-betekeniseconomie.jpg
+featuredimage: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
 tags:
   - Case
 ---
+**Vraag** 
+Welke doelgroepen zijn er nog meer voor het Noorderpoort – buiten de reguliere studenten om – en welk aanbod kan er per team in de toekomst aan deze doelgroepen worden geleverd?
 
-De 'betekeniseconomie' is een term die je te pas en te onpas om de oren vliegt. Zo ook
-afgelopen week tijdens de masterclass Innovatief Organiseren van Kees Klomp en Engbert
-Breuker. Als kersverse ondernemer was ik natuurlijk getriggerd: zou ik dit kunnen toepassen
-binnen ons nieuwe bedrijf? Maar toch ook een beetje sceptisch, want in mijn ééntje kan ik de
-wereld toch niet redden?
+**Organisatie** 
+Noorderpoort is een van de grootste ROC’s van Noord-Nederland. Met het huidige onderwijs anticiperen ze op de ontwikkelingen de maatschappij. De komende jaren zijn ze van plan hier nog meer aandacht aan te besteden en daarom is het programma LLO (leven lang ontwikkelen) in het leven geroepen.
 
-Meteen werd ik geconfronteerd met een duidelijke boodschap: we hebben allemaal
-geprofiteerd van bedrijven die onze welvaartseconomie hebben gecreëerd, maar we kunnen
-daar nu verandering in brengen. De betekeniseconomie gaat ons daarbij helpen. Een
-maatschappelijke ontwikkeling waarbij de focus niet langer alleen op welvaart ligt, maar ook
-op het welzijn en welbevinden van onze maatschappij. Langzaamaan beginnen we te
-ontdekken dat er bedrijfsvoering mogelijk is die geen schade berokkent aan de medemens of
-de omgeving, maar dat we juist een positieve bijdrage kunnen leveren. Vanuit een nieuw
-paradigma lieten Kees en Engbert ons zien hoe dit onze business kan veranderen. Andere
-parameters, zoals gezondheid en geluk, worden net zo belangrijk als geld – óf misschien nog
-wel belangrijker.
+**Werkwijze**
+We hebben een creatieve LLO sessie ontwikkeld voor de docenten op alle locaties van het Noorderpoort. Sessies waarin het ontwikkelen van een nieuwe onderwijsvisie, het ophalen van creatieve input van docenten en het zelfstandig vormgeven aan toekomstbestendig onderwijs centraal staat.
 
-Maar wat betekent dit dan voor mij en mijn onderneming? Moeten we allemaal het roer
-omgooien, fulltime wereldverbeteraars worden om van betekenis te kunnen zijn? Nee, want
-op mijn eigen manier ben ik óók van betekenis. Lef hebben om te doen waar je blij van wordt
-en het anders aan te pakken. Je verdiepen in anderen om te kijken wat ze nodig hebben en
-daarop inspelen. Impact maken met creatieve ideeën: klein beginnen en stap voor stap iets
-groots creëren. En daar anderen mee inspireren. Een wereldveranderaar ben ik nog niet, maar
-van betekenis ben ik zeker!
+Door gebruik te maken van Design Thinking geven docenten zelfstandig vorm aan een nieuwe visie en slaan zo een brug naar de praktijk. Wij faciliteren dit proces en zorgen ervoor dat iedereen zoveel mogelijk buiten de kaders en vaste patronen denkt. 
+
+De sessies worden tegenwoordig zowel online als offline aangeboden waarbij we gebruik maken van verschillende online platforms, denk daarbij aan Mural of Miro. Aan het einde van de sessie bundelen wij de output in een Whitepaper en verslag.
+
+Wil je meer weten over dit project? Neem dan contact op met Teddy! +31652251395

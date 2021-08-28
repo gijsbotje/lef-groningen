@@ -3,11 +3,15 @@ templateKey: about-page
 aboutBlock1:
   background: /img/coffee-cup-with-logo.jpg
   intro: "Je moet lef hebben om te doen waar je blij van wordt. Dat betekent ook
-    af en toe van de veilige route afwijken. En zo ontstond lef: een heftige
+    af en toe van de veilige route afwijken. En zo ontstond LEF: een heftige
     cocktail van adrenaline, enorme blunders en grootse successen, maar vooral
-    heel veel lol. Dit is voor ons ook een manier van werken geworden. Door
-    nieuwsgierig te blijven, buiten de lijntjes te kleuren en te doen waar je
-    blij van wordt houden we onszelf en anderen geïnspireerd en scherp."
+    heel veel lol. Dit is voor ons ook een manier van werken geworden. Inmiddels
+    hebben we een track record in diverse sectoren bij verschillende grote
+    organisaties. Hierdoor hebben we veel kennis en ervaring opgebouwd in het
+    realiseren van innovatieve ideeën en concepten, en zijn we goed in het
+    bereiken en naar boven halen van de behoefte van betrokken doelgroepen. Door
+    nieuwsgierig te blijven, buiten de lijntjes te kleuren houden we
+    organisaties geïnspireerd en scherp. Met LEF."
   tools:
     - image: /img/raket-laptop.jpg
       text: Met een snelle, praktische aanpak vertalen we ideeën naar tastbaar
@@ -23,13 +27,12 @@ aboutBlock1:
   title: Ons verhaal
 aboutBlock2:
   quotes:
-    - text: "Ik vind het tof dat ons grote actuele challenges van organisaties worden
-        toevertrouwd die we met een dosis creativiteit en een frisse blik
-        oplossen. "
+    - text: "Ik vind het tof dat ons grote actuele uitdagingen van organisaties wordt toevertrouwd die we met een dosis creativiteit en een frisse blik oplossen. "
       author: Camilla - Marketing Analytics and Data Science
-    - text: "Het is inspirerend om te kunnen sparren met mensen van buiten mijn eigen
-        vakgebied. Samen kom je tot verassende oplossingen voor organisaties. "
-      author: "Gijs - ICT "
+    - text: "Het is inspirerend om te kunnen sparren met mensen van buiten mijn eigen vakgebied. Samen kom je tot verassende oplossingen voor organisaties. "
+      author: "Gijs - Communicatie & Multimedia Design"
+    - text: Het is elke opdracht weer leuk om met andere jonge en gemotiveerde mensen vanuit een brainstormsessie – waar de meest uiteenlopende en soms gekke ideeën op tafel komen – naar een concrete oplossing toe te werken.
+      author: Eline - American Studies & Economie
   extraBlock:
     image: /img/question-mark-chalk.jpg
     subTitle: Kom eens langs!
@@ -43,14 +46,9 @@ aboutBlock2:
           question: Dit wou ik vroeger worden
         - answer: Rechten aan de Rijksuniversiteit Groningen.
           question: Dit heb ik ervoor gestudeerd
-        - answer: Oprichter van Axios, een onderneming waarbij we studenten inzetten als
-            kistdragers.
+        - answer: Oprichter van Axios, een onderneming waarbij we studenten inzetten als kistdragers.
           question: Dit was mijn eerste baan
-        - answer: Toen ik 19 was ben ik mijn eerste onderneming begonnen. Op een korte
-            pauze op een advocatenkantoor na, ben ik altijd blijven ondernemen.
-            Voor mij is de vrijheid en de lol die dat met zich meebrengt
-            fantastisch, en ik hoop dit nog een hele poos te kunnen blijven
-            doen.
+        - answer: Toen ik 19 was ben ik mijn eerste onderneming begonnen. Op een korte pauze op een advocatenkantoor na, ben ik altijd blijven ondernemen. Voor mij is de vrijheid en de lol die dat met zich meebrengt fantastisch, en ik hoop dit nog een hele poos te kunnen blijven doen.
           question: Dit is mijn ambitie
       mail: thijs@lefgroningen.nl
       position: Oprichter
@@ -61,15 +59,11 @@ aboutBlock2:
       list:
         - answer: Dolfijnentrainer.
           question: Dit wou ik vroeger worden
-        - answer: HRM aan de Hanzehogeschool en Change Management aan de Rijksuniversiteit
-            Groningen.
+        - answer: HRM aan de Hanzehogeschool en Change Management aan de Rijksuniversiteit Groningen.
           question: Dit heb ik ervoor gestudeerd
-        - answer: Vanuit de schoolbanken meteen het ondernemerspad opgegaan. Geen baan in
-            de Randstad, geen 9 tot 5 werktijden, maar wel oprichter van LEF.
-            Beter kan bijna niet.
+        - answer: Vanuit de schoolbanken meteen het ondernemerspad opgegaan. Geen baan in de Randstad, geen 9 tot 5 werktijden, maar wel oprichter van LEF. Beter kan bijna niet.
           question: Dit was mijn eerste baan
-        - answer: Bewijzen dat het ook anders kan. De sprong in het diepe blijven wagen.
-            Niet zoeken naar zekerheid, maar wel naar avontuur!
+        - answer: Bewijzen dat het ook anders kan. De sprong in het diepe blijven wagen. Niet zoeken naar zekerheid, maar wel naar avontuur!
           question: Dit is mijn ambitie
       mail: teddy@lefgroningen.nl
       position: Oprichter
@@ -83,16 +77,16 @@ aboutBlock2:
           answer: Kunstacademie
       image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
     - featured: false
-      image: /img/marel.jpg
+      image: /img/whatsapp-image-2021-05-18-at-12.02.57.jpeg
       linkedIn: ""
       list:
         - answer: "21"
           question: Leeftijd
-        - answer: Communicatie & multimedia design - Photography & brand design
+        - answer: Filmmaker
           question: Studie
       mail: ""
       position: ""
-      title: Marel
+      title: Ward
     - featured: false
       image: /img/unknown1.jpg
       linkedIn: ""
@@ -113,10 +107,10 @@ aboutBlock2:
         - question: Studie
           answer: Farmacie
     - featured: false
-      image: /img/jacco.jpg
+      image: /img/whatsapp-image-2021-03-09-at-14.43.05.jpeg
       linkedIn: ""
       list:
-        - answer: "18"
+        - answer: "23"
           question: Leeftijd
         - answer: Communicatie & multimedia design
           question: Studie
@@ -124,16 +118,16 @@ aboutBlock2:
       position: ""
       title: Jacco
     - featured: false
-      image: /img/linde.jpg
+      image: /img/whatsapp-image-2021-02-16-at-16.52.26.jpeg
       linkedIn: ""
       list:
-        - answer: "18"
+        - answer: "23"
           question: Leeftijd
-        - answer: Econometrie
+        - answer: Marketing, communicatie en vormgeving
           question: Studie
       mail: ""
       position: ""
-      title: Linde
+      title: Lisa-mae
     - featured: false
       title: Gerjan
       list:
@@ -173,7 +167,7 @@ aboutBlock2:
       position: ""
       title: Willem
     - featured: false
-      image: /img/nadja.jpg
+      image: /img/whatsapp-image-2021-03-04-at-18.46.15.jpeg
       linkedIn: ""
       list:
         - answer: "22"
@@ -206,10 +200,12 @@ aboutBlock2:
       image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
       linkedIn: ""
       list:
-        - answer: "25"
+        - answer: "26"
           question: Leeftijd
         - answer: Communication & Multimedia Design
           question: Studie
+        - answer: Frontend Developer
+          question: Werk
       mail: ""
       position: ""
       title: Gijs
@@ -239,15 +235,7 @@ aboutBlock2:
           answer: "23"
         - question: Studie
           answer: Psychologie
-      image: /img/whatsapp-image-2020-10-14-at-14.17.01.jpeg
-    - featured: false
-      title: Lieke
-      image: /img/whatsapp-image-2020-09-25-at-15.25.39-1-.jpeg
-      list:
-        - question: Leeftijd
-          answer: "24"
-        - question: Studie
-          answer: Verpleegkunde
+      image: /img//img/whatsapp-image-2021-03-04-at-16.50.04.jpeg
     - featured: false
       title: Joost
       list:
@@ -262,7 +250,39 @@ aboutBlock2:
         - question: Leeftijd
           answer: "30"
         - question: Studie
-          answer: "Werktuigbouwkunde - "
+          answer: "Werktuigbouwkunde"
       image: /img/whatsapp-image-2020-12-15-at-15.53.02.jpeg
+    - featured: false
+      title: Brandus
+      list:
+        - question: Leeftijd
+          answer: "21"
+        - question: Studie
+          answer: Technische bedrijfskunde
+      image: /img/whatsapp-image-2021-02-24-at-14.27.03-1-.jpeg
+    - featured: false
+      title: Andrea
+      list:
+        - question: Leeftijd
+          answer: "21"
+        - question: Studie
+          answer: Communicatie
+      image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
+    - featured: false
+      title: Lars
+      list:
+        - question: Leeftijd
+          answer: "22"
+        - question: Studie
+          answer: Strategic Innovation Management + Small Business & Entrepreneurship
+      image: /img/whatsapp-image-2021-02-26-at-14.39.16.jpeg
+    - featured: false
+      title: Eliane
+      list:
+        - question: Leeftijd
+          answer: "23"
+        - question: Studie
+          answer: Bedrijfskunde
+      image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
   title: Het LEF team
 ---
