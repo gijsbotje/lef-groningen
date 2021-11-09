@@ -93,7 +93,7 @@ homeBlock3:
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Problemen oplossen
-    - image: /img/Schermafbeelding 2020-07-23 om 14.41.43.png
+    - image: /img/a369bd0d-6a8f-4e66-9174-50917a0d089e.jpg
       imageOnly: true
       link: /diensten/
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
