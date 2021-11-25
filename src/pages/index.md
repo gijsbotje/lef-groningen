@@ -39,10 +39,10 @@ customerDisplay:
       name: Innovatie
       description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5
         metereconomie?
-    - image: /img/logo-template-8-.png
-      url: https://www.pentascope.nl/
-      name: Organisatie- ontwikkeling
-      description: Een fris perspectief gebruiken om tot beter resultaat te komen.
+    - image: /img/logo-website-lef-afmetingen-1-.jpg
+      url: https://www.lefgroningen.nl/
+      name: FC Groningen
+      description: "Meer vrouwen voor het zakelijk netwerk interesseren. "
     - image: /img/untitled-design-1-.png
       url: https://www.faktoo.nl/
       name: Arbeidsmarkt
