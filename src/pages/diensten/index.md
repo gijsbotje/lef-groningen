@@ -46,25 +46,23 @@ services:
       ## Wat is het?
 
 
-      Silicon Valley is dé plek waar talloze Startups vanuit garages en zolderkamertjes worden omgetoverd tot de grootste bedrijven van de wereld. En al die bedrijven beginnen bij hetzelfde startpunt: een goed idee! Om tot innovatie te komen wordt in de Startup-scene veel gebruik gemaakt van **Design Thinking.** Voor veel medewerkers is het een mooie manier om Design Thinking eens in de praktijk toe te passen.  
+      Silicon Valley is dé plek waar talloze Startups vanuit garages en zolderkamertjes worden omgetoverd tot de grootste bedrijven van de wereld. En al die bedrijven beginnen bij hetzelfde startpunt: een goed idee!  
 
 
       ## Hoe werkt het?
 
 
-      Jullie kiezen een thema of onderwerp uit wat jullie aan het hart gaat. We beginnen met het **verkennen** van deze challenge. Vervolgens focussen we ons op de **ideegeneratie**. We rekken de kaders zover mogelijk uit en denken we alleen in mogelijkheden en kansen. Wij hebben de tools en trucjes om de challenge vanuit een ander perspectief te benaderen. Tijdens de **uitwerking** focussen we ons op de beste ideeën en beslissen wat relevant is voor de betreffende challengehouder. We leveren gezamenlijk een **resultaat** op waar jullie de volgende dag mee aan de slag kunnen. Dit kan in de vorm van de top 3 beste concepten, schets, plan of prototype. 
+      Jullie kiezen een probleem of challenge uit waar je een innovatief idee voor wilt bedenken. We beginnen met het **verkennen** van deze challenge. Vervolgens focussen we ons op de **ideegeneratie**. We rekken de kaders zover mogelijk uit en denken we alleen in mogelijkheden en kansen. Wij hebben de tools en trucjes om de challenge vanuit een ander perspectief te benaderen. Tijdens de **uitwerking** focussen we ons op de beste ideeën en beslissen wat het meest relevant is. 
 
 
       ## Wat levert het op?
 
 
-      Een superleuke dag. **Work is play**, zeggen ze dan. Maar belangrijker dan dat: je leert door Design Thinking op een andere manier nadenken en werken. Nu kun je je afvragen waarom het nuttig is je te verdiepen in een werkmethode die 8.680,79 kilometer verderop in smoezelige garages wordt gebruikt. Vergeet dan niet dat in Silicon Valley de snelst groeiende bedrijven ter wereld actief zijn, die ondanks hun omvang zijn gestructureerd op wendbaarheid en innovatie, onder andere door middel van **Design Thinking.** Om met een metafoor te spreken, licht op de voeten staan en je snel kunnen aanpassen. Dat zijn ongelofelijk belangrijke kwaliteiten voor iedereen die werkt of gaat werken bij (grote) organisaties. 
-
-      Met behulp van onze creatieve tricks & tools ben je in de toekomst in staat om tot betere en innovatieve oplossingen te komen voor de uitdagingen waar je in je dagelijkse werk tegenaan loopt.
+      Een superleuke dag. **Work is play**, zeggen ze dan. Maar belangrijker dan dat: een innovatie idee voor een probleem of challenge waar je eerst niet uitkwam.
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
-    title: Sessie Creative Design Thinking
+    title: "Workshop Creative Thinking: zelf ideeën bedenken"
     content:
       title: Why
       text: "\"Wij helpen jou en je collega's om buiten de vaste patronen te denken.
