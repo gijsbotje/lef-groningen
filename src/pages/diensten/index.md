@@ -9,20 +9,23 @@ services:
       ## Wat is het?
 
 
-      Organisaties slaan vaak de veilige weg in. Zonde! Zo loop je een hoop creativiteit mis. Je kunt een probleem namelijk niet oplossen met de denkwijze die het veroorzaakt heeft. Het unieke van onze werkwijze is dat we de denkkracht bundelen van een team jong talent tussen de 18 en 35 jaar. Allemaal met verschillende expertises en studieachtergronden. Onze poule bestaat uit meer dan vijftig studenten, ondernemers en starters met een HBO of WO denkniveau - bijvoorbeeld werktuigbouwkunde, psychologie, bedrijfskunde en changemanagement.
+      Organisaties slaan vaak de veilige weg in. Zonde! Zo loop je een hoop creativiteit mis. Het unieke van onze werkwijze is dat we de denkkracht bundelen van een team jong talent tussen de 18 en 35 jaar. Allemaal met verschillende expertises en studieachtergronden. Onze poule bestaat uit meer dan vijftig studenten, ondernemers en starters met een HBO of WO denkniveau - bijvoorbeeld werktuigbouwkunde, psychologie, bedrijfskunde en changemanagement.
 
 
       ## Hoe werkt het?
 
 
-      De Ideeënbrouwerij is een in de praktijk ontwikkelde werkmethode die zich richt op output en praktisch resultaat. We starten het traject met de **verkenning** om het probleem helder te krijgen. Vervolgens behandelen we in de **ideegeneratie** fase de challenge waar je ons creatieve team van jong talent graag een blik op wilt laten werpen. We werken aan het genereren van zoveel mogelijk ideeën (divergeren). Hierdoor worden de kaders zover mogelijk uitgerekt. In de derde stap houden we een **tussenlanding** waarbij we samen met jullie brainstormen over de eerste resultaten. In de **presentatie** krijgen jullie de gelegenheid om je favoriete idee uit te kiezen. Vervolgens werken we het gekozen **concept** uit tot een schets, een ontwerp of een projectplan.
+      In de ideeënbrouwerij doorlopen we drie fases. 1) We brengen de **behoeften** van de doelgroep in kaart aan de hand van focusgroepsessies, 2) vervolgens gebruiken we deze input om een **innovatief** **concept** te bedenken dat voorziet in deze behoeften en 3) we komen het uitgewerkte concept **implementeren en uitvoeren** bij jullie in de organisatie. 
 
 
       ## Wat levert het op?
 
 
       We hebben een track record in diverse sectoren en bij verschillende grote organisaties. Hierdoor hebben we veel kennis en ervaring opgebouwd in het realiseren van innovatieve ideeën en concepten, en zijn we goed in het bereiken en naar boven halen van de **behoefte van betrokken doelgroepen**. Het zet koers naar een nieuwe strategie, een visie of het levert een nieuw marketingplan op. 
-            Met behulp van de voucher “Groninger Ondernemersregeling” is het voor Groningse ondernemers zelfs mogelijk de helft gesubsidieerd te krijgen van de Provincie Groningen! Neem hiervoor contact op met Teddy +31652251395
+
+
+
+      Wil je problemen in jou organisatie ook op een vernieuwende wijze aanpakken? Neem dan contact op met Teddy! +31652251395
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
     image3: /img/working-in-a-group-6224.jpg
