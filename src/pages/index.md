@@ -12,7 +12,7 @@ homeBlock1:
     generatie die laat zien dat het ook anders kan. 
 
 
-    Een bom energie waar jij baat bij hebt.
+    Een bom energie en verschillende perspectieven waardoor jij kunt veranderen en vernieuwen.
   title: Wij zijn LEF.
 homeBlock2:
   quote:
@@ -65,10 +65,9 @@ customerDisplay:
       url: https://www.dehoven.nl/
       name: Marketing
       description: Hoe krijg je hoogopgeleid (zorg) personeel naar een krimpregio?
-    - name: Marketing
-      description: "Wie zijn de early adopters en hoe zetten we ze aan om onze
-        reisapplicatie te gebruiken? "
-      image: /img/untitled-design-1-.jpg
+    - name: NS
+      description: Servicezone
+      image: /img/logo-website-lef-afmetingen.jpg
       url: https://www.arriva.nl/
     - name: Interzorg
       description: Hoe maak je de Ondernemingsraad aantrekkelijk?
