@@ -43,16 +43,19 @@ services:
         dit te realiseren. Delfts Blauw werd Rebels Blauw.
       author: Ed Scherbeyn, directeur Royal Goedewaagen
   - extraContent: >-
-      ## Wat is het?
+      ## Een voorbeeld: ondernemersweek in Rotterdam
 
 
-      Silicon Valley is dé plek waar talloze Startups vanuit garages en zolderkamertjes worden omgetoverd tot de grootste bedrijven van de wereld. En al die bedrijven beginnen bij hetzelfde startpunt: een goed idee!  
+      Met een team enthousiaste Lef'ers hebben we meer dan 150 studenten van twee MBO scholen uit Rotterdam @Albeda en het @HMC geholpen bij het bedenken van innovatieve ideeën. In slechts een week tijd hebben ze onder onze begeleiding ideeën bedacht voor het thema woningnood onder studenten. Deze hebben ze uitgewerkt tot de meest vette prototypes en vervolgens gepitched aan ondernemers en investeerders. 
 
 
       ## Hoe werkt het?
 
 
-      Jullie kiezen een probleem of challenge uit waar je een innovatief idee voor wilt bedenken. We beginnen met het **verkennen** van deze challenge. Vervolgens focussen we ons op de **ideegeneratie**. We rekken de kaders zover mogelijk uit en denken we alleen in mogelijkheden en kansen. Wij hebben de tools en trucjes om de challenge vanuit een ander perspectief te benaderen. Tijdens de **uitwerking** focussen we ons op de beste ideeën en beslissen wat het meest relevant is. 
+      Jullie kiezen een probleem of challenge uit waar je een innovatief plan voor wilt bedenken. We beginnen met het **verkennen** van deze challenge. Vervolgens focussen we ons op de **ideegeneratie**. We rekken de kaders zover mogelijk uit en denken we alleen in mogelijkheden en kansen. Tijdens de **uitwerking** focussen we ons op de beste ideeën en beslissen wat het meest relevant is. 
+
+
+      Dit kan in een korte sessie om kennis te maken met deze manier van werken of in een week waardoor je de tijd krijgt om het idee ook echt uit te werken. 
 
 
       ## Wat levert het op?
@@ -62,13 +65,12 @@ services:
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
-    title: "Workshop Creative Thinking: zelf ideeën bedenken"
+    title: Zelf ideeën bedenken onder begeleiding
     content:
       title: Why
-      text: "\"Wij helpen jou en je collega's om buiten de vaste patronen te denken.
-        Samen gaan we aan de slag met een challenge wat jullie aan het hart
-        gaat. De methode is bij uitstek geschikt om ideeën in korte tijd om te
-        vormen tot realistische oplossingen. \""
+      text: '"Wij helpen jullie om buiten de vaste patronen te denken. Samen gaan we
+        aan de slag met een challenge waar jullie een innovatief idee voor
+        willen bedenken. '
     image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     quote:
