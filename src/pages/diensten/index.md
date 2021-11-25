@@ -6,23 +6,25 @@ contact:
   image: /img/black-phone-white-bg.jpg
 services:
   - extraContent: >-
-      ## Wat is het?
+      ## Een voorbeeld: FC Groningen
 
 
-      Organisaties slaan vaak de veilige weg in. Zonde! Zo loop je een hoop creativiteit mis. Het unieke van onze werkwijze is dat we de denkkracht bundelen van een team jong talent tussen de 18 en 35 jaar. Allemaal met verschillende expertises en studieachtergronden. Onze poule bestaat uit meer dan vijftig studenten, ondernemers en starters met een HBO of WO denkniveau - bijvoorbeeld werktuigbouwkunde, psychologie, bedrijfskunde en changemanagement.
+      FC Groningen kwam bij ons met de challenge: "hoe kunnen we meer vrouwen  interesseren voor het zakelijke netwerk van FC Groningen"? Ondernemers, niet-ondernemers, iedereen die iets aan de Business Club denkt te hebben. 
 
 
       ## Hoe werkt het?
 
 
-      In de ideeënbrouwerij doorlopen we drie fases. 1) We brengen de **behoeften** van de doelgroep in kaart aan de hand van focusgroepsessies, 2) vervolgens gebruiken we deze input om een **innovatief** **concept** te bedenken dat voorziet in deze behoeften en 3) we komen het uitgewerkte concept **implementeren en uitvoeren** bij jullie in de organisatie. 
+      In de ideeënbrouwerij doorlopen we drie fases. 1) We brengen de **behoeften** van de doelgroep in kaart aan de hand van focusgroepsessies, 2) vervolgens gebruiken we deze input om een **innovatief** **concept** te bedenken dat voorziet in deze behoeften en 3) we komen het uitgewerkte concept **implementeren en uitvoeren** in de organisatie. 
+
+
+      Het unieke van onze werkwijze is dat we de denkkracht bundelen van een team van jong talent tussen de 18 en 35 jaar. Allemaal met verschillende expertises. Onze poule bestaat uit meer dan vijftig studenten, jonge ondernemers en starters waardoor we in korte tijd tot een innovatief concept voor de opgehaalde behoeften kunnen komen.
 
 
       ## Wat levert het op?
 
 
-      We hebben een track record in diverse sectoren en bij verschillende grote organisaties. Hierdoor hebben we veel kennis en ervaring opgebouwd in het realiseren van innovatieve ideeën en concepten, en zijn we goed in het bereiken en naar boven halen van de **behoefte van betrokken doelgroepen**. Het zet koers naar een nieuwe strategie, een visie of het levert een nieuw marketingplan op. 
-
+      Ten eerste: een kijkje in de behoeften van de doelgroep. Wat triggert de doelgroep? Daarnaast een innovatief concept wat past bij deze behoeften. Dit kan zijn in de vorm van bijvoorbeeld een (marketing)strategie, een sterke businesscase of een vernieuwend product of dienst. Kortom, een enorm waardevol proces om achter de wensen en beweegredenen van deze groep te komen en hier gelijk wat mee te doen. 
 
 
       Wil je problemen in jou organisatie ook op een vernieuwende wijze aanpakken? Neem dan contact op met Teddy! +31652251395
@@ -32,10 +34,10 @@ services:
     title: "Ideeënbrouwerij: een frisse blik"
     content:
       title: Why
-      text: Soms heb je iemand nodig die van buiten naar binnen kijkt. Dat doen wij in
-        onze Ideeënbrouwerij. Ons team bestaat uit jong talent met verschillende
-        expertises. Door deze unieke benadering komen we tot échte innovatieve
-        ideeën en oplossingen.
+      text: Soms heb je iemand nodig die van buiten naar binnen kijkt. Wij helpen
+        organisaties vernieuwen door het betrekken van jong talent met
+        verschillende expertises. Door deze unieke benadering komen we tot échte
+        innovatieve ideeën en oplossingen.
     image4: /img/helloquence-5fNmWej4tAA-unsplash.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-1-.jpeg
     quote:
