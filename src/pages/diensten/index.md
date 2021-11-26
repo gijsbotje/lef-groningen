@@ -9,7 +9,7 @@ services:
       ## Een voorbeeld: FC Groningen
 
 
-      FC Groningen kwam bij ons met de challenge: "hoe kunnen we meer vrouwen  interesseren voor het zakelijke netwerk van FC Groningen"? Ondernemers, niet-ondernemers, iedereen die iets aan de Business Club denkt te hebben. 
+      FC Groningen kwam bij ons met de challenge: *Hoe kunnen we meer vrouwen  interesseren voor het zakelijke netwerk van FC Groningen?* Ondernemers, niet-ondernemers, iedereen die iets aan de Business Club denkt te hebben. 
 
 
       ## Hoe werkt het?
@@ -45,16 +45,10 @@ services:
         dit te realiseren. Delfts Blauw werd Rebels Blauw.
       author: Ed Scherbeyn, directeur Royal Goedewaagen
   - extraContent: >-
-      ## Een voorbeeld: ondernemersweek in Rotterdam
-
-
-      Met een team enthousiaste Lef'ers hebben we meer dan 150 studenten van twee MBO scholen uit Rotterdam @Albeda en het @HMC geholpen bij het bedenken van innovatieve ideeën. In slechts een week tijd hebben ze onder onze begeleiding ideeën bedacht voor het thema woningnood onder studenten. Deze hebben ze uitgewerkt tot de meest vette prototypes en vervolgens gepitched aan ondernemers en investeerders. 
-
-
       ## Hoe werkt het?
 
 
-      Jullie kiezen een probleem of challenge uit waar je een innovatief plan voor wilt bedenken. We beginnen met het **verkennen** van deze challenge. Vervolgens focussen we ons op de **ideegeneratie**. We rekken de kaders zover mogelijk uit en denken we alleen in mogelijkheden en kansen. Tijdens de **uitwerking** focussen we ons op de beste ideeën en beslissen wat het meest relevant is. 
+      Jullie zitten met een bepaald probleem of vraagstuk uit waar je een innovatief plan voor wilt bedenken. Maar dat wil je graag zélf doen. Dat kan! Wij begeleiden je daarin. We beginnen met het **verkennen** van het vraagstuk. Vervolgens helpen we jullie out of the box te denken in de **ideegeneratie**. We rekken de kaders zover mogelijk uit en denken we alleen in mogelijkheden en kansen. Tijdens de **uitwerking** focussen we ons op de beste ideeën en beslissen wat het meest relevant is. 
 
 
       Dit kan in een korte sessie om kennis te maken met deze manier van werken of in een week waardoor je de tijd krijgt om het idee ook echt uit te werken. 
@@ -63,15 +57,21 @@ services:
       ## Wat levert het op?
 
 
-      Een superleuke dag. **Work is play**, zeggen ze dan. Maar belangrijker dan dat: een innovatie idee voor een probleem of challenge waar je eerst niet uitkwam.
+      Een superleuke dag. **Work is play**, zeggen ze dan. Maar belangrijker dan dat: een innovatief idee voor een probleem of vraagstuk.
+
+
+      ## Een voorbeeld: Ondernemersweek in Rotterdam
+
+
+      Met een enthousiast team hebben we meer dan 150 studenten van twee MBO scholen in Rotterdam, het Albeda en HMC, begeleid in een Ondernemersweek met het thema woningnood onder studenten. In slechts een week tijd hebben de studenten samen met ons het probleem verkend, innovatieve ideeën bedacht en dit vervolgens omgevormd tot een businessplan. Deze hebben ze uitgewerkt tot de meest vette prototypes en vervolgens gepitcht aan ondernemers en investeerders.
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
-    title: Zelf ideeën bedenken onder begeleiding
+    title: Zelf aan de slag!
     content:
       title: Why
       text: '"Wij helpen jullie om buiten de vaste patronen te denken. Samen gaan we
-        aan de slag met een challenge waar jullie een innovatief idee voor
+        aan de slag met een vraagstuk waar jullie een vernieuwend idee voor
         willen bedenken. '
     image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
