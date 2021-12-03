@@ -1,12 +1,12 @@
 ---
 templateKey: home-block-post
-title: "Sprint 2: Ideeën brouwen"
+title: Ideeënbrouwerij
 date: 2020-11-20T09:26:40.816Z
-description: De behoeften vertalen we, in gezamenlijkheid met jullie, naar een
-  vernieuwend concept. Daarbij gebruiken we de denkkracht van de nieuwe
-  generatie. Vanuit allerlei verschillende expertises en een frisse blik.
+description: De behoeften vertalen we samen met jou naar een innovatief,
+  vernieuwend concept. Daarbij gebruiken we de creativiteit van de nieuwe
+  generatie. Vanuit diverse expertises en met een frisse blik.
 featuredpost: false
-featuredimage: /img/whatsapp-image-2021-12-02-at-20.34.42-3-.jpeg
+featuredimage: /img/whatsapp-image-2021-12-03-at-14.03.43-1-.jpeg
 tags:
   - Story
 ---
