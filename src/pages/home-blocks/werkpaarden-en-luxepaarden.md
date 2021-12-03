@@ -1,12 +1,13 @@
 ---
 templateKey: home-block-post
-title: Wij begeleiden creatieve sessies.
+title: "Sprint 3: uitvoering"
 date: 2020-10-07T13:29:26.630Z
-description: Verzin je de oplossing liever zelf? Geen probleem. Wij helpen je om
-  effectief en resultaatgericht te brainstormen en het beste uit jezelf te
-  halen. Offline én online.
+description: >
+  We ontwikkelen het bedachte concept gezamenlijk en helpen je met de uitvoering
+  - in een adviserende, uitvoerende of ontzorgende rol. Op een enthousiaste
+  manier mét LEF. 
 featuredpost: false
-featuredimage: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
+featuredimage: /img/schermafbeelding-2020-09-24-om-10.24.22.png
 tags:
   - Story
 ---
