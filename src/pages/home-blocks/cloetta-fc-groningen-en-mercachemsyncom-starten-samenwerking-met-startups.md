@@ -6,7 +6,7 @@ description: Het goed in kaart brengen van de behoefte van jouw doelgroep is van
   onschatbare waarde. Zij zijn immers de uiteindelijke gebruiker! Wij
   organiseren een kwalitatief onderzoek om deze behoeften in kaart te brengen.
 featuredpost: true
-featuredimage: /img/whatsapp-image-2021-12-03-at-14.03.43-1-.jpeg
+featuredimage: /img/whatsapp-image-2020-08-27-at-15.05.37.jpeg
 tags:
   - Story
 ---
