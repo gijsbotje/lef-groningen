@@ -1,12 +1,12 @@
 ---
 templateKey: home-block-post
-title: Wij brouwen ijzersterke ideeën.
+title: "Sprint 1: Behoeften doelgroep"
 date: 2020-11-20T09:35:54.614Z
-description: Dit doen wij in onze Ideeënbrouwerij. Het unieke is dat we hierin
-  de denkkracht bundelen van jong talent tussen de 18 en 35 jaar. Vanuit
-  allerlei verschillende expertises.
+description: "Bij het uitvoeren van een vernieuwende oplossing zijn de behoeften
+  van de doelgroep belangrijk. Zij gaan er immers gebruik van maken. Door middel
+  van een onderzoek brengen wij deze behoeften in kaart. "
 featuredpost: true
-featuredimage: /img/whatsapp-image-2020-09-21-at-15.50.20-1-.jpeg
+featuredimage: /img/whatsapp-image-2021-12-02-at-20.34.42-2-.jpeg
 tags:
   - Story
 ---
