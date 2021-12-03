@@ -104,7 +104,7 @@ homeBlock3:
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Leffers brainstormend op de vloer
-    - image: /img/teddy-en-thijs-portret.jpg
+    - image: /img/whatsapp-image-2021-12-03-at-14.03.43.jpeg
       imageOnly: true
       link: /diensten/
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
