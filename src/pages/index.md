@@ -92,7 +92,7 @@ homeBlock3:
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Problemen oplossen
-    - image: /img/a369bd0d-6a8f-4e66-9174-50917a0d089e.jpg
+    - image: /img/whatsapp-image-2021-12-06-at-10.51.35.jpeg
       imageOnly: true
       link: /diensten/
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
