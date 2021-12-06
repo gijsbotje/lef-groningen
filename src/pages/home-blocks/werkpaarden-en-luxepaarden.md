@@ -1,6 +1,6 @@
 ---
 templateKey: home-block-post
-title: Uitvoering
+title: Projectmanagement
 date: 2020-10-07T13:29:26.630Z
 description: >
   We ontwikkelen het bedachte concept gezamenlijk door en helpen je met de
