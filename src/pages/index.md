@@ -110,7 +110,7 @@ homeBlock3:
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Teddy en Thijs
-    - image: /img/leffers-brainstormend-op-tafel.jpg
+    - image: /img/whatsapp-image-2021-12-06-at-10.46.31.jpeg
       imageOnly: true
       link: /diensten/
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
