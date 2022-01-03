@@ -80,8 +80,8 @@ const Index = () => {
                 LEF Groningen
               </Typography>
               <Typography>LEF Groningen</Typography>
-              <Typography>Poelestraat 28A</Typography>
-              <Typography gutterBottom>9712 KB Groningen</Typography>
+              <Typography>Van Swinderenstraat 38</Typography>
+              <Typography gutterBottom>9714HG Groningen</Typography>
               <Typography
                 component={Link}
                 title="Mail met LEF"
