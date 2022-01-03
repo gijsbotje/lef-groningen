@@ -1,12 +1,13 @@
 ---
 templateKey: home-block-post
-title: Wij begeleiden creatieve sessies.
+title: Projectmanagement
 date: 2020-10-07T13:29:26.630Z
-description: Verzin je de oplossing liever zelf? Geen probleem. Wij helpen je om
-  effectief en resultaatgericht te brainstormen en het beste uit jezelf te
-  halen. Offline én online.
-featuredpost: false
-featuredimage: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
+description: >
+  We ontwikkelen het bedachte concept gezamenlijk door en helpen je met de
+  uitvoering. Dit doen we in een adviserende, uitvoerende of ontzorgende rol. Op
+  een enthousiaste manier en mét LEF!
+featuredpost: true
+featuredimage: /img/a369bd0d-6a8f-4e66-9174-50917a0d089e.jpg
 tags:
   - Story
 ---

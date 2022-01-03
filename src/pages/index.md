@@ -12,7 +12,7 @@ homeBlock1:
     generatie die laat zien dat het ook anders kan. 
 
 
-    Een bom energie waar jij baat bij hebt.
+    Een bom energie en verschillende perspectieven waardoor jij kunt veranderen en vernieuwen.
   title: Wij zijn LEF.
 homeBlock2:
   quote:
@@ -39,10 +39,10 @@ customerDisplay:
       name: Innovatie
       description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5
         metereconomie?
-    - image: /img/logo-template-8-.png
-      url: https://www.pentascope.nl/
-      name: Organisatie- ontwikkeling
-      description: Een fris perspectief gebruiken om tot beter resultaat te komen.
+    - image: /img/logo-website-lef-afmetingen-1-.jpg
+      url: https://www.lefgroningen.nl/
+      name: FC Groningen
+      description: "Meer vrouwen voor het zakelijk netwerk interesseren. "
     - image: /img/untitled-design-1-.png
       url: https://www.faktoo.nl/
       name: Arbeidsmarkt
@@ -65,10 +65,9 @@ customerDisplay:
       url: https://www.dehoven.nl/
       name: Marketing
       description: Hoe krijg je hoogopgeleid (zorg) personeel naar een krimpregio?
-    - name: Marketing
-      description: "Wie zijn de early adopters en hoe zetten we ze aan om onze
-        reisapplicatie te gebruiken? "
-      image: /img/untitled-design-1-.jpg
+    - name: NS
+      description: Servicezone
+      image: /img/logo-website-lef-afmetingen.jpg
       url: https://www.arriva.nl/
     - name: Interzorg
       description: Hoe maak je de Ondernemingsraad aantrekkelijk?
@@ -93,7 +92,7 @@ homeBlock3:
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Problemen oplossen
-    - image: /img/Schermafbeelding 2020-07-23 om 14.41.43.png
+    - image: /img/whatsapp-image-2021-12-06-at-10.51.35.jpeg
       imageOnly: true
       link: /diensten/
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
@@ -105,13 +104,13 @@ homeBlock3:
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Leffers brainstormend op de vloer
-    - image: /img/teddy-en-thijs-portret.jpg
+    - image: /img/whatsapp-image-2021-12-03-at-14.03.43.jpeg
       imageOnly: true
       link: /diensten/
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Teddy en Thijs
-    - image: /img/leffers-brainstormend-op-tafel.jpg
+    - image: /img/whatsapp-image-2021-12-06-at-10.48.43.jpeg
       imageOnly: true
       link: /diensten/
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt

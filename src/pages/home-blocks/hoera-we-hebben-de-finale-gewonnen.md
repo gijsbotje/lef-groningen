@@ -1,12 +1,12 @@
 ---
 templateKey: home-block-post
-title: Wij bouwen projecten.
+title: Ideeënbrouwerij
 date: 2020-11-20T09:26:40.816Z
-description: We nemen jou mee in ons enthousiasme, ontwikkelen het concept
-  gezamenlijk tot een projectplan en helpen je met de uitvoering. En alles wat
-  daarbij komt kijken.
+description: De behoeften vertalen we samen met jou naar een innovatief,
+  vernieuwend concept. Daarbij gebruiken we de creativiteit van de nieuwe
+  generatie. Vanuit diverse expertises en met een frisse blik.
 featuredpost: false
-featuredimage: /img/schermafbeelding-2020-09-24-om-10.24.22.png
+featuredimage: /img/whatsapp-image-2021-12-06-at-10.41.28.jpeg
 tags:
   - Story
 ---

@@ -1,12 +1,12 @@
 ---
 templateKey: home-block-post
-title: Wij brouwen ijzersterke ideeën.
+title: Doelgroep onderzoek
 date: 2020-11-20T09:35:54.614Z
-description: Dit doen wij in onze Ideeënbrouwerij. Het unieke is dat we hierin
-  de denkkracht bundelen van jong talent tussen de 18 en 35 jaar. Vanuit
-  allerlei verschillende expertises.
+description: Het goed in kaart brengen van de behoefte van jouw doelgroep is van
+  onschatbare waarde. Zij zijn immers de uiteindelijke gebruiker! Wij
+  organiseren een kwalitatief onderzoek om deze behoeften in kaart te brengen.
 featuredpost: true
-featuredimage: /img/whatsapp-image-2020-09-21-at-15.50.20-1-.jpeg
+featuredimage: /img/whatsapp-image-2020-08-27-at-15.05.37.jpeg
 tags:
   - Story
 ---
