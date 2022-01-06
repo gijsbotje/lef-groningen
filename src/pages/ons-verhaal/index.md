@@ -209,6 +209,12 @@ aboutBlock2:
           answer: "Student econometrie "
       image: /img/untitled-design-5-.png
     - featured: false
+      title: "Olle "
+      list:
+        - question: Functie
+          answer: "Eigenaar SÅR Apparel - Marketing "
+      image: /img/untitled-design-4-.png
+    - featured: false
       image: /img/unknown1.jpg
       linkedIn: ""
       list:
@@ -233,11 +239,5 @@ aboutBlock2:
       list:
         - question: Functie
           answer: Ontspanningsmanagement
-    - featured: false
-      title: "Olle "
-      list:
-        - question: Functie
-          answer: "Eigenaar SÅR Apparel - Marketing "
-      image: /img/untitled-design-4-.png
   title: Het LEF team
 ---
