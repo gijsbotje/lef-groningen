@@ -61,119 +61,89 @@ aboutBlock2:
     - featured: false
       title: Juul
       list:
-        - question: Leeftijd
-          answer: "24"
         - question: Studie
           answer: Kunstacademie
       image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
     - featured: false
+      title: Eliane
+      list:
+        - question: Studie
+          answer: Bedrijfskunde - Psychologie
+      image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
+    - featured: false
+      title: Lars
+      list:
+        - question: Studie
+          answer: Strategic Innovation Management + Small Business & Entrepreneurship
+      image: /img/whatsapp-image-2021-02-26-at-14.39.16.jpeg
+    - featured: false
       image: /img/whatsapp-image-2021-05-18-at-12.02.57.jpeg
       linkedIn: ""
       list:
-        - answer: "21"
-          question: Leeftijd
         - answer: Filmmaker
           question: Studie
       mail: ""
       position: ""
       title: Ward
     - featured: false
-      image: /img/unknown1.jpg
-      linkedIn: ""
-      list:
-        - answer: "23"
-          question: Leeftijd
-        - answer: Psychologie
-          question: Studie
-      mail: ""
-      position: ""
-      title: Matthijs
-    - featured: false
-      title: Tessa
-      image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
-      list:
-        - question: Leeftijd
-          answer: "24"
-        - question: Studie
-          answer: Farmacie
-    - featured: false
-      image: /img/whatsapp-image-2021-03-09-at-14.43.05.jpeg
-      linkedIn: ""
-      list:
-        - answer: "23"
-          question: Leeftijd
-        - answer: Communicatie & multimedia design
-          question: Studie
-      mail: ""
-      position: ""
-      title: Jacco
-    - featured: false
       image: /img/whatsapp-image-2021-02-16-at-16.52.26.jpeg
       linkedIn: ""
       list:
-        - answer: "23"
-          question: Leeftijd
-        - answer: Marketing, communicatie en vormgeving
+        - answer: Grafisch ontwerper
           question: Studie
       mail: ""
       position: ""
       title: Lisa-mae
     - featured: false
-      title: Gerjan
+      title: Tessa
+      image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
       list:
-        - question: Leeftijd
-          answer: "24"
         - question: Studie
-          answer: Rechten
-      image: /img/whatsapp-image-2020-09-21-at-14.07.54-1-.jpeg
+          answer: Apotheker
+    - featured: false
+      image: /img/whatsapp-image-2021-03-09-at-14.43.05.jpeg
+      linkedIn: ""
+      list:
+        - answer: Freelancer grafisch ontwerp
+          question: Studie
+      mail: ""
+      position: ""
+      title: Jacco
     - featured: false
       title: Lars
       list:
-        - question: Leeftijd
-          answer: "21"
         - question: Studie
-          answer: Geschiedenis
+          answer: Student geschiedenis
       image: /img/whatsapp-image-2020-12-16-at-14.41.39.jpeg
     - featured: false
       image: /img/screenshot-2020-11-02-at-15.07.11.png
       linkedIn: ""
       list:
-        - answer: "22"
-          question: Leeftijd
-        - answer: University College & Change Management
+        - answer: Changemanagent professional
           question: Studie
       mail: ""
       position: ""
       title: Liset
     - featured: false
-      image: /img/unknown5.jpg
-      linkedIn: ""
-      list:
-        - answer: "23"
-          question: Leeftijd
-        - answer: Psychologie
-          question: Studie
-      mail: ""
-      position: ""
-      title: Willem
-    - featured: false
       image: /img/whatsapp-image-2021-03-04-at-18.46.15.jpeg
       linkedIn: ""
       list:
-        - answer: "22"
-          question: Leeftijd
-        - answer: Religiewetenschappen
+        - answer: Student religiewetenschappen
           question: Studie
       mail: ""
       position: ""
       title: Nadja
     - featured: false
+      title: Andrea
+      list:
+        - question: Studie
+          answer: Grafisch vormgever - Psyschologie
+      image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
+    - featured: false
       image: /img/camilla.jpg
       linkedIn: ""
       list:
-        - answer: "23"
-          question: Leeftijd
-        - answer: Marketing Analytics and Data Science
+        - answer: Student Marketing Analytics and Data Science
           question: Studie
       mail: ""
       position: ""
@@ -181,19 +151,13 @@ aboutBlock2:
     - featured: false
       title: Jelmer
       list:
-        - question: Leeftijd
-          answer: "24"
         - question: Studie
-          answer: Social Work
+          answer: Ambulant forensisch begeleider
       image: /img/whatsapp-image-2020-12-16-at-14.41.12.jpeg
     - featured: false
       image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
       linkedIn: ""
       list:
-        - answer: "26"
-          question: Leeftijd
-        - answer: Communication & Multimedia Design
-          question: Studie
         - answer: Frontend Developer
           question: Werk
       mail: ""
@@ -202,17 +166,13 @@ aboutBlock2:
     - featured: false
       title: Bob
       list:
-        - question: Leeftijd
-          answer: "24"
         - question: Studie
-          answer: Bedrijfskunde & Change Management
+          answer: Student Bedrijfskunde & Change Management
       image: /img/whatsapp-image-2020-09-21-at-14.07.55.jpeg
     - featured: false
       image: /img/whatsapp-image-2020-10-06-at-15.00.33.jpeg
       linkedIn: ""
       list:
-        - answer: "25"
-          question: Leeftijd
         - answer: American Studies & Economie
           question: Studie
       mail: ""
@@ -221,58 +181,42 @@ aboutBlock2:
     - featured: false
       title: Jelle
       list:
-        - question: Leeftijd
-          answer: "23"
         - question: Studie
-          answer: Psychologie
+          answer: Student psychologie
       image: /img//img/whatsapp-image-2021-03-04-at-16.50.04.jpeg
-    - featured: false
-      title: Joost
-      list:
-        - question: "Leeftijd "
-          answer: "22"
-        - question: "Studie "
-          answer: "Associate degree ondernemen "
-      image: /img/whatsapp-image-2020-12-16-at-14.36.29.jpeg
     - featured: false
       title: "Jasper "
       list:
-        - question: Leeftijd
-          answer: "30"
         - question: Studie
-          answer: Werktuigbouwkunde
+          answer: Eigenaar Studio Fantast
       image: /img/whatsapp-image-2020-12-15-at-15.53.02.jpeg
     - featured: false
       title: Brandus
       list:
-        - question: Leeftijd
-          answer: "21"
         - question: Studie
           answer: Technische bedrijfskunde
       image: /img/whatsapp-image-2021-02-24-at-14.27.03-1-.jpeg
     - featured: false
-      title: Andrea
+      image: /img/unknown1.jpg
+      linkedIn: ""
       list:
-        - question: Leeftijd
-          answer: "21"
-        - question: Studie
-          answer: Communicatie
-      image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
+        - answer: Student psychologie
+          question: Studie
+      mail: ""
+      position: ""
+      title: Matthijs
     - featured: false
-      title: Lars
+      image: /img/unknown5.jpg
+      linkedIn: ""
       list:
-        - question: Leeftijd
-          answer: "22"
-        - question: Studie
-          answer: Strategic Innovation Management + Small Business & Entrepreneurship
-      image: /img/whatsapp-image-2021-02-26-at-14.39.16.jpeg
+        - answer: Student psychologie
+          question: Studie
+      mail: ""
+      position: ""
+      title: Willem
     - featured: false
-      title: Eliane
-      list:
-        - question: Leeftijd
-          answer: "23"
-        - question: Studie
-          answer: Bedrijfskunde
-      image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
+      title: "Oreo "
+      image: /img/untitled-design-2-.png
+      position: Ontspanningsmanagement
   title: Het LEF team
 ---
