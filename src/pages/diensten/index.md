@@ -86,7 +86,7 @@ services:
       Ten eerste zijn wij enorm gezellig, dus iedereen gaat blij naar huis. Gelukkig is dat niet alles, we zorgen vooral voor praktisch resultaat. We zorgen voor draagvlak, verbinding voor regelrechte impact en dagen jou uit om buiten de gebaande paden te treden. 
 
 
-      Meer weten over bovenstaande thema's? Thijs houdt van zwarte koffie met een koekje: thijs@lefgroningen.nl en +31613972693
+      Meer weten over bovenstaande thema's? Thijs houdt van zwarte koffie het líefst met een koekje: **thijs@lefgroningen.nl en +31613972693.**
     image1: /img/whatsapp-image-2022-01-06-at-14.33.18-2-.jpeg
     image2: /img/whatsapp-image-2022-01-06-at-14.33.18.jpeg
     image3: /img/whatsapp-image-2022-01-06-at-13.12.31.jpeg
