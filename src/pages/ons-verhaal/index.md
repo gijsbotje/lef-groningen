@@ -7,15 +7,13 @@ aboutBlock1:
     lijntjes te kleuren houden we organisaties geïnspireerd en scherp. "
   tools:
     - image: /img/raket-laptop.jpg
-      text: Met een snelle, praktische aanpak vertalen we ideeën naar tastbaar
-        resultaat.
+      text: Met een praktische aanpak vertalen we ideeën naar tastbaar resultaat.
       title: Wij maken meters.
     - image: /img/fail-quickly-learn-fast-blue-liquid.jpg
-      text: Door te experimenteren en onze blunders te vieren komen we verder.
-      title: Wij maken fouten.
+      text: "Onze creativiteit werkt aanstekelijk. "
+      title: Wij zorgen voor energie.
     - image: /img/buiten-de-organisatie-bubbel.jpg
-      text: We kijken van buiten de organisatie naar binnen, waardoor we kritisch en
-        onbevangen zijn.
+      text: Wij zijn de nieuwe generatie die laat zien dat het ook anders kan.
       title: Wij denken anders.
   title: Ons verhaal
 aboutBlock2:
