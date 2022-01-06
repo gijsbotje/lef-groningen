@@ -9,7 +9,7 @@ services:
       ## **Hoe werkt het?**
 
 
-      We brengen de behoeften van jouw doelgroep in kaart aan de hand van bijvoorbeeld focusgroepen, 1-op-1 interviews en co-creatie.  
+      We brengen de behoeften van jouw doelgroep in kaart aan de hand van  focusgroepen, 1-op-1 interviews en co-creatie.  
 
 
       ## **Wat levert het op?**
@@ -21,7 +21,7 @@ services:
       Op een heel laagdrempelige manier kom je erachter of jouw benadering, product of dienst strookt met deze behoefte.
 
 
-      Wil je achter de *ins and outs* van je doelgroep komen? Neem dan contact op met Joline: joline@lefgroningen.nl of 0624676712
+      Wil je achter de *ins and outs* van je doelgroep komen? Joline houdt van een extra sterke cappuccino: joline@lefgroningen.nl of 0624676712
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
     image3: /img/working-in-a-group-6224.jpg
