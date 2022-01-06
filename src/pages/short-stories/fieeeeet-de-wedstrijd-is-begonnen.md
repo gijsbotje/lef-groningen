@@ -4,7 +4,7 @@ title: FIEEEEET!! De wedstrijd is begonnen!
 date: 2022-01-06T11:39:45.676Z
 description: FIEEEEET!! De wedstrijd is begonnen!
 featuredpost: true
-featuredimage: /img/short-stories-afmetingen-5-.png
+featuredimage: /img/ss-poging-2.png
 tags:
   - Story
 ---
