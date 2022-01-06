@@ -6,44 +6,71 @@ contact:
   image: /img/black-phone-white-bg.jpg
 services:
   - extraContent: >-
-      ## Een voorbeeld: FC Groningen
+      ## **Hoe werkt het?**
 
 
-      FC Groningen kwam bij ons met de challenge: *Hoe kunnen we meer vrouwen  interesseren voor het zakelijke netwerk van FC Groningen?* Ondernemers, niet-ondernemers, iedereen die iets aan de Business Club denkt te hebben. 
-
-
-      ## Hoe werkt het?
-
-
-      In de ideeënbrouwerij doorlopen we drie fases. 1) We brengen de **behoeften** van de doelgroep in kaart aan de hand van focusgroepsessies, 2) vervolgens gebruiken we deze input om een **innovatief** **concept** te bedenken dat voorziet in deze behoeften en 3) we komen het uitgewerkte concept **implementeren en uitvoeren** in de organisatie. 
+      We brengen de behoeften van de doelgroep in kaart aan de hand van focusgroepsessies, 2) vervolgens gebruiken we deze input om een innovatief concept te bedenken dat voorziet in deze behoeften en 3) we komen het uitgewerkte concept implementeren en uitvoeren in de organisatie. 
 
 
       Het unieke van onze werkwijze is dat we de denkkracht bundelen van een team van jong talent tussen de 18 en 35 jaar. Allemaal met verschillende expertises. Onze poule bestaat uit meer dan vijftig studenten, jonge ondernemers en starters waardoor we in korte tijd tot een innovatief concept voor de opgehaalde behoeften kunnen komen.
 
 
-      ## Wat levert het op?
+      ## **Wat levert het op?**
 
 
-      Ten eerste: een kijkje in de behoeften van de doelgroep. Wat triggert de doelgroep? Daarnaast een innovatief concept wat past bij deze behoeften. Dit kan zijn in de vorm van bijvoorbeeld een (marketing)strategie, een sterke businesscase of een vernieuwend product of dienst. Kortom, een enorm waardevol proces om achter de wensen en beweegredenen van deze groep te komen en hier gelijk wat mee te doen. 
+      Ten eerste: een kijkje in de behoeften van de doelgroep. Wat triggert de doelgroep? Kortom, een enorm waardevol proces om achter de wensen en beweegredenen van deze groep te komen en hier gelijk wat mee te doen. 
 
 
       Wil je problemen in jou organisatie ook op een vernieuwende wijze aanpakken? Neem dan contact op met Teddy! +31652251395
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
     image3: /img/working-in-a-group-6224.jpg
-    title: "Ideeënbrouwerij: een frisse blik"
+    title: Doelgroeponderzoek
     content:
       title: Why
-      text: Soms heb je iemand nodig die van buiten naar binnen kijkt. Wij helpen
-        organisaties vernieuwen door het betrekken van jong talent met
-        verschillende expertises. Door deze unieke benadering komen we tot échte
-        innovatieve ideeën en oplossingen.
+      text: Je wilt weten wat de wensen zijn van je doelgroep. Bijvoorbeeld de klant
+        van je product of dienst, maar ook de medewerker binnen je organisatie.
+        Wij brengen deze behoeften in kaart.
     image4: /img/helloquence-5fNmWej4tAA-unsplash.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-1-.jpeg
     quote:
       text: Wij hadden behoefte aan nieuwe verfrissende inzichten. LEF was in staat
         dit te realiseren. Delfts Blauw werd Rebels Blauw.
       author: Ed Scherbeyn, directeur Royal Goedewaagen
+  - extraContent: >-
+      ## Hoe werkt het?
+
+
+      De Ideeënbrouwerij is een creatieve energiebom waarin we de input uit het doelgroeponderzoek gebruiken om tot een **innovatief** **concept** te komen. Perfect op maat zodat het voorziet in deze behoeften.
+
+
+      Het unieke van deze werkwijze is dat we de denkkracht bundelen van een groep van jong talent tussen de 18 en 35 jaar, allemaal met verschillende expertises en perspectieven. We werken met verschillende teams, net zolang er een concept uitrolt waar je stijl van achterover slaat. 
+
+
+      ## Wat levert het op?
+
+
+      Ten eerste, een een innovatief concept wat past bij deze behoeften. Dit kan zijn in de vorm van bijvoorbeeld een (marketing)strategie, een sterke businesscase of een vernieuwend product of dienst. Kortom, een enorm waardevol proces om achter de wensen en beweegredenen van deze groep te komen en hier gelijk wat mee te doen. 
+
+
+      Wil je problemen in jou organisatie ook op een vernieuwende wijze aanpakken? Neem dan contact op met Teddy! +31652251395
+    image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
+    image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
+    image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
+    title: Ideeënbrouwerij
+    content:
+      title: Why
+      text: Wij bedenken een innovatief concept op basis van de behoeften van de
+        doelgroep. Dit doen we door het betrekken van jong talent vanuit
+        verschillende expertises. Door deze unieke benadering komen we tot écht
+        innovatieve oplossingen.
+    image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
+    image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
+    quote:
+      text: LEF weet elke keer weer het maximale uit de groep te halen. De sessies
+        zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en
+        concrete actiepunten naar huis.
+      author: "Koen Atema, programmamanager Noorderpoort "
   - extraContent: >-
       ## Hoe werkt het?
 
@@ -58,26 +85,22 @@ services:
 
 
       Een superleuke dag. **Work is play**, zeggen ze dan. Maar belangrijker dan dat: een innovatief idee voor een probleem of vraagstuk.
-
-
-      ## Een voorbeeld: Ondernemersweek in Rotterdam
-
-
-      Met een enthousiast team hebben we meer dan 150 studenten van twee MBO scholen in Rotterdam, het Albeda en HMC, begeleid in een Ondernemersweek met het thema woningnood onder studenten. In slechts een week tijd hebben de studenten samen met ons het probleem verkend, innovatieve ideeën bedacht en dit vervolgens omgevormd tot een businessplan. Deze hebben ze uitgewerkt tot de meest vette prototypes en vervolgens gepitcht aan ondernemers en investeerders.
-    image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
-    image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
-    image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
-    title: Zelf aan de slag!
+    image1: /img/whatsapp-image-2022-01-06-at-14.33.18-2-.jpeg
+    image2: /img/whatsapp-image-2022-01-06-at-14.33.18.jpeg
+    image3: /img/whatsapp-image-2022-01-06-at-13.12.31.jpeg
+    title: Projectmanagement
     content:
       title: Why
-      text: '"Wij helpen jullie om buiten de vaste patronen te denken. Samen gaan we
-        aan de slag met een vraagstuk waar jullie een vernieuwend idee voor
-        willen bedenken. '
-    image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
-    image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
+      text: "Een idee is waardeloos als je er vervolgens niets mee doet. Daarom zetten
+        we samen met jou een project op om de oplossing te implementeren. Met
+        LEF aan boord komt de zaak in beweging en zorgen we samen voor impact. "
+    image4: /img/whatsapp-image-2022-01-06-at-14.25.09-1-.jpeg
+    image5: /img/whatsapp-image-2022-01-06-at-14.25.10-2-.jpeg
     quote:
-      text: LEF weet elke keer weer het maximale uit de groep te halen. De sessies
-        zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en
-        concrete actiepunten naar huis.
-      author: "Koen Atema, programmamanager Noorderpoort "
+      text: '"We hebben het werken met LEF ontdekt! Hun innovatieve manier van denken
+        én doen, energie en creatieve aanvliegmogelijkheden zijn erg waardevol
+        bij de opgaven waar wij mee bezig zijn. Samen op zoek naar de beste
+        aanpak en buiten de gebaande paden treden, dat is waar zij mee bij
+        helpen en wat ook nog eens ontzettend prettig samenwerken is."'
+      author: Leonie Wendker, adviseur KAW
 ---
