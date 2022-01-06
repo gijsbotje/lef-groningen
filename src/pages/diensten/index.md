@@ -21,7 +21,7 @@ services:
       Op een heel laagdrempelige manier kom je erachter of jouw benadering, product of dienst strookt met deze behoefte.
 
 
-      Wil je achter de *ins and outs* van je doelgroep komen? Neem dan contact op met Joline --> 0624676712
+      Wil je achter de *ins and outs* van je doelgroep komen? Neem dan contact op met Joline: joline@lefgroningen.nl of 0624676712
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
     image3: /img/working-in-a-group-6224.jpg
@@ -53,7 +53,7 @@ services:
       Ten eerste, een innovatief concept waar je meteen mee aan de slag kunt. Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een (marketing)strategie, een sterke businesscase of een vernieuwend product of dienst. Daarnaast zorgt de Ideeënbrouwerij  ook voor een enorme bak inspiratie! Kortom, een enorm waardevol proces.
 
 
-      Wil je vraagstukken of uitdagingen ook op een vernieuwende wijze aanpakken? Neem dan contact op met Teddy --> 0652251395
+      Wil je vraagstukken of uitdagingen ook op een vernieuwende wijze aanpakken? Neem dan contact op met Teddy: teddy@lefgroningen.nl of 0652251395
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
