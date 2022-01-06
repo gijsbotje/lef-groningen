@@ -6,13 +6,8 @@ homeBlock1:
   link:
     text: Lees meer over LEF.
     url: /diensten/
-  text: >-
-    Wij brouwen vernieuwende ideeën en zetten projecten op met blijvende impact.
-    Dit doen we samen met jou, én ons netwerk van jong talent: de nieuwe
-    generatie die laat zien dat het ook anders kan. 
-
-
-    Een bom energie en verschillende perspectieven waardoor jij kunt veranderen en vernieuwen.
+  text: Wij brouwen vernieuwende ideeën en zetten projecten op met blijvende
+    impact. Dit doen we samen met jou, én ons netwerk van jong talent.
   title: Wij zijn LEF.
 homeBlock2:
   quote:
