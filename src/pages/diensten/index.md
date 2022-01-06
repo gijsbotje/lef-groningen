@@ -75,25 +75,27 @@ services:
       ## Hoe werkt het?
 
 
-      Jullie zitten met een bepaald probleem of vraagstuk uit waar je een innovatief plan voor wilt bedenken. Maar dat wil je graag zélf doen. Dat kan! Wij begeleiden je daarin. We beginnen met het **verkennen** van het vraagstuk. Vervolgens helpen we jullie out of the box te denken in de **ideegeneratie**. We rekken de kaders zover mogelijk uit en denken we alleen in mogelijkheden en kansen. Tijdens de **uitwerking** focussen we ons op de beste ideeën en beslissen wat het meest relevant is. 
+      Als projectleiders implementeren wij vernieuwende concepten in organisaties. Op een enthousiaste manier én met LEF. We ontzorgen, zetten de juiste mensen op de juiste plek en zoeken gezamenlijk naar een innovatieve aanpak. 
 
 
-      Dit kan in een korte sessie om kennis te maken met deze manier van werken of in een week waardoor je de tijd krijgt om het idee ook echt uit te werken. 
+      Wij zijn inzetbaar op de volgende thema's: energietransitie, duurzaamheid en circulaire businessmodellen, innovatie en product/dienst ontwikkeling, participatietrajecten en marketing.
 
 
       ## Wat levert het op?
 
 
-      Een superleuke dag. **Work is play**, zeggen ze dan. Maar belangrijker dan dat: een innovatief idee voor een probleem of vraagstuk.
+      Ten eerste zijn wij enorm gezellig, dus iedereen gaat blij naar huis. Gelukkig is dat niet alles, we zorgen vooral voor praktisch resultaat. We zorgen voor draagvlak, verbinding voor regelrechte impact en dagen jou uit om buiten de gebaande paden te treden. 
+
+
+      Meer weten over bovenstaande thema's? Thijs houdt van zwarte koffie met een koekje: thijs@lefgroningen.nl en +31613972693
     image1: /img/whatsapp-image-2022-01-06-at-14.33.18-2-.jpeg
     image2: /img/whatsapp-image-2022-01-06-at-14.33.18.jpeg
     image3: /img/whatsapp-image-2022-01-06-at-13.12.31.jpeg
     title: Projectmanagement
     content:
       title: Why
-      text: "Een idee is waardeloos als je er vervolgens niets mee doet. Daarom zetten
-        we samen met jou een project op om de oplossing te implementeren. Met
-        LEF aan boord komt de zaak in beweging en zorgen we samen voor impact. "
+      text: Wij implementeren vernieuwende concepten in organisaties. Met LEF aan
+        boord komt de zaak in beweging en zorgen we samen voor impact!
     image4: /img/whatsapp-image-2022-01-06-at-14.25.09-1-.jpeg
     image5: /img/whatsapp-image-2022-01-06-at-14.25.10-2-.jpeg
     quote:
