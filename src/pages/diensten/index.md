@@ -9,19 +9,19 @@ services:
       ## **Hoe werkt het?**
 
 
-      We brengen de behoeften van de doelgroep in kaart aan de hand van focusgroepsessies, 2) vervolgens gebruiken we deze input om een innovatief concept te bedenken dat voorziet in deze behoeften en 3) we komen het uitgewerkte concept implementeren en uitvoeren in de organisatie. 
-
-
-      Het unieke van onze werkwijze is dat we de denkkracht bundelen van een team van jong talent tussen de 18 en 35 jaar. Allemaal met verschillende expertises. Onze poule bestaat uit meer dan vijftig studenten, jonge ondernemers en starters waardoor we in korte tijd tot een innovatief concept voor de opgehaalde behoeften kunnen komen.
+      We brengen de behoeften van jouw doelgroep in kaart aan de hand van bijvoorbeeld focusgroepen, 1-op-1 interviews en co-creatie.  
 
 
       ## **Wat levert het op?**
 
 
-      Ten eerste: een kijkje in de behoeften van de doelgroep. Wat triggert de doelgroep? Kortom, een enorm waardevol proces om achter de wensen en beweegredenen van deze groep te komen en hier gelijk wat mee te doen. 
+      Een kijkje in de behoeften van je doelgroep. Of deze nou een extern (de klant of afnemer), of intern (de medewerker) is. Wat wil de doelgroep? Wat is hun behoefte? Hoe zouden ze nou eigenlijk zelf bereikt willen worden en wat voor ideeën hebben ze hier bij?  
 
 
-      Wil je problemen in jou organisatie ook op een vernieuwende wijze aanpakken? Neem dan contact op met Teddy! +31652251395
+      Op een heel laagdrempelige manier kom je erachter of jouw benadering, product of dienst strookt met deze behoefte.
+
+
+      Wil je achter de *ins and outs* van je doelgroep komen? Neem dan contact op met Joline --> 0624676712
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
     image3: /img/working-in-a-group-6224.jpg
@@ -32,7 +32,7 @@ services:
         van je product of dienst, maar ook de medewerker binnen je organisatie.
         Wij brengen deze behoeften in kaart.
     image4: /img/helloquence-5fNmWej4tAA-unsplash.jpg
-    image5: /img/whatsapp-image-2020-09-21-at-15.50.20-1-.jpeg
+    image5: /img/serious-game-lefier.jpeg
     quote:
       text: Wij hadden behoefte aan nieuwe verfrissende inzichten. LEF was in staat
         dit te realiseren. Delfts Blauw werd Rebels Blauw.
@@ -50,10 +50,10 @@ services:
       ## Wat levert het op?
 
 
-      Ten eerste, een een innovatief concept wat past bij deze behoeften. Dit kan zijn in de vorm van bijvoorbeeld een (marketing)strategie, een sterke businesscase of een vernieuwend product of dienst. Kortom, een enorm waardevol proces om achter de wensen en beweegredenen van deze groep te komen en hier gelijk wat mee te doen. 
+      Ten eerste, een innovatief concept waar je meteen mee aan de slag kunt. Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een (marketing)strategie, een sterke businesscase of een vernieuwend product of dienst. Daarnaast zorgt de Ideeënbrouwerij  ook voor een enorme bak inspiratie! Kortom, een enorm waardevol proces.
 
 
-      Wil je problemen in jou organisatie ook op een vernieuwende wijze aanpakken? Neem dan contact op met Teddy! +31652251395
+      Wil je vraagstukken of uitdagingen ook op een vernieuwende wijze aanpakken? Neem dan contact op met Teddy --> 0652251395
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
