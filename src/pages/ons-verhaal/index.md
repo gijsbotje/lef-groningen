@@ -116,14 +116,11 @@ aboutBlock2:
           answer: Student geschiedenis
       image: /img/whatsapp-image-2020-12-16-at-14.41.39.jpeg
     - featured: false
-      image: /img/screenshot-2020-11-02-at-15.07.11.png
-      linkedIn: ""
+      title: Daniek
       list:
-        - answer: Changemanagent professional
-          question: Studie
-      mail: ""
-      position: ""
-      title: Liset
+        - question: functie
+          answer: Student geneeskunde
+      image: /img/untitled-design-3-.png
     - featured: false
       image: /img/whatsapp-image-2021-03-04-at-18.46.15.jpeg
       linkedIn: ""
@@ -139,6 +136,15 @@ aboutBlock2:
         - question: Studie
           answer: Grafisch vormgever - Psyschologie
       image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
+    - featured: false
+      image: /img/screenshot-2020-11-02-at-15.07.11.png
+      linkedIn: ""
+      list:
+        - answer: Changemanagent professional
+          question: Studie
+      mail: ""
+      position: ""
+      title: Liset
     - featured: false
       image: /img/camilla.jpg
       linkedIn: ""
@@ -197,6 +203,12 @@ aboutBlock2:
           answer: Technische bedrijfskunde
       image: /img/whatsapp-image-2021-02-24-at-14.27.03-1-.jpeg
     - featured: false
+      title: Maaike
+      list:
+        - question: Functie
+          answer: "Student econometrie "
+      image: /img/untitled-design-5-.png
+    - featured: false
       image: /img/unknown1.jpg
       linkedIn: ""
       list:
@@ -222,16 +234,10 @@ aboutBlock2:
         - question: Functie
           answer: Ontspanningsmanagement
     - featured: false
-      title: Daniek
-      list:
-        - question: functie
-          answer: Student geneeskunde
-      image: /img/untitled-design-3-.png
-    - featured: false
-      title: Maaike
+      title: "Olle "
       list:
         - question: Functie
-          answer: "Student econometrie "
-      image: /img/untitled-design-5-.png
+          answer: "Eigenaar SÅR Apparel - Marketing "
+      image: /img/untitled-design-4-.png
   title: Het LEF team
 ---
