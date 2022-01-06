@@ -2,9 +2,12 @@
 templateKey: about-page
 aboutBlock1:
   background: /img/coffee-cup-with-logo.jpg
-  intro: "Je moet lef hebben om te vernieuwen en innoveren. Dat betekent ook af en
-    toe van de veilige route afwijken. Door nieuwsgierig te blijven en buiten de
-    lijntjes te kleuren houden we organisaties geïnspireerd en scherp. "
+  intro: "In het najaar van 2019 is LEF ontstaan in een smal café aan de Grote
+    Markt te Groningen. Na een koffie en twee biertjes waren Thijs en Teddy er
+    wel uit: organisaties zouden véél meer gebruik moeten maken van de
+    creativiteit en innovatiekracht van jong talent. Zo gezegd zo gedaan, twee
+    maanden later bestond LEF.  We blijven nieuwsgierig en buiten de lijntjes
+    kleuren, zo houden we jou ook geïnspireerd en scherp. "
   tools:
     - image: /img/raket-laptop.jpg
       text: Met een praktische aanpak vertalen we ideeën naar tastbaar resultaat.
