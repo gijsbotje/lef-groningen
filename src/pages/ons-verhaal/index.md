@@ -2,16 +2,9 @@
 templateKey: about-page
 aboutBlock1:
   background: /img/coffee-cup-with-logo.jpg
-  intro: "Je moet lef hebben om te doen waar je blij van wordt. Dat betekent ook
-    af en toe van de veilige route afwijken. En zo ontstond LEF: een heftige
-    cocktail van adrenaline, enorme blunders en grootse successen, maar vooral
-    heel veel lol. Dit is voor ons ook een manier van werken geworden. Inmiddels
-    hebben we een track record in diverse sectoren bij verschillende grote
-    organisaties. Hierdoor hebben we veel kennis en ervaring opgebouwd in het
-    realiseren van innovatieve ideeën en concepten, en zijn we goed in het
-    bereiken en naar boven halen van de behoefte van betrokken doelgroepen. Door
-    nieuwsgierig te blijven, buiten de lijntjes te kleuren houden we
-    organisaties geïnspireerd en scherp. Met LEF."
+  intro: "Je moet lef hebben om te vernieuwen en innoveren. Dat betekent ook af en
+    toe van de veilige route afwijken. Door nieuwsgierig te blijven en buiten de
+    lijntjes te kleuren houden we organisaties geïnspireerd en scherp. "
   tools:
     - image: /img/raket-laptop.jpg
       text: Met een snelle, praktische aanpak vertalen we ideeën naar tastbaar
@@ -57,6 +50,14 @@ aboutBlock2:
       mail: teddy@lefgroningen.nl
       position: Oprichter
       title: Teddy Monninkhof
+    - featured: false
+      title: Joline Teisman
+      list:
+        - question: Functie
+          answer: Projectleider energietransitie
+      image: /img/afmetingen-site-fotos-ons-verhaal.png
+      linkedIn: https://www.linkedin.com/in/joline-teisman-778403a8/
+      mail: joline@lefgroningen.nl
     - featured: false
       title: Juul
       list:
