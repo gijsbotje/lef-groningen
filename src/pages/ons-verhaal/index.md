@@ -217,6 +217,21 @@ aboutBlock2:
     - featured: false
       title: "Oreo "
       image: /img/untitled-design-2-.png
-      position: Ontspanningsmanagement
+      position: ""
+      list:
+        - question: Functie
+          answer: Ontspanningsmanagement
+    - featured: false
+      title: Daniek
+      list:
+        - question: functie
+          answer: Student geneeskunde
+      image: /img/untitled-design-3-.png
+    - featured: false
+      title: Maaike
+      list:
+        - question: Functie
+          answer: "Student econometrie "
+      image: /img/untitled-design-5-.png
   title: Het LEF team
 ---
