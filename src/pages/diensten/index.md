@@ -21,7 +21,7 @@ services:
       Op een heel laagdrempelige manier kom je erachter of jouw benadering, product of dienst strookt met deze behoefte.
 
 
-      Wil je achter de *ins and outs* van je doelgroep komen? Joline houdt van een extra sterke cappuccino: joline@lefgroningen.nl of 0624676712
+      Wil je achter de *ins and outs* van je doelgroep komen? Joline houdt van een extra sterke cappuccino: **joline@lefgroningen.nl of 0624676712**
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/leffers-op-vloer-brainstormen.jpg
     image3: /img/working-in-a-group-6224.jpg
@@ -41,29 +41,28 @@ services:
       ## Hoe werkt het?
 
 
-      De Ideeënbrouwerij is een creatieve energiebom waarin we de input uit het doelgroeponderzoek gebruiken om tot een **innovatief** **concept** te komen. Perfect op maat zodat het voorziet in deze behoeften.
+      De Ideeënbrouwerij is een creatieve energiebom waarin we de input uit het doelgroeponderzoek gebruiken om tot een **innovatief** **concept** te komen.
 
 
-      Het unieke van deze werkwijze is dat we de denkkracht bundelen van een groep van jong talent tussen de 18 en 35 jaar, allemaal met verschillende expertises en perspectieven. We werken met verschillende teams, net zolang er een concept uitrolt waar je stijl van achterover slaat. 
+      Het unieke van deze werkwijze is dat we de denkkracht bundelen van een groep van jong talent tussen de 18 en 35 jaar, allemaal met verschillende expertises en perspectieven. 
 
 
       ## Wat levert het op?
 
 
-      Ten eerste, een innovatief concept waar je meteen mee aan de slag kunt. Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een (marketing)strategie, een sterke businesscase of een vernieuwend product of dienst. Daarnaast zorgt de Ideeënbrouwerij  ook voor een enorme bak inspiratie! Kortom, een enorm waardevol proces.
+      Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een (marketing)strategie, een sterke businesscase of een vernieuwend product of dienst. Én een gratis bak met inspiratie.
 
 
-      Wil je vraagstukken of uitdagingen ook op een vernieuwende wijze aanpakken? Neem dan contact op met Teddy: teddy@lefgroningen.nl of 0652251395
+      Wil jij je organisatie weer laten bruisen? Teddy drinkt het liefst bubbeltjes water met een schijfje citroen: **teddy@lefgroningen.nl of 0652251395**
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
     title: Ideeënbrouwerij
     content:
       title: Why
-      text: Wij bedenken een innovatief concept op basis van de behoeften van de
-        doelgroep. Dit doen we door het betrekken van jong talent vanuit
-        verschillende expertises. Door deze unieke benadering komen we tot écht
-        innovatieve oplossingen.
+      text: Met ons netwerk van jong talent bedenken we een innovatief concept op
+        basis van de behoeften van de doelgroep. Door onze unieke benadering
+        komen we in een korte tijd tot échte innovatieve oplossingen.
     image4: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     quote:
