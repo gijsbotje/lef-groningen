@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: FEEST bij LEF
+title: Feest bij LEF!
 date: 2022-01-06T11:14:16.150Z
-description: FEEST bij LEF
+description: Feest bij LEF!
 featuredpost: true
-featuredimage: /img/short-stories-afmetingen.png
+featuredimage: /img/shortstories-template-4-.png
 tags:
   - Story
 ---
