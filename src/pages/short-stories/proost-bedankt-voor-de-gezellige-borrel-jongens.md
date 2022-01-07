@@ -4,7 +4,7 @@ title: Proost! Bedankt voor de gezellige borrel jongens ;)
 date: 2022-01-06T11:34:16.005Z
 description: Proost! Bedankt voor de gezellige borrel jongens ;)
 featuredpost: true
-featuredimage: /img/short-stories-afmetingen-4-.png
+featuredimage: /img/shortstories-template-1-.png
 tags:
   - Story
 ---
