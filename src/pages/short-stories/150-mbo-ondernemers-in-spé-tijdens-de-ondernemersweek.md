@@ -4,7 +4,7 @@ title: 150 MBO ondernemers in spé tijdens de ondernemersweek
 date: 2022-01-06T11:25:03.466Z
 description: Rotterdamse ondernemersweek
 featuredpost: true
-featuredimage: /img/short-stories-afmetingen-2-.png
+featuredimage: /img/shortstories-template-3-.png
 tags:
   - Story
 ---
