@@ -4,7 +4,7 @@ title: Verduurzamen, maar hoe?
 date: 2022-01-06T15:41:38.477Z
 description: Verduurzamen, maar hoe?
 featuredpost: true
-featuredimage: /img/short-stories-afmetingen-6-.png
+featuredimage: /img/shortstories-template.png
 tags:
   - Story
 ---
