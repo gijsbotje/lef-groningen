@@ -6,8 +6,9 @@ aboutBlock1:
     Markt te Groningen. Na een koffie en twee biertjes waren Thijs en Teddy er
     wel uit: organisaties zouden véél meer gebruik moeten maken van de
     creativiteit en innovatiekracht van jong talent. Zo gezegd zo gedaan, twee
-    maanden later bestond LEF.  We blijven nieuwsgierig en buiten de lijntjes
-    kleuren, zo houden we jou ook geïnspireerd en scherp. "
+    maanden later bestond LEF. Dat is ook nu nog de kern: we blijven
+    nieuwsgierig en buiten de lijntjes kleuren. Zo houden we jou ook
+    geïnspireerd en scherp. "
   tools:
     - image: /img/raket-laptop.jpg
       text: Met een praktische aanpak vertalen we ideeën naar tastbaar resultaat.
@@ -180,7 +181,7 @@ aboutBlock2:
       image: /img/whatsapp-image-2020-10-06-at-15.00.33.jpeg
       linkedIn: ""
       list:
-        - answer: American Studies & Economie
+        - answer: Trainee bij De Nederlandsche Bank
           question: Studie
       mail: ""
       position: ""
@@ -201,7 +202,7 @@ aboutBlock2:
       title: Brandus
       list:
         - question: Studie
-          answer: Technische bedrijfskunde
+          answer: Student Technische bedrijfskunde
       image: /img/whatsapp-image-2021-02-24-at-14.27.03-1-.jpeg
     - featured: false
       title: Maaike
