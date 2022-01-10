@@ -79,7 +79,7 @@ aboutBlock2:
           answer: Strategic Innovation Management + Small Business & Entrepreneurship
       image: /img/whatsapp-image-2021-02-26-at-14.39.16.jpeg
     - featured: false
-      image: /img/whatsapp-image-2021-05-18-at-12.02.57.jpeg
+      image: /img/photo-white.jpg
       linkedIn: ""
       list:
         - answer: Filmmaker
