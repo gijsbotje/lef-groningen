@@ -242,5 +242,11 @@ aboutBlock2:
       list:
         - question: Functie
           answer: Ontspanningsmanagement
+    - featured: false
+      title: Marloes
+      list:
+        - question: Studie
+          answer: Biologie en laboratorium onderzoeker en Student Social Work
+      image: /img/afmetingen-site-fotos-ons-verhaal-1-.png
   title: Het LEF team
 ---
