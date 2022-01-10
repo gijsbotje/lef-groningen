@@ -86,17 +86,17 @@ services:
       Ten eerste zijn wij enorm gezellig, dus iedereen gaat blij naar huis. Gelukkig is dat niet alles, we zorgen vooral voor praktisch resultaat. We zorgen voor draagvlak, verbinding voor regelrechte impact en dagen jou uit om buiten de gebaande paden te treden. 
 
 
-      Meer weten over bovenstaande thema's? Thijs houdt van zwarte koffie het líefst met een koekje: **thijs@lefgroningen.nl en +31613972693.**
-    image1: /img/whatsapp-image-2022-01-06-at-14.33.18-2-.jpeg
-    image2: /img/whatsapp-image-2022-01-06-at-14.33.18.jpeg
-    image3: /img/whatsapp-image-2022-01-06-at-13.12.31.jpeg
+      Meer weten over bovenstaande thema's? Thijs houdt van zwarte koffie, het líefst met een koekje: **thijs@lefgroningen.nl en +31613972693.**
+    image1: /img/untitled-design-9-.png
+    image2: /img/a369bd0d-6a8f-4e66-9174-50917a0d089e.jpg
+    image3: /img/untitled-design-6-.png
     title: Projectmanagement
     content:
       title: Why
       text: Wij implementeren vernieuwende concepten in organisaties. Met LEF aan
         boord komt de zaak in beweging en zorgen we samen voor impact!
-    image4: /img/whatsapp-image-2022-01-06-at-14.25.09-1-.jpeg
-    image5: /img/whatsapp-image-2022-01-06-at-14.25.10-2-.jpeg
+    image4: /img/untitled-design-7-.png
+    image5: /img/untitled-design-8-.png
     quote:
       text: '"We hebben het werken met LEF ontdekt! Hun innovatieve manier van denken
         én doen, energie en creatieve aanvliegmogelijkheden zijn erg waardevol
