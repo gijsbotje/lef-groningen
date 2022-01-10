@@ -31,7 +31,7 @@ aboutBlock2:
       author: Gijs - Communicatie & Multimedia Design
     - text: Het is elke opdracht weer leuk om met andere jonge en gemotiveerde mensen
         vanuit een brainstormsessie – waar de meest uiteenlopende en soms gekke
-        ideeën op tafel komen – naar een concrete oplossing toe te werken.
+        ideeën op tafel komen – naar een concreet resultaat toe te werken.
       author: Eline - American Studies & Economie
   extraBlock:
     image: /img/question-mark-chalk.jpg
@@ -64,19 +64,20 @@ aboutBlock2:
       title: Juul
       list:
         - question: Studie
-          answer: Kunstacademie
+          answer: Student Kunstacademie
       image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
     - featured: false
       title: Eliane
       list:
         - question: Studie
-          answer: Bedrijfskunde - Psychologie
+          answer: Student Bedrijfskunde - Psychologie
       image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
     - featured: false
       title: Lars
       list:
         - question: Studie
-          answer: Strategic Innovation Management + Small Business & Entrepreneurship
+          answer: Student Strategic Innovation Management + Small Business &
+            Entrepreneurship
       image: /img/whatsapp-image-2021-02-26-at-14.39.16.jpeg
     - featured: false
       image: /img/photo-white.jpg
@@ -91,7 +92,7 @@ aboutBlock2:
       image: /img/whatsapp-image-2021-02-16-at-16.52.26.jpeg
       linkedIn: ""
       list:
-        - answer: Grafisch ontwerper
+        - answer: Grafisch Ontwerper
           question: Studie
       mail: ""
       position: ""
@@ -106,7 +107,7 @@ aboutBlock2:
       image: /img/whatsapp-image-2021-03-09-at-14.43.05.jpeg
       linkedIn: ""
       list:
-        - answer: Freelancer grafisch ontwerp
+        - answer: Grafisch Ontwerper
           question: Studie
       mail: ""
       position: ""
@@ -136,7 +137,7 @@ aboutBlock2:
       title: Andrea
       list:
         - question: Studie
-          answer: Grafisch vormgever - Psyschologie
+          answer: Grafisch vormgever en student psychologie
       image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
     - featured: false
       image: /img/screenshot-2020-11-02-at-15.07.11.png
@@ -214,7 +215,7 @@ aboutBlock2:
       title: "Olle "
       list:
         - question: Functie
-          answer: "Eigenaar SÅR Apparel - Marketing "
+          answer: "Eigenaar SÅR Apparel  en student marketing "
       image: /img/untitled-design-4-.png
     - featured: false
       image: /img/unknown1.jpg
