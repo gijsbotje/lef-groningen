@@ -218,14 +218,11 @@ aboutBlock2:
           answer: "Eigenaar SÅR Apparel  en student marketing "
       image: /img/untitled-design-4-.png
     - featured: false
-      image: /img/unknown1.jpg
-      linkedIn: ""
+      title: Marloes
       list:
-        - answer: Student psychologie
-          question: Studie
-      mail: ""
-      position: ""
-      title: Matthijs
+        - question: Studie
+          answer: Biologie en laboratorium onderzoeker en Student Social Work
+      image: /img/afmetingen-site-fotos-ons-verhaal-1-.png
     - featured: false
       image: /img/unknown5.jpg
       linkedIn: ""
@@ -236,17 +233,20 @@ aboutBlock2:
       position: ""
       title: Willem
     - featured: false
+      image: /img/unknown1.jpg
+      linkedIn: ""
+      list:
+        - answer: Student psychologie
+          question: Studie
+      mail: ""
+      position: ""
+      title: Matthijs
+    - featured: false
       title: "Oreo "
       image: /img/untitled-design-2-.png
       position: ""
       list:
         - question: Functie
           answer: Ontspanningsmanagement
-    - featured: false
-      title: Marloes
-      list:
-        - question: Studie
-          answer: Biologie en laboratorium onderzoeker en Student Social Work
-      image: /img/afmetingen-site-fotos-ons-verhaal-1-.png
   title: Het LEF team
 ---
