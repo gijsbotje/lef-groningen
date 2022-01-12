@@ -3,23 +3,25 @@ templateKey: case-post
 title: "Case: Arriva"
 date: 2020-12-23T09:31:52.959Z
 description: >
-  "Help ons met het in kaart brengen van een toekomstbestendig OV". Hoe beleeft
-  de nieuwe generatie het huidige busvervoer en wat zouden we kunnen veranderen
-  om dit toekomstbestendig en innovatief te maken?
+  Bedenk ​​een nieuwe, toekomstbestendige service-oplossing voor het vernieuwde
+  hoofdstation in Groningen.
 featuredpost: true
 featuredimage: /img/untitled-design-3-.jpeg
 tags:
   - Case
 ---
-**Vraag**
-"Help ons met het in kaart brengen van een toekomstbestendig OV". Hoe beleeft de nieuwe generatie het huidige busvervoer en wat zouden we kunnen veranderen om dit toekomstbestendig en innovatief te maken?
+**Organisatie** 
 
-**Organisatie**
-Arriva verzorgt het openbaar vervoer in 10 van de 12 provincies in Nederland. Ze hebben een stuk of 1.500 bussen op de weg rijden en 147 treinen. Niet alleen de trein en de bus horen bij Arriva, maar ook 14 schepen zijn in het water te vinden. 
+De gezamenlijke vervoerders (Arriva, Qbuzz en NS) en de Provincie Groningen zijn op zoek naar een moderne   manier van service verlenen op station van Groningen, die beter inspeelt op de behoeften van bezoekers van de huidige servicepunten. 
+
+De vervoerders hebben momenteel alle drie een apart servicepunt op het station waarvan de vindbaarheid, gemak en toegankelijkheid niet optimaal blijkt. 
 
 **Werkwijze**
-Arriva heeft LEF gevraagd om met de nieuwe generatie naar het huidige busvervoer te kijken en op basis daarvan een innovatieve oplossing aan te dragen. Ons team heeft Arriva geholpen om inzicht te geven in de rol van het OV op het gebied van duurzaamheid (positieve bijdrage aan de maatschappij), verbinding (het OV is meer dan een middel om van A naar B te komen) en innovatie (het toekomstperspectief van het OV). 
 
-De innovatiebus bleek het recept voor een innovatieve oplossing. “Om van deze tijd te zijn, moet je al in de toekomst rijden’’. Met deze perspectieven gingen we vervolgens in gesprek met het management. Hoe ziet de innovatiebus eruit en hoe kun je dit in de praktijk invullen?
+In de eerste fase hebben we door middel van een reizigersonderzoek de behoeften van reizigers en de reizigersbeleving in kaart gebracht. Deze input hebben we gebruikt tijdens fase twee, de ideeënbrouwerij, waarin we met verschillende teams en werkmethodes tot vernieuwende ideeën zijn gekomen. 
+
+**Resultaat**
+
+Een open, dynamisch service-concept. Laagdrempelig voor de hulpzoekende, niet storend voor de overige reizigers. Een geslaagde productpresentatie leidde ertoe dat we doorgaan naar fase drie, de implementatie. 
 
 Wil je meer weten over dit project neem dan contact op met Thijs! +31613972693
