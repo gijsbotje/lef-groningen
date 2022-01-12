@@ -114,8 +114,8 @@ homeBlock3:
     - image: /img/ted-en-thijs-camera-square.jpg
       imageOnly: false
       link: /diensten/
-      text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er
-        iets op touw moet worden gezet.
+      text: Wij creëren tastbaar resultaat. Daarom kun je ons ook benaderen als er een
+        project op touw moet worden gezet.
       title: tastbaar resultaat
   title: .
 homeBlock4:
