@@ -61,6 +61,12 @@ aboutBlock2:
       linkedIn: https://www.linkedin.com/in/joline-teisman-778403a8/
       mail: joline@lefgroningen.nl
     - featured: false
+      title: Ruben Pots
+      list:
+        - question: "Functie "
+          answer: Stagiaire interne innovatie
+      image: /img/afmetingen-site-fotos-ons-verhaal-2-.png
+    - featured: false
       title: Juul
       list:
         - question: Studie
