@@ -105,7 +105,7 @@ export const IndexPageTemplate = ({
         equalPadding
         style={{ paddingTop: 112, paddingBottom: 16 }}
       >
-        <CaseRoll max={3} width={4} />
+        <CaseRoll max={6} width={4} />
       </ColorBlock>
 
       <ColorBlock backgroundColor={bgColor} id="home-block-3" equalPadding maxWidth="lg">
