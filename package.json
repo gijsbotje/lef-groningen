@@ -71,7 +71,7 @@
     "clean": "gatsby clean",
     "start": "yarn develop",
     "local-cms": "npx netlify-cms-proxy-server",
-    "build": "gatsby build",
+    "build": "gatsby cleang && gatsby build",
     "serve": "gatsby serve",
     "develop": "yarn clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
