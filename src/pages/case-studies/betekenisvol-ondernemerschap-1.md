@@ -2,9 +2,8 @@
 templateKey: case-post
 title: "Case: Lefier"
 date: 2020-12-23T09:32:18.567Z
-description: Hoe kunnen we de betrokkenheid van onze huurders naar elkaar en bij
-  hun wooncomplex vergroten? Met welke tools kunnen we onze huurders uitnodigen
-  om ideeën aan te dragen?
+description: "Hoe kunnen we de betrokkenheid van onze huurders naar elkaar en
+  bij hun wooncomplex vergroten? "
 featuredpost: true
 featuredimage: /img/untitled-design-2-.jpg
 tags:
