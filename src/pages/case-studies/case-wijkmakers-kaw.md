@@ -6,7 +6,7 @@ description: Ontwikkel én begeleid een traject waarin teams van burgers en
   professionals gezamenlijk praktische oplossingen verzinnen voor complexe
   problemen die spelen in de wijken van Groningen.
 featuredpost: true
-featuredimage: /img/whatsapp-image-2022-01-12-at-12.04.56.jpeg
+featuredimage: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
 tags:
   - Story
 ---
