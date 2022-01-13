@@ -23,7 +23,7 @@ services:
 
       Wil je achter de *ins and outs* van je doelgroep komen? Joline houdt van een extra sterke cappuccino: **joline@lefgroningen.nl of 0624676712**
     image1: /img/ted-en-thijs-camera-square.jpg
-    image2: /img/leffers-op-vloer-brainstormen.jpg
+    image2: /img/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
     image3: /img/whatsapp-image-2022-01-12-at-12.03.15.jpeg
     title: Doelgroeponderzoek
     content:
@@ -63,7 +63,7 @@ services:
       text: Met ons netwerk van jong talent bedenken we een innovatief concept op
         basis van de behoeften van de doelgroep. Door onze unieke benadering
         komen we in een korte tijd tot échte innovatieve oplossingen.
-    image4: /img/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
+    image4: /img/leffers-op-vloer-brainstormen.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     quote:
       text: LEF weet elke keer weer het maximale uit de groep te halen. De sessies
