@@ -5,7 +5,7 @@ date: 2022-01-12T11:23:21.858Z
 description: Bedenk en begeleid een programma waarin 150 studenten in een week
   tijd uitgewerkt ondernemersidee pitchen voor jury van ervaren ondernemers.
 featuredpost: true
-featuredimage: /img/whatsapp-image-2022-01-12-at-12.27.06.jpeg
+featuredimage: /img/shortstories-template-3-.png
 tags:
   - Story
 ---
