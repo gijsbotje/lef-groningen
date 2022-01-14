@@ -73,7 +73,7 @@ aboutBlock2:
           answer: Student Kunstacademie
       image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
     - featured: false
-      image: /img/photo-white.jpg
+      image: /img/whatsapp-image-2022-01-14-at-11.19.36-2-.jpeg
       linkedIn: ""
       list:
         - answer: Filmmaker
