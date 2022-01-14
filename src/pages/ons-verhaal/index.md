@@ -86,7 +86,7 @@ aboutBlock2:
             Entrepreneurship
       image: /img/whatsapp-image-2021-02-26-at-14.39.16.jpeg
     - featured: false
-      image: /img/afmetingen-site-fotos-ons-verhaal.png
+      image: /img/photo-white.jpg
       linkedIn: ""
       list:
         - answer: Filmmaker
