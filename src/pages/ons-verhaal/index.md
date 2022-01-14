@@ -64,7 +64,7 @@ aboutBlock2:
       title: Ruben Pots
       list:
         - question: "Functie "
-          answer: Stagiaire interne innovatie
+          answer: Stagiair interne innovatie - richting Communication & Multimedia Design
       image: /img/afmetingen-site-fotos-ons-verhaal-2-.png
     - featured: false
       title: Juul
