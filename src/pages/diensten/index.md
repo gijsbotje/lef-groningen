@@ -32,7 +32,7 @@ services:
         van je product of dienst, maar ook de medewerker binnen je organisatie.
         Wij brengen deze behoeften in kaart.
     image4: /img/helloquence-5fNmWej4tAA-unsplash.jpg
-    image5: /img/serious-game-lefier.jpeg
+    image5: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
     quote:
       text: Wij hadden behoefte aan nieuwe verfrissende inzichten. LEF was in staat
         dit te realiseren. Delfts Blauw werd Rebels Blauw.
