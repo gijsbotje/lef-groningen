@@ -3,8 +3,9 @@ templateKey: case-post
 title: "Case: Arriva"
 date: 2020-12-23T09:31:52.959Z
 description: >
-  Bedenk ​​een nieuwe, toekomstbestendige service-oplossing voor het vernieuwde
-  hoofdstation in Groningen.
+  Bedenk en implementeer ​​een nieuwe, toekomstbestendige service-oplossing voor
+  het vernieuwde hoofdstation in Groningen, op basis van de behoeften van de
+  reiziger. 
 featuredpost: true
 featuredimage: /img/untitled-design-3-.jpeg
 tags:
