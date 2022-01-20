@@ -2,8 +2,9 @@
 templateKey: case-post
 title: "Case: ondernemersweek "
 date: 2022-01-12T11:23:21.858Z
-description: Bedenk en begeleid een programma waarin 150 studenten in een week
-  tijd uitgewerkt ondernemersidee pitchen voor jury van ervaren ondernemers.
+description: Bedenk én begeleid een programma waarin 150 studenten in een week
+  tijd een uitgewerkt ondernemersidee pitchen voor een jury van ervaren
+  ondernemers.
 featuredpost: true
 featuredimage: /img/shortstories-template-3-.png
 tags:
