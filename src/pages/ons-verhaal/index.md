@@ -146,7 +146,7 @@ aboutBlock2:
           answer: Grafisch vormgever en student psychologie
       image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
     - featured: false
-      image: /img/screenshot-2020-11-02-at-15.07.11.png
+      image: /img/afmetingen-site-fotos-ons-verhaal-4-.png
       linkedIn: ""
       list:
         - answer: Changemanagent professional
