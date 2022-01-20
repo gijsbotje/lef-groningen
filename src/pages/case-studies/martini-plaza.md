@@ -2,9 +2,10 @@
 templateKey: case-post
 title: "Case: Noorderpoort"
 date: 2020-03-29T12:30:00.708Z
-description: Welke doelgroepen zou het Noorderpoort nog meer kunnen bereiken –
-  buiten de reguliere studenten om – en welk aanbod kan er in de toekomst aan
-  deze doelgroepen worden geleverd?
+description: Organiseer op alle locaties een creatieve sessie waarin je
+  gezamenlijk met docenten 'Out of the Box' in gesprek gaat over het vraagstuk
+  welk studieaanbod, op het gebied van LLO, wij nog meer zouden kunnen
+  aanbieden.
 featuredpost: true
 featuredimage: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
 tags:
