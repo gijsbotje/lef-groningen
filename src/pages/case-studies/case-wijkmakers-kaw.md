@@ -2,9 +2,9 @@
 templateKey: case-post
 title: "Case: wijkmakers KAW"
 date: 2022-01-12T11:16:53.653Z
-description: Ontwikkel én begeleid een traject waarin teams van burgers en
-  professionals gezamenlijk praktische oplossingen verzinnen voor complexe
-  problemen die spelen in de wijken van Groningen.
+description: Ontwikkel én begeleid een vernieuwend traject waarin teams van
+  bewoners en professionals gezamenlijk praktische oplossingen verzinnen voor
+  complexe problemen die spelen in de wijken van Groningen.
 featuredpost: true
 featuredimage: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
 tags:
