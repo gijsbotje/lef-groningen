@@ -2,9 +2,9 @@
 templateKey: case-post
 title: "Case: FC Groningen"
 date: 2022-01-12T11:21:07.241Z
-description: Help ons beter in te spelen op de behoeften van vrouwelijke
-  professionals, zodat meer vrouwen lid worden bij het zakelijke netwerk van FC
-  Groningen.
+description: Help ons met een vernieuwend plan om beter in te spelen op de
+  behoeften van vrouwelijke professionals, zodat meer vrouwen lid worden van ons
+  zakelijke netwerk.
 featuredpost: true
 featuredimage: /img/short-stories-afmetingen-5-.png
 tags:
