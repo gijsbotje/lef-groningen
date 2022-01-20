@@ -87,9 +87,9 @@ services:
 
 
       Meer weten over bovenstaande thema's? Thijs houdt van zwarte koffie, het líefst met een koekje: **thijs@lefgroningen.nl en +31613972693.**
-    image1: /img/whatsapp-image-2022-01-12-at-12.04.56.jpeg
+    image1: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
     image2: /img/a369bd0d-6a8f-4e66-9174-50917a0d089e.jpg
-    image3: /img/whatsapp-image-2022-01-12-at-12.04.56.jpeg
+    image3: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
     title: Projectmanagement
     content:
       title: Why
