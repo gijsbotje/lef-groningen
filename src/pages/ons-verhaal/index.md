@@ -15,7 +15,7 @@ aboutBlock1:
       title: Wij maken meters.
     - image: /img/fail-quickly-learn-fast-blue-liquid.jpg
       text: "Onze creativiteit werkt aanstekelijk. "
-      title: Wij zorgen voor energie.
+      title: Wij zijn energiek.
     - image: /img/buiten-de-organisatie-bubbel.jpg
       text: Wij zijn de nieuwe generatie die laat zien dat het ook anders kan.
       title: Wij denken anders.
