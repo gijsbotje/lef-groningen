@@ -28,9 +28,9 @@ services:
     title: Doelgroeponderzoek
     content:
       title: Why
-      text: Je wilt weten wat de wensen zijn van je doelgroep. Bijvoorbeeld de klant
+      text: "Je wilt weten wat de wensen zijn van je doelgroep. Bijvoorbeeld de klant
         van je product of dienst, maar ook de medewerker binnen je organisatie.
-        Wij brengen deze behoeften in kaart.
+        "
     image4: /img/helloquence-5fNmWej4tAA-unsplash.jpg
     image5: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
     quote:
