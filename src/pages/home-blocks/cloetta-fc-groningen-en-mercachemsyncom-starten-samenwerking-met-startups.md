@@ -6,7 +6,7 @@ description: Je wilt weten wat de wensen zijn van je doelgroep. De klant van je
   product of dienst, maar ook de medewerker binnen je organisatie. Wij brengen
   dit in kaart.
 featuredpost: true
-featuredimage: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
+featuredimage: /img/whatsapp-image-2022-01-24-at-14.35.34.jpeg
 tags:
   - Story
 ---
