@@ -2,7 +2,7 @@
 templateKey: case-post
 title: "Case: Lefier"
 date: 2020-12-23T09:32:18.567Z
-description: Bedenk en implementeer een vernieuwend concept waarmee wij de
+description: Ontwerp en realiseer een vernieuwend concept waarmee wij de
   betrokkenheid van onze huurders naar elkaar en bij hun wooncomplex kunnen
   vergroten.
 featuredpost: true
