@@ -230,7 +230,7 @@ aboutBlock2:
           answer: Biologie en laboratorium onderzoeker en Student Social Work
       image: /img/afmetingen-site-fotos-ons-verhaal-1-.png
     - featured: false
-      image: /img/unknown5.jpg
+      image: /img/afmetingen-site-fotos-ons-verhaal-5-.png
       linkedIn: ""
       list:
         - answer: Student psychologie
