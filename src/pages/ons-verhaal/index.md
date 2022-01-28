@@ -73,7 +73,7 @@ aboutBlock2:
           answer: Student Kunstacademie
       image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
     - featured: false
-      image: /img/afmetingen-site-fotos-ons-verhaal-3-.png
+      image: /img/whatsapp-image-2021-05-18-at-12.02.57.jpeg
       linkedIn: ""
       list:
         - answer: Filmmaker
