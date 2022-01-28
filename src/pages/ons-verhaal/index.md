@@ -239,15 +239,6 @@ aboutBlock2:
       position: ""
       title: Willem
     - featured: false
-      image: /img/unknown1.jpg
-      linkedIn: ""
-      list:
-        - answer: Student psychologie
-          question: Studie
-      mail: ""
-      position: ""
-      title: Matthijs
-    - featured: false
       title: "Oreo "
       image: /img/untitled-design-2-.png
       position: ""
