@@ -123,7 +123,7 @@ aboutBlock2:
       list:
         - question: Studie
           answer: Student geschiedenis
-      image: /img/whatsapp-image-2020-12-16-at-14.41.39.jpeg
+      image: /img/afmetingen-site-fotos-ons-verhaal-6-.png
     - featured: false
       title: Daniek
       list:
