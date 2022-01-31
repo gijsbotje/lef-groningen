@@ -91,18 +91,18 @@ aboutBlock2:
       position: ""
       title: Lisa-mae
     - featured: false
-      title: Eliane
-      list:
-        - question: Studie
-          answer: Student Bedrijfskunde - Psychologie
-      image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
-    - featured: false
       title: Lars
       list:
         - question: Studie
           answer: Student Strategic Innovation Management + Small Business &
             Entrepreneurship
       image: /img/afmetingen-site-fotos-ons-verhaal-7-.png
+    - featured: false
+      title: Eliane
+      list:
+        - question: Studie
+          answer: Student Bedrijfskunde - Psychologie
+      image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
     - featured: false
       title: Tessa
       image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
