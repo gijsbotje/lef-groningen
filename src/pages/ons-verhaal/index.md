@@ -155,7 +155,7 @@ aboutBlock2:
       position: ""
       title: Liset
     - featured: false
-      image: /img/camilla.jpg
+      image: /img/afmetingen-site-fotos-ons-verhaal-8-.png
       linkedIn: ""
       list:
         - answer: Student Marketing Analytics and Data Science
