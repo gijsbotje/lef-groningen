@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: LEF aan de slag met stagiair Conceptontwikkeling
+title: Aan de bak met stagiair Conceptontwikkeling
 date: 2022-03-15T14:05:21.804Z
 description: LEF aan de slag met stagiair Conceptontwikkeling
 featuredpost: true
-featuredimage: /img/whatsapp-image-2022-03-15-at-3.06.09-pm.jpeg
+featuredimage: /img/whatsapp-image-2022-03-15-at-3.26.11-pm.jpeg
 tags:
   - Story
 ---
