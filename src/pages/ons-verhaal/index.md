@@ -104,7 +104,7 @@ aboutBlock2:
           answer: Student Bedrijfskunde - Psychologie
       image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
     - featured: false
-      title: Tessa
+      title: Myrthe
       image: /img/afmetingen-site-fotos-ons-verhaal-10-.png
       list:
         - question: Studie
