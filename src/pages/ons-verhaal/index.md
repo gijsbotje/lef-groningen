@@ -105,10 +105,10 @@ aboutBlock2:
       image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
     - featured: false
       title: Tessa
-      image: /img/whatsapp-image-2020-09-21-at-14.07.55-1-.jpeg
+      image: /img/afmetingen-site-fotos-ons-verhaal-10-.png
       list:
         - question: Studie
-          answer: Apotheker
+          answer: Marketing Analytics and Data Science
     - featured: false
       image: /img/whatsapp-image-2021-03-09-at-14.43.05.jpeg
       linkedIn: ""
