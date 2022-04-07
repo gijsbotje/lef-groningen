@@ -164,11 +164,11 @@ aboutBlock2:
       position: ""
       title: Camilla
     - featured: false
-      title: Jelmer
+      title: Nelson
       list:
         - question: Studie
-          answer: Ambulant forensisch begeleider
-      image: /img/whatsapp-image-2020-12-16-at-14.41.12.jpeg
+          answer: Finance
+      image: /img/afmetingen-site-fotos-ons-verhaal-9-.png
     - featured: false
       image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
       linkedIn: ""
