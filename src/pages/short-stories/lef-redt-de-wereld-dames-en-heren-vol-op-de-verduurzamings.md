@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: We redden de wereld, dames en heren! Vol op de verduurzamings!
 date: 2022-04-07T14:51:42.229Z
-description: LEF redt de wereld, dames en heren! Vol op de verduurzamings!
+description: We redden de wereld, dames en heren! Vol op de verduurzamings!
 featuredpost: true
 featuredimage: /img/whatsapp-image-2022-04-07-at-5.23.01-pm.jpeg
 tags:
