@@ -23,7 +23,7 @@ services:
 
       Wil je achter de *ins and outs* van je doelgroep komen? Joline houdt van een extra sterke cappuccino: **joline@lefgroningen.nl of 0624676712**
     image1: /img/ted-en-thijs-camera-square.jpg
-    image2: /img/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
+    image2: /img/untitled-design-6-.png
     image3: /img/whatsapp-image-2022-01-12-at-12.03.15.jpeg
     title: Doelgroeponderzoek
     content:
@@ -31,7 +31,7 @@ services:
       text: "Je wilt weten wat de wensen zijn van je doelgroep. Bijvoorbeeld de klant
         van je product of dienst, maar ook de medewerker binnen je organisatie.
         "
-    image4: /img/untitled-design-6-.png
+    image4: /img/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
     image5: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
     quote:
       text: Wij hadden behoefte aan nieuwe verfrissende inzichten. LEF was in staat
