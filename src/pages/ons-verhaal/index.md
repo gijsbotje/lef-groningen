@@ -110,14 +110,14 @@ aboutBlock2:
         - question: Studie
           answer: Marketing Analytics and Data Science
     - featured: false
-      image: /img/whatsapp-image-2021-03-09-at-14.43.05.jpeg
+      image: /img/afmetingen-site-fotos-ons-verhaal-12-.png
       linkedIn: ""
       list:
-        - answer: Grafisch Ontwerper
+        - answer: Sociologie
           question: Studie
       mail: ""
       position: ""
-      title: Jacco
+      title: Christian
     - featured: false
       title: Lars
       list:
