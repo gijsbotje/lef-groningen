@@ -16,22 +16,22 @@ homeBlock2:
     author: André van der Schaaf, Innovatiemanager Cloetta
 customerDisplay:
   logos:
-    - image: /img/logo-template-2-.png
+    - image: /img/logo-template-3-.png
       url: https://www.goedewaagen.nl/
-      name: Markt- positionering
+      name: DUO
       description: Hoe behoud je een 400 jaar oude traditie?
     - image: /img/1TV_Noorderpoort_1605182a.png
       url: https://www.noorderpoort.nl/
-      name: Onderwijs- vernieuwing
+      name: Noorderpoort
       description: Welk scholingsaanbod past bij het onderwijs van de toekomst?
     - image: /img/logo-template-9-.png
       url: https://www.arriva.nl/
-      name: Klantbeleving
+      name: Arriva
       description: Door een Expert Walkthrough de klantbeleving verbeteren in het
         busvervoer.
     - image: /img/logo-template-5-.png
       url: https://martiniplaza.nl/
-      name: Innovatie
+      name: Martiniplaza
       description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5
         metereconomie?
     - image: /img/logo-website-lef-afmetingen-1-.jpg
@@ -45,20 +45,20 @@ customerDisplay:
         werkgever te worden.
     - image: /img/Gem Groningen.jpg
       url: https://gemeente.groningen.nl/
-      name: Onboarding
+      name: Gemeente Groningen
       description: "Nieuwe werknemers bouwen vier Start-Ups in zeven weken: van
         ideegeneratie tot concepting."
-    - name: Leefbaarheid
+    - name: Lefier
       description: Stimuleren van betrokkenheid onder bewoners.
       image: /img/logo-template-3-.png
       url: https://www.lefier.nl/
     - image: /img/logo-template-4-.png
       url: https://eelloo.nl/
-      name: Nieuwe werken
+      name: Eelloo
       description: "to be announced! "
     - image: /img/logo-template-6-.png
       url: https://www.dehoven.nl/
-      name: Marketing
+      name: De Hoven
       description: Hoe krijg je hoogopgeleid (zorg) personeel naar een krimpregio?
     - name: NS
       description: Servicezone
