@@ -40,7 +40,7 @@ customerDisplay:
       description: "Meer vrouwen voor het zakelijk netwerk interesseren. "
     - image: /img/untitled-design-1-.png
       url: https://www.faktoo.nl/
-      name: Arbeidsmarkt
+      name: KAW
       description: Een applicatie om meer bewustwording te creëren om inclusief
         werkgever te worden.
     - image: /img/Gem Groningen.jpg
