@@ -179,11 +179,11 @@ aboutBlock2:
       position: ""
       title: Gijs
     - featured: false
-      title: Bob
+      title: Ricardo
       list:
         - question: Studie
-          answer: Student Bedrijfskunde & Change Management
-      image: /img/whatsapp-image-2020-09-21-at-14.07.55.jpeg
+          answer: Geschiedenis
+      image: /img/afmetingen-site-fotos-ons-verhaal-11-.png
     - featured: false
       image: /img/whatsapp-image-2020-10-06-at-15.00.33.jpeg
       linkedIn: ""
