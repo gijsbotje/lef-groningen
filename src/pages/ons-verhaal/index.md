@@ -146,14 +146,14 @@ aboutBlock2:
           answer: Grafisch vormgever en student psychologie
       image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
     - featured: false
-      image: /img/afmetingen-site-fotos-ons-verhaal-4-.png
+      image: /img/afmetingen-site-fotos-ons-verhaal-13-.png
       linkedIn: ""
       list:
-        - answer: Changemanagent professional
+        - answer: Psychologie
           question: Studie
       mail: ""
       position: ""
-      title: Liset
+      title: Matthijs
     - featured: false
       image: /img/afmetingen-site-fotos-ons-verhaal-8-.png
       linkedIn: ""
