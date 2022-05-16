@@ -206,11 +206,11 @@ aboutBlock2:
           answer: Eigenaar Studio Fantast
       image: /img/whatsapp-image-2020-12-15-at-15.53.02.jpeg
     - featured: false
-      title: Brandus
+      title: Jordy
       list:
         - question: Studie
-          answer: Student Technische bedrijfskunde
-      image: /img/whatsapp-image-2021-02-24-at-14.27.03-1-.jpeg
+          answer: Student Changemanagement
+      image: /img/whatsapp-image-2022-05-16-at-4.13.29-pm-1-.jpeg
     - featured: false
       title: Maaike
       list:
