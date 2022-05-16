@@ -99,9 +99,9 @@ services:
     image5: /img/untitled-design-8-.png
     quote:
       text: '"We hebben het werken met LEF ontdekt! Hun innovatieve manier van denken
-        én doen, energie en creatieve aanvliegmogelijkheden zijn erg waardevol
-        bij de opgaven waar wij mee bezig zijn. Samen op zoek naar de beste
-        aanpak en buiten de gebaande paden treden, dat is waar zij mee bij
-        helpen en wat ook nog eens ontzettend prettig samenwerken is."'
+        én doen, energie en creatieve aanvliegmogelijkheden zijn erg waardevol.
+        Samen op zoek naar de beste aanpak en buiten de gebaande paden treden,
+        dat is waar zij bij helpen en wat ook nog eens ontzettend prettig
+        samenwerken is."'
       author: Leonie Wendker, adviseur KAW
 ---
