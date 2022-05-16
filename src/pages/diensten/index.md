@@ -31,7 +31,7 @@ services:
       text: "Je wilt weten wat de wensen zijn van je doelgroep. Bijvoorbeeld de klant
         van je product of dienst, maar ook de medewerker binnen je organisatie.
         "
-    image4: /img/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
+    image4: /img/whatsapp-image-2022-05-16-at-4.13.29-pm.jpeg
     image5: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
     quote:
       text: Wij hadden behoefte aan nieuwe verfrissende inzichten. LEF was in staat
