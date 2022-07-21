@@ -93,7 +93,7 @@ homeBlock3:
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Work in progress
-    - image: /img/leffers-op-vloer-brainstormen.jpg
+    - image: /img/whatsapp-image-2022-07-21-at-12.09.21-pm.jpeg
       imageOnly: true
       link: /diensten/
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
