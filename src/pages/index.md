@@ -50,7 +50,7 @@ customerDisplay:
         ideegeneratie tot concepting."
     - name: Lefier
       description: Stimuleren van betrokkenheid onder bewoners.
-      image: /img/logo-template-3-.png
+      image: /img/logo-template-4-.png
       url: https://www.lefier.nl/
     - image: /img/logo-template-4-.png
       url: https://eelloo.nl/
