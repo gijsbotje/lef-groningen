@@ -167,7 +167,7 @@ aboutBlock2:
       title: Nelson
       list:
         - question: Studie
-          answer: Finance
+          answer: Student Finance
       image: /img/afmetingen-site-fotos-ons-verhaal-9-.png
     - featured: false
       image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
