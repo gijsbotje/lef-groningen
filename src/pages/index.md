@@ -20,9 +20,9 @@ customerDisplay:
       url: https://www.goedewaagen.nl/
       name: DUO
       description: Hoe behoud je een 400 jaar oude traditie?
-    - image: /img/1TV_Noorderpoort_1605182a.png
+    - image: /img/logo-template-7-.png
       url: https://www.noorderpoort.nl/
-      name: Noorderpoort
+      name: " NPAL"
       description: Welk scholingsaanbod past bij het onderwijs van de toekomst?
     - image: /img/logo-template-9-.png
       url: https://www.arriva.nl/
