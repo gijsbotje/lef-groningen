@@ -64,9 +64,9 @@ customerDisplay:
       description: Servicezone
       image: /img/logo-website-lef-afmetingen.jpg
       url: https://www.arriva.nl/
-    - name: Interzorg
+    - name: WPDA
       description: Hoe maak je de Ondernemingsraad aantrekkelijk?
-      image: /img/logo-template-13-.png
+      image: /img/logo-template-6-.png
       url: https://www.interzorg.nl/
     - name: Sportlife
       description: Sportlife
