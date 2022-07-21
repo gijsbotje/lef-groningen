@@ -134,7 +134,7 @@ aboutBlock2:
       image: /img/whatsapp-image-2022-07-21-at-11.49.12-am-1-.jpeg
       linkedIn: ""
       list:
-        - answer: Verpleegkundige
+        - answer: Verpleegkundige oncologie
           question: Studie
       mail: ""
       position: ""
