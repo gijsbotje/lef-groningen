@@ -31,7 +31,7 @@ customerDisplay:
         busvervoer.
     - image: /img/logo-template-5-.png
       url: https://martiniplaza.nl/
-      name: Martiniplaza
+      name: Amysoft
       description: Welke nieuwe evenementen of concepten kun je bedenken in de 1,5
         metereconomie?
     - image: /img/logo-website-lef-afmetingen-1-.jpg
@@ -48,7 +48,7 @@ customerDisplay:
       name: Gemeente Groningen
       description: "Nieuwe werknemers bouwen vier Start-Ups in zeven weken: van
         ideegeneratie tot concepting."
-    - name: Lefier
+    - name: Politie
       description: Stimuleren van betrokkenheid onder bewoners.
       image: /img/logo-template-4-.png
       url: https://www.lefier.nl/
