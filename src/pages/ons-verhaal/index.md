@@ -131,14 +131,14 @@ aboutBlock2:
           answer: Student geneeskunde
       image: /img/untitled-design-3-.png
     - featured: false
-      image: /img/whatsapp-image-2021-03-04-at-18.46.15.jpeg
+      image: /img/whatsapp-image-2022-07-21-at-11.49.12-am-1-.jpeg
       linkedIn: ""
       list:
-        - answer: Student religiewetenschappen
+        - answer: Verpleegkundige
           question: Studie
       mail: ""
       position: ""
-      title: Nadja
+      title: Vera
     - featured: false
       title: Andrea
       list:
