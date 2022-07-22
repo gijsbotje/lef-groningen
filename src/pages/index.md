@@ -52,11 +52,11 @@ customerDisplay:
       description: Stimuleren van betrokkenheid onder bewoners.
       image: /img/logo-template-4-.png
       url: https://www.lefier.nl/
-    - image: /img/logo-template-4-.png
+    - image: /img/logo-template-15-.png
       url: https://eelloo.nl/
       name: Eelloo
       description: "to be announced! "
-    - image: /img/logo-template-6-.png
+    - image: /img/logo-template-16-.png
       url: https://www.dehoven.nl/
       name: De Hoven
       description: Hoe krijg je hoogopgeleid (zorg) personeel naar een krimpregio?
