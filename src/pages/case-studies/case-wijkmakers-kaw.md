@@ -1,27 +1,28 @@
 ---
 templateKey: case-post
-title: "Case: wijkmakers KAW"
+title: "Case: de Hoven "
 date: 2022-01-12T11:16:53.653Z
-description: Ontwikkel én begeleid een vernieuwend traject waarin teams van
-  bewoners en professionals gezamenlijk praktische oplossingen verzinnen voor
-  complexe problemen die spelen in de wijken van Groningen.
+description: "Wat moeten we organiseren zodat onze medewerkers op een duurzame
+  manier hun werk kunnen uitvoeren? "
 featuredpost: true
-featuredimage: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
+featuredimage: /img/whatsapp-image-2022-07-25-at-12.28.01-pm.jpeg
 tags:
   - Story
 ---
-**Organisatie – KAW**
+**Vraag**
 
-Wijkmakers is een onafhankelijke broedplaats voor wijkontwikkeling, waar kennismaken hand in hand gaat met leren en doen. Samen met KAW Architecten ontwikkelden wij de werkwijze waarmee de deelnemers van De Werkplaats oplossingen verzinnen voor ‘onoplosbare’ vraagstukken in de Groningse wijken. 
+LEF redt de wereld, dames en heren! En dat begint in Onder Den Dam, met een bak Onder den Damse-koffie en een goed gesprek met onze vrienden van Zorginstelling [De Hoven](https://www.linkedin.com/company/dehoven/). De brandstofprijzen rijzen de pan uit en bijna iedere week verschijnt er een nieuw rapport waaruit blijkt dat we haast moeten maken met onze duurzaamheidsambities. Tja, waar begin je nou als organisatie? Laadpalen, deelauto’s, zonnepanelen, afval scheiden? Allemaal goede acties. 
+
+**Organisatie**
+
+De Hoven levert zorg aan (voornamelijk) ouderen op verschillende locaties in de Provincie Groningen. Verschillende actuele thema’s vragen om nieuw beleid. Duurzaamheid en circulariteit is daar één van. Dit is waarmee we De Hoven mee opweg hebben geholpen.
 
 **Werkwijze**
 
-Het Werkplaats-traject is vormgegeven op basis van de Design Thinking methodiek, zodat de deelnemers optimaal worden geprikkeld om buiten de kaders te denken. Het is een ideale methode om snel tot vernieuwende en concrete oplossingen te komen voor complexe vraagstukken. 
-
-De problemen waar de Wijkmakers aan werken gaan over allerlei onderwerpen: klimaatverandering, betaalbaarheid van wonen, een ongedeelde stad, etc. De teams bestaan uit mensen met verschillende achtergronden, ervaringen en expertises van binnen en buiten de wijk. Zo draagt iedereen met zijn eigen creativiteit en kennis bij aan de beste oplossing. 
+Tijdens  focusgroepsessies ging LEF in gesprek met de werknemers van De Hoven: van zorgprofessionals, koks en de facilitaire dienst tot aan teamleiders. Samen met ons netwerk van jong talent én de medewerkers van de organisatie gingen we aan de slag met innovatieve, duurzame ideeën. 
 
 **Resultaat**
 
-Een dynamische methode waarin wij de deelnemers tijdens het gehele traject begeleiden om te zorgen voor snelheid en oplossingen die echt waardevol en vernieuwend zijn. 
+Verschillende interventies zijn nodig om mensen met andere niveaus van bewustwording aan te spreken. Aan de hand van een gedragsmodel zijn de resulaten uit de focusgroepsessies opgeleverd met daarbij passene maatwerkoplossingen waarmee - aan de hand van een roadmap - iedereen wordt meegenomen in de duurzaamheidsvisie van De Hoven.
 
-Meer weten over dit project? Neem dan contact op met Joline via +31624676712
+Ook aan de slag met thema's als duurzaamheid, circulariteit of de energietransitie? Neem dan contact op met **Joline** via +31 6 24676712
