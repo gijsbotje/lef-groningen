@@ -1,22 +1,30 @@
 ---
 templateKey: case-post
-title: "Case: Lefier"
+title: "Case: Kostuumverhuur"
 date: 2020-12-23T09:32:18.567Z
-description: Ontwerp en realiseer een vernieuwend concept waarmee wij de
-  betrokkenheid van onze huurders naar elkaar en bij hun wooncomplex kunnen
-  vergroten.
+description: Kostuumverhuur heeft behoefte aan een nieuwe invulling voor de
+  toekomst. Daarbij is de zichtbaarheid in de stad of regio een belangrijke
+  factor. Hoe zetten wij onszelf beter in de markt en maken wij ons klaar voor
+  de toekomst?
 featuredpost: true
-featuredimage: /img/untitled-design-2-.jpg
+featuredimage: /img/whatsapp-image-2022-07-25-at-10.56.31-am.jpeg
 tags:
   - Case
 ---
 **Vraag**
-Hoe kunnen we de betrokkenheid van onze huurders naar elkaar en bij hun wooncomplex vergroten? Met welke tools kunnen we onze huurders uitnodigen om ideeën aan te dragen? 
+
+Kostuumverhuur heeft behoefte aan een nieuwe invulling voor de toekomst. Daarbij is de zichtbaarheid in de stad of regio een belangrijke factor. Hoe zetten wij onszelf beter in de markt en maken wij ons klaar voor de toekomst? 
 
 **Organisatie**
-Lefier is een woningcorporatie in Noord Groningen en heeft ruim dertigduizend woningen in Groningen en Drenthe. Samen met adviseurs van leefbaarheid en de bewoners participanten zijn we de Ideeenbrouwerij gestart. 
+
+Kostuumverhuur Groningen beter bekend als de grootste collectie kostuums en gelegenheidskleding van Noord-Nederland. Of je nou iets van Disney, de jaren 20, hippies, clowns, disco of Halloween zoekt, je kunt het zo gek niet bedenken of zij hebben het op hun locatie in de Oosterstraat. En alles wordt er met de hand gemaakt.
 
 **Werkwijze**
-Om huurders betrokkenheid te vergroten zijn we gestart met het genereren van ideeën. Wat zou betrokkenheid in de buurt kunnen vergroten en hoe zet je iemand aan om meer betrokken te zijn? Vervolgens hebben we de eerste impressies samengevat in een aantal kernwaarden.
 
-Deze kernwaarden zijn een veilige en schone leefomgeving, vertrouwen en een goede sfeer. Een eerste stap naar betrokkenheid zou volgens de uitkomsten van de eerste fase van het project gemaakt moeten worden op een laagdrempelige en ongedwongen manier. Het gaat immers om het bewustzijn van je omgeving en bewustwording van elkaar. Vanuit deze kernwaarden zijn we tot een menukaart van een vijftal ideeën gekomen. Onder andere de Plug & Pleur bus voor zichtbaarheid, een Demoflat als testlocatie, meerdere Kettingacties om betrokkenheid te stimuleren, een online omgeving in de vorm van de Bibliobuurt en een Serious Game om op een laagdrempelige en speelse manier ideeën en suggesties boven tafel te krijgen.
+Met verschillende teams dachten we na over de marketing, de samenwerkingen met studie- en studentenverenigingen, vernieuwde werkwijzen en verdienmodellen. Zodat de minder leuke klusjes kunnen worden uitbesteed en er meer ruimte ontstaat voor leuke dingen, zoals bijvoorbeeld het geven van naaiworkshops. Wie wil dat nou niet?
+
+**Resultaat**
+
+Concrete concepten passeerden de revu, gecategoriseerd op basis van het gemak van de implementatie ervan en de geschatte potentiële opbrengst. Nieuwe verdienmodellen, vernieuwende werkwijzen, marketing en een verbeterde samenwerking met studie- en studentenverenigingen uit de stad hoorde bij het eindresultaat. 
+
+Ook het toekomstperspectief verbeteren van je organisatie? Neem dan contact op met **Thijs** via +31 6 13972693
