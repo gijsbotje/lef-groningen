@@ -7,7 +7,7 @@ description: Kostuumverhuur heeft behoefte aan een nieuwe invulling voor de
   factor. Hoe zetten wij onszelf beter in de markt en maken wij ons klaar voor
   de toekomst?
 featuredpost: true
-featuredimage: /img/whatsapp-image-2022-07-25-at-10.56.31-am.jpeg
+featuredimage: /img/whatsapp-image-2022-07-25-at-11.21.54-am.jpeg
 tags:
   - Case
 ---
