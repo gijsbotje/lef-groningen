@@ -9,28 +9,30 @@ services:
       ## **Hoe werkt het?**
 
 
-      We brengen de behoeften van jouw doelgroep in kaart aan de hand van  focusgroepen, 1-op-1 interviews en co-creatie.  
+      Wij brengen de behoeften van jouw doelgroep in kaart aan de hand van  focusgroepen, interviews en co-creatie. Het voordeel van focusgroepen is dat de interactie tussen de deelnemers extra informatie oplevert over hun ervaringen, frustraties en behoeften. 
 
 
       ## **Wat levert het op?**
 
 
-      Een kijkje in de behoeften van je doelgroep. Of deze nou een extern (de klant of afnemer), of intern (de medewerker) is. Wat wil de doelgroep? Wat is hun behoefte? Hoe zouden ze nou eigenlijk zelf bereikt willen worden en wat voor ideeën hebben ze hier bij?  
+      Een kijkje in de leefwereld van je doelgroep. Of deze nou een extern (de klant of afnemer), of intern (de medewerker) is, de belangrijkste vraag is: wat wil de doelgroep? Wat is hun behoefte? Hoe zouden ze nou eigenlijk zelf bereikt willen worden en wat voor ideeën hebben ze hier bij?  
 
 
       Op een heel laagdrempelige manier kom je erachter of jouw benadering, product of dienst strookt met deze behoefte.
 
 
-      Wil je achter de *ins and outs* van je doelgroep komen? Joline houdt van een extra sterke cappuccino: **joline@lefgroningen.nl of 0624676712**
+      Wil jij achter de *ins and outs* van je doelgroep komen? Bel Joline. Ze houdt van een extra sterke cappuccino en zegt geen nee tegen een chocoladekoekje: **joline@lefgroningen.nl** of **0624676712**
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/untitled-design-6-.png
     image3: /img/whatsapp-image-2022-01-12-at-12.03.15.jpeg
-    title: Doelgroeponderzoek
+    title: "Fase 1: Doelgroeponderzoek"
     content:
       title: Why
-      text: "Je wilt weten wat de wensen zijn van je doelgroep. Bijvoorbeeld de klant
-        van je product of dienst, maar ook de medewerker binnen je organisatie.
-        "
+      text: Weet jij wat je klant vindt van je product of dienst? Of wat je medewerker
+        nou écht vindt van zijn werk? Het is enorm waardevol om te weten wat er
+        écht leeft en speelt bij je doelgroep, zodat je daar adequaat op kan
+        handelen. Wij gaan in gesprek met je doelgroep en brengen deze wensen en
+        behoeftes duidelijk in kaart.
     image4: /img/whatsapp-image-2022-07-21-at-11.49.55-am.jpeg
     image5: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
     quote:
