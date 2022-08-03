@@ -30,9 +30,8 @@ services:
       title: Why
       text: Weet jij wat je klant vindt van je product of dienst? Of wat je medewerker
         nou écht vindt van zijn werk? Het is enorm waardevol om te weten wat er
-        écht leeft en speelt bij je doelgroep, zodat je daar adequaat op kan
-        handelen. Wij gaan het gesprek aan en brengen deze wensen en behoeftes
-        duidelijk in kaart.
+        leeft en speelt bij je doelgroep, zodat je daar op kan handelen. Wij
+        brengen deze wensen en behoeftes duidelijk in kaart.
     image4: /img/whatsapp-image-2022-07-21-at-11.49.55-am.jpeg
     image5: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
     quote:
@@ -62,7 +61,7 @@ services:
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
-    title: Ideeënbrouwerij
+    title: "Fase 2: Ideeënbrouwerij"
     content:
       title: Why
       text: Met ons netwerk van jong talent bedenken we een innovatief concept op
@@ -95,7 +94,7 @@ services:
     image1: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
     image2: /img/a369bd0d-6a8f-4e66-9174-50917a0d089e.jpg
     image3: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
-    title: Projectmanagement
+    title: "Fase 3: Implementatie"
     content:
       title: Why
       text: Wij implementeren vernieuwende concepten in organisaties. Met LEF aan
