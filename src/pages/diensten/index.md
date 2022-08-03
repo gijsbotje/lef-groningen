@@ -31,8 +31,8 @@ services:
       text: Weet jij wat je klant vindt van je product of dienst? Of wat je medewerker
         nou écht vindt van zijn werk? Het is enorm waardevol om te weten wat er
         écht leeft en speelt bij je doelgroep, zodat je daar adequaat op kan
-        handelen. Wij gaan in gesprek met je doelgroep en brengen deze wensen en
-        behoeftes duidelijk in kaart.
+        handelen. Wij gaan het gesprek aan en brengen deze wensen en behoeftes
+        duidelijk in kaart.
     image4: /img/whatsapp-image-2022-07-21-at-11.49.55-am.jpeg
     image5: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
     quote:
