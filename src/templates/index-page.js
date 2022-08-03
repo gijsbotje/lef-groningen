@@ -72,7 +72,7 @@ export const IndexPageTemplate = ({
         equalPadding
         style={{ paddingTop: 112, paddingBottom: 0 }}
       >
-        <BlockRoll max={3} width={4} />
+        <BlockRoll max={3} width={4} disableClick />
       </ColorBlock>
 
       <Container maxWidth="lg" style={{ paddingBottom: 56 }}>

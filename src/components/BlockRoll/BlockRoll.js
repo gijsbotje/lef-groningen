@@ -20,57 +20,17 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Grow direction="up" ref={ref} {...props} />;
 });
 
-const BlockRollGrid = ({ data, max, width }) => {
+const BlockRollGrid = ({ data, max, width, disableClick }) => {
   const { edges: posts } = data.allMarkdownRemark;
   const [openShortStory, setOpenShortStory] = useState(null);
 
   return (
     <Grid container spacing={4}>
       {posts &&
-        (max ? posts.slice(0, max) : posts).map(({ node: post }) => (
-          <Grid key={post.id} item xs={12} sm={width}>
-            <Card component="article" elevation={0} style={{ height: '100%' }}>
-              <CardActionArea
-                onClick={() => setOpenShortStory(post.fields.slug)}
-                style={{
-                  display: 'flex',
-                  height: '100%',
-                  justifyContent: 'flex-start',
-                  flexDirection: 'column',
-                  alignItems: 'stretch',
-                }}
-              >
-                {post.frontmatter.featuredimage ? (
-                  <CardMedia>
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: post.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                      }}
-                    />
-                  </CardMedia>
-                ) : null}
-                <CardContent>
-                  <Typography
-                    variant={max ? 'h6' : 'h5'}
-                    component="h2"
-                    gutterBottom
-                    display="block"
-                  >
-                    {post.frontmatter.title}
-                  </Typography>
-                  <Typography paragraph variant="body2">
-                    {post.frontmatter.description}
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
-            <Dialog
-              open={openShortStory === post.fields.slug}
-              onClose={() => setOpenShortStory(null)}
-              TransitionComponent={Transition}
-            >
-              <Box position="relative" height="100%">
+        (max ? posts.slice(0, max) : posts).map(({ node: post }) => {
+          const content = (
+            <>
+              {post.frontmatter.featuredimage ? (
                 <CardMedia>
                   <PreviewCompatibleImage
                     imageInfo={{
@@ -79,21 +39,69 @@ const BlockRollGrid = ({ data, max, width }) => {
                     }}
                   />
                 </CardMedia>
-                <Box position="absolute" top=".5rem" right=".5rem" color="#fff">
-                  <Fab onClick={() => setOpenShortStory(null)} color="secondary" size="small">
-                    <CloseIcon />
-                  </Fab>
-                </Box>
-              </Box>
-              <DialogContent>
-                <Typography variant="h5" gutterBottom display="block">
+              ) : null}
+              <CardContent>
+                <Typography variant={max ? 'h6' : 'h5'} component="h2" gutterBottom display="block">
                   {post.frontmatter.title}
                 </Typography>
-                <HTMLContent content={post.html} />
-              </DialogContent>
-            </Dialog>
-          </Grid>
-        ))}
+                <Typography paragraph variant="body2">
+                  {post.frontmatter.description}
+                </Typography>
+              </CardContent>
+            </>
+          );
+
+          return (
+            <Grid key={post.id} item xs={12} sm={width}>
+              <Card component="article" elevation={0} style={{ height: '100%' }}>
+                {!disableClick && (
+                  <CardActionArea
+                    onClick={disableClick ? undefined : () => setOpenShortStory(post.fields.slug)}
+                    style={{
+                      display: 'flex',
+                      height: '100%',
+                      justifyContent: 'flex-start',
+                      flexDirection: 'column',
+                      alignItems: 'stretch',
+                    }}
+                  >
+                    {content}
+                  </CardActionArea>
+                )}
+                {disableClick && content}
+              </Card>
+              {!disableClick && (
+                <Dialog
+                  open={openShortStory === post.fields.slug}
+                  onClose={() => setOpenShortStory(null)}
+                  TransitionComponent={Transition}
+                >
+                  <Box position="relative" height="100%">
+                    <CardMedia>
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image: post.frontmatter.featuredimage,
+                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                        }}
+                      />
+                    </CardMedia>
+                    <Box position="absolute" top=".5rem" right=".5rem" color="#fff">
+                      <Fab onClick={() => setOpenShortStory(null)} color="secondary" size="small">
+                        <CloseIcon />
+                      </Fab>
+                    </Box>
+                  </Box>
+                  <DialogContent>
+                    <Typography variant="h5" gutterBottom display="block">
+                      {post.frontmatter.title}
+                    </Typography>
+                    <HTMLContent content={post.html} />
+                  </DialogContent>
+                </Dialog>
+              )}
+            </Grid>
+          );
+        })}
     </Grid>
   );
 };
@@ -106,6 +114,7 @@ BlockRollGrid.propTypes = {
   }),
   max: PropTypes.number,
   width: PropTypes.number,
+  disableClick: PropTypes.number,
 };
 
 BlockRollGrid.defaultProps = {
@@ -116,9 +125,10 @@ BlockRollGrid.defaultProps = {
   },
   max: null,
   width: 6,
+  disableClick: false,
 };
 
-const BlockRoll = ({ max, width }) => (
+const BlockRoll = ({ max, width, disableClick }) => (
   <StaticQuery
     query={graphql`
       query BlockRollQuery {
@@ -152,18 +162,28 @@ const BlockRoll = ({ max, width }) => (
         }
       }
     `}
-    render={(data, count) => <BlockRollGrid data={data} count={count} max={max} width={width} />}
+    render={(data, count) => (
+      <BlockRollGrid
+        data={data}
+        count={count}
+        max={max}
+        width={width}
+        disableClick={disableClick}
+      />
+    )}
   />
 );
 
 BlockRoll.propTypes = {
   max: PropTypes.number,
   width: PropTypes.number,
+  disableClick: PropTypes.bool,
 };
 
 BlockRoll.defaultProps = {
   max: null,
   width: 6,
+  disableClick: false,
 };
 
 export default BlockRoll;

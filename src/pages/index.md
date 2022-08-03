@@ -77,7 +77,7 @@ customerDisplay:
       url: https://www.fnv.nl/
       description: FNV
   title: "Wij werken samen met:"
-  yourLogoImage: /img/whatsapp-image-2020-10-06-at-15.09.32.jpeg
+  yourLogoImage: /img/ruimte-voor-jou-logo.png
 homeBlock3:
   backgroundImage: /img/ted-en-thijs.jpg
   blocks:
