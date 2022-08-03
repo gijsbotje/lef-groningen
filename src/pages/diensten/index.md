@@ -34,9 +34,12 @@ services:
     image4: /img/whatsapp-image-2022-07-21-at-11.49.55-am.jpeg
     image5: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
     quote:
-      text: Wij hadden behoefte aan nieuwe verfrissende inzichten. LEF was in staat
-        dit te realiseren. Delfts Blauw werd Rebels Blauw.
-      author: Ed Scherbeyn, directeur Royal Goedewaagen
+      text: '"LEF heeft ons geholpen bij een onderzoek onder gedetacheerden en wat
+        opvalt is dat ze heel snel de juiste taal spreken, goed aansluiten bij
+        mensen op verschillende niveaus en met een goede rapportage komen. Dit
+        alles op een LEF manier, die mij enorm aanspreekt en ons verder heeft
+        gebracht."'
+      author: Arjan Schonewille, directievoorzitter Werkplein Drentsche Aa
   - extraContent: >-
       ## Hoe werkt het?
 
