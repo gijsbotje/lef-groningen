@@ -16,7 +16,7 @@ homeBlock2:
     author: André van der Schaaf, Innovatiemanager Cloetta
 customerDisplay:
   logos:
-    - image: /img/logo-template-3-.png
+    - image: /img/logo-template.jpg
       url: https://www.goedewaagen.nl/
       name: DUO
       description: Hoe behoud je een 400 jaar oude traditie?
