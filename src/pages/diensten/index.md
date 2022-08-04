@@ -9,16 +9,20 @@ services:
       ## **Hoe werkt het?**
 
 
-      Wij brengen de behoeften van jouw doelgroep in kaart aan de hand van  focusgroepen, interviews en co-creatie. Het voordeel van focusgroepen is dat de interactie tussen de deelnemers extra informatie oplevert over hun ervaringen, frustraties en behoeften. 
+      Wij brengen de behoeften van jouw doelgroep in kaart aan de hand van **kwalitatief doelgroeponderzoek**, door middel van focusgroepen en co-creatie. \
+
+      \
+
+      Het unieke van focusgroepen is dat de interactie tussen de deelnemers extra waardevolle informatie oplevert over hun ervaringen, frustraties en behoeften. Waar vragenlijsten en enquêtes een hoop platte data geven, zorgt een focusgroep voor een driedimensionaal beeld waarin de 'waarom' van een bepaalde zienswijze sterk naar voren komt. 
 
 
       ## **Wat levert het op?**
 
 
-      Een kijkje in de leefwereld van je doelgroep. Of deze nou een extern (de klant of afnemer), of intern (de medewerker) is, de belangrijkste vraag is: wat wil de doelgroep? Wat is hun behoefte? Hoe zouden ze nou eigenlijk zelf bereikt willen worden en wat voor ideeën hebben ze hier bij?  
+      Een kijkje in de leefwereld van je doelgroep. Of deze nou extern (de klant of afnemer), of intern (de medewerker) is, de belangrijkste vraag is wat de doelgroep nou écht wil. En waarom is dat hun behoefte? Wat voor ideeën hebben ze zelf om hierin te voorzien?  
 
 
-      Op een heel laagdrempelige manier kom je erachter of jouw benadering, product of dienst strookt met deze behoefte.
+      Op een heel laagdrempelige manier kom je erachter of jouw benadering, product of dienst strookt met deze behoefte. Maar daar laten we het niet bij liggen. Wij zorgen voor een duidelijk advies over wat is er nodig om de juiste veranderingen of verbeteringen in gang te zetten. Heb je daarvoor nog meer inspiratie nodig? Dan helpen we je graag in **Fase 2**!
 
 
       Wil jij achter de *ins and outs* van je doelgroep komen? Bel Joline. Ze houdt van een extra sterke cappuccino en zegt geen nee tegen een chocoladekoekje: **joline@lefgroningen.nl** of **0624676712**
@@ -30,7 +34,7 @@ services:
       title: Why
       text: Weet jij wat je klant vindt van je product of dienst? Of wat je medewerker
         nou écht vindt van zijn werk? Het is enorm waardevol om te weten wat er
-        leeft en speelt bij je doelgroep, zodat je daar op kan handelen. Wij
+        leeft en speelt bij je doelgroep, zodat je daar op kan inspelen. Wij
         brengen deze wensen en behoeftes duidelijk in kaart.
     image4: /img/whatsapp-image-2022-07-21-at-11.49.55-am.jpeg
     image5: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
