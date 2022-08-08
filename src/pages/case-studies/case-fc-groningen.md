@@ -17,7 +17,3 @@ De Business Club van FC Groningen is een van de grootste zakelijke netwerken van
 **Werkwijze**
 
 Allereerst hebben we de behoefte in kaart gebracht van vrouwelijke professionals in het noorden. Dat hebben we gedaan in de vorm van  focusgroepsessies, live in het stadion van FC Groningen. We zijn in gesprek gegaan over het thema met een gevarieerde groep vrouwelijke professionals: ondernemers, werknemers, en alles wat daartussen ligt. Wat is belangrijk voor ze en wat zou hen overtuigen om lid te worden bij het zakelijke netwerk van FC Groningen? Vervolgens hebben we deze informatie omgezet naar concrete, innovatieve concepten in de Ideeënbrouwerij.
-
-**Resultaat**
-
-In een aantal creatieve sessies met meerdere teams uit ons netwerk van jong talent hebben we vernieuwende manieren bedacht en uitgewerkt om vrouwelijke professionals te bereiken en bij de club te verwelkomen, introduceren en behouden.
