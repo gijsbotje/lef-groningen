@@ -24,4 +24,4 @@ We hebben het project opgedeeld in de drie LEF-fasen: doelgroeponderzoek, ideeë
 
 Een open, dynamisch service-concept waar elke reiziger minimaal eenmaal doorheen loopt. Die kan bestaan naast de apps en digitale ondersteuning en gericht is op snel, vriendelijke en persoonlijk contact. Extreem laagdrempelig voor de hulpzoekende, niet storend voor de overige reizigers. Een geslaagde productpresentatie leidde ertoe dat we het concept verder testen en uitwerken in fase 3, en uiteindelijk implementeren op het station.
 
-Wil je meer weten over dit project? Neem contact op met Thijs! 06-139 72 693
+Wil je meer weten over dit project? Neem contact op met **Thijs**! Zwarte koffie + koekje! thijs@lefgroningen.nl
