@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: "Case: Ondernemersweek Rotterdam"
+title: "Case: GEW Rotterdam"
 date: 2022-01-12T11:23:21.858Z
 description: "Bedenk én begeleid een programma waarin 150 studenten in een week
   tijd een uitgewerkt ondernemersidee pitchen voor een jury van ervaren
