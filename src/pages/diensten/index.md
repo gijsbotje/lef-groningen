@@ -49,28 +49,29 @@ services:
       ## Hoe werkt het?
 
 
-      De Ideeënbrouwerij is een creatieve energiebom waarin we de input uit het doelgroeponderzoek gebruiken om tot een **innovatief** **concept** te komen.
+      De Ideeënbrouwerij is een creatieve energiebom waarin we de resultaten uit het doelgroeponderzoek van fase 1 gebruiken om tot een **innovatieve** **oplossing** te komen. Het unieke van deze werkwijze is dat we de denkkracht bundelen van een groep van jong talent tussen de 18 en 35 jaar, allemaal met verschillende expertises en perspectieven. Waarom deze groep? Omdat zij niet geremd worden door ervaring – en dat is erg belangrijk in een creatieve sprint. We willen *out of the box* oplossingen, en dat is een stuk gemakkelijker als er nog geen *box* is om ín te denken.
 
 
-      Het unieke van deze werkwijze is dat we de denkkracht bundelen van een groep van jong talent tussen de 18 en 35 jaar, allemaal met verschillende expertises en perspectieven. 
+      In een aantal sprints brainstormen we met verschillende multidisciplinaire teams en gaan we stapsgewijs van idee naar oplossing. Dit doen deels we los van de opdrachtgever om echt een frisse blik te kunnen behouden. Maar deels ook samen, om de ervaring vanuit de organisatie te mixen met onze groep en elkaar te versterken.
 
 
       ## Wat levert het op?
 
 
-      Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een (marketing)strategie, een sterke businesscase of een vernieuwend product of dienst. Én een gratis bak met inspiratie.
+      Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een strategie, een sterke businesscase of een vernieuwend product. En daarbij een gratis bak vol inspiratie. Samen met de opdrachtgever maken we een actieplan voor de implementatie in fase 3!
 
 
-      Wil jij je organisatie weer laten bruisen? Teddy drinkt het liefst bubbeltjes water met een schijfje citroen: **teddy@lefgroningen.nl of 0652251395**
+      Wil jij je organisatie weer laten bruisen? Teddy drinkt het liefst bubbeltjes water met een schijfje citroen: **teddy@lefgroningen.nl** of **06-522 51 395**
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
-    image2: /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
+    image2: /img/gemeente-groningen-talent-x-werkgevers-.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
     title: "Fase 2: Ideeënbrouwerij"
     content:
       title: Why
-      text: Met ons netwerk van jong talent bedenken we een innovatief concept op
-        basis van de behoeften van de doelgroep. Door onze unieke benadering
-        komen we in een korte tijd tot échte innovatieve oplossingen.
+      text: Onervarenheid betekent dat je nog geen kaders hebt om in te denken. Wij
+        gebruiken daarom deze frisse blik en creativiteit van jong talent om een
+        écht vernieuwende oplossing te ontwerpen. Een oplossing die past bij de
+        wensen van de doelgroep uit fase 1.
     image4: /img/leffers-op-vloer-brainstormen.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     quote:
