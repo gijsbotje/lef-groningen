@@ -9,7 +9,8 @@ services:
       ## **Hoe werkt het?**
 
 
-      Wij brengen de behoeften van jouw doelgroep in kaart aan de hand van **kwalitatief doelgroeponderzoek**, door middel van focusgroepen en co-creatie. \
+      Wij brengen de behoeften van jouw doelgroep in kaart aan de hand van **kwalitatief doelgroeponderzoek**, door middel van focusgroepen en co-creatie.
+
 
       \
 
