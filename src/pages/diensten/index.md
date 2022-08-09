@@ -83,27 +83,28 @@ services:
       ## Hoe werkt het?
 
 
-      Als projectleiders implementeren wij vernieuwende concepten in organisaties. Op een enthousiaste manier én met LEF. We ontzorgen, zetten de juiste mensen op de juiste plek en zoeken gezamenlijk naar een innovatieve aanpak. 
-
-
-      Wij zijn inzetbaar op de volgende thema's: energietransitie, duurzaamheid en circulaire businessmodellen, innovatie en product/dienst ontwikkeling, participatietrajecten en marketing.
+      Uit fase 2 zijn briljante oplossingen gekomen voor het vraagstuk, je hebt zelf een goed idee of je hebt gewoon handen tekort: wat de uitdaging ook is, wij zetten jouw ambitie om naar realiteit. Dat doen we met ons team van *young professionals*, op een enthousiaste manier én met lef! Draagvlak creëren op alle niveau's staat daarin centraal. We ontzorgen jou en je team en zorgen ervoor dat het project of innovatietraject in mum van tijd succesvol wordt afgerond. Dan kun jij je blijven focussen op je eigen (al veel te drukke) agenda!
 
 
       ## Wat levert het op?
 
 
-      Ten eerste zijn wij enorm gezellig, dus iedereen gaat blij naar huis. Gelukkig is dat niet alles, we zorgen vooral voor praktisch resultaat. We zorgen voor draagvlak, verbinding voor regelrechte impact en dagen jou uit om buiten de gebaande paden te treden. 
+      Wij zorgen voor energie, versnelling en resultaat binnen de organisatie. En we heten LEF, dus we vinden het leuk om jou uit te dagen om óók buiten de lijntjes te kleuren. Gezond voor iedereen! 
 
 
-      Meer weten over bovenstaande thema's? Thijs houdt van zwarte koffie, het líefst met een koekje: **thijs@lefgroningen.nl en +31613972693.**
+      Ons team blinkt uit in de volgende thema's: projectmanagement, energietransitie, innovatietrajecten en productontwikkeling, participatietrajecten en (online) marketing. De vorm waarin we in te zetten bepalen we op basis van jouw behoefte. Uurbasis, projectbasis, detachering – wat het best past bij het project en jouw organisatie. 
+
+
+      Meer weten over onze werkwijze of onze mensen? Thijs houdt van zwarte koffie, het líefst met een koekje: **thijs@lefgroningen.nl** of **06-139 72 693.**
     image1: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
     image2: /img/a369bd0d-6a8f-4e66-9174-50917a0d089e.jpg
     image3: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
     title: "Fase 3: Implementatie"
     content:
       title: Why
-      text: Wij implementeren vernieuwende concepten in organisaties. Met LEF aan
-        boord komt de zaak in beweging en zorgen we samen voor impact!
+      text: "Goede ideeën moeten tot leven worden gebracht! Dat doen we samen met jou:
+        wij trekken de kar, samen bepalen we de richting. Ons team brengt
+        energie, creativiteit en slagvaardigheid in jouw project."
     image4: /img/untitled-design-7-.png
     image5: /img/untitled-design-8-.png
     quote:
