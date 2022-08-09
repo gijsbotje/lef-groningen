@@ -23,3 +23,5 @@ Naast onze bezielende leiding waren verschillende ervaren ondernemers uitgenodig
 **Resultaat**
 
 Een succesvolle ondernemersweek! We hebben heel veel goede ideeën gehoord, stijle leercurves gezien en hoop doorzettingsvermogen. De winnende groep staat een advies- en financieringsgesprek te wachten bij de Rabobank en (als kers op de taart) een interview op de radio bij FunX! Wie weet wonen ze in de toekomst zelf in een duurzaam, drijvend huis op het water rond Rotterdam.
+
+Ook een ondernemersweek organiseren? Terecht, het is ontzettend leuk en leerzaam. Neem contact op met **Teddy** voor een vlammende pitch: **teddy@lefgroningen.nl**
