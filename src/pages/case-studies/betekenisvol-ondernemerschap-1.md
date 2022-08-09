@@ -27,4 +27,4 @@ Met verschillende teams hebben we de mogelijkheden verkent: marketing,  efficië
 
 Concrete concepten passeerden de revue, gecategoriseerd op basis van het gemak van de implementatie ervan en de geschatte potentiële opbrengst. Nieuwe verdienmodellen, vernieuwende werkwijzen, marketing en een verbeterde samenwerking met studie- en studentenverenigingen uit de stad hoorde bij het eindresultaat. 
 
-Ook het toekomstperspectief verbeteren van je organisatie? Neem dan contact op met **Thijs** via +31 6 13972693
+Ook het toekomstperspectief verbeteren van je organisatie? Neem dan contact op met **Thijs** via thijs@lefgroningen.nl
