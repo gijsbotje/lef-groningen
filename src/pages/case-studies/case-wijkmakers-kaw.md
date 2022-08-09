@@ -25,4 +25,4 @@ Fase 1! Tijdens focusgroepsessies zijn we in gesprek gegaan met de werknemers va
 
 Verschillende interventies zijn nodig om mensen met andere niveaus van bewustwording aan te spreken. Aan de hand van een gedragsmodel zijn de resultaten uit de focusgroepsessies opgeleverd met daarbij passende maatwerkoplossingen waarmee - aan de hand van een roadmap - iedereen wordt meegenomen in de duurzaamheidsvisie van De Hoven.
 
-Ook aan de slag met thema's als duurzaamheid, circulariteit of de energietransitie? Neem dan contact op met **Joline** via 06-246 76 712
+Ook aan de slag met thema's als duurzaamheid, circulariteit of de energietransitie? Neem dan contact op met onze duurzaamheid shamanka **Joline** via **joline@lefgroningen.nl**
