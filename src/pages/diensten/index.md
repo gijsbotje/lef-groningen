@@ -25,7 +25,7 @@ services:
       Op een heel laagdrempelige manier kom je erachter of jouw benadering, product of dienst strookt met deze behoefte. Maar daar laten we het niet bij liggen. Wij zorgen voor een duidelijk advies over wat is er nodig om de juiste veranderingen of verbeteringen in gang te zetten. Heb je daarvoor nog meer inspiratie nodig? Dan helpen we je graag in **Fase 2**!
 
 
-      Wil jij achter de *ins and outs* van je doelgroep komen? Bel Joline. Ze houdt van een extra sterke cappuccino en zegt geen nee tegen een chocoladekoekje: **joline@lefgroningen.nl** of **0624676712**
+      Wil jij achter de *ins and outs* van je doelgroep komen? Bel Joline. Ze houdt van een extra sterke cappuccino en zegt geen nee tegen een chocoladekoekje: **joline@lefgroningen.nl** of **06-246 76 712**
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/untitled-design-6-.png
     image3: /img/whatsapp-image-2022-01-12-at-12.03.15.jpeg
@@ -61,7 +61,7 @@ services:
       Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een strategie, een sterke businesscase of een vernieuwend product. En daarbij een gratis bak vol inspiratie. Samen met de opdrachtgever maken we een actieplan voor de implementatie in fase 3!
 
 
-      Wil jij je organisatie weer laten bruisen? Teddy drinkt het liefst bubbeltjes water met een schijfje citroen: **teddy@lefgroningen.nl** of **06-522 51 395**
+      Wil jij je organisatie weer laten bruisen? Teddy drinkt het liefst bubbeltjeswater met een schijfje citroen: **teddy@lefgroningen.nl** of **06-522 51 395**
     image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     image2: /img/gemeente-groningen-talent-x-werkgevers-2-.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
@@ -95,7 +95,7 @@ services:
       Ons team blinkt uit in de volgende thema's: projectmanagement, energietransitie, innovatietrajecten en productontwikkeling, participatietrajecten en (online) marketing. De vorm waarin we in te zetten bepalen we op basis van jouw behoefte. Uurbasis, projectbasis, detachering – wat het best past bij het project en jouw organisatie. 
 
 
-      Meer weten over onze werkwijze of onze mensen? Thijs houdt van zwarte koffie, het líefst met een koekje: **thijs@lefgroningen.nl** of **06-139 72 693.**
+      Meer weten over onze werkwijze of onze mensen? Thijs houdt van zwarte koffie, het liefst met een koekje: **thijs@lefgroningen.nl** of **06-139 72 693.**
     image1: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
     image2: /img/a369bd0d-6a8f-4e66-9174-50917a0d089e.jpg
     image3: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
