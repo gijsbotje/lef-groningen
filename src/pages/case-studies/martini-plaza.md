@@ -27,4 +27,4 @@ Om de behoefte in kaart te brengen zijn we langs zeven verschillende locaties ge
 
 Uit ons onderzoek is gebleken dat er vanuit de werknemers een sterke behoefte is aan meer verbondenheid met de formele werkgever. Dit heeft te maken met bijvoorbeeld de huidige manier van communiceren maar ook de zichtbaarheid van de organisatie. Binnenkort starten we met fase 2, de **Ideeënbrouwerij**, om  oplossingen te ontwerpen die de verbinding vergroten en WPDA als werkgever duidelijkere identiteit geven – juist voor de werknemers die werken op afstand.
 
-Meer weten over dit project? Neem dan contact op met Joline via 06-246 76 712
+Meer weten over dit project of zelf geïnteresseerd in een doelgroeponderzoek? Neem dan contact op met **Joline** via **joline@lefgroningen.nl**
