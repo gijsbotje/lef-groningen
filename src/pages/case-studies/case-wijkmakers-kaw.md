@@ -15,7 +15,7 @@ LEF redt de wereld, dames en heren! En de wereld redden begint in Onder den Dam,
 
 **Organisatie**
 
-De Hoven levert zorg aan (voornamelijk) ouderen op verschillende locaties in de Provincie Groningen. Verschillende actuele thema’s vragen om nieuw beleid. Duurzaamheid en circulariteit is daar één van. Dit is waarmee we De Hoven mee op weg hebben geholpen.
+De Hoven levert zorg aan (voornamelijk) ouderen op verschillende locaties in de Provincie Groningen. Verschillende actuele thema’s vragen om nieuw beleid. Duurzaamheid en circulariteit is daar één van.
 
 **Werkwijze**
 
