@@ -120,8 +120,10 @@ homeBlock3:
   title: .
 homeBlock4:
   quote:
-    text: LEF heeft ons geholpen met concrete ideeën voor ons vraagstuk. Een fijne
-      club jonge mensen die met een frisse blik een geheel andere kijk geven op
-      vraagstukken en out-of-the-box durven te denken.
-    author: Ellen Stutterheim, Adviseur maatschappelijke thema's Lefier
+    text: "We werken met veel organisaties samen, maar LEF trok ons uit onze
+      comfortzone en prikkelde ons met nieuwe initiatieven die wij zelf even
+      niet zagen. Dat ging gepaard met interesse en de nodige energie.
+
+      \ "
+    author: Kevin Roossien, Manager Sales en Hospitality FC Groningen
 ---
