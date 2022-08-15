@@ -85,19 +85,19 @@ services:
       ## Hoe werkt het?
 
 
-      Uit fase 2 zijn briljante oplossingen gekomen voor het vraagstuk, je hebt zelf een goed idee of je hebt gewoon handen tekort: wat de uitdaging ook is, wij zetten jouw ambitie om naar realiteit. Dat doen we met ons team van *young professionals*, op een enthousiaste manier én met lef! Draagvlak creëren op alle niveau's staat daarin centraal. We ontzorgen jou en je team en zorgen ervoor dat het project of innovatietraject in mum van tijd succesvol wordt afgerond. Dan kun jij je blijven focussen op je eigen (al veel te drukke) agenda!
+      Uit fase 2 zijn briljante oplossingen gekomen voor een vraagstuk, je hebt zelf een goed idee of je hebt gewoon handen tekort: wat de uitdaging ook is, wij zetten jouw ambitie om naar realiteit. Dat doen we met ons team van *young professionals*, op een enthousiaste manier én met lef! 
 
 
       ## Wat levert het op?
 
 
-      Wij zorgen voor energie, versnelling en resultaat binnen de organisatie. En we heten LEF, dus we vinden het leuk om jou uit te dagen om óók buiten de lijntjes te kleuren. Gezond voor iedereen! 
+      We ontzorgen jou en je team. Dan kun jij je blijven focussen op je eigen (al veel te drukke ;)) agenda. Een innovatietraject in een mum van tijd succesvol afronden is voor ons geen probleem. En we heten LEF, dus we vinden het leuk om jou uit te dagen om óók buiten de lijntjes te kleuren. Gezond voor iedereen! 
 
 
-      Ons team blinkt uit in de volgende thema's: projectmanagement, energietransitie, innovatietrajecten en productontwikkeling, participatietrajecten en (online) marketing. De vorm waarin we in te zetten bepalen we op basis van jouw behoefte. Uurbasis, projectbasis, detachering – wat het best past bij het project en jouw organisatie. 
+      Ons team blinkt uit in de volgende thema's: projectmanagement, energietransitie, innovatietrajecten en productontwikkeling, participatietrajecten en (online) marketing. De vorm waarin we in te zetten zijn bepalen we op basis van jouw behoefte. Uurbasis, projectbasis, detachering – wat het best past bij het project van jouw organisatie.
 
 
-      Meer weten over onze werkwijze of onze mensen? Thijs houdt van zwarte koffie, het liefst met een koekje: **thijs@lefgroningen.nl** of **06-139 72 693.**
+      Meer weten over de toppers in ons team? Thijs houdt van zwarte koffie, het liefst met een koekje: **thijs@lefgroningen.nl** of **06-139 72 693.**
     image1: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
     image2: /img/a369bd0d-6a8f-4e66-9174-50917a0d089e.jpg
     image3: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
