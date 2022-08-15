@@ -4,8 +4,7 @@ title: "Case: Werkplein Drentsche Aa"
 date: 2020-03-29T12:30:00.708Z
 description: Help ons met het in kaart brengen van de wensen en behoeften van
   onze groep gedetacheerde werknemers. Is er bij deze groep behoefte aan meer
-  verbinding, communicatie en medezeggenschap? En zo ja, hoe kunnen we dat
-  versterken?
+  verbinding, communicatie en medezeggenschap?
 featuredpost: true
 featuredimage: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
 tags:
