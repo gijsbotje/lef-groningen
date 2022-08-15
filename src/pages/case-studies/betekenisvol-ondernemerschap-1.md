@@ -21,7 +21,7 @@ Stichting Kostuumverhuur Groningen – beter bekend als de stichting met de groo
 
 **Werkwijze**
 
-Met verschillende teams hebben we de mogelijkheden verkent: marketing,  efficiënter maken van het bedrijfsproces, vernieuwde werkwijzen en innovatieve verdienmodellen. Deels als doel om meer tijd te creëren voor de leuke dingen en de kern van Kostuumverhuur. Bijvoorbeeld het geven van naaiworkshops. Wie wil dat nou niet?
+Met verschillende teams hebben we de mogelijkheden verkent: marketing,  efficiënter maken van het bedrijfsproces, vernieuwde werkwijzen en innovatieve verdienmodellen. Deels als doel om meer tijd te creëren voor de leuke dingen en de kern van Kostuumverhuur.
 
 **Resultaat**
 
