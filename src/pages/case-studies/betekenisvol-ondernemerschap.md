@@ -18,7 +18,7 @@ Aan LEF de taak om een toekomstbestendige service-oplossing te bedenken en te im
 
 **Werkwijze**
 
-We hebben het project opgedeeld in de drie LEF-fasen: doelgroeponderzoek, ideeënbrouwerij en implementatie. In de eerste fase hebben we de behoefte van de moderne reiziger en de reisbeleving in kaart gebracht. Waar heb je nou behoefte aan op het gebied van service als je via (begin- en eindpunt) Groningen reist? Iets digitaals? Of toch analoog? Het bleek beide: digitale ondersteuning heeft in principe de voorkeur, maar in uiterste nood hebben alle leeftijdscategorieën behoefte aan persoonlijk contact – iemand die je snel en persoonlijk kan helpen. Deze input hebben we als basis gebruikt tijdens fase 2: de ideeënbrouwerij. Hierin zijn we met verschillende, multidisciplinaire teams aan de bak gegaan om een passende oplossing te ontwerpen.  
+In de eerste fase hebben we de behoefte van de moderne reiziger en de reisbeleving in kaart gebracht. Waar heb je nou behoefte aan op het gebied van service als je via (begin- en eindpunt) Groningen reist? Iets digitaals? Of toch analoog? Het bleek beide: digitale ondersteuning heeft in principe de voorkeur, maar in uiterste nood hebben alle leeftijdscategorieën behoefte aan persoonlijk contact – iemand die je snel en persoonlijk kan helpen. Deze input hebben we als basis gebruikt tijdens fase 2: de ideeënbrouwerij. Hierin zijn we met verschillende, multidisciplinaire teams aan de bak gegaan om een passende oplossing te ontwerpen.  
 
 **Resultaat**
 
