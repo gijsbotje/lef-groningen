@@ -6,7 +6,7 @@ description: Help ons met het in kaart brengen van de wensen en behoeften van
   onze groep gedetacheerde werknemers. Is er bij deze groep behoefte aan meer
   verbinding, communicatie en medezeggenschap?
 featuredpost: true
-featuredimage: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
+featuredimage: /img/ux-indonesia-w00fke6e8ze-unsplash.jpg
 tags:
   - Case
 ---
