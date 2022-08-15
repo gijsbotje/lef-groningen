@@ -12,10 +12,12 @@ tags:
 ---
 **Organisatie** 
 
-De Business Club van FC Groningen is een van de grootste zakelijke netwerken van Stad en Ommeland. Er zijn honderden bedrijven aangesloten. Naast de voetbalwedstrijden kunnen Businessclubleden deelnemen aan tal van activiteiten en een heleboel netwerkevenementen. Sinds 2021 is ook LEF sponsor van de club en maken we deel uit van de Talent Group! Enige nadeel: er zijn weinig vrouwelijke leden te vinden – en daar wil de FC wat aan doen.
+De Business Club van FC Groningen is een van de grootste zakelijke netwerken van Stad en Ommeland. Sinds 2021 is ook LEF sponsor van de club en maken we deel uit van de Talent Group! Enige nadeel: er zijn weinig vrouwelijke leden te vinden – en daar wil de FC wat aan doen.
 
 **Werkwijze**
 
-Allereerst hebben we de behoefte in kaart gebracht van vrouwelijke professionals in het noorden. Dat hebben we gedaan in de vorm van  focusgroepsessies, live in het stadion van FC Groningen. We zijn in gesprek gegaan over het thema met een gevarieerde groep vrouwelijke professionals: ondernemers, werknemers, en alles wat daartussen ligt. Wat is belangrijk voor ze en wat zou hen overtuigen om lid te worden bij het zakelijke netwerk van FC Groningen? Vervolgens hebben we deze informatie omgezet naar concrete, innovatieve concepten in de Ideeënbrouwerij.
+**FIEEEEET!! De wedstrijd is begonnen!** De trainingspakken kunnen uit, de groen-witte tenues aan: we zijn gestart met onze opdracht bij **FC Groningen!** Samen met de lieve mensen van de FC bedenken we hoe meer vrouwen te interesseren voor het zakelijke netwerk van FC Groningen. Ondernemers of niet-ondernemers, iedereen die iets aan de Business Club denkt te hebben. 
+
+Allereerst brengen we de behoefte in kaart van vrouwelijke professionals in het noorden. Dat doen we in de vorm van focusgroepsessies, live in het stadion van FC Groningen. We spreken over het thema met een gevarieerde groep vrouwelijke professionals: ondernemers, werknemers, en alles wat daartussen ligt. Wat is belangrijk voor ze en wat zou hen overtuigen om lid te worden bij het zakelijke netwerk van FC Groningen? Vervolgens hebben we deze informatie omgezet naar concrete, innovatieve concepten in onze Ideeënbrouwerij. 
 
 Meer weten? Vraag het **Teddy!** Ze lust wel een thee met fruitsmaakje: **teddy@lefgroningen.nl**
