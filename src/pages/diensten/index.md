@@ -77,10 +77,10 @@ services:
     image4: /img/leffers-op-vloer-brainstormen.jpg
     image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
     quote:
-      text: LEF weet elke keer weer het maximale uit de groep te halen. De sessies
-        zijn resultaatgericht en de deelnemers gaan met de juiste handvatten en
-        concrete actiepunten naar huis.
-      author: "Koen Atema, programmamanager Noorderpoort "
+      text: LEF heeft ons geholpen met concrete ideeën voor ons vraagstuk. Een fijne
+        club jonge mensen die met een frisse blik een geheel andere kijk geven
+        op vraagstukken en out-of-the-box durven te denken.
+      author: Ellen Stutterheim, Adviseur maatschappelijke thema's Lefier
   - extraContent: >-
       ## Hoe werkt het?
 
