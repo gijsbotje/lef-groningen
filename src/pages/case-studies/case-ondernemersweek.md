@@ -16,7 +16,7 @@ Het Albeda College en het Hout- en Meubileringscollege zijn beide regionale ople
 
 **Werkwijze**
 
-LEF ging naar Rotterdam om dat varkentje eens te wassen. Tijdens de week hebben wij 150 studenten begeleid bij het uitwerken van een business idee - voor het thema 'woningnood' - en te pitchen voor een jury vol streng kijkende mensen. Het raffineren van het idee, het bepalen van de haalbaarheid en het vermarkten van het concept waren onderdelen die terugkwamen in de week. In het lab werden de ideeën vervolgens uitgewerkt tot prototypes. 
+LEF ging naar Rotterdam om dat varkentje eens te wassen. In slechts een week tijd hebben de studenten  onder onze bezielende begleiding ideeën bedacht voor het thema woningnood, deze uitgewerkt tot de meeste vette prototypes en ze vervolgens gepitched aan ondernemers en investeerders. De plaatselijke Roffa-raps vlogen ons om de oren, maar wat een waanzinnig energieke week!! Onderschat deze boys en girls niet, dames en heren. Het niveau is ontzettend hoog en van de creativiteit kunt u nog wat leren.
 
 **Resultaat**
 
