@@ -48,16 +48,19 @@ services:
       ## Hoe werkt het?
 
 
-      De Ideeënbrouwerij is een creatieve energiebom waarin we de resultaten uit het doelgroeponderzoek van fase 1 gebruiken om tot een **innovatieve** **oplossing** te komen. Het unieke van deze werkwijze is dat we de denkkracht bundelen van een groep van jong talent tussen de 18 en 35 jaar, allemaal met verschillende expertises en perspectieven. Waarom deze groep? Omdat zij niet geremd worden door ervaring – en dat is erg belangrijk in een creatieve sprint. We willen *out of the box* oplossingen, en dat is een stuk gemakkelijker als er nog geen *box* is om ín te denken.
+      De Ideeënbrouwerij is een creatieve energiebom waarin tot een **innovatieve** **oplossing** komen voor een vraagstuk. Het kan een vervolg zijn van de opgehaalde informatie uit het doelgroeponderzoek in fase 1 óf een nieuw vraagstuk. 
 
 
-      In een aantal sprints brainstormen we met verschillende multidisciplinaire teams en gaan we stapsgewijs van idee naar oplossing. Dit doen deels we los van de opdrachtgever om echt een frisse blik te kunnen behouden. Maar deels ook samen, om de ervaring vanuit de organisatie te mixen met onze groep en elkaar te versterken.
+      Het unieke van deze werkwijze is dat we de denkkracht bundelen van een team van jong talent tussen de 18 en 35 jaar, allemaal met verschillende expertises en perspectieven. Niet geremd door ervaring – *out of the box* en buiten de vaste kaders. Dat is namelijk een stuk gemakkelijker als er nog geen *box* is om ín te denken. Erg belangrijk in een creatieve sprint. 
+
+
+      In een aantal creatieve sprints brainstormen we los van de opdrachtgever om een frisse blik te kunnen behouden, maar ook samen, om de ervaring vanuit de organisatie te mixen met ons team.
 
 
       ## Wat levert het op?
 
 
-      Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een strategie, een sterke businesscase of een vernieuwend product. En daarbij een gratis bak vol inspiratie. Samen met de opdrachtgever maken we een actieplan voor de implementatie in fase 3!
+      Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een strategie, een sterke businesscase of een vernieuwend product. En daarbij een gratis bak vol inspiratie. Samen met de opdrachtgever maken we een actieplan voor de implementatie in fase 3.
 
 
       Wil jij je organisatie weer laten bruisen? Teddy drinkt het liefst bubbeltjeswater met een schijfje citroen: **teddy@lefgroningen.nl** of **06-522 51 395**
@@ -68,7 +71,7 @@ services:
     content:
       title: Why
       text: Onervarenheid betekent dat je nog geen kaders hebt om in te denken. Wij
-        gebruiken daarom deze frisse blik en creativiteit van jong talent om een
+        gebruiken daarom de frisse blik en creativiteit van jong talent om een
         écht vernieuwende oplossing te ontwerpen. Een oplossing die past bij de
         wensen van de doelgroep uit fase 1.
     image4: /img/leffers-op-vloer-brainstormen.jpg
