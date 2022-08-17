@@ -64,7 +64,7 @@ services:
 
 
       Wil jij je organisatie weer laten bruisen? Teddy drinkt het liefst bubbeltjeswater met een schijfje citroen: **teddy@lefgroningen.nl** of **06-522 51 395**
-    image1: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
+    image1: /img/whatsapp-image-2021-12-03-at-14.03.43-1-.jpeg
     image2: /img/gemeente-groningen-talent-x-werkgevers-2-.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
     title: "Fase 2: Ideeënbrouwerij"
