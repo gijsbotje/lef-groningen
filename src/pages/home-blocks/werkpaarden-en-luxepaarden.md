@@ -1,6 +1,6 @@
 ---
 templateKey: home-block-post
-title: "3. Let's go! "
+title: "3. Let's go: implementatie!"
 date: 2020-10-07T13:29:26.630Z
 description: >
   Goede ideeën moeten tot leven worden gebracht! Dat doen we samen met jou: wij
