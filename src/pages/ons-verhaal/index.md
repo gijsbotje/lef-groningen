@@ -52,11 +52,24 @@ aboutBlock2:
       mail: teddy@lefgroningen.nl
       position: Oprichter
       title: Teddy Monninkhof
-    - featured: false
+    - featured: true
       title: Joline Teisman
       list:
         - question: Functie
           answer: Projectleider energietransitie
+        - answer: "Maar waar begin je in hemelsnaam? En dan moet je je collega’s daar ook
+            nog in meenemen. Lastig is dat, hè?   We know. En gelukkig weten wij
+            daar meer van. Sterker nog, wij zijn gespecialiseerd in het
+            faciliteren van co-creatie: in een sessie stellen wij mensen in
+            staat om hun behoeften te verwoorden en hun eigen ervaring en
+            creativiteit te gebruiken om oplossingen te verzinnen voor ieder
+            vraagstuk. De ‘wisdom of the crowd’ gebruiken, met andere
+            woorden!   Deelnemers nemen meer een open houding aan tegenover
+            verandering omdat ze onderdeel van het proces zijn geweest. Zo
+            creëer je eigenaarschap en voorkom je dat er weerstand ontstaat. Ik
+            zeg altijd maar, het proces is ook een resultaat!  Geïnteresseerd?
+            Bel mij!"
+          question: Duurzaamheid. Je moet er wat mee.
       image: /img/afmetingen-site-fotos-ons-verhaal.png
       linkedIn: https://www.linkedin.com/in/joline-teisman-778403a8/
       mail: joline@lefgroningen.nl
