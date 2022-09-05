@@ -93,8 +93,8 @@ const Footer = () => {
           </Typography>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={4}>
-              <Typography variant="body1">Van Swinderenstraat 38</Typography>
-              <Typography variant="body1">9714HG Groningen</Typography>
+              <Typography variant="body1">Bornholmstraat 46</Typography>
+              <Typography variant="body1">9723AZ Groningen</Typography>
               <Typography variant="body1">info@lefgroningen.nl</Typography>
               <Typography variant="body1">+31 6 13972693</Typography>
             </Grid>
