@@ -105,7 +105,7 @@ homeBlock3:
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
         heeft. Daarom brouwen wij nieuwe ideeën, buiten de kaders.
       title: Teddy en Thijs
-    - image: /img/whatsapp-image-2022-09-15-at-17.38.36-1-.jpeg
+    - image: /img/whatsapp-image-2022-09-15-at-18.42.01.jpeg
       imageOnly: true
       link: /diensten/
       text: Je kunt een probleem niet oplossen met de denkwijze die het veroorzaakt
