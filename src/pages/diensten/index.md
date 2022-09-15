@@ -107,8 +107,8 @@ services:
       text: "Goede ideeën moeten tot leven worden gebracht! Dat doen we samen met jou:
         wij trekken de kar, samen bepalen we de richting. Ons team brengt
         energie, creativiteit en slagvaardigheid in jouw project."
-    image4: /img/untitled-design-7-.png
-    image5: /img/untitled-design-8-.png
+    image4: /img/img_4894.jpg
+    image5: /img/whatsapp-image-2022-09-13-at-13.15.56.jpeg
     quote:
       text: '"We hebben het werken met LEF ontdekt! Hun innovatieve manier van denken
         én doen, energie en creatieve aanvliegmogelijkheden zijn erg waardevol.
