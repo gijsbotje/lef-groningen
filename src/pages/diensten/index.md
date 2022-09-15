@@ -74,8 +74,8 @@ services:
         gebruiken daarom de frisse blik en creativiteit van jong talent om een
         écht vernieuwende oplossing te ontwerpen. Een oplossing die past bij de
         wensen van de doelgroep uit fase 1.
-    image4: /img/leffers-op-vloer-brainstormen.jpg
-    image5: /img/whatsapp-image-2020-09-21-at-15.50.20-2-.jpeg
+    image4: /img/whatsapp-image-2022-07-21-at-12.09.21-pm.jpeg
+    image5: /img/whatsapp-image-2022-09-15-at-17.38.36.jpeg
     quote:
       text: LEF heeft ons geholpen met concrete ideeën voor ons vraagstuk. Een fijne
         club jonge mensen die met een frisse blik een geheel andere kijk geven
