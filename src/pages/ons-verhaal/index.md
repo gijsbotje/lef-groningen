@@ -74,7 +74,7 @@ aboutBlock2:
       linkedIn: https://www.linkedin.com/in/joline-teisman-778403a8/
       mail: joline@lefgroningen.nl
     - featured: false
-      title: Lars
+      title: Lars Elthing
       list:
         - question: Studie
           answer: Eindbaas projecten doelgroeponderzoek
