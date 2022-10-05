@@ -56,7 +56,7 @@ aboutBlock2:
       title: Joline Teisman
       list:
         - question: Functie
-          answer: Projectleider energietransitie
+          answer: Eindbazin projecten energietransitie
         - answer: "Maar waar begin je in hemelsnaam? En dan moet je je collega’s daar ook
             nog in meenemen. Lastig is dat, hè?   We know. En gelukkig weten wij
             daar meer van. Sterker nog, wij zijn gespecialiseerd in het
