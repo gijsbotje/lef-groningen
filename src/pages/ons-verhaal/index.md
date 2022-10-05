@@ -74,11 +74,11 @@ aboutBlock2:
       linkedIn: https://www.linkedin.com/in/joline-teisman-778403a8/
       mail: joline@lefgroningen.nl
     - featured: false
-      title: Ruben Pots
+      title: Lars
       list:
-        - question: "Functie "
-          answer: Student Communication & Multimedia Design
-      image: /img/afmetingen-site-fotos-ons-verhaal-2-.png
+        - question: Studie
+          answer: Eindbaas doelgroepanalyse
+      image: /img/afmetingen-site-fotos-ons-verhaal-7-.png
     - featured: false
       title: Juul
       list:
@@ -104,18 +104,17 @@ aboutBlock2:
       position: ""
       title: Lisa-mae
     - featured: false
-      title: Lars
-      list:
-        - question: Studie
-          answer: Student Strategic Innovation Management + Small Business &
-            Entrepreneurship
-      image: /img/afmetingen-site-fotos-ons-verhaal-7-.png
-    - featured: false
       title: Eliane
       list:
         - question: Studie
           answer: Student Bedrijfskunde - Psychologie
       image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
+    - featured: false
+      title: Ruben Pots
+      list:
+        - question: "Functie "
+          answer: Student Communication & Multimedia Design
+      image: /img/afmetingen-site-fotos-ons-verhaal-2-.png
     - featured: false
       title: Myrthe
       image: /img/afmetingen-site-fotos-ons-verhaal-10-.png
