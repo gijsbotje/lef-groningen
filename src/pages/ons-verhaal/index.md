@@ -55,8 +55,6 @@ aboutBlock2:
     - featured: true
       title: Joline Teisman
       list:
-        - question: Functie
-          answer: Sous-chef - projectleider energietransitie
         - answer: "Maar waar begin je in hemelsnaam? En dan moet je je collega’s daar ook
             nog in meenemen. Lastig is dat, hè?   We know. En gelukkig weten wij
             daar meer van. Sterker nog, wij zijn gespecialiseerd in het
@@ -73,6 +71,7 @@ aboutBlock2:
       image: /img/afmetingen-site-fotos-ons-verhaal.png
       linkedIn: https://www.linkedin.com/in/joline-teisman-778403a8/
       mail: joline@lefgroningen.nl
+      position: Sous-chef - projectleider energietransitie
     - featured: false
       title: Lars Elthing
       list:
