@@ -77,7 +77,7 @@ aboutBlock2:
       title: Lars
       list:
         - question: Studie
-          answer: Eindbaas doelgroepanalyse
+          answer: Eindbaas projecten doelgroeponderzoek
       image: /img/afmetingen-site-fotos-ons-verhaal-7-.png
     - featured: false
       title: Juul
