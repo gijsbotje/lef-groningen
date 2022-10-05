@@ -86,6 +86,10 @@ aboutBlock2:
           answer: Student Kunstacademie
       image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
     - featured: false
+      title: Manon
+      position: "Sous Chef - Stagiaire innovatie "
+      image: /img/whatsapp-image-2022-10-05-at-14.56.43.jpeg
+    - featured: false
       image: /img/whatsapp-image-2021-05-18-at-12.02.57.jpeg
       linkedIn: ""
       list:
