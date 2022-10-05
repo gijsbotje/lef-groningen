@@ -43,20 +43,20 @@ aboutBlock2:
       linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
       list: []
       mail: thijs@lefgroningen.nl
-      position: Oprichter
+      position: Chef - Founder LEF
       title: Thijs de Vries
     - featured: true
       image: /img/47af2f9d-a552-420b-8786-430fffff9c72.jpg
       linkedIn: https://www.linkedin.com/in/teddy-monninkhof-77725372/
       list: []
       mail: teddy@lefgroningen.nl
-      position: Oprichter
+      position: Chef - Founder LEF
       title: Teddy Monninkhof
     - featured: true
       title: Joline Teisman
       list:
         - question: Functie
-          answer: Eindbazin projecten energietransitie
+          answer: Souschef - projectleider energietransitie
         - answer: "Maar waar begin je in hemelsnaam? En dan moet je je collega’s daar ook
             nog in meenemen. Lastig is dat, hè?   We know. En gelukkig weten wij
             daar meer van. Sterker nog, wij zijn gespecialiseerd in het
@@ -77,18 +77,18 @@ aboutBlock2:
       title: Lars Elthing
       list:
         - question: Studie
-          answer: Eindbaas projecten doelgroeponderzoek
+          answer: Sous-chef - Projectleider doelgroeponderzoek
       image: /img/afmetingen-site-fotos-ons-verhaal-7-.png
+    - featured: false
+      title: Manon
+      position: Commis de cuisine - Stagiaire Innovatie & Communicatie
+      image: /img/whatsapp-image-2022-10-05-at-14.56.43.jpeg
     - featured: false
       title: Juul
       list:
         - question: Studie
           answer: Student Kunstacademie
       image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
-    - featured: false
-      title: Manon
-      position: "Sous Chef - Stagiaire innovatie "
-      image: /img/whatsapp-image-2022-10-05-at-14.56.43.jpeg
     - featured: false
       image: /img/whatsapp-image-2021-05-18-at-12.02.57.jpeg
       linkedIn: ""
