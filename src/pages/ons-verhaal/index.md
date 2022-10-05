@@ -56,7 +56,7 @@ aboutBlock2:
       title: Joline Teisman
       list:
         - question: Functie
-          answer: Souschef - projectleider energietransitie
+          answer: Sous-chef - projectleider energietransitie
         - answer: "Maar waar begin je in hemelsnaam? En dan moet je je collega’s daar ook
             nog in meenemen. Lastig is dat, hè?   We know. En gelukkig weten wij
             daar meer van. Sterker nog, wij zijn gespecialiseerd in het
@@ -87,13 +87,13 @@ aboutBlock2:
       title: Juul
       list:
         - question: Studie
-          answer: Student Kunstacademie
+          answer: Saucier - Student Kunstacademie
       image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
     - featured: false
       image: /img/whatsapp-image-2021-05-18-at-12.02.57.jpeg
       linkedIn: ""
       list:
-        - answer: Filmmaker
+        - answer: Rôtisseur - Eigenaar filmbedrijf aWardflim
           question: Studie
       mail: ""
       position: ""
@@ -102,7 +102,7 @@ aboutBlock2:
       image: /img/whatsapp-image-2021-02-16-at-16.52.26.jpeg
       linkedIn: ""
       list:
-        - answer: Grafisch Ontwerper
+        - answer: Rôtisseur - Grafisch Ontwerper bij lisamaedevries
           question: Studie
       mail: ""
       position: ""
@@ -111,25 +111,25 @@ aboutBlock2:
       title: Eliane
       list:
         - question: Studie
-          answer: Student Bedrijfskunde - Psychologie
+          answer: Saucier - Student Bedrijfskunde en Psychologie
       image: /img/whatsapp-image-2021-02-26-at-16.14.26.jpeg
     - featured: false
       title: Ruben Pots
       list:
         - question: "Functie "
-          answer: Student Communication & Multimedia Design
+          answer: Saucier - Student Communication en Multimedia Design
       image: /img/afmetingen-site-fotos-ons-verhaal-2-.png
     - featured: false
       title: Myrthe
       image: /img/afmetingen-site-fotos-ons-verhaal-10-.png
       list:
         - question: Studie
-          answer: Marketing Analytics and Data Science
+          answer: Saucier - Student Marketing Analytics and Data Science
     - featured: false
       image: /img/afmetingen-site-fotos-ons-verhaal-12-.png
       linkedIn: ""
       list:
-        - answer: Sociologie
+        - answer: Saucier - Student Sociologie
           question: Studie
       mail: ""
       position: ""
@@ -138,19 +138,19 @@ aboutBlock2:
       title: Lars
       list:
         - question: Studie
-          answer: Student geschiedenis
+          answer: Saucier - Student geschiedenis
       image: /img/afmetingen-site-fotos-ons-verhaal-6-.png
     - featured: false
       title: Daniek
       list:
         - question: functie
-          answer: Student geneeskunde
+          answer: Saucier - Student geneeskunde
       image: /img/untitled-design-3-.png
     - featured: false
       image: /img/whatsapp-image-2022-07-21-at-11.49.12-am-1-.jpeg
       linkedIn: ""
       list:
-        - answer: Verpleegkundige oncologie
+        - answer: Rôtisseur - Verpleegkundige oncologie
           question: Studie
       mail: ""
       position: ""
@@ -159,13 +159,13 @@ aboutBlock2:
       title: Andrea
       list:
         - question: Studie
-          answer: Grafisch vormgever en student psychologie
+          answer: Saucier - Grafisch vormgever en student psychologie
       image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
     - featured: false
       image: /img/afmetingen-site-fotos-ons-verhaal-13-.png
       linkedIn: ""
       list:
-        - answer: Psychologie
+        - answer: Saucier - Student psychologie
           question: Studie
       mail: ""
       position: ""
@@ -174,7 +174,7 @@ aboutBlock2:
       image: /img/afmetingen-site-fotos-ons-verhaal-8-.png
       linkedIn: ""
       list:
-        - answer: Student Marketing Analytics and Data Science
+        - answer: Saucier - Student Marketing Analytics and Data Science
           question: Studie
       mail: ""
       position: ""
@@ -183,13 +183,13 @@ aboutBlock2:
       title: Nelson
       list:
         - question: Studie
-          answer: Student Finance
+          answer: Saucier - Student Finance
       image: /img/afmetingen-site-fotos-ons-verhaal-9-.png
     - featured: false
       image: /img/WhatsApp Image 2020-08-20 at 10.48.47.jpeg
       linkedIn: ""
       list:
-        - answer: Frontend Developer
+        - answer: Rôtisseur - Frontend Developer
           question: Werk
       mail: ""
       position: ""
@@ -198,13 +198,13 @@ aboutBlock2:
       title: Ricardo
       list:
         - question: Studie
-          answer: Geschiedenis
+          answer: Saucier - Student geschiedenis
       image: /img/afmetingen-site-fotos-ons-verhaal-11-.png
     - featured: false
       image: /img/whatsapp-image-2020-10-06-at-15.00.33.jpeg
       linkedIn: ""
       list:
-        - answer: Trainee bij De Nederlandsche Bank
+        - answer: Rôtisseur  - Trainee bij De Nederlandsche Bank
           question: Studie
       mail: ""
       position: ""
@@ -213,43 +213,43 @@ aboutBlock2:
       title: Jelle
       list:
         - question: Studie
-          answer: Student psychologie
+          answer: Saucier - Student psychologie
       image: /img//img/whatsapp-image-2021-03-04-at-16.50.04.jpeg
     - featured: false
       title: "Jasper "
       list:
         - question: Studie
-          answer: Eigenaar Studio Fantast
+          answer: Rôtisseur - Eigenaar Studio Fantast
       image: /img/whatsapp-image-2020-12-15-at-15.53.02.jpeg
     - featured: false
       title: Jordy
       list:
         - question: Studie
-          answer: Student Changemanagement
+          answer: Saucier - Student Changemanagement
       image: /img/whatsapp-image-2022-05-16-at-4.13.29-pm-1-.jpeg
     - featured: false
       title: Maaike
       list:
         - question: Functie
-          answer: "Student econometrie "
+          answer: "Saucier - Student econometrie "
       image: /img/untitled-design-5-.png
     - featured: false
       title: "Olle "
       list:
         - question: Functie
-          answer: "Eigenaar SÅR Apparel  en student marketing "
+          answer: "Rôtisseur - Eigenaar SÅR Apparel  en student marketing "
       image: /img/untitled-design-4-.png
     - featured: false
       title: Marloes
       list:
         - question: Studie
-          answer: Biologie en laboratorium onderzoeker en Student Social Work
+          answer: Saucier - Biologie en laboratorium onderzoeker en Student Social Work
       image: /img/afmetingen-site-fotos-ons-verhaal-1-.png
     - featured: false
       image: /img/afmetingen-site-fotos-ons-verhaal-5-.png
       linkedIn: ""
       list:
-        - answer: Student psychologie
+        - answer: Saucier - Student psychologie
           question: Studie
       mail: ""
       position: ""
@@ -260,6 +260,6 @@ aboutBlock2:
       position: ""
       list:
         - question: Functie
-          answer: Ontspanningsmanagement
+          answer: Casserolier - Ontspanningsmanagement
   title: Het LEF team
 ---
