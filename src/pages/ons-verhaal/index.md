@@ -138,13 +138,13 @@ aboutBlock2:
       title: Lars
       list:
         - question: Studie
-          answer: Saucier - Student geschiedenis
+          answer: Saucier - Student Geschiedenis
       image: /img/afmetingen-site-fotos-ons-verhaal-6-.png
     - featured: false
       title: Daniek
       list:
         - question: functie
-          answer: Saucier - Student geneeskunde
+          answer: Saucier - Student Geneeskunde
       image: /img/untitled-design-3-.png
     - featured: false
       image: /img/whatsapp-image-2022-07-21-at-11.49.12-am-1-.jpeg
@@ -159,13 +159,13 @@ aboutBlock2:
       title: Andrea
       list:
         - question: Studie
-          answer: Saucier - Grafisch vormgever en student psychologie
+          answer: Saucier - Grafisch vormgever en Student Psychologie
       image: /img/whatsapp-image-2021-02-16-at-16.52.26-1-.jpeg
     - featured: false
       image: /img/afmetingen-site-fotos-ons-verhaal-13-.png
       linkedIn: ""
       list:
-        - answer: Saucier - Student psychologie
+        - answer: Saucier - Student Psychologie
           question: Studie
       mail: ""
       position: ""
@@ -198,7 +198,7 @@ aboutBlock2:
       title: Ricardo
       list:
         - question: Studie
-          answer: Saucier - Student geschiedenis
+          answer: Saucier - Student Geschiedenis
       image: /img/afmetingen-site-fotos-ons-verhaal-11-.png
     - featured: false
       image: /img/whatsapp-image-2020-10-06-at-15.00.33.jpeg
@@ -213,7 +213,7 @@ aboutBlock2:
       title: Jelle
       list:
         - question: Studie
-          answer: Saucier - Student psychologie
+          answer: Saucier - Student Psychologie
       image: /img//img/whatsapp-image-2021-03-04-at-16.50.04.jpeg
     - featured: false
       title: "Jasper "
@@ -231,25 +231,25 @@ aboutBlock2:
       title: Maaike
       list:
         - question: Functie
-          answer: "Saucier - Student econometrie "
+          answer: "Saucier - Student Econometrie "
       image: /img/untitled-design-5-.png
     - featured: false
       title: "Olle "
       list:
         - question: Functie
-          answer: "Rôtisseur - Eigenaar SÅR Apparel  en student marketing "
+          answer: "Rôtisseur - Eigenaar SÅR Apparel  en Student Marketing "
       image: /img/untitled-design-4-.png
     - featured: false
       title: Marloes
       list:
         - question: Studie
-          answer: Saucier - Biologie en laboratorium onderzoeker en Student Social Work
+          answer: Saucier - Biologie en Laboratorium onderzoeker en Student Social Work
       image: /img/afmetingen-site-fotos-ons-verhaal-1-.png
     - featured: false
       image: /img/afmetingen-site-fotos-ons-verhaal-5-.png
       linkedIn: ""
       list:
-        - answer: Saucier - Student psychologie
+        - answer: Saucier - Student Psychologie
           question: Studie
       mail: ""
       position: ""
