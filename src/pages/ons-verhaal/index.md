@@ -88,6 +88,15 @@ aboutBlock2:
       mail: joline@lefgroningen.nl
       position: Sous-chef - projectleider energietransitie
     - featured: false
+      image: /img/whatsapp-image-2021-02-16-at-16.52.26.jpeg
+      linkedIn: ""
+      list:
+        - answer: Rôtisseur - Grafisch Ontwerper bij lisamaedevries
+          question: Studie
+      mail: ""
+      position: ""
+      title: Lisa-mae
+    - featured: false
       title: Lars Elthing
       list:
         - question: Studie
@@ -112,15 +121,6 @@ aboutBlock2:
       mail: ""
       position: ""
       title: Ward
-    - featured: false
-      image: /img/whatsapp-image-2021-02-16-at-16.52.26.jpeg
-      linkedIn: ""
-      list:
-        - answer: Rôtisseur - Grafisch Ontwerper bij lisamaedevries
-          question: Studie
-      mail: ""
-      position: ""
-      title: Lisa-mae
     - featured: false
       title: Eliane
       list:
