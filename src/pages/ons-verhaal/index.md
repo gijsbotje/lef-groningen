@@ -39,14 +39,14 @@ aboutBlock2:
     title: Heb jij LEF?
   persons:
     - featured: true
-      image: /img/d70358b1-f5e3-4612-a3c4-a230e64a3d7e-3.jpg
+      image: /img/img_8653.jpg
       linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
       list: []
       mail: thijs@lefgroningen.nl
       position: Chef - Founder LEF
       title: Thijs de Vries
     - featured: true
-      image: /img/47af2f9d-a552-420b-8786-430fffff9c72.jpg
+      image: /img/img_8652.jpg
       linkedIn: https://www.linkedin.com/in/teddy-monninkhof-77725372/
       list:
         - answer: "Jong, blond en óók nog vrouw: “dat zal wel niet veel zijn”. Onzin!
@@ -83,7 +83,7 @@ aboutBlock2:
             zeg altijd maar, het proces is ook een resultaat!  Geïnteresseerd?
             Bel mij!"
           question: Duurzaamheid. Je moet er wat mee.
-      image: /img/afmetingen-site-fotos-ons-verhaal.png
+      image: /img/img_8650.jpg
       linkedIn: https://www.linkedin.com/in/joline-teisman-778403a8/
       mail: joline@lefgroningen.nl
       position: Sous-chef - projectleider energietransitie
