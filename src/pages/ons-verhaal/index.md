@@ -39,13 +39,6 @@ aboutBlock2:
     title: Heb jij LEF?
   persons:
     - featured: true
-      image: /img/img_8653.jpg
-      linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
-      list: []
-      mail: thijs@lefgroningen.nl
-      position: Chef - Founder LEF
-      title: Thijs de Vries
-    - featured: true
       image: /img/img_8652.jpg
       linkedIn: https://www.linkedin.com/in/teddy-monninkhof-77725372/
       list:
@@ -67,6 +60,13 @@ aboutBlock2:
       mail: teddy@lefgroningen.nl
       position: Chef - Founder LEF
       title: Teddy Monninkhof
+    - featured: true
+      image: /img/img_8653.jpg
+      linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
+      list: []
+      mail: thijs@lefgroningen.nl
+      position: Chef - Founder LEF
+      title: Thijs de Vries
     - featured: true
       title: Joline Teisman
       list:
