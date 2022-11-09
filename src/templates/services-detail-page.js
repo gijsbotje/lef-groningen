@@ -30,7 +30,7 @@ export const ServicesDetailPageTemplate = ({ title, bannerImage, contentComponen
       <ColorBlock
         backgroundColor="yellow"
         showScrollDown
-        maxWidth="sm"
+        maxWidth="lg"
         backgroundImage={{ image: bannerImage, ...bannerImage }}
       >
         <Section>
