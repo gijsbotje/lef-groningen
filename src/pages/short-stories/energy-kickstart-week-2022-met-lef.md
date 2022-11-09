@@ -5,8 +5,7 @@ date: 2022-09-29T13:27:39.582Z
 description: Energy Kickstart Week 2022 met Lef!
 featuredpost: true
 featuredimage: /img/whatsapp-image-2022-09-15-at-18.28.33.jpeg
-tags:
-  - Story
+tags: []
 ---
 ## WAT EEN ENERGIE!
 

@@ -1,31 +1,21 @@
-import React, { useContext, useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
-import { graphql, Link } from 'gatsby';
-import Typography from '@material-ui/core/Typography';
-import Section from '../components/Section';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
-import ColorBlock from '../components/ColorBlock';
-import Box from '@material-ui/core/Box';
-import SiteContext from '../components/SiteContext';
-import Button from '@material-ui/core/Button';
-import { Helmet } from 'react-helmet';
-import styled from 'styled-components';
 import { Card, CardContent } from '@material-ui/core';
-import clsx from 'clsx';
-import Container from '../components/Container';
+import Box from '@material-ui/core/Box';
+import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import MuiLink from '@material-ui/core/Link';
-import Dialog from '@material-ui/core/Dialog';
-import DialogContent from '@material-ui/core/DialogContent';
 import SvgIcon from '@material-ui/core/SvgIcon';
-import Fab from '@material-ui/core/Fab';
-import CloseIcon from '@material-ui/icons/Close';
-import mdToHtml from '../utilities/mdToHtml';
-import Grow from '@material-ui/core/Grow';
-
-const Transition = React.forwardRef(function Transition(props, ref) {
-  return <Grow direction="up" ref={ref} {...props} />;
-});
+import Typography from '@material-ui/core/Typography';
+import clsx from 'clsx';
+import { graphql, Link, Link as RouterLink } from 'gatsby';
+import PropTypes from 'prop-types';
+import React, { useContext, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
+import styled from 'styled-components';
+import ColorBlock from '../components/ColorBlock';
+import Container from '../components/Container';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import Section from '../components/Section';
+import SiteContext from '../components/SiteContext';
 
 const ServicesPageLayout = styled.section`
   display: grid;
@@ -60,7 +50,6 @@ const ServicesPageLayout = styled.section`
 
 export const ServicesPageTemplate = ({ title, bannerImage, services, contact }) => {
   const { setNavbarSettings } = useContext(SiteContext);
-  const [showReadMore, setShowReadMore] = useState(null);
 
   useEffect(() => {
     setNavbarSettings({ scrolledColor: 'primary', textColor: 'dark' });
@@ -111,7 +100,8 @@ export const ServicesPageTemplate = ({ title, bannerImage, services, contact }) 
                   <Button
                     variant="outlined"
                     color="inherit"
-                    onClick={() => setShowReadMore(section.title)}
+                    component={RouterLink}
+                    to={section.content.readMoreLink}
                     size="large"
                   >
                     Meer lezen
@@ -198,24 +188,6 @@ export const ServicesPageTemplate = ({ title, bannerImage, services, contact }) 
                 </blockquote>
               </CardContent>
             </Card>
-            <Dialog
-              open={section.title === showReadMore}
-              onClose={() => setShowReadMore(null)}
-              fullWidth
-              maxWidth="sm"
-              TransitionComponent={Transition}
-            >
-              <DialogContent>
-                <Box position="absolute" top=".5rem" right=".5rem" color="#fff">
-                  <Fab onClick={() => setShowReadMore(null)} color="secondary" size="small">
-                    <CloseIcon />
-                  </Fab>
-                </Box>
-                <Typography variant="h4">{section.title}</Typography>
-                {/* eslint-disable-next-line react/no-danger */}
-                <div dangerouslySetInnerHTML={{ __html: mdToHtml(section.extraContent) }} />
-              </DialogContent>
-            </Dialog>
           </ServicesPageLayout>
         ))}
       </Container>
@@ -338,8 +310,8 @@ export const ServicesPageQuery = graphql`
         services {
           title
           content {
-            title
             text
+            readMoreLink
           }
           extraContent
           image1 {

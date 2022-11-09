@@ -5,16 +5,15 @@ date: 2020-03-29T12:30:00.708Z
 description: Betekenisvol ondernemerschap
 featuredpost: false
 featuredimage: /img/teddy-betekeniseconomie.jpg
-tags:
-  - Story
+tags: []
 ---
 
 De 'betekeniseconomie' is een term die je te pas en te onpas om de oren vliegt. Zo ook
 afgelopen week tijdens de masterclass Innovatief Organiseren van Kees Klomp en Engbert
 Breuker. Als kersverse ondernemer was ik natuurlijk getriggerd: zou ik dit kunnen toepassen
 binnen ons nieuwe bedrijf? Maar toch ook een beetje sceptisch, want in mijn ééntje kan ik de
-wereld toch niet redden?  
- 
+wereld toch niet redden? 
+
 Meteen werd ik geconfronteerd met een duidelijke boodschap: we hebben allemaal
 geprofiteerd van bedrijven die onze welvaartseconomie hebben gecreëerd, maar we kunnen
 daar nu verandering in brengen. De betekeniseconomie gaat ons daarbij helpen. Een
@@ -25,7 +24,7 @@ de omgeving, maar dat we juist een positieve bijdrage kunnen leveren. Vanuit een
 paradigma lieten Kees en Engbert ons zien hoe dit onze business kan veranderen. Andere
 parameters, zoals gezondheid en geluk, worden net zo belangrijk als geld – óf misschien nog
 wel belangrijker.
- 
+
 Maar wat betekent dit dan voor mij en mijn onderneming? Moeten we allemaal het roer
 omgooien, fulltime wereldverbeteraars worden om van betekenis te kunnen zijn? Nee, want
 op mijn eigen manier ben ik óók van betekenis. Lef hebben om te doen waar je blij van wordt

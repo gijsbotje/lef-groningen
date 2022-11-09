@@ -5,8 +5,7 @@ date: 2022-01-06T11:39:45.676Z
 description: FIEEEEET!! De wedstrijd is begonnen!
 featuredpost: true
 featuredimage: /img/shortstories-template1.png
-tags:
-  - Story
+tags: []
 ---
 **FIEEEEET!! De wedstrijd is begonnen!** De trainingspakken kunnen uit, de groen-witte tenues aan: we zijn gestart met onze opdracht bij **FC Groningen!**\
 \

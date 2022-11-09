@@ -5,8 +5,7 @@ date: 2022-03-15T14:05:21.804Z
 description: LEF aan de slag met stagiair Conceptontwikkeling
 featuredpost: true
 featuredimage: /img/whatsapp-image-2022-03-15-at-3.26.11-pm.jpeg
-tags:
-  - Story
+tags: []
 ---
 Wat maakt jou nou echt gelukkig?” Die vraag kreeg ik tijdens mijn afgelopen Minor. Mmh. Goede vraag. Zo rolde ik de minor Concept Academy in. Voor ik het wist was het semester alweer voorbij en had ik mij van 3D-Artist omgeschoold tot conceptontwikkelaar. 
 

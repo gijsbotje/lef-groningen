@@ -5,8 +5,7 @@ date: 2022-01-06T15:41:38.477Z
 description: Verduurzamen, maar hoe?
 featuredpost: true
 featuredimage: /img/shortstories-template.png
-tags:
-  - Story
+tags: []
 ---
 Verduurzamen, we weten dat het moet, maar hoe? Plannen worden gemaakt maar we vervallen direct weer in business as usual. Zonnepanelen plaatsen, elektrische bedrijfsauto's. Zo ver komen we nog wel, maar duurzaamheid is meer dan dat. \
 \

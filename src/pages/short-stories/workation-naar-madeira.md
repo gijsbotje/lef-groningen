@@ -5,8 +5,7 @@ date: 2022-07-22T12:18:16.538Z
 description: Workation naar Madeira
 featuredpost: true
 featuredimage: /img/whatsapp-image-2022-07-25-at-11.23.26-am.jpeg
-tags:
-  - Story
+tags: []
 ---
 LEF gaat als een speer, het is zomer, alle seinen staan op groen. Maar er mist iets...\
 \

@@ -5,8 +5,7 @@ date: 2021-07-15T08:09:46.590Z
 description: Pure paniek! We waren te gast bij de podcast van Puur Publiek
 featuredpost: true
 featuredimage: /img/whatsapp-image-2021-07-15-at-10.09.42.jpeg
-tags:
-  - Story
+tags: []
 ---
 Pure paniek! We waren te gast bij de podcast van Puur Publiek!\
 \

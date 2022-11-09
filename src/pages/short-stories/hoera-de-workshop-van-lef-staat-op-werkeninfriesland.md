@@ -5,8 +5,7 @@ date: 2021-07-15T08:07:07.595Z
 description: Hoera! De workshop van LEF staat op WerkeninFriesland
 featuredpost: true
 featuredimage: /img/whatsapp-image-2021-07-12-at-17.17.40.jpeg
-tags:
-  - Story
+tags: []
 ---
 Hoera! De workshop van LEF staat op [\#WerkeninFriesland](https://www.linkedin.com/feed/hashtag/?keywords=werkeninfriesland&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6808677657891487744)! \
 \

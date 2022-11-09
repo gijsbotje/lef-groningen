@@ -5,8 +5,7 @@ date: 2021-03-04T15:35:28.405Z
 description: Een bak vol kerstgroeten van LEF!
 featuredpost: true
 featuredimage: /img/short-stories-afmetingen-1-.png
-tags:
-  - Story
+tags: []
 ---
 2020 was waarschijnlijk een van de meest rampzalige jaren om een nieuwe onderneming te beginnen. Toch hebben we het gedaan en zijn we als een raket uit de startblokken geschoten. Er is zoveel gebeurd in 12 maanden dat het haast lijkt alsof het 12 jaar was.\
 \

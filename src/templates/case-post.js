@@ -1,26 +1,27 @@
 import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Content, { HTMLContent } from '../components/Content/Content';
 import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
-import { navigate } from 'gatsby-link';
-import Chip from '@material-ui/core/Chip';
 import Section from '../components/Section';
 import ColorBlock from '../components/ColorBlock';
 import SiteContext from '../components/SiteContext';
+import Skrim from '../components/Skrim';
 
-export const CasePostTemplate = ({
-  content,
-  contentComponent,
-  tags,
-  title,
-  featuredimage,
-  helmet,
-}) => {
+export const CasePostTemplate = ({ content, contentComponent, title, featuredimage, helmet }) => {
   const PostContent = contentComponent || Content;
+
+  const { setNavbarSettings, setFooterSettings } = useContext(SiteContext);
+
+  useEffect(() => {
+    setNavbarSettings({ scrolledColor: 'primary', textColor: 'light' });
+    setFooterSettings({ color: 'info' });
+
+    return () => {
+      setFooterSettings({ color: 'secondary' });
+    };
+  }, []);
 
   return (
     <>
@@ -28,32 +29,32 @@ export const CasePostTemplate = ({
         backgroundColor="yellow"
         maxWidth="lg"
         id={title.toLowerCase().replace(/ /g, '-')}
-        backgroundImage={featuredimage?.childImageSharp?.fluid.src}
+        backgroundImage={featuredimage}
         minHeight="50vh"
+        fullHeight={false}
+        style={{ color: '#fff' }}
       >
+        <Skrim />
         <Section>
-          <Typography variant="h2" component="h2" gutterBottom align="center">
+          <Typography
+            variant="h3"
+            component="h1"
+            gutterBottom
+            align="center"
+            style={{ wordBreak: 'break-word' }}
+          >
             {title}
           </Typography>
         </Section>
       </ColorBlock>
-      <ColorBlock backgroundColor="white" maxWidth="lg" fullHeight={false}>
+      <ColorBlock
+        backgroundColor="white"
+        maxWidth="md"
+        fullHeight={false}
+        style={{ paddingTop: 0 }}
+      >
         {helmet || ''}
         <PostContent content={content} />
-        {tags && tags.length ? (
-          <div style={{ marginTop: `4rem` }}>
-            <Typography variant="subtitle1" component="div">
-              Tags
-            </Typography>
-            <Grid container spacing={1}>
-              {tags.map(tag => (
-                <Grid key={`${tag}tag`} item>
-                  <Chip label={tag} onClick={() => navigate(`/tags/${kebabCase(tag)}/`)} />
-                </Grid>
-              ))}
-            </Grid>
-          </div>
-        ) : null}
       </ColorBlock>
     </>
   );
@@ -65,14 +66,12 @@ CasePostTemplate.propTypes = {
   title: PropTypes.string,
   featuredimage: PropTypes.object,
   helmet: PropTypes.object,
-  tags: PropTypes.array,
 };
 CasePostTemplate.defaultProps = {
   contentComponent: undefined,
   title: '',
   featuredimage: undefined,
   helmet: undefined,
-  tags: [],
 };
 
 const CasePost = ({ data }) => {
@@ -80,7 +79,7 @@ const CasePost = ({ data }) => {
   const { setNavbarSettings } = useContext(SiteContext);
 
   useEffect(() => {
-    setNavbarSettings({ scrolledColor: 'paper', textColor: 'dark' });
+    setNavbarSettings({ scrolledColor: 'paper', textColor: 'light' });
   }, []);
 
   return (
@@ -89,7 +88,7 @@ const CasePost = ({ data }) => {
       contentComponent={HTMLContent}
       description={post.frontmatter.description}
       helmet={
-        <Helmet titleTemplate="%s | Blog">
+        <Helmet titleTemplate="%s | Lef Groningen">
           <title>{`${post.frontmatter.title}`}</title>
           <meta name="description" content={`${post.frontmatter.description}`} />
         </Helmet>
@@ -128,7 +127,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        tags
       }
     }
   }
