@@ -20,10 +20,10 @@ customerDisplay:
       url: https://www.goedewaagen.nl/
       name: DUO
       description: Hoe behoud je een 400 jaar oude traditie?
-    - image: /img/logo-template-7-.png
+    - image: /img/rfh-logo.png
       url: https://www.noorderpoort.nl/
-      name: " NPAL"
-      description: Welk scholingsaanbod past bij het onderwijs van de toekomst?
+      name: " Royal Flora Holland"
+      description: Medewerkerstevredenheid & denktank
     - image: /img/logo-template-9-.png
       url: https://www.arriva.nl/
       name: Arriva
