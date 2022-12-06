@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: "Case: Kostuumverhuur"
+title: Vernieuwing bij Kostuumverhuur
 date: 2020-12-23T09:32:18.567Z
 description: Kostuumverhuur heeft behoefte aan een nieuwe invulling voor de
   toekomst. Daarbij is de zichtbaarheid in de stad of regio een belangrijke
