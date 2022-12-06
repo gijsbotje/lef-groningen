@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: "Case: Arriva"
+title: Klantvalidatie bij Arriva
 date: 2020-12-23T09:31:52.959Z
 description: >
   Bedenk en implementeer ​​een nieuwe, toekomstbestendige service-oplossing voor
