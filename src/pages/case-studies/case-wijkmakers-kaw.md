@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: "Case: de Hoven "
+title: "Duurzame verandering bij de Hoven "
 date: 2022-01-12T11:16:53.653Z
 description: "Wat moeten we organiseren zodat onze medewerkers op een duurzame
   manier hun werk kunnen uitvoeren? "
