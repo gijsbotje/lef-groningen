@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: "Case: Werkplein Drentsche Aa"
+title: Medewerkerstevredenheid bij WPDA
 date: 2020-03-29T12:30:00.708Z
 description: Help ons met het in kaart brengen van de wensen en behoeften van
   onze groep gedetacheerde werknemers. Is er bij deze groep behoefte aan meer
