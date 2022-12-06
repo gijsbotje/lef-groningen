@@ -20,4 +20,4 @@ In slechts een week tijd hebben ze onder de doorgewinterde begeleiding van LEF i
 \
 De prijs voor het winnende idee werd uitgereikt door niemand minder dan Edson da Graca: ze mogen aan de bak met een ondernemerscoach en de Rabobank voor een mogelijke investering! \
 \
-Met dank aan Frans Verbaak, zijn top team van docenten en de betrokken ondernemers die de studenten deze uitdaging hebben kunnen bieden! #Start-up #pressurecooker #innovatie #Globalentrepreneurshipweek #mbo #lef #rotterdam #hackaton
+Met dank aan Frans Verbaak, zijn top team van docenten en de betrokken ondernemers die de studenten deze uitdaging hebben kunnen bieden!
