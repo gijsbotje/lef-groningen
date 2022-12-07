@@ -5,7 +5,7 @@ title: "Medewerkerstevredenheid: binding creëren met je medewerkers op een
 date: 2022-12-06T18:08:16.017Z
 description: Binding creëren met je medewerkers op een krappe arbeidsmarkt
 featuredpost: true
-featuredimage: /img/medewerkerstevredenheid.jpeg
+featuredimage: /img/medewerkerstevredenheid1.jpeg
 tags:
   - Story
 ---
