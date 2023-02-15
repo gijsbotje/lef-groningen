@@ -155,11 +155,11 @@ aboutBlock2:
           answer: Saucier - Student Geschiedenis
       image: /img/afmetingen-site-fotos-ons-verhaal-6-.png
     - featured: false
-      title: Daniek
+      title: Marjolein
       list:
         - question: functie
-          answer: Saucier - Student Geneeskunde
-      image: /img/untitled-design-3-.png
+          answer: Saucier - Student eventmanagement
+      image: /img/whatsapp-image-2023-02-15-at-21.17.25.jpeg
     - featured: false
       image: /img/whatsapp-image-2022-07-21-at-11.49.12-am-1-.jpeg
       linkedIn: ""
