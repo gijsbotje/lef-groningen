@@ -242,11 +242,11 @@ aboutBlock2:
           answer: Saucier - Student Changemanagement
       image: /img/whatsapp-image-2022-05-16-at-4.13.29-pm-1-.jpeg
     - featured: false
-      title: Maaike
+      title: Linde
       list:
         - question: Functie
-          answer: "Saucier - Student Econometrie "
-      image: /img/untitled-design-5-.png
+          answer: Saucier - Student Psychologie
+      image: /img/whatsapp-image-2023-02-15-at-21.14.15.jpeg
     - featured: false
       title: "Olle "
       list:
