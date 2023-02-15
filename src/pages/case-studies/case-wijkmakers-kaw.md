@@ -2,8 +2,8 @@
 templateKey: case-post
 title: "LEF brengt duurzaamheid naar de Zorg "
 date: 2022-01-12T11:16:53.653Z
-description: "Wat moeten we organiseren zodat onze medewerkers op een duurzame
-  manier hun werk kunnen uitvoeren? "
+description: "Wat voor innovatieve interventies kunnen we organiseren zodat onze
+  medewerkers op een duurzame manier hun werk kunnen uitvoeren? "
 featuredpost: true
 featuredimage: /img/whatsapp-image-2022-07-25-at-12.28.01-pm.jpeg
 tags:
