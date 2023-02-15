@@ -224,11 +224,11 @@ aboutBlock2:
       position: ""
       title: Eline
     - featured: false
-      title: Jelle
+      title: Celine
       list:
         - question: Studie
-          answer: Saucier - Student Psychologie
-      image: /img//img/whatsapp-image-2021-03-04-at-16.50.04.jpeg
+          answer: Rôtisseur - Verpleegkundige én aanjager Sociale Innovatie
+      image: /img/whatsapp-image-2023-02-15-at-21.12.12.jpeg
     - featured: false
       title: "Jasper "
       list:
