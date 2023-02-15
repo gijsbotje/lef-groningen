@@ -7,13 +7,16 @@ featuredpost: true
 featuredimage: /img/shortstories-template-3-.png
 tags: []
 ---
-Rotterdamse MBO ondernemers in SPÉ! Afgelopen week hebben we meer dan 100 studenten van twee MBO scholen - [Albeda mbo](https://www.linkedin.com/company/albedambo/) en [Hout- en Meubileringscollege](https://www.linkedin.com/company/hmc-hout-en-meubileringscollege/) - omgevormd tot echte ondernemers!
+## **O﻿ndernemersweek: hackaton in Rotterdam**
 
+**Rotterdamse MBO ondernemers in SPÉ!** Afgelopen week hebben we meer dan 100 studenten van twee MBO scholen -Albeda en het HMC -  omgevormd tot echte ondernemers in een pressurecooker.
 
-In slechts een week tijd hebben ze onder begeleiding van [LEF Groningen](https://www.linkedin.com/company/lefgroningen/) en [Pentascope](https://www.linkedin.com/company/pentascope/) ideeën bedacht voor het thema woningnood, deze uitgewerkt tot de meeste vette prototypes en ze vervolgens gepitched aan ondernemers en investeerders.
+Waarom organiseren we een ondernemersweek met deze ondernemers in spé? Als student leer je om samen te werken als een team en hoe het is om écht te denken en te handelen als ondernemer. Natuurlijk hoopt iedereen het gouden ei te vinden,  maar de focus ligt op de manier van werken en denken als ondernemers. Een jonge 'start-up sfeer' waar iedereen energie van krijgt. Interactieve, ervaringsgerichte werkvormen en onderwijsmethoden zijn hier onderdeel van.
 
-De plaatselijke Roffa-raps vlogen ons om de oren, maar wat een waanzinnig energieke week!! Onderschat deze boys en girls niet, dames en heren. Het niveau is ontzettend hoog en van de creativiteit kunt u nog wat leren.
+## W﻿oningnood
 
-De prijs voor het winnende idee werd uitgereikt door niemand minder dan [Edson da Graca](https://www.linkedin.com/in/ACoAAA81nr8BF09M9q4NQaLZj695g9SfrEMOKjI): ze mogen aan de bak met een ondernemerscoach en de Rabobank voor een mogelijke investering!
-
-Met dank aan [Frans Verbraak](https://www.linkedin.com/in/ACoAAA_iYuABsmJzu-5GpvBBIkCJn6pKkxD2P1g), zijn top team van docenten en de betrokken ondernemers die de studenten deze uitdaging hebben kunnen bieden! [\#startup](https://www.linkedin.com/feed/hashtag/?keywords=startup&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6864942556837396480) [\#innovatie](https://www.linkedin.com/feed/hashtag/?keywords=innovatie&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6864942556837396480) [\#GlobalEntrepreneurshipWeek](https://www.linkedin.com/feed/hashtag/?keywords=globalentrepreneurshipweek&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6864942556837396480) [\#mbo](https://www.linkedin.com/feed/hashtag/?keywords=mbo&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6864942556837396480) [\#lef](https://www.linkedin.com/feed/hashtag/?keywords=lef&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6864942556837396480) [\#Rotterdam](https://www.linkedin.com/feed/hashtag/?keywords=rotterdam&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6864942556837396480)
+In slechts een week tijd hebben ze onder de doorgewinterde begeleiding van LEF ideeën bedacht voor het thema woningnood, deze uitgewerkt tot de meeste vette prototypes en ze vervolgens gepitched aan ondernemers en investeerders. De plaatselijke Roffa-raps vlogen ons om de oren, maar wat een waanzinnig energieke week!! Onderschat deze boys en girls niet, dames en heren. Het niveau is ontzettend hoog en van de creativiteit kunt u nog wat leren.\
+\
+De prijs voor het winnende idee werd uitgereikt door niemand minder dan Edson da Graca: ze mogen aan de bak met een ondernemerscoach en de Rabobank voor een mogelijke investering! \
+\
+Met dank aan Frans Verbaak, zijn top team van docenten en de betrokken ondernemers die de studenten deze uitdaging hebben kunnen bieden!

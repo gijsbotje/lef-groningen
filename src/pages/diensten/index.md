@@ -84,10 +84,11 @@ services:
     image4: /img/whatsapp-image-2022-09-15-at-17.38.36.jpeg
     image5: /img/whatsapp-image-2022-07-21-at-12.09.21-pm.jpeg
     quote:
-      text: LEF heeft ons geholpen met concrete ideeën voor ons vraagstuk. Een fijne
-        club jonge mensen die met een frisse blik een geheel andere kijk geven
-        op vraagstukken en out-of-the-box durven te denken.
-      author: Ellen Stutterheim, Adviseur maatschappelijke thema's Lefier
+      text: LEF heeft bij ons de behoeften van de medewerkers in kaart gebracht
+        middels diverse focusgroep sessies.  Zowel onze medewerkers als wij als
+        management zijn zeer enthousiast over de gevoerde gesprekken en de
+        hierbij behorende resultaten/uitkomsten.
+      author: Tim Renkema, directeur Amysoft
   - extraContent: >-
       ## Hoe werkt het?
 

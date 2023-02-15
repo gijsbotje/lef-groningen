@@ -7,6 +7,7 @@ featuredpost: false
 featuredimage: /img/teddy-betekeniseconomie.jpg
 tags: []
 ---
+## B﻿etekeniseconomie
 
 De 'betekeniseconomie' is een term die je te pas en te onpas om de oren vliegt. Zo ook
 afgelopen week tijdens de masterclass Innovatief Organiseren van Kees Klomp en Engbert
@@ -24,6 +25,8 @@ de omgeving, maar dat we juist een positieve bijdrage kunnen leveren. Vanuit een
 paradigma lieten Kees en Engbert ons zien hoe dit onze business kan veranderen. Andere
 parameters, zoals gezondheid en geluk, worden net zo belangrijk als geld – óf misschien nog
 wel belangrijker.
+
+## B﻿etekenisvol ondernemerschap
 
 Maar wat betekent dit dan voor mij en mijn onderneming? Moeten we allemaal het roer
 omgooien, fulltime wereldverbeteraars worden om van betekenis te kunnen zijn? Nee, want
