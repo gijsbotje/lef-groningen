@@ -4,7 +4,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import { graphql, StaticQuery } from 'gatsby';
+import { graphql, Link, StaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import PreviewCompatibleImage from '../PreviewCompatibleImage/PreviewCompatibleImage';
@@ -19,7 +19,8 @@ const BlogRollGrid = ({ data, max, width }) => {
           <Grid key={post.id} item xs={12} sm={width}>
             <Card component="article" elevation={6} style={{ height: '100%' }}>
               <CardActionArea
-                href={post.fields.slug}
+                component={Link}
+                to={post.fields.slug}
                 style={{
                   display: 'flex',
                   height: '100%',
