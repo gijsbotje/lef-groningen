@@ -1,13 +1,15 @@
 ---
 templateKey: services-detail-page
+seo:
+  title: LEF Groningen - Implementatie
+  description: Een innovatietraject in een mum van tijd succesvol afronden is voor
+    ons geen probleem. En we heten LEF, dus we vinden het leuk om jou uit te
+    dagen om óók buiten de lijntjes te kleuren. Gezond voor iedereen!
 title: Implementatie
 description: Een innovatietraject in een mum van tijd succesvol afronden is voor
   ons geen probleem. En we heten LEF, dus we vinden het leuk om jou uit te dagen
   om óók buiten de lijntjes te kleuren. Gezond voor iedereen!
 bannerImage: /img/Schermafbeelding 2020-07-23 om 14.41.43.png
-examples:
-  - "Case: Arriva"
-  - "Case: de Hoven"
 ---
 ## Hoe werkt het?
 Uit fase 2 zijn briljante oplossingen gekomen voor een vraagstuk, je hebt zelf een goed idee of je hebt gewoon handen tekort: wat de uitdaging ook is, wij zetten jouw ambitie om naar realiteit. Dat doen we met ons team van young professionals, op een enthousiaste manier én met lef!

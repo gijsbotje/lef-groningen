@@ -1,9 +1,15 @@
 ---
 templateKey: blog-post
+seo:
+  title: NPAL Design Thinking workshop
+  description: LEF ging op bezoek bij Bilfinger Tebodin voor een workshop Design
+    Thinking aan de Young Professionals van Jong NPAL - een community van knappe
+    koppen uit de noordelijke industrie. Denk aan organisaties als Sweco, Avebe
+    en Stork die allen bijdragen aan dit kennis- en inspiratieplatform.
 title: NPAL Design Thinking workshop
 date: 2022-07-25T12:45:34.042Z
-description: LEF ging op bezoek bij Bilfinger Tebodin voor een workshop **Design
-  Thinking** aan de Young Professionals van Jong NPAL - een community van knappe
+description: LEF ging op bezoek bij Bilfinger Tebodin voor een workshop Design
+  Thinking aan de Young Professionals van Jong NPAL - een community van knappe
   koppen uit de noordelijke industrie. Denk aan organisaties als Sweco, Avebe en
   Stork die allen bijdragen aan dit kennis- en inspiratieplatform.
 featuredpost: true

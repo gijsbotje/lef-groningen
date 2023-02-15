@@ -16,6 +16,7 @@ import Container from '../components/Container';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import Section from '../components/Section';
 import SiteContext from '../components/SiteContext';
+import useSiteMetadata from '../components/SiteMetadata';
 
 const ServicesPageLayout = styled.section`
   display: grid;
@@ -48,7 +49,8 @@ const ServicesPageLayout = styled.section`
   }
 `;
 
-export const ServicesPageTemplate = ({ title, bannerImage, services, contact }) => {
+export const ServicesPageTemplate = ({ seo, slug, title, bannerImage, services, contact }) => {
+  const { siteUrl } = useSiteMetadata();
   const { setNavbarSettings } = useContext(SiteContext);
 
   useEffect(() => {
@@ -58,11 +60,9 @@ export const ServicesPageTemplate = ({ title, bannerImage, services, contact }) 
   return (
     <>
       <Helmet>
-        <title>LEF Groningen - Onze diensten</title>
-        <meta
-          name="description"
-          content="Wij dagen organisaties uit om te veranderen en te innoveren. Dit doen we op twee verschillende manieren. Als ideeënbrouwers, of als projectaanjagers."
-        />
+        <title>{seo?.title}</title>
+        <meta name="description" content={seo?.description} />
+        <link rel="canonical" href={`${siteUrl}${slug}`} />
       </Helmet>
       <ColorBlock
         backgroundColor="yellow"
@@ -79,7 +79,7 @@ export const ServicesPageTemplate = ({ title, bannerImage, services, contact }) 
 
       <Container maxWidth="lg" style={{ paddingBottom: 16 }}>
         {services.map((section, idx) => (
-          <ServicesPageLayout className={clsx({ mirrored: idx % 2 === 0 })}>
+          <ServicesPageLayout key={section.title} className={clsx({ mirrored: idx % 2 === 0 })}>
             <Card
               elevation={0}
               style={{
@@ -247,23 +247,32 @@ ServicesPageTemplate.propTypes = {
   bannerImage: PropTypes.object,
   services: PropTypes.array,
   contact: PropTypes.object,
+  seo: PropTypes.shape({
+    title: PropTypes.string,
+    description: PropTypes.string,
+  }),
+  slug: PropTypes.string,
 };
 
 ServicesPageTemplate.defaultProps = {
   bannerImage: undefined,
   services: [],
   contact: {},
+  slug: undefined,
+  seo: undefined,
 };
 
 const ServicesPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter, fields } = data.markdownRemark;
 
   return (
     <ServicesPageTemplate
+      seo={frontmatter.seo}
       title={frontmatter.title}
       bannerImage={frontmatter.bannerImage}
       services={frontmatter.services}
       contact={frontmatter.contact}
+      slug={fields.slug}
     />
   );
 };
@@ -272,6 +281,9 @@ ServicesPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
+      fields: PropTypes.shape({
+        slug: PropTypes.string,
+      }),
     }),
   }),
 };
@@ -280,6 +292,7 @@ ServicesPage.defaultProps = {
   data: {
     markdownRemark: {
       frontmatter: {},
+      fields: {},
     },
   },
 };
@@ -289,8 +302,15 @@ export default ServicesPage;
 export const ServicesPageQuery = graphql`
   query ServicesPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "services-page" } }) {
+      fields {
+        slug
+      }
       frontmatter {
         title
+        seo {
+          title
+          description
+        }
         bannerImage {
           childImageSharp {
             fluid(maxWidth: 1920, quality: 90) {

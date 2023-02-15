@@ -7,8 +7,10 @@ import ColorBlock from '../components/ColorBlock';
 import SiteContext from '../components/SiteContext';
 import BlogRoll from '../components/BlogRoll/BlogRoll';
 import { Helmet } from 'react-helmet';
+import useSiteMetadata from '../components/SiteMetadata';
 
-export const ShortStoriesTemplate = ({ title, background }) => {
+export const ShortStoriesTemplate = ({ seo, slug, title, background }) => {
+  const { siteUrl } = useSiteMetadata();
   const { setNavbarSettings, setFooterSettings } = useContext(SiteContext);
 
   useEffect(() => {
@@ -23,11 +25,9 @@ export const ShortStoriesTemplate = ({ title, background }) => {
   return (
     <>
       <Helmet>
-        <title>LEF Groningen - Short stories over projecten en samenwerkingen</title>
-        <meta
-          name="description"
-          content="Korte verhalen over onze projecten en samenwerkingen met verschillende bedrijven. Benieuwd wat we voor jou kunnen bedenken? Neem contact op."
-        />
+        <title>{seo?.title}</title>
+        <meta name="description" content={seo?.description} />
+        <link rel="canonical" href={`${siteUrl}${slug}`} />
       </Helmet>
       <ColorBlock
         backgroundColor="blue"
@@ -49,17 +49,30 @@ export const ShortStoriesTemplate = ({ title, background }) => {
 
 ShortStoriesTemplate.propTypes = {
   title: PropTypes.string,
+  seo: PropTypes.shape({
+    title: PropTypes.string,
+    description: PropTypes.string,
+  }),
+  slug: PropTypes.string,
   background: PropTypes.object,
 };
 ShortStoriesTemplate.defaultProps = {
   title: undefined,
+  seo: undefined,
+  slug: undefined,
   background: undefined,
 };
 
 const ShortStoriesPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter, fields } = data.markdownRemark;
 
-  return <ShortStoriesTemplate title={frontmatter.title} background={frontmatter.background} />;
+  return (
+    <ShortStoriesTemplate
+      title={frontmatter.title}
+      background={frontmatter.background}
+      slug={fields.slug}
+    />
+  );
 };
 
 ShortStoriesPage.propTypes = {
@@ -77,8 +90,15 @@ export default ShortStoriesPage;
 export const ShortStoriesQuery = graphql`
   query ShortStoriesQuery {
     markdownRemark(frontmatter: { templateKey: { eq: "short-stories-page" } }) {
+      fields {
+        slug
+      }
       frontmatter {
         title
+        seo {
+          title
+          description
+        }
         background {
           childImageSharp {
             fluid(maxWidth: 1920, quality: 90) {

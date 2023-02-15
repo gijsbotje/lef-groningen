@@ -20,6 +20,7 @@ const CaseRollGrid = ({ data, max, width }) => {
             <Card component="article" elevation={0} style={{ height: '100%' }}>
               <CardActionArea
                 component={NavLink}
+                title={post.frontmatter.title}
                 to={post.fields.slug}
                 style={{
                   display: 'flex',

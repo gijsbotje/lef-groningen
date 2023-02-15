@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Section from '../components/Section';
 import ColorBlock from '../components/ColorBlock';
 import SiteContext from '../components/SiteContext';
+import useSiteMetadata from '../components/SiteMetadata';
 import Skrim from '../components/Skrim';
 
 export const CasePostTemplate = ({ content, contentComponent, title, featuredimage, helmet }) => {
@@ -75,7 +76,9 @@ CasePostTemplate.defaultProps = {
 };
 
 const CasePost = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { siteUrl } = useSiteMetadata();
+  const { markdownRemark } = data || {};
+  const { frontmatter, html, fields } = markdownRemark || {};
   const { setNavbarSettings } = useContext(SiteContext);
 
   useEffect(() => {
@@ -84,18 +87,27 @@ const CasePost = ({ data }) => {
 
   return (
     <CasePostTemplate
-      content={post.html}
+      content={html}
+      slug={fields.slug}
+      seo={{
+        ...frontmatter.seo,
+        description: frontmatter?.seo?.description || frontmatter.description,
+      }}
       contentComponent={HTMLContent}
-      description={post.frontmatter.description}
+      description={frontmatter.description}
       helmet={
         <Helmet titleTemplate="%s | Lef Groningen">
-          <title>{`${post.frontmatter.title}`}</title>
-          <meta name="description" content={`${post.frontmatter.description}`} />
+          <title>{`${frontmatter?.seo?.title || frontmatter.title}`}</title>
+          <meta
+            name="description"
+            content={`${frontmatter?.seo?.description || frontmatter.description}`}
+          />
+          <link rel="canonical" href={`${siteUrl}${fields.slug}`} />
         </Helmet>
       }
-      tags={post.frontmatter.tags}
-      title={post.frontmatter.title}
-      featuredimage={post.frontmatter.featuredimage}
+      tags={frontmatter.tags}
+      title={frontmatter.title}
+      featuredimage={frontmatter.featuredimage}
     />
   );
 };
@@ -117,9 +129,18 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
+
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        description
+        seo {
+          title
+          description
+        }
         featuredimage {
           childImageSharp {
             fluid(maxHeight: 800, maxWidth: 1600, quality: 100) {

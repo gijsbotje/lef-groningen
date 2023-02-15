@@ -18,6 +18,7 @@ import BrandsGrid from '../components/BrandsGrid';
 import CaseRoll from '../components/CaseRoll';
 import Quote from '../components/Quote/Quote';
 import BlockRoll from '../components/BlockRoll';
+import useSiteMetadata from '../components/SiteMetadata';
 
 const bgColor = 'white';
 
@@ -28,7 +29,9 @@ export const IndexPageTemplate = ({
   homeBlock3,
   homeBlock4,
   customerDisplay,
+  seo,
 }) => {
+  const { siteUrl } = useSiteMetadata();
   const { setNavbarSettings, setFooterSettings } = useContext(SiteContext);
 
   useEffect(() => {
@@ -43,11 +46,9 @@ export const IndexPageTemplate = ({
   return (
     <>
       <Helmet>
-        <title>LEF Groningen - Durf jij het aan om te werken met LEF?</title>
-        <meta
-          name="description"
-          content="Om te vernieuwen moet je lef hebben. Wij zijn LEF, een team van twintigers met bravoure en een scherpe blik. Door te confronteren en te verrassen dagen wij organisaties uit om te innoveren en te veranderen."
-        />
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
+        <link rel="canonical" href={siteUrl} />
       </Helmet>
       <Typography variant="h1" hidden>
         {title}
@@ -176,6 +177,10 @@ IndexPageTemplate.propTypes = {
   homeBlock3: PropTypes.object,
   homeBlock4: PropTypes.object,
   customerDisplay: PropTypes.object,
+  seo: PropTypes.shape({
+    title: PropTypes.string,
+    description: PropTypes.string,
+  }),
 };
 
 IndexPageTemplate.defaultProps = {
@@ -185,10 +190,12 @@ IndexPageTemplate.defaultProps = {
   homeBlock3: {},
   homeBlock4: {},
   customerDisplay: {},
+  seo: undefined,
 };
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { markdownRemark } = data || {};
+  const { frontmatter } = markdownRemark || {};
 
   return (
     <IndexPageTemplate
@@ -198,6 +205,7 @@ const IndexPage = ({ data }) => {
       homeBlock3={frontmatter.homeBlock3}
       homeBlock4={frontmatter.homeBlock4}
       customerDisplay={frontmatter.customerDisplay}
+      seo={frontmatter.seo}
     />
   );
 };
@@ -224,6 +232,10 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
+        seo {
+          title
+          description
+        }
         homeBlock1 {
           title
           text

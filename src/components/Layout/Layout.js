@@ -57,7 +57,6 @@ const TemplateWrapper = ({ children }) => {
         <meta name="theme-color" content="#fff" />
 
         <script type="application/ld+json">{`
-          [
             {
               "@context": "http://schema.org",
               "@type": "Organization",
@@ -68,15 +67,34 @@ const TemplateWrapper = ({ children }) => {
                 "https://www.facebook.com/lefgroningen.nl/",
                 "https://www.instagram.com/lefgroningen/",
                 "https://www.linkedin.com/company/lefgroningen/"
-                ]
-            },
-            , {
-                "@context": "http://schema.org",
-                "@type": "WebSite",
-                "name": "lefgroningen.nl",
-                "url": "https://www.lefgroningen.nl/",
+                ],
+              "contactPoint": [
+                  {
+                      "@type": "ContactPoint",
+                      "telephone": "info@lefgroningen.nl",
+                      "email": "info@lefgroningen.nl",
+                      "contactType": "customer service",
+                      "areaServed": "NL",
+                      "availableLanguage": ["Dutch"]
+                  }
+              ],
+              "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Bornholmstraat 46",
+                  "addressLocality": "Groningen",
+                  "addressRegion": "GR",
+                  "postalCode": "9723 AZ",
+                  "addressCountry": "NL"
               }
-          ]
+            }
+        `}</script>
+        <script type="application/ld+json">{`
+            {
+              "@context": "http://schema.org",
+              "@type": "WebSite",
+              "name": "lefgroningen.nl",
+              "url": "https://www.lefgroningen.nl/"
+            }
         `}</script>
 
         <meta property="og:type" content="business.business" />

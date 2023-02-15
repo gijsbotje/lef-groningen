@@ -1,14 +1,17 @@
 ---
 templateKey: services-detail-page
+seo:
+  description: De Ideeënbrouwerij is een creatieve energiebom waarin tot een
+    innovatieve oplossing komen voor een vraagstuk. Het kan een vervolg zijn van
+    de opgehaalde informatie uit het doelgroeponderzoek in fase 1 óf een nieuw
+    vraagstuk.
+  title: LEF Groningen - Ideeënbrouwerij
 title: Ideeënbrouwerij
 description: De Ideeënbrouwerij is een creatieve energiebom waarin tot een
   innovatieve oplossing komen voor een vraagstuk. Het kan een vervolg zijn van
   de opgehaalde informatie uit het doelgroeponderzoek in fase 1 óf een nieuw
   vraagstuk.
 bannerImage: /img/photo-of-sticky-notes-and-colored-pens-scrambled-on-table-632470.jpg
-examples:
-  - "Case: de Hoven"
-  - "Case: Werkplein Drentsche Aa"
 ---
 ## Hoe werkt het?
 

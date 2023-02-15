@@ -1,13 +1,15 @@
 ---
 templateKey: services-detail-page
+seo:
+  description: >-
+    Wij brengen de behoeften van jouw doelgroep in kaart aan de hand van
+      kwalitatief doelgroeponderzoek, door middel van focusgroepen en co-creatie.
+  title: LEF Groningen - Doelgroepenonderzoek
 title: Doelgroepenonderzoek
 description: |-
   Wij brengen de behoeften van jouw doelgroep in kaart aan de hand van
   kwalitatief doelgroeponderzoek, door middel van focusgroepen en co-creatie.
 bannerImage: /img/ux-indonesia-w00fke6e8ze-unsplash.jpg
-examples:
-  - "Case: Arriva || arriva || "
-  - "Case: Kostuumverhuur || kostuumverhuur || "
 ---
 ## Hoe werkt het?
 

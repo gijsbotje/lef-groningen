@@ -86,8 +86,18 @@ exports.createPages = ({ actions, graphql }) => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
-
-    const posts = result.data.allMarkdownRemark.edges;
+    const allowedTypes = [
+      'case-post',
+      'blog-post',
+      'index-page',
+      'short-stories-page',
+      'services-detail-page',
+      'services-page',
+      'about-page',
+    ];
+    const posts = result.data.allMarkdownRemark.edges.filter(edge =>
+      allowedTypes.includes(edge.node.frontmatter.templateKey),
+    );
 
     posts.forEach(edge => {
       const { id } = edge.node;

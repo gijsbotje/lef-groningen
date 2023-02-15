@@ -9,8 +9,17 @@ import Container from '../components/Container';
 import Content, { HTMLContent } from '../components/Content/Content';
 import Section from '../components/Section';
 import SiteContext from '../components/SiteContext';
+import useSiteMetadata from '../components/SiteMetadata';
 
-export const ServicesDetailPageTemplate = ({ title, bannerImage, contentComponent, content }) => {
+export const ServicesDetailPageTemplate = ({
+  title,
+  seo,
+  slug,
+  bannerImage,
+  contentComponent,
+  content,
+}) => {
+  const { siteUrl } = useSiteMetadata();
   const { setNavbarSettings } = useContext(SiteContext);
   const PageContent = contentComponent || Content;
 
@@ -21,11 +30,9 @@ export const ServicesDetailPageTemplate = ({ title, bannerImage, contentComponen
   return (
     <>
       <Helmet>
-        <title>LEF Groningen - Onze diensten</title>
-        <meta
-          name="description"
-          content="Wij dagen organisaties uit om te veranderen en te innoveren. Dit doen we op twee verschillende manieren. Als ideeënbrouwers, of als projectaanjagers."
-        />
+        <title>{seo?.title}</title>
+        <meta name="description" content={seo?.description} />
+        <link rel="canonical" href={`${siteUrl}${slug}`} />
       </Helmet>
       <ColorBlock
         backgroundColor="yellow"
@@ -41,12 +48,9 @@ export const ServicesDetailPageTemplate = ({ title, bannerImage, contentComponen
       </ColorBlock>
 
       <Container maxWidth="lg">
-        <Grid container spacing={4}>
+        <Grid container spacing={4} justify="center">
           <Grid item xs={12} md={7}>
             <PageContent content={content} />
-          </Grid>
-          <Grid item xs={12} md={5} lg={4}>
-            voorbeelden
           </Grid>
         </Grid>
       </Container>
@@ -55,6 +59,11 @@ export const ServicesDetailPageTemplate = ({ title, bannerImage, contentComponen
 };
 
 ServicesDetailPageTemplate.propTypes = {
+  seo: PropTypes.shape({
+    title: PropTypes.string,
+    description: PropTypes.string,
+  }),
+  slug: PropTypes.string,
   title: PropTypes.string.isRequired,
   bannerImage: PropTypes.object,
   content: PropTypes.node.isRequired,
@@ -64,13 +73,17 @@ ServicesDetailPageTemplate.propTypes = {
 ServicesDetailPageTemplate.defaultProps = {
   bannerImage: undefined,
   contentComponent: undefined,
+  seo: undefined,
+  slug: undefined,
 };
 
 const ServicesDetailPage = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark;
+  const { frontmatter, fields, html } = data.markdownRemark;
 
   return (
     <ServicesDetailPageTemplate
+      seo={frontmatter?.seo}
+      slug={fields?.slug}
       content={html}
       contentComponent={HTMLContent}
       title={frontmatter.title}
@@ -85,6 +98,9 @@ ServicesDetailPage.propTypes = {
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
       html: PropTypes.string,
+      fields: PropTypes.shape({
+        slug: PropTypes.string,
+      }),
     }),
   }),
 };
@@ -92,6 +108,7 @@ ServicesDetailPage.propTypes = {
 ServicesDetailPage.defaultProps = {
   data: {
     markdownRemark: {
+      fields: {},
       frontmatter: {},
     },
   },
@@ -103,6 +120,9 @@ export const ServicesDetailPageQuery = graphql`
   query ServicesDetailPageTemplate($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         bannerImage {
