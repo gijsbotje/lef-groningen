@@ -1,8 +1,8 @@
 ---
 templateKey: case-post
-title: Royal Flora Holland verbetert medewerkerstevredenheid
+title: Royal FloraHolland verbetert medewerkerstevredenheid
 date: 2020-03-29T12:30:00.708Z
-description: Royal Flora Holland verbetert medewerkerstevredenheid
+description: Royal FloraHolland verbetert medewerkerstevredenheid
 featuredpost: true
 featuredimage: /img/whatsapp-image-2023-02-15-at-19.15.08.jpeg
 tags:
