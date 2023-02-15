@@ -107,11 +107,11 @@ aboutBlock2:
       position: Commis de cuisine - Stagiaire Innovatie & Communicatie
       image: /img/whatsapp-image-2022-10-05-at-14.56.43.jpeg
     - featured: false
-      title: Juul
+      title: Willemien
       list:
         - question: Studie
-          answer: Saucier - Student Kunstacademie
-      image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
+          answer: Rôtisseur - Designer
+      image: /img/whatsapp-image-2023-02-15-at-21.12.58.jpeg
     - featured: false
       image: /img/whatsapp-image-2021-05-18-at-12.02.57.jpeg
       linkedIn: ""
