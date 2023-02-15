@@ -140,14 +140,14 @@ aboutBlock2:
         - question: Studie
           answer: Saucier - Student Marketing Analytics and Data Science
     - featured: false
-      image: /img/afmetingen-site-fotos-ons-verhaal-12-.png
+      image: /img/whatsapp-image-2023-02-15-at-21.14.25.jpeg
       linkedIn: ""
       list:
-        - answer: Saucier - Student Sociologie
+        - answer: Saucier - Student bedrijfskunde
           question: Studie
       mail: ""
       position: ""
-      title: Christian
+      title: Krijn
     - featured: false
       title: Lars
       list:
