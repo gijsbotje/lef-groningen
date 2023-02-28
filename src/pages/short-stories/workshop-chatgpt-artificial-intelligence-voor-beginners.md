@@ -8,7 +8,7 @@ featuredimage: /img/chatgpt.jpeg
 tags:
   - Story
 ---
-## **Workshop ChatGPT voor beginners** 
+## Artificial Intelligence
 
 \
 Beste aardbewoner,\
