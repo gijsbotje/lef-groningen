@@ -80,25 +80,34 @@ services:
         gebracht."'
       author: Arjan Schonewille, directievoorzitter Werkplein Drentsche Aa
   - extraContent: >-
-      ## Hoe werkt het?
+      # Fase 2: innovatiefase
 
 
-      De Ideeënbrouwerij is een creatieve energiebom waarin tot een **innovatieve** **oplossing** komen voor een vraagstuk. Het kan een vervolg zijn van de opgehaalde informatie uit het doelgroeponderzoek in fase 1 óf een nieuw vraagstuk. 
+      ## Innovatiefase: Creëer baanbrekende concepten
 
 
-      Het unieke van deze werkwijze is dat we de denkkracht bundelen van een team van jong talent tussen de 18 en 35 jaar, allemaal met verschillende expertises en perspectieven. Niet geremd door ervaring – *out of the box* en buiten de vaste kaders. Dat is namelijk een stuk gemakkelijker als er nog geen *box* is om ín te denken. Erg belangrijk in een creatieve sprint. 
+      De innovatiefase richt zich op het genereren van baanbrekende concepten die aansluiten bij de behoeften en wensen van jouw doelgroep. Samen met onze opdrachtgevers maken we optimaal gebruik van de expertise binnen hun organisatie. Onze unieke aanpak combineert die kennis met de denkkracht van getalenteerde jongeren tussen de 18 en 35 jaar, afkomstig uit diverse vakgebieden en met verschillende perspectieven. Of het nu gaat om jonge ondernemers, professionals of studenten, onze innovatieve denktank garandeert dat we out-of-the-box denken en creatieve sprints mogelijk maken.
 
 
-      In een aantal creatieve sprints brainstormen we los van de opdrachtgever om een frisse blik te kunnen behouden, maar ook samen, om de ervaring vanuit de organisatie te mixen met ons team.
+      ## Design Thinking: Hét creatieve proces voor probleemoplossing
 
 
-      ## Wat levert het op?
+      Ons proces is gebaseerd op design thinking, een creatieve en gestructureerde methode gericht op het oplossen van complexe problemen en het ontwikkelen van innovatieve oplossingen. Design thinking benadrukt empathie, experimenteren en iteratie, wat resulteert in effectieve en duurzame oplossingen. Deze methode streeft naar een diepgaand begrip van de eindgebruiker en vormt de basis voor de innovatiefase, waarin we talloze ideeën genereren door middel van brainstormsessies, mindmapping en andere creatieve technieken. We betrekken jou als opdrachtgever in dit proces, zodat we de ervaring en frisheid van beide teams combineren. 
 
 
-      Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een strategie, een sterke businesscase of een vernieuwend product. En daarbij een gratis bak vol inspiratie. Samen met de opdrachtgever maken we een actieplan voor de implementatie in fase 3.
+      ## Strategie en implementatie: Praktische resultaten en groei
 
 
-      Wil jij je organisatie weer laten bruisen? Teddy drinkt het liefst bubbeltjeswater met een schijfje citroen: **teddy@lefgroningen.nl** of **06-522 51 395**
+      Onze uiteindelijke concepten leiden tot praktische resultaten, zoals een effectieve marktstrategie, een oplossing voor personeelsverloop of een innovatief product. Ons team biedt een overvloed aan inspiratie en praktische resultaten. Samen met jou werken we aan een actieplan voor fase 3, waarbij implementatie centraal staat. We onderzoeken de beste manieren om de oplossing te implementeren, betrekken medewerkers en producteigenaren, en testen of het bedachte concept het gewenste resultaat oplevert.
+
+
+      ## Creatieve Sprint: Til jouw organisatie naar een hoger niveau
+
+
+      Ben je op zoek naar een creatieve sprint om jouw organisatie naar een hoger niveau te tillen? Dan is de innovatiefase dé perfecte oplossing! Ons team van experts staat klaar om jouw organisatie te laten groeien met een inspirerend traject en tal van innovatieve ideeën en oplossingen. Neem vandaag nog contact met ons op om te ontdekken hoe we jouw organisatie kunnen helpen de volgende stap te zetten.
+
+
+      Neem contact op voor meer informatie: bel Teddy op 06-522 51 395 of mail haar op teddy@lefgroningen.nl
     image1: /img/whatsapp-image-2021-12-03-at-14.03.43-1-.jpeg
     image2: /img/gemeente-groningen-talent-x-werkgevers-2-.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
