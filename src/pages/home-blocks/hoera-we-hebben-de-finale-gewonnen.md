@@ -1,6 +1,6 @@
 ---
 templateKey: home-block-post
-title: 2. Ideeënbrouwerij
+title: 2. Innovatiefase
 date: 2020-11-20T09:26:40.816Z
 description: Out of the Box denken? Voor onze groep is dat een eitje! Wij
   gebruiken de verfrissende creativiteit en andere perspectieven van jong talent
