@@ -80,9 +80,6 @@ services:
         gebracht."'
       author: Arjan Schonewille, directievoorzitter Werkplein Drentsche Aa
   - extraContent: >-
-      # Fase 2: innovatiefase
-
-
       ## Innovatiefase: Creëer baanbrekende concepten
 
 
@@ -111,7 +108,7 @@ services:
     image1: /img/whatsapp-image-2021-12-03-at-14.03.43-1-.jpeg
     image2: /img/gemeente-groningen-talent-x-werkgevers-2-.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
-    title: "Fase 2: Ideeënbrouwerij"
+    title: "Fase 2: Innovatiefase"
     content:
       title: Why
       text: Onervarenheid betekent dat je nog geen kaders hebt om in te denken. Wij
