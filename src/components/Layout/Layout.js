@@ -1,6 +1,7 @@
+import { Link } from '@material-ui/core';
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { withPrefix } from 'gatsby';
+import { withPrefix, Link as GatsbyLink } from 'gatsby';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import { Helmet } from 'react-helmet';
@@ -117,16 +118,31 @@ const TemplateWrapper = ({ children }) => {
           message="Wij gebruiken cookies om te analyseren of onze site goed werkt.
           Kies 'Weigeren' als je liever niet hebt dat er data wordt verzameld over je bezoek."
           action={
-            <Grid container spacing={1}>
+            <Grid container spacing={1} alignItems="center">
               <Grid item>
-                <Button color="secondary" size="small" onClick={handleCookieConsent(false)}>
+                <Link
+                  as={GatsbyLink}
+                  href="/privacy-verklaring"
+                  color="secondary"
+                  style={{ marginRight: 24 }}
+                >
+                  Lees meer
+                </Link>
+              </Grid>
+              <Grid item>
+                <Button
+                  color="secondary"
+                  variant="outlined"
+                  size="small"
+                  onClick={handleCookieConsent(false)}
+                >
                   Weigeren
                 </Button>
               </Grid>
               <Grid item>
                 <Button
                   color="secondary"
-                  variant="outlined"
+                  variant="contained"
                   size="small"
                   onClick={handleCookieConsent(true)}
                 >
