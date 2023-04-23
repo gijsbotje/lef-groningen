@@ -2,11 +2,9 @@
 templateKey: case-post
 title: Royal FloraHolland verbetert medewerkerstevredenheid
 date: 2020-03-29T12:30:00.708Z
-description: Door middel van kwalitatief onderzoek halen we waardevolle
-  resultaten op over onderwerpen zoals bedrijfsimago, werkbeleving en
-  collegialiteit vanuit het perspectief van de werknemers. Resultaten waar je
-  als werkgever heel wat aan hebt in deze huidige krappe arbeidsmarkt - al
-  zeggen we het zelf!
+description: "Onderwerpen zoals bedrijfsimago, werkbeleving en collegialiteit
+  vanuit het perspectief van de werknemers komen allemaal ter sprake.
+  Waardevolle resultaten in deze huidige krappe arbeidsmarkt. "
 featuredpost: true
 featuredimage: /img/whatsapp-image-2023-02-15-at-19.15.08.jpeg
 tags: []

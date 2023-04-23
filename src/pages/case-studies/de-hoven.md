@@ -8,9 +8,7 @@ featuredpost: true
 featuredimage: /img/whatsapp-image-2022-07-25-at-12.28.01-pm.jpeg
 tags: []
 ---
-## Organisatieverandering: de Hoven - LEF brengt duurzaamheid naar de Zorg
-
-## Onder den Damse koffie
+## O﻿rganisatieverandering en Onder den Damse koffie
 
 LEF redt de wereld, dames en heren! En de wereld redden begint in Onder den Dam, met een bak Onder den Damse-koffie en een goed gesprek met onze vrienden van Zorginstelling De Hoven. Zorginstelling De Hoven, gevestigd in de provincie Groningen, is zich bewust van de immense duurzaamheidsuitdagingen in de zorg. De brandstofprijzen rijzen de pan uit en bijna iedere week verschijnt er een nieuw rapport waaruit blijkt dat we haast moeten maken met onze duurzaamheidsambities. Dus tsja, waar begin je nou als zorginstelling? Laadpalen, deelauto’s, zonnepanelen, afval scheiden? Allemaal goede acties. Om deze duurzaamheidsuitdagingen aan te gaan, heeft De Hoven gekozen voor de innovatieve LEF-methode, waarbij het betrekken van medewerkers een cruciale rol speelt.
 

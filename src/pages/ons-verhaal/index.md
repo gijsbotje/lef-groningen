@@ -112,11 +112,11 @@ aboutBlock2:
       position: Commis de cuisine - Stagiaire Innovatie & Communicatie
       image: /img/whatsapp-image-2022-10-05-at-14.56.43.jpeg
     - featured: false
-      title: Juul
+      title: Willemien
       list:
         - question: Studie
-          answer: Saucier - Student Kunstacademie
-      image: /img/whatsapp-image-2020-09-21-at-14.07.54.jpeg
+          answer: Rôtisseur - Designer
+      image: /img/whatsapp-image-2023-02-15-at-21.12.58.jpeg
     - featured: false
       image: /img/whatsapp-image-2021-05-18-at-12.02.57.jpeg
       linkedIn: ""
@@ -145,14 +145,14 @@ aboutBlock2:
         - question: Studie
           answer: Saucier - Student Marketing Analytics and Data Science
     - featured: false
-      image: /img/afmetingen-site-fotos-ons-verhaal-12-.png
+      image: /img/whatsapp-image-2023-02-15-at-21.14.25.jpeg
       linkedIn: ""
       list:
-        - answer: Saucier - Student Sociologie
+        - answer: Saucier - Student bedrijfskunde
           question: Studie
       mail: ""
       position: ""
-      title: Christian
+      title: Krijn
     - featured: false
       title: Lars
       list:
@@ -160,11 +160,11 @@ aboutBlock2:
           answer: Saucier - Student Geschiedenis
       image: /img/afmetingen-site-fotos-ons-verhaal-6-.png
     - featured: false
-      title: Daniek
+      title: Marjolein
       list:
         - question: functie
-          answer: Saucier - Student Geneeskunde
-      image: /img/untitled-design-3-.png
+          answer: Saucier - Student eventmanagement
+      image: /img/whatsapp-image-2023-02-15-at-21.17.25.jpeg
     - featured: false
       image: /img/whatsapp-image-2022-07-21-at-11.49.12-am-1-.jpeg
       linkedIn: ""
@@ -229,11 +229,11 @@ aboutBlock2:
       position: ""
       title: Eline
     - featured: false
-      title: Jelle
+      title: Celine
       list:
         - question: Studie
-          answer: Saucier - Student Psychologie
-      image: /img//img/whatsapp-image-2021-03-04-at-16.50.04.jpeg
+          answer: Rôtisseur - Verpleegkundige én aanjager Sociale Innovatie
+      image: /img/whatsapp-image-2023-02-15-at-21.12.12.jpeg
     - featured: false
       title: "Jasper "
       list:
@@ -247,11 +247,11 @@ aboutBlock2:
           answer: Saucier - Student Changemanagement
       image: /img/whatsapp-image-2022-05-16-at-4.13.29-pm-1-.jpeg
     - featured: false
-      title: Maaike
+      title: Linde
       list:
         - question: Functie
-          answer: "Saucier - Student Econometrie "
-      image: /img/untitled-design-5-.png
+          answer: Saucier - Student Psychologie
+      image: /img/whatsapp-image-2023-02-15-at-21.14.15.jpeg
     - featured: false
       title: "Olle "
       list:

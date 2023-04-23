@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: CHATGPT
+title: "Ontmoet de nieuwe aanwinst van LEF: Procesbegeleider Jasper Vondeling"
 date: 2023-02-14T11:15:05.669Z
 description: ChatGpt
 featuredpost: true
-featuredimage: /img/whatsapp-image-2023-02-14-at-12.06.56.jpeg
+featuredimage: /img/whatsapp-image-2023-02-28-at-10.36.21-1-.jpeg
 tags:
   - Story
 ---

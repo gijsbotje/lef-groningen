@@ -11,25 +11,60 @@ contact:
   image: /img/black-phone-white-bg.jpg
 services:
   - extraContent: >-
-      ## **Hoe werkt het?**
+      # Doelgroeponderzoek
 
 
-      Wij brengen de behoeften van jouw doelgroep in kaart aan de hand van **kwalitatief doelgroeponderzoek**, door middel van focusgroepen en co-creatie.
+
+      Wij merken vaak dat als organisaties een verandering doorvoeren, zij dit doen op basis aannames. Bijvoorbeeld over waarom medewerkers wel of niet vertrekken, wat je klant graag zou willen op gebied van service of wat de klant verwacht van je product of dienst. Maar weet mjij wel wat je medewerker wil? Of je klant? Heb je ze het ooit zelf gevraagd? Waarschijnlijk niet. En de kans dat je een eerlijk antwoord kreeg als je wél hebt gevraagd is klein. Dat kan een dure aanname zijn, want je wilt niet ná de implementatie erachter komen dat deze niet bleken kloppen. 
 
 
-      Waarom een focusgroepsessie? De interactie tussen de deelnemers levert extra waardevolle informatie op over hun ervaringen, frustraties en behoeften. Waar vragenlijsten en enquêtes een hoop platte data geven, zorgt een focusgroep voor een driedimensionaal beeld waarin de 'waarom' van een bepaalde zienswijze sterk naar voren komt. 
+      ## Design Thinking
 
 
-      ## **Wat levert het op?**
+
+      Daarom beginnen wij ons innovatietraject op basis van design Thinking in de eerste fase met kwalitatief doelgroeponderzoek. Dat wil zeggen, we gaan het gesprek aan met je doelgroep door middel van focusgroepen. Dat zijn vraaggesprekken met een groep deelnemers waarin deze vrijuit kunnen spreken en waarin zij de inspiratie en kennis van de groep gebruiken om achter hun eigen beweegredenen te komen: je herkent het verhaal van een ander (of juist niet) en formuleert je eigen overweging. In deze focusgroepsessies staat co-creatie centraal en zoeken we de verdieping op met de doelgroep. Maar welke doelgroep kan dit zijn?
 
 
-      Een kijkje in de leefwereld van je doelgroep. Of deze nou extern (de klant of afnemer), of intern (de medewerker) is, de belangrijkste vraag is wat de doelgroep nou écht wil. En waarom is dat hun behoefte? Maar ook, wat voor ideeën hebben ze zelf om hierin te voorzien?  
+      ## Intern: Binden en behouden van werknemers
 
 
-      Wij zorgen voor een duidelijk advies - in een LEF jasje - over wat er nodig is om de juiste veranderingen of verbeteringen in gang te zetten. Heb je daarvoor nog meer inspiratie nodig? Dan helpen we je graag in **Fase 2.**
+
+      Nou, dat kan een interne doelgroep zijn. Denk aan je medewerkers. Wij brengen de ideeën, wensen en behoeften van de medewerker in kaart. Wij willen te weten komen wat zij doen en waarom zij bepaalde keuzes maken. Bijvoorbeeld om inzicht te verkrijgen in hoe werknemers zich verbonden voelen met de werkgever en hoe je dit kunt verbeteren. Zo brengen we onderwerpen in kaart zoals bedrijfsimago, werkbeleving en collegialiteit vanuit het perspectief van de werknemers. Waardevolle inzichten in de huidige krappe arbeidsmarkt. 
 
 
-      Wil jij achter de *ins and outs* van je doelgroep komen? Bel Joline. Ze houdt van een extra sterke cappuccino en zegt geen nee tegen een chocoladekoekje: **joline@lefgroningen.nl** of **06-246 76 712**
+      ## Extern: klantvalidatie
+
+
+
+      De doelgroep kan echter ook extern zijn: je klant of gebruiker van je dienst. In dat geval doen we klantvalidatie. Wat vindt je klant of gebruiker van je huidige of toekomstige dienst, of hoe ervaren zij de service? Door kwalitatief onderzoek verzamelen we informatie over de specifieke behoeften, wensen, problemen, uitdagingen en gedragingen van hun klanten. Dit doen we door interviews en focusgroepen te organiseren met de specifieke doelgroep. Op deze manier krijg je optimaal inzicht in klantbehoeften. En het begrijpen van die klantbehoeften is essentieel om je product, dienst of marketing beter af te stemmen op die groep. 
+
+
+      ## Focusgroepen
+
+
+
+      Een focusgroep is een onderzoeksmethode waarbij een kleine groep mensen (maximaal 6 personen) wordt samengebracht om hun mening te geven over een bepaald onderwerp of product. De focusgroep wordt geleid door een moderator die het gesprek stuurt en de discussie begeleidt.
+
+
+      De deelnemers aan de focusgroep worden zorgvuldig geselecteerd op basis van bepaalde criteria, zoals leeftijd, geslacht, interesses of ervaring met het onderwerp van het onderzoek. Door deze selectie kunnen bedrijven een beter beeld krijgen van de mening van hun specifieke doelgroep. Een focusgroep werkt goed omdat het deelnemers de mogelijkheid geeft om openlijk te praten over hun ervaringen en meningen over een product, dienst of idee. Door het creëren van een open en informele sfeer kunnen deelnemers zich op hun gemak voelen en hun eerlijke mening geven.
+
+
+      Tijdens een focusgroep kunnen deelnemers met elkaar in discussie gaan en ideeën uitwisselen. Hierdoor kunnen deelnemers nieuwe inzichten krijgen en kan de moderator beter begrijpen hoe de deelnemers over het onderwerp denken. Het is belangrijk om altijd meer dan één focusgroep te organiseren per doelgroep om Daarom is het belangrijk om meerdere focusgroepen te organiseren en ook andere onderzoeksmethoden te gebruiken om een vollediger beeld te krijgen van de meningen van de doelgroep.
+
+
+      ## Inzicht in de doelgroep
+
+
+
+      Een doelgroepanalyse fungeert als een nulmeting. Het brengt duidelijk en concreet in beeld waar jij momenteel staat ten opzichte van de doelgroep. Je krijgt als het ware een kijkje in de leefwereld van jouw doelgroep – of dit nou intern (de medewerker) is of extern (de afnemer of een klant). Daarbij krijg je goed in kaart hoe de gewenste situatie er uitziet. En tussen die nulmeting en de gewenste situatie bevindt zich de 'innovation gap', in goed Nederlands. Oftewel, wat moet er concreet gebeuren om te komen waar je wil zijn? 
+
+      Van grootste belang is om dit niet op aannames te doen, maar op basis vanuit de doelgroep zelf. Daar is een doelgroepanalyse de perfecte tool voor.
+
+
+      Wij zorgen voor een duidelijke rapportage waarin we jullie als organisatie vertellen wat er nodig is om deze veranderingen of verbeteringen in gang te zetten. Heb je voor veranderingen en innoverende ideeën inspiratie nodig? We helpen je graag in de ideegeneratie fase. Oftewel fase 2: de innovatiefase.
+
+
+      Wil jij achter de ins and outs van jouw doelgroep komen? Bel Joline Teisman. Ze houdt van een extra sterke cappucino en zegt geen nee tegen een chocoladekoekje: joline@lefgroningen.nl of 06-24676712
     image1: /img/ted-en-thijs-camera-square.jpg
     image2: /img/untitled-design-6-.png
     image3: /img/whatsapp-image-2022-01-12-at-12.03.15.jpeg
@@ -51,29 +86,35 @@ services:
         gebracht."'
       author: Arjan Schonewille, directievoorzitter Werkplein Drentsche Aa
   - extraContent: >-
-      ## Hoe werkt het?
+      ## Innovatiefase: Creëer baanbrekende concepten
 
 
-      De Ideeënbrouwerij is een creatieve energiebom waarin tot een **innovatieve** **oplossing** komen voor een vraagstuk. Het kan een vervolg zijn van de opgehaalde informatie uit het doelgroeponderzoek in fase 1 óf een nieuw vraagstuk. 
+      De innovatiefase richt zich op het genereren van baanbrekende concepten die aansluiten bij de behoeften en wensen van jouw doelgroep. Samen met onze opdrachtgevers maken we optimaal gebruik van de expertise binnen hun organisatie. Onze unieke aanpak combineert die kennis met de denkkracht van getalenteerde jongeren tussen de 18 en 35 jaar, afkomstig uit diverse vakgebieden en met verschillende perspectieven. Of het nu gaat om jonge ondernemers, professionals of studenten, onze innovatieve denktank garandeert dat we out-of-the-box denken en creatieve sprints mogelijk maken.
 
 
-      Het unieke van deze werkwijze is dat we de denkkracht bundelen van een team van jong talent tussen de 18 en 35 jaar, allemaal met verschillende expertises en perspectieven. Niet geremd door ervaring – *out of the box* en buiten de vaste kaders. Dat is namelijk een stuk gemakkelijker als er nog geen *box* is om ín te denken. Erg belangrijk in een creatieve sprint. 
+      ## Design Thinking: Hét creatieve proces voor probleemoplossing
 
 
-      In een aantal creatieve sprints brainstormen we los van de opdrachtgever om een frisse blik te kunnen behouden, maar ook samen, om de ervaring vanuit de organisatie te mixen met ons team.
+      Ons proces is gebaseerd op design thinking, een creatieve en gestructureerde methode gericht op het oplossen van complexe problemen en het ontwikkelen van innovatieve oplossingen. Design thinking benadrukt empathie, experimenteren en iteratie, wat resulteert in effectieve en duurzame oplossingen. Deze methode streeft naar een diepgaand begrip van de eindgebruiker en vormt de basis voor de innovatiefase, waarin we talloze ideeën genereren door middel van brainstormsessies, mindmapping en andere creatieve technieken. We betrekken jou als opdrachtgever in dit proces, zodat we de ervaring en frisheid van beide teams combineren. 
 
 
-      ## Wat levert het op?
+      ## Strategie en implementatie: Praktische resultaten en groei
 
 
-      Geen vage vergezichten, maar praktisch resultaat. Dit kan zijn in de vorm van bijvoorbeeld een strategie, een sterke businesscase of een vernieuwend product. En daarbij een gratis bak vol inspiratie. Samen met de opdrachtgever maken we een actieplan voor de implementatie in fase 3.
+      Onze uiteindelijke concepten leiden tot praktische resultaten, zoals een effectieve marktstrategie, een oplossing voor personeelsverloop of een innovatief product. Ons team biedt een overvloed aan inspiratie en praktische resultaten. Samen met jou werken we aan een actieplan voor fase 3, waarbij implementatie centraal staat. We onderzoeken de beste manieren om de oplossing te implementeren, betrekken medewerkers en producteigenaren, en testen of het bedachte concept het gewenste resultaat oplevert.
 
 
-      Wil jij je organisatie weer laten bruisen? Teddy drinkt het liefst bubbeltjeswater met een schijfje citroen: **teddy@lefgroningen.nl** of **06-522 51 395**
+      ## Creatieve Sprint: Til jouw organisatie naar een hoger niveau
+
+
+      Ben je op zoek naar een creatieve sprint om jouw organisatie naar een hoger niveau te tillen? Dan is de innovatiefase dé perfecte oplossing! Ons team van experts staat klaar om jouw organisatie te laten groeien met een inspirerend traject en tal van innovatieve ideeën en oplossingen. Neem vandaag nog contact met ons op om te ontdekken hoe we jouw organisatie kunnen helpen de volgende stap te zetten.
+
+
+      Neem contact op voor meer informatie: bel Teddy op 06-522 51 395 of mail haar op teddy@lefgroningen.nl
     image1: /img/whatsapp-image-2021-12-03-at-14.03.43-1-.jpeg
     image2: /img/gemeente-groningen-talent-x-werkgevers-2-.jpg
     image3: /img/schermafbeelding-2020-09-24-om-10.24.22.png
-    title: "Fase 2: Ideeënbrouwerij"
+    title: "Fase 2: Innovatiefase"
     content:
       title: Why
       text: Onervarenheid betekent dat je nog geen kaders hebt om in te denken. Wij
