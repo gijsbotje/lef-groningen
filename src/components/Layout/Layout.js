@@ -121,8 +121,8 @@ const TemplateWrapper = ({ children }) => {
             <Grid container spacing={1} alignItems="center">
               <Grid item>
                 <Link
-                  as={GatsbyLink}
-                  href="/privacy-verklaring"
+                  component={GatsbyLink}
+                  to="/privacy-verklaring"
                   color="secondary"
                   style={{ marginRight: 24 }}
                 >

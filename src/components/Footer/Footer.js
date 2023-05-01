@@ -13,6 +13,7 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import Link from '@material-ui/core/Link';
 import Box from '@material-ui/core/Box';
 import SiteContext from '../SiteContext';
+import { Link as GatsbyLink } from 'gatsby';
 import clsx from 'clsx';
 
 const FooterBase = styled.footer`
@@ -165,6 +166,9 @@ const Footer = () => {
             </Grid>
           </Grid>
           <Box display="flex" justifyContent="flex-end" mt={2} mb="-1.5rem">
+            <Link component={GatsbyLink} to="/privacy-verklaring" color="inherit">
+              Privacy verklaring
+            </Link>
             <Typography color="inherit" style={{ marginLeft: 'auto' }}>
               LEF Groningen &copy;
             </Typography>
