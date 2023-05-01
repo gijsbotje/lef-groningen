@@ -13,7 +13,8 @@ import Grid from '@material-ui/core/Grid';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
-  const [cookieConsent, setCoockieConsent] = useCookie('gatsby-gdpr-google-analytics');
+  const [GACookieConsent, setGACoockieConsent] = useCookie('gatsby-gdpr-google-analytics');
+  const [GTMCookieConsent, setGtmCoockieConsent] = useCookie('gatsby-gdpr-google-tagmanager');
   const [navbarSettings, setNavbarSettings] = useState({
     scrolledColor: 'paper',
     textColor: 'light',
@@ -23,7 +24,8 @@ const TemplateWrapper = ({ children }) => {
   });
 
   const handleCookieConsent = answer => () => {
-    setCoockieConsent(answer, { expires: 365 });
+    setGACoockieConsent(answer, { expires: 365 });
+    setGtmCoockieConsent(answer, { expires: 365 });
     if (answer === true) {
       window.location.reload();
     }
@@ -95,7 +97,7 @@ const TemplateWrapper = ({ children }) => {
             horizontal: 'right',
           }}
           style={{ maxWidth: 500 }}
-          open={cookieConsent === undefined}
+          open={GTMCookieConsent === undefined || GACookieConsent === undefined}
           message="Wij gebruiken cookies om te analyseren of onze site goed werkt.
           Kies 'Weigeren' als je liever niet hebt dat er data wordt verzameld over je bezoek."
           action={
