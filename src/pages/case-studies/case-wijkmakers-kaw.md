@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: "Samenwerken aan innovatie: jong talent en zorgpersoneel"
+title: "Samenwerken aan duurzaamheid: jong talent en zorgpersoneel"
 date: 2022-01-12T11:16:53.653Z
 description: "Wat voor innovatieve interventies kunnen we organiseren zodat onze
   medewerkers op een duurzame manier hun werk kunnen uitvoeren? "
