@@ -11,7 +11,7 @@ featuredimage: /img/beige-terracotta-clean-grid-artgraphic-design-photo-collage.
 tags:
   - Story
 ---
-# Innovatief traject voor behoud van talentvolle medewerkers in de zorg: ontdek LEF
+## Innovatief traject vergroot werkgeverschap 
 
 Als je werkzaam bent in de zorg, dan weet je hoe belangrijk het is om goede medewerkers te hebben. Het is echter geen geheim dat de zorgsector kampt met een tekort aan personeel en dat het behouden van medewerkers vaak een uitdaging is. Bij LEF zijn we onverschrokken en gaan we graag de uitdaging aan. Daarom hebben we het Groninger Zorgakkoord grondig bestudeerd om het volgende probleem op te lossen: hoe kunnen we onze zorgmedewerkers behouden? We weten wat je denkt - "dat klinkt als een enorm probleem!" Maar bij LEF zeggen we: Challenge Accepted.
 
