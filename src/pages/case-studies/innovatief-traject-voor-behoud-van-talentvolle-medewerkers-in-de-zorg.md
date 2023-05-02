@@ -3,9 +3,8 @@ templateKey: case-post
 title: Innovatief traject voor behoud van talentvolle medewerkers in de zorg
 date: 2023-05-02T09:53:54.590Z
 description: "Als je werkzaam bent in de zorg, dan weet je hoe belangrijk het is
-  om goede medewerkers te hebben. Het is echter geen geheim dat de zorgsector
-  kampt met een tekort aan personeel en dat het behouden van medewerkers vaak
-  een uitdaging is. "
+  om goede medewerkers te hebben. Het is geen geheim dat behouden van
+  medewerkers vaak een uitdaging is. "
 featuredpost: true
 featuredimage: /img/beige-terracotta-clean-grid-artgraphic-design-photo-collage.png
 tags:
