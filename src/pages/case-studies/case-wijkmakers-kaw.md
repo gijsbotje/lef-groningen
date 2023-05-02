@@ -2,8 +2,8 @@
 templateKey: case-post
 title: Hoe bewust zijn medewerkers van duurzaamheid?
 date: 2022-01-12T11:16:53.653Z
-description: "Wat voor innovatieve interventies kunnen we organiseren zodat onze
-  medewerkers op een duurzame manier hun werk kunnen uitvoeren? "
+description: Als bedrijf zijnde wil je natuurlijk graag duurzaam zijn. Toekomst
+  bestendig zijn. Maar hoe betrek je medewerkers hierbij?
 featuredpost: true
 featuredimage: /img/stockphoto-s-website-25-×-15cm-25-×-12cm-1-.png
 tags:
