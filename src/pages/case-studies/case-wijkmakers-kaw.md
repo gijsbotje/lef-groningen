@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: Samenwerken aan duurzaamheid
+title: Hoe bewust zijn medewerkers van duurzaamheid?
 date: 2022-01-12T11:16:53.653Z
 description: "Wat voor innovatieve interventies kunnen we organiseren zodat onze
   medewerkers op een duurzame manier hun werk kunnen uitvoeren? "
