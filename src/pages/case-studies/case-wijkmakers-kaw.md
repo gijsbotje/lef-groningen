@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: Hoe bewust zijn medewerkers van duurzaamheid?
+title: Hoe bewust zijn (zorg) medewerkers van duurzaamheid?
 date: 2022-01-12T11:16:53.653Z
 description: Als bedrijf zijnde wil je natuurlijk graag duurzaam zijn. Toekomst
   bestendig zijn. Maar hoe betrek je medewerkers hierbij?
