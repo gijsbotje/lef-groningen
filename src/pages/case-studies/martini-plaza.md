@@ -10,6 +10,10 @@ featuredimage: /img/whatsapp-image-2023-02-15-at-19.15.08.jpeg
 tags:
   - Case
 ---
+## Project Royal FloraHolland
+
+*Oh boy, Royal FloraHolland, wat doen jullie eigenlijk? Nou, kwekers bundelen al meer dan 100 jaar hun krachten om een optimale marktprijs te krijgen voor hun bloemen en planten. En dat is waar Royal FloraHolland om de hoek komt kijken. Ze zijn een vereniging van kwekers, met een bedrijf. Klinkt ingewikkeld, maar eigenlijk is het heel simpel: samenwerken voor de beste prijs. Want laten we eerlijk zijn, bloemen en planten zijn hartstikke leuk, maar ze moeten natuurlijk ook verkocht worden. Dus daar zorgt Royal FloraHolland voor, met de marktplaats van de toekomst. En dat is belangrijk, want als de kwekers niet kunnen verkopen, dan hebben wij ook geen bloemen en planten om ons huis mee op te fleuren. Dus connect to grow, zo luidt hun motto. Meer informatie? https://www.royalfloraholland.com/*
+
 ## **Hoe tertiaire arbeidsvoorwaarden kunnen zorgen voor meer werkgeluk bij logistieke medewerkers**
 
 **LEF veilt bloemetjes bij afslag.** In onze tocht om de wereld te veroveren zijn we zoals jullie weten al enige tijd in het doelgroeponderzoek beland. Als experts op het gebied van werkgeluk zijn we de afgelopen tijd in gesprek gegaan met medewerkers van verschillende organisaties, 
