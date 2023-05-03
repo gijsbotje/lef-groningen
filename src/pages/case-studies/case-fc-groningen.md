@@ -10,6 +10,10 @@ featuredimage: /img/stockphoto-s-website-25-×-15cm-25-×-12cm-.png
 tags:
   - Story
 ---
+## **Project FC Groningen**
+
+*FC Groningen is niet zomaar een voetbalclub. Ze hebben een hart voor de maatschappij en zetten zich keihard in om de bewegingsarmoede tegen te gaan.  En dat is maar goed ook, want één op de acht jongeren heeft momenteel overgewicht en als we zo doorgaan, is in 2040 tweederde van alle volwassenen te zwaar. Dat is natuurlijk niet de bedoeling. En om dat te bereiken, werken ze keihard samen met partners en organisaties. Want samen sporten verbindt mensen en dat is precies waar FC Groningen voor staat. Dus ja, ze zijn een voetbalclub, maar wel eentje met een missie en een visie voor de toekomst. En laten we eerlijk zijn, daar kunnen veel andere organisaties nog een puntje aan zuigen.*
+
 ## **Waarom vinden weinig vrouwen hun weg naar zakelijke netwerken? Innovatietraject met LEF**
 
  Als je naar evenementen met betrekking tot de voetbalwereld gaat, zal het je opvallen dat er weinig vrouwen rondlopen. Maar waarom is dit zo? Vrouwen zijn niet alleen een minderheid in voetbalclubs, maar ook in zakelijke netwerken die gerelateerd zijn aan deze clubs. Dat weet FC Groningen ook, en vooruitstrevend als ze zijn willen ze daar graag wat aan doen.
