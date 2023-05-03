@@ -10,6 +10,10 @@ featuredimage: /img/beige-terracotta-clean-grid-artgraphic-design-photo-collage.
 tags:
   - Story
 ---
+## **Project G﻿roninger Zorg Akkoord (GZA)** 
+
+*Ah, het Groninger Zorgakkoord. Eindelijk eens goed nieuws uit het noorden! Want laten we eerlijk zijn, de mensen hebben het niet makkelijk. Met de aardbevingen, hogere werkloosheid, inkrimping en vergrijzing is het niet bepaald een feestje. En als de gezondheidszorg dan ook nog eens onder druk staat, wordt het helemaal gezellig. Gelukkig hebben 18 partijen de handen ineen geslagen om de toekomst van de zorg in het bevingsgebied te verbeteren. Dat is nog eens teamwork! Meer informatie op:* h*ttps://www.gza.nl/*
+
 ## **Innovatief traject verhoogd werkgeverschap in de zorg**
 
 Als je werkzaam bent in de zorg, dan weet je hoe belangrijk het is om goede medewerkers te hebben. Het is echter geen geheim dat de zorgsector kampt met een tekort aan personeel en dat het behouden van medewerkers vaak een uitdaging is. Bij LEF zijn we onverschrokken en gaan we graag de uitdaging aan. Daarom hebben we het Groninger Zorgakkoord grondig bestudeerd om het volgende probleem op te lossen: hoe kunnen we onze zorgmedewerkers behouden? We weten wat je denkt - "dat klinkt als een enorm probleem!" Maar bij LEF zeggen we: Bring. It. On.
