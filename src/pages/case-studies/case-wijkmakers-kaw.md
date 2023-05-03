@@ -9,6 +9,10 @@ featuredimage: /img/stockphoto-s-website-25-×-15cm-25-×-12cm-1-.png
 tags:
   - Story
 ---
+## Project De Hoven 
+
+*De Hoven doet fantastisch werk voor ouderen in Noord-Groningen. En laten we eerlijk zijn, ouder worden is niet altijd even makkelijk. Maar dankzij De Hoven krijgen de ouderen daar goede zorg in hun laatste kwetsbare levensfase. En dat is belangrijk, want iedereen verdient het om op een waardige manier oud te worden. En daarbij kijken ze bij De Hoven niet alleen naar de medische aspecten, maar ook naar de gewoonten en betekenis van de ouderen. Dat klinkt toch als muziek in de oren? Maar dat kunnen ze natuurlijk niet alleen. Daarom zijn deskundige medewerkers, stagiaires én vrijwilligers het hart van de organisatie. Samen maken ze De Hoven tot een geweldige plek voor ouderen in Noord-Groningen. Meer informatie op <https://www.dehoven.nl/>* 
+
 ## B﻿ereik je duurzaamheidsdoelen met LEF
 
 LEF redt de wereld, dames en heren! En de wereld redden begint in Onder den Dam, met een bak Onder den Damse-koffie en een goed gesprek met onze vrienden van Zorginstelling De Hoven. Zorginstelling De Hoven, gevestigd in de provincie Groningen, is zich bewust van de immense duurzaamheidsuitdagingen in de zorg. De brandstofprijzen rijzen de pan uit en bijna iedere week verschijnt er een nieuw rapport waaruit blijkt dat we haast moeten maken met onze duurzaamheidsambities. Dus tsja, waar begin je nou als zorginstelling? Laadpalen, deelauto’s, zonnepanelen, afval scheiden? Allemaal goede acties. Om deze duurzaamheidsuitdagingen aan te gaan, heeft De Hoven gekozen voor de innovatieve LEF-methode, waarbij het betrekken van medewerkers een cruciale rol speelt.
