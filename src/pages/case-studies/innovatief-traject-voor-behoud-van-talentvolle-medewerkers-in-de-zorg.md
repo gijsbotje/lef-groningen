@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: Realiseren van aantrekkelijker werkgeverschap bij zorgorganisaties
+title: Aantrekkelijker werkgeverschap bij zorgorganisaties
 date: 2023-05-02T09:53:54.590Z
 description: "Als je werkzaam bent in de zorg, dan weet je hoe belangrijk het is
   om goede medewerkers te hebben. Het is geen geheim dat behouden van
