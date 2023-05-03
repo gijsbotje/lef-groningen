@@ -12,7 +12,7 @@ tags:
 ---
 ## **Project FC Groningen**
 
-*FC Groningen is niet zomaar een voetbalclub. Ze hebben een hart voor de maatschappij en zetten zich keihard in om de bewegingsarmoede tegen te gaan.  En dat is maar goed ook, want één op de acht jongeren heeft momenteel overgewicht en als we zo doorgaan, is in 2040 tweederde van alle volwassenen te zwaar. Dat is natuurlijk niet de bedoeling. En om dat te bereiken, werken ze keihard samen met partners en organisaties. Want samen sporten verbindt mensen en dat is precies waar FC Groningen voor staat. Dus ja, ze zijn een voetbalclub, maar wel eentje met een missie en een visie voor de toekomst. En laten we eerlijk zijn, daar kunnen veel andere organisaties nog een puntje aan zuigen.*
+*FC Groningen is niet zomaar een voetbalclub. Ze hebben een hart voor de maatschappij en zetten zich keihard in om de bewegingsarmoede tegen te gaan.  En dat is maar goed ook, want één op de acht jongeren heeft momenteel overgewicht en als we zo doorgaan, is in 2040 tweederde van alle volwassenen te zwaar. Dat is natuurlijk niet de bedoeling. En om dat te bereiken, werken ze keihard samen met partners en organisaties. Want samen sporten verbindt mensen en dat is precies waar FC Groningen voor staat. Dus ja, ze zijn een voetbalclub, maar wel eentje met een missie en een visie voor de toekomst. En laten we eerlijk zijn, daar kunnen veel andere organisaties nog een puntje aan zuigen. Meer informatie? https://www.fcgroningen.nl/*
 
 ## **Waarom vinden weinig vrouwen hun weg naar zakelijke netwerken? Innovatietraject met LEF**
 
