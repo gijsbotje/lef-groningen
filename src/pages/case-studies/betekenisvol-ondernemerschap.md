@@ -1,6 +1,6 @@
 ---
 templateKey: case-post
-title: LEF ontwerpt vernieuwende oplossingen voor reizigers Arriva, NS en Q-buzz
+title: Creatieve oplossingen voor reizigers Arriva, NS en Qbuzz
 date: 2020-12-23T09:31:52.959Z
 description: >
   Bedenk en implementeer ​​een nieuwe, toekomstbestendige service-oplossing voor
@@ -10,7 +10,7 @@ featuredimage: /img/stockphoto-s-website-25-×-15cm-.png
 tags:
   - Case
 ---
-## Project Arriva, NS, Q-buzz en provincie Groningen
+## Project Arriva, NS, Qbuzz en Provincie Groningen
 
 *Laten we als voorbeeld Arriva nemen. Arriva, dat is werken aan openbaar vervoer voor duizenden reizigers. Ze verbinden mensen, steden en dorpen op een veilige, betrouwbare en duurzame manier. Dat klinkt goed, maar waarom zou je met Arriva reizen? Nou, omdat ze steeds betere diensten leveren, elke dag opnieuw. Dat is pas toewijding. En niet alleen aan de reizigers, maar ook aan de maatschappij. Want Arriva maakt zich sterk voor duurzaamheid en toont hun sociale betrokkenheid. Iedereen is welkom bij Arriva, dus ook die rare snuiter die naast je zit en vreemd ruikt. Maar hey, dat maakt het juist gezellig, toch? En dat is waar Arriva voor staat: betrokken, doen wat juist is en het verschil maken. Meer informatie? https://werkenbij.arriva.nl/*
 
