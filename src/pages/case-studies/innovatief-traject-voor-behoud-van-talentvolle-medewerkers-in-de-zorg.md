@@ -6,7 +6,7 @@ description: "Als je werkzaam bent in de zorg, dan weet je hoe belangrijk het is
   om goede medewerkers te hebben. Het is geen geheim dat behouden van
   medewerkers vaak een uitdaging is. "
 featuredpost: true
-featuredimage: /img/beige-terracotta-clean-grid-artgraphic-design-photo-collage.png
+featuredimage: /img/stockphoto-s-website-25-×-15cm-1-.png
 tags:
   - Story
 ---
