@@ -10,9 +10,9 @@ featuredimage: /img/beige-terracotta-clean-grid-artgraphic-design-photo-collage.
 tags:
   - Story
 ---
-## **Project G﻿roninger Zorg Akkoord (GZA)** 
+## **Project G﻿roninger Zorg Akkoord (GZA)**
 
-*Ah, het Groninger Zorgakkoord. Eindelijk eens goed nieuws uit het noorden! Want laten we eerlijk zijn, de mensen hebben het niet makkelijk. Met de aardbevingen, hogere werkloosheid, inkrimping en vergrijzing is het niet bepaald een feestje. En als de gezondheidszorg dan ook nog eens onder druk staat, wordt het helemaal gezellig. Gelukkig hebben 18 partijen de handen ineen geslagen om de toekomst van de zorg in het bevingsgebied te verbeteren. Dat is nog eens teamwork! Meer informatie op:* h*ttps://www.gza.nl/*
+*Ah, het Groninger Zorgakkoord. Eindelijk eens goed nieuws uit het noorden. De mensen hebben het daar niet altjid makkelijk. Met de aardbevingen, hogere werkloosheid, inkrimping en vergrijzing is het niet bepaald een feestje. En als de gezondheidszorg dan ook nog eens onder druk staat, wordt het helemaal gezellig. Gelukkig hebben 18 partijen de handen ineen geslagen om de toekomst van de zorg in het bevingsgebied te verbeteren. Dat is nog eens teamwork! Meer informatie op: https://www.gza.nl/*
 
 ## **Innovatief traject verhoogd werkgeverschap in de zorg**
 
