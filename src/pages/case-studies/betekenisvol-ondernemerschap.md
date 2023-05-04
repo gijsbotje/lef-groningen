@@ -6,7 +6,7 @@ description: >
   Bedenk en implementeer ​​een nieuwe, toekomstbestendige service-oplossing voor
   het vernieuwde hoofdstation in Groningen.
 featuredpost: true
-featuredimage: /img/untitled-design-3-.jpeg
+featuredimage: /img/stockphoto-s-website-25-×-15cm-.png
 tags:
   - Case
 ---
