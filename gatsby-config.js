@@ -68,7 +68,7 @@ module.exports = {
           trackingId: 'GTM-TNZLS3V',
         },
         googleAnalytics: {
-          trackingId: 'UA-159352258-1',
+          trackingId: 'G-W2NRKBM28K',
           anonymize: true,
         },
         environments: ['production'],

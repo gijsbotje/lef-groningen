@@ -4,14 +4,14 @@ import { ThemeProvider } from 'styled-components';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Layout from '../Layout/Layout';
 import {
-  createMuiTheme,
+  createTheme,
   responsiveFontSizes,
   ThemeProvider as MuiThemeProvider,
 } from '@material-ui/core/styles';
 import lefTheme from '../../theme';
 import { AnimatePresence, motion } from 'framer-motion';
 
-let theme = createMuiTheme(lefTheme);
+let theme = createTheme(lefTheme);
 theme = responsiveFontSizes(theme);
 
 const duration = 0.25;
