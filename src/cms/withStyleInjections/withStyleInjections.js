@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { StyleSheetManager, ThemeProvider } from 'styled-components';
 import {
-  createMuiTheme,
+  createTheme,
   responsiveFontSizes,
   ThemeProvider as MuiThemeProvider,
 } from '@material-ui/core/styles';
@@ -12,7 +12,7 @@ import { jssPreset, StylesProvider } from '@material-ui/styles';
 import { create } from 'jss';
 import SiteContext from '../../components/SiteContext';
 
-let theme = createMuiTheme(lefTheme);
+let theme = createTheme(lefTheme);
 theme = responsiveFontSizes(theme);
 
 const StyleInjector = ({ children }) => {
