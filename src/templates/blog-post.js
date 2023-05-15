@@ -28,7 +28,7 @@ export const BlogPostTemplate = ({
         backgroundColor="yellow"
         maxWidth="lg"
         id={title.toLowerCase().replace(/ /g, '-')}
-        backgroundImage={featuredimage?.childImageSharp?.fluid.src}
+        backgroundImage={featuredimage?.childImageSharp?.gatsbyImageData.src}
         minHeight="50vh"
       >
         <Section>
@@ -123,9 +123,7 @@ export const pageQuery = graphql`
         title
         featuredimage {
           childImageSharp {
-            fluid(maxHeight: 800, maxWidth: 1600, quality: 100) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(height: 800, quality: 100, layout: FULL_WIDTH)
           }
         }
         tags

@@ -2,17 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import BackgroundImage from 'gatsby-background-image';
 
+// TODO: make background image work again
 const PreviewCompatibleBackgroundImage = ({ imageInfo, ...rest }) => {
   const { alt = '', childImageSharp, image } = imageInfo;
 
   if (!!image && !!image.childImageSharp) {
     // eslint-disable-next-line no-extra-boolean-cast
-    if (!!image.childImageSharp.fluid) {
-      return <BackgroundImage fluid={image.childImageSharp.fluid} alt={alt} {...rest} />;
+    if (!!image.childImageSharp.gatsbyImageData) {
+      return <BackgroundImage fluid={image.childImageSharp.gatsbyImageData} alt={alt} {...rest} />;
     }
     // eslint-disable-next-line no-extra-boolean-cast
-    if (!!image.childImageSharp.fixed) {
-      return <BackgroundImage fixed={image.childImageSharp.fixed} alt={alt} {...rest} />;
+    if (!!image.childImageSharp.gatsbyImageData) {
+      return <BackgroundImage fixed={image.childImageSharp.gatsbyImageData} alt={alt} {...rest} />;
     }
   }
 

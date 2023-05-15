@@ -321,17 +321,13 @@ export const ServicesPageQuery = graphql`
         title
         bannerImage {
           childImageSharp {
-            fluid(maxWidth: 1920, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(quality: 90, layout: FULL_WIDTH)
           }
         }
         contact {
           image {
             childImageSharp {
-              fluid(maxWidth: 500, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(width: 500, quality: 90, layout: CONSTRAINED)
             }
           }
         }
@@ -344,37 +340,27 @@ export const ServicesPageQuery = graphql`
           extraContent
           image1 {
             childImageSharp {
-              fluid(maxWidth: 400, maxHeight: 300, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(width: 400, height: 300, quality: 90, layout: CONSTRAINED)
             }
           }
           image2 {
             childImageSharp {
-              fluid(maxWidth: 400, maxHeight: 300, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(width: 400, height: 300, quality: 90, layout: CONSTRAINED)
             }
           }
           image3 {
             childImageSharp {
-              fluid(maxWidth: 400, maxHeight: 300, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(width: 400, height: 300, quality: 90, layout: CONSTRAINED)
             }
           }
           image4 {
             childImageSharp {
-              fluid(maxWidth: 400, maxHeight: 300, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(width: 400, height: 300, quality: 90, layout: CONSTRAINED)
             }
           }
           image5 {
             childImageSharp {
-              fluid(maxWidth: 400, maxHeight: 300, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(width: 400, height: 300, quality: 90, layout: CONSTRAINED)
             }
           }
           quote {

@@ -81,9 +81,7 @@ export const ShortStoriesQuery = graphql`
         title
         background {
           childImageSharp {
-            fluid(maxWidth: 1920, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
+            gatsbyImageData(quality: 90, layout: FULL_WIDTH)
           }
         }
       }
