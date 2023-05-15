@@ -5,8 +5,7 @@ date: 2021-07-15T08:05:58.053Z
 description: "LEF is in de bonus! "
 featuredpost: true
 featuredimage: /img/1.1.jpeg
-tags:
-  - Story
+tags: []
 ---
 Goed nieuws! Onze Ideeënbrouwerij is geaccrediteerd voor de Groninger Ondernemersregeling. Dat betekent wij de Ideeënbrouwerij kunnen organiseren voor ondernemers in Groningen voor 50% van de prijs. 50%?! Oh jazeker, mensen. De hamsterweken zijn begonnen.
 

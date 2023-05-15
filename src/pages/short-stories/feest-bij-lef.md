@@ -5,8 +5,7 @@ date: 2022-01-06T11:14:16.150Z
 description: Feest bij LEF!
 featuredpost: true
 featuredimage: /img/shortstories-template-4-.png
-tags:
-  - Story
+tags: []
 ---
 FEEST bij LEF. Want, dames en heren, wij stellen u voor: LEF fulltime employee number 1 [Joline Teisman](https://www.linkedin.com/in/ACoAABbXSIwB7Ilgw5H2eMqKUzenJyk-fNURqKk)! Aangenaam kennis te maken.\
 \

@@ -47,7 +47,7 @@ const BrandsGrid = ({ brands, centerBrand }) => (
       <Box display="flex" alignItems="center" height="100%" key={brand.name}>
         <Box width="100%">
           <PreviewCompatibleImage
-            imageInfo={{ image: brand.image, alt: brand.title }}
+            imageInfo={{ image: brand.image, alt: brand.name }}
             style={{
               maxWidth: 150,
               objectFit: 'contain',

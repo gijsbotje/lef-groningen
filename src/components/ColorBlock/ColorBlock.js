@@ -16,6 +16,7 @@ const ImageBlockBG = styled(PreviewCompatibleBackgroundImage)`
   scroll-behavior: smooth;
   background-size: cover;
   background-position: ${props => props.backgroundPosition};
+  min-height: ${props => props.minHeight || 'initial'};
 
   &.equal-padding {
     padding-top: 1rem;

@@ -7,8 +7,7 @@ description: Ontwikkel én begeleid een vernieuwend traject waarin teams van
   complexe problemen die spelen in de wijken van Groningen.
 featuredpost: true
 featuredimage: /img/whatsapp-image-2022-01-13-at-14.31.47.jpeg
-tags:
-  - Story
+tags: []
 ---
 **Wijkmakers** is een onafhankelijke broedplaats voor wijkontwikkeling, waar kennismaken hand in hand gaat met leren en doen. Samen met **KAW Architecten** ontwikkelden wij de werkwijze waarmee de deelnemers van De Werkplaats oplossingen verzinnen voor ‘onoplosbare’ vraagstukken in de Groningse wijken. 
 

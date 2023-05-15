@@ -5,8 +5,7 @@ date: 2022-04-07T14:51:42.229Z
 description: We redden de wereld, dames en heren! Vol op de verduurzamings!
 featuredpost: true
 featuredimage: /img/whatsapp-image-2022-04-07-at-5.23.01-pm.jpeg
-tags:
-  - Story
+tags: []
 ---
 En de wereld redden begint in Onder Den Dam, met een bak Onder den Damse-koffie en een goed gesprek met onze vrienden van zorginstelling [De Hoven](https://www.linkedin.com/company/dehoven/). “Verduurzamings!”, riepen ze in koor, “Help ons toch!”. En terecht natuurlijk. Brandstofprijzen rijzen de pan uit en bijna iedere week verschijnt er een nieuw rapport waaruit blijkt dat we haast moeten maken met onze duurzaamheidsambities. Tja, waar moet je nou beginnen? Laadpalen, deelauto’s, zonnepanelen, afval scheiden? Allemaal goede punten, maar laten we nou eens bij onze medewerkers zelf beginnen. Wat willen zij?! \
 \

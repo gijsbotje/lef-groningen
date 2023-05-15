@@ -1,5 +1,10 @@
 ---
 templateKey: services-page
+seo:
+  description: Wij dagen organisaties uit om te veranderen en te innoveren. Dit
+    doen we op twee verschillende manieren. Als ideeënbrouwers, of als
+    projectaanjagers.
+  title: LEF Groningen - Onze diensten
 title: Diensten
 bannerImage: /img/services-front-page-foot.jpg
 contact:
@@ -70,6 +75,7 @@ services:
         nou écht vindt van zijn werk? Het is enorm waardevol om te weten wat er
         leeft en speelt bij je doelgroep, zodat je daar op kan inspelen. Wij
         brengen deze wensen en behoeftes duidelijk in kaart.
+      readMoreLink: /diensten/doelgroeponderzoek/
     image4: /img/whatsapp-image-2022-07-21-at-11.49.55-am.jpeg
     image5: /img/whatsapp-image-2022-01-20-at-14.27.15-1-.jpeg
     quote:
@@ -115,6 +121,7 @@ services:
         gebruiken daarom de frisse blik en creativiteit van jong talent om een
         écht vernieuwende oplossing te ontwerpen. Een oplossing die past bij de
         wensen van de doelgroep uit fase 1.
+      readMoreLink: /diensten/ideeënbrouwerij/
     image4: /img/whatsapp-image-2022-09-15-at-17.38.36.jpeg
     image5: /img/whatsapp-image-2022-07-21-at-12.09.21-pm.jpeg
     quote:
@@ -149,6 +156,7 @@ services:
       text: "Goede ideeën moeten tot leven worden gebracht! Dat doen we samen met jou:
         wij trekken de kar, samen bepalen we de richting. Ons team brengt
         energie, creativiteit en slagvaardigheid in jouw project."
+      readMoreLink: /diensten/implementatie/
     image4: /img/img_4894.jpg
     image5: /img/whatsapp-image-2022-09-13-at-13.15.56.jpeg
     quote:

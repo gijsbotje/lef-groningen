@@ -5,8 +5,7 @@ date: 2020-11-20T09:35:54.614Z
 description: Cloetta, FC Groningen en MercachemSyncom starten samenwerking met startups
 featuredpost: true
 featuredimage: /img/whatsapp-image-2020-11-20-at-10.38.49.jpeg
-tags:
-  - Story
+tags: []
 ---
 ## Online Event Groningen OPEN op 18 november
 

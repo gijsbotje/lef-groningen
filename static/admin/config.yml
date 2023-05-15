@@ -23,6 +23,12 @@ collections:
             name: "templateKey"
             widget: "hidden"
             default: "index-page"
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
           - label: "Title"
             name: "title"
             widget: "string"
@@ -138,6 +144,13 @@ collections:
         name: "diensten"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-page"}
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
           - {label: "Title", name: "title", widget: "string"}
           - label: "Banner afbeelding"
             name: "bannerImage"
@@ -153,15 +166,12 @@ collections:
                 name: "content"
                 widget: "object"
                 fields:
-                  - label: "Titel"
-                    name: "title"
-                    widget: "string"
                   - label: "Korte tekst"
                     name: "text"
                     widget: "string"
-              - label: "Lange tekst"
-                name: "extraContent"
-                widget: "markdown"
+                  - label: "Meer lezen link"
+                    name: "readMoreLink"
+                    widget: "string"
               - label: "Afbeelding 1"
                 name: "image1"
                 widget: "image"
@@ -187,11 +197,18 @@ collections:
                   - label: "Auteur"
                     name: "author"
                     widget: "string"
+
       - file: "src/pages/ons-verhaal/index.md"
         label: "Ons verhaal"
         name: "ons-verhaal"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
           - label: "Blok 1"
             name: "aboutBlock1"
             widget: "object"
@@ -296,13 +313,19 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list", default: ['Story']}
+      - {label: "Tags", name: "tags", widget: "list"}
   - name: "case"
     label: "Case studies"
     folder: "src/pages/case-studies"
@@ -310,13 +333,38 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "case-post" }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
       - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "list", default: [ 'Story' ] }
+      - { label: "Tags", name: "tags", widget: "list" }
+  - name: "service"
+    label: "Diensten paginas"
+    folder: "src/pages/diensten"
+    create: true
+    slug: "{{slug}}"
+    filter: {field: "templateKey", value: "services-detail-page"}
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "services-detail-page" }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Banner Image", name: "bannerImage", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Voorbeeld cases", name: "examples", widget: "relation", collection: 'case', value_field: '{{id}} || {{title}} || {{slug}} || {{featuredimage.absolutePath}}', search_fields: ['title', '{{slug}}'], display_fields: ['title'], multiple: true }
   - name: "home-block"
     label: "Home blokken onder banner"
     folder: "src/pages/home-blocks"

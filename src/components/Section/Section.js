@@ -18,6 +18,4 @@ Section.defaultProps = {
   style: undefined,
 };
 
-Section.defaultProps = {};
-
 export default Section;

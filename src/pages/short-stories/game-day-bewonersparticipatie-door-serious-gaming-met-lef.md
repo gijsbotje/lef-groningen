@@ -5,8 +5,7 @@ date: 2021-11-30T14:07:37.988Z
 description: Game day! Bewonersparticipatie door Serious Gaming met LEF
 featuredpost: true
 featuredimage: /img/serious-game-lefier-ii.jpeg
-tags:
-  - Story
+tags: []
 ---
 **Game day! LEF neemt je mee in de bijzondere wereld van Serious Gaming.**
 

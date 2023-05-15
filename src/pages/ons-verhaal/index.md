@@ -1,5 +1,10 @@
 ---
 templateKey: about-page
+seo:
+  title: LEF Groningen - Ons verhaal & het team
+  description: "Je moet lef hebben om te doen waar je blij van wordt. Voor ons is
+    dat ondernemen: een heftige cocktail van adrenaline, enorme blunders en
+    grootste successen, maar vooral heel veel lol."
 aboutBlock1:
   background: /img/coffee-cup-with-logo.jpg
   intro: "In het najaar van 2019 is LEF ontstaan in een smal café aan de Grote

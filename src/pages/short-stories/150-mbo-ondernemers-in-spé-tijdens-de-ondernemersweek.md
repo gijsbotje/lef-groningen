@@ -5,8 +5,7 @@ date: 2022-01-06T11:25:03.466Z
 description: Rotterdamse ondernemersweek
 featuredpost: true
 featuredimage: /img/shortstories-template-3-.png
-tags:
-  - Story
+tags: []
 ---
 ## **O﻿ndernemersweek: hackaton in Rotterdam**
 

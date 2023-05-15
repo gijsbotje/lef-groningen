@@ -5,8 +5,7 @@ date: 2020-03-29T12:30:00.708Z
 description: Betekenisvol ondernemerschap
 featuredpost: false
 featuredimage: /img/teddy-betekeniseconomie.jpg
-tags:
-  - Story
+tags: []
 ---
 ## B﻿etekeniseconomie
 
@@ -14,7 +13,7 @@ De 'betekeniseconomie' is een term die je te pas en te onpas om de oren vliegt. 
 afgelopen week tijdens de masterclass Innovatief Organiseren van Kees Klomp en Engbert
 Breuker. Als kersverse ondernemer was ik natuurlijk getriggerd: zou ik dit kunnen toepassen
 binnen ons nieuwe bedrijf? Maar toch ook een beetje sceptisch, want in mijn ééntje kan ik de
-wereld toch niet redden?  
+wereld toch niet redden? 
 
 Meteen werd ik geconfronteerd met een duidelijke boodschap: we hebben allemaal
 geprofiteerd van bedrijven die onze welvaartseconomie hebben gecreëerd, maar we kunnen

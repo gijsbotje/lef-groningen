@@ -1,4 +1,4 @@
-const _ = require('lodash');
+// const _ = require('lodash');
 const { createFilePath } = require('gatsby-source-filesystem');
 const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 const fs = require('fs');
@@ -86,8 +86,18 @@ exports.createPages = ({ actions, graphql }) => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
-
-    const posts = result.data.allMarkdownRemark.edges;
+    const allowedTypes = [
+      'case-post',
+      'blog-post',
+      'index-page',
+      'short-stories-page',
+      'services-detail-page',
+      'services-page',
+      'about-page',
+    ];
+    const posts = result.data.allMarkdownRemark.edges.filter(edge =>
+      allowedTypes.includes(edge.node.frontmatter.templateKey),
+    );
 
     posts.forEach(edge => {
       const { id } = edge.node;
@@ -102,29 +112,30 @@ exports.createPages = ({ actions, graphql }) => {
       });
     });
 
-    // Tag pages:
-    let tags = [];
-    // Iterate through each post, putting all found tags into `tags`
-    posts.forEach(edge => {
-      if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags);
-      }
-    });
-    // Eliminate duplicate tags
-    tags = _.uniq(tags);
-
-    // Make tag pages
-    return tags.forEach(tag => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`;
-
-      createPage({
-        path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
-        context: {
-          tag,
-        },
-      });
-    });
+    // // Tag pages:
+    // let tags = [];
+    // // Iterate through each post, putting all found tags into `tags`
+    // posts.forEach(edge => {
+    //   if (_.get(edge, `node.frontmatter.tags`)) {
+    //     tags = tags.concat(edge.node.frontmatter.tags);
+    //   }
+    // });
+    // // Eliminate duplicate tags
+    // tags = _.uniq(tags);
+    //
+    // // Make tag pages
+    // return tags.forEach(tag => {
+    //   const tagPath = `/tags/${_.kebabCase(tag)}/`;
+    //
+    //   createPage({
+    //     path: tagPath,
+    //     component: path.resolve(`src/templates/tags.js`),
+    //     context: {
+    //       tag,
+    //     },
+    //   });
+    // });
+    return null;
   });
 };
 

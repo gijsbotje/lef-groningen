@@ -29,6 +29,7 @@ import Button from '@material-ui/core/Button';
 import { Helmet } from 'react-helmet';
 import Features from '../components/Features/Features';
 import Quote from '../components/Quote/Quote';
+import useSiteMetadata from '../components/SiteMetadata';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Grow direction="up" ref={ref} {...props} />;
@@ -43,7 +44,8 @@ const ResponsivePaper = styled(Paper)`
   }
 `;
 
-export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
+export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2, seo, slug }) => {
+  const { siteUrl } = useSiteMetadata();
   const [openDialogId, setOpenDialogId] = useState(null);
   const { setNavbarSettings } = useContext(SiteContext);
 
@@ -53,11 +55,9 @@ export const AboutPageTemplate = ({ title, aboutBlock1, aboutBlock2 }) => {
   return (
     <>
       <Helmet>
-        <title>LEF Groningen - Ons verhaal & het team</title>
-        <meta
-          name="description"
-          content="Je moet lef hebben om te doen waar je blij van wordt. Voor ons is dat ondernemen: een heftige cocktail van adrenaline, enorme blunders en grootste successen, maar vooral heel veel lol."
-        />
+        <title>{seo?.title}</title>
+        <meta name="description" content={seo?.description} />
+        <link rel="canonical" href={`${siteUrl}${slug}`} />
       </Helmet>
       <ColorBlock
         backgroundColor="white"
@@ -327,18 +327,27 @@ AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   aboutBlock1: PropTypes.object,
   aboutBlock2: PropTypes.object,
+  slug: PropTypes.string.isRequired,
+  seo: PropTypes.shape({
+    title: PropTypes.string,
+    description: PropTypes.string,
+  }),
 };
 
 AboutPageTemplate.defaultProps = {
   aboutBlock1: undefined,
   aboutBlock2: undefined,
+  seo: undefined,
 };
 
 const AboutPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { markdownRemark } = data || {};
+  const { frontmatter, fields } = markdownRemark || {};
 
   return (
     <AboutPageTemplate
+      slug={fields?.slug}
+      seo={frontmatter.seo}
       title={frontmatter.aboutBlock1.title}
       aboutBlock1={frontmatter.aboutBlock1}
       aboutBlock2={frontmatter.aboutBlock2}
@@ -349,6 +358,9 @@ const AboutPage = ({ data }) => {
 AboutPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
+      fields: PropTypes.shape({
+        slug: PropTypes.string,
+      }),
       frontmatter: PropTypes.object,
     }),
   }),
@@ -367,7 +379,14 @@ export default AboutPage;
 export const aboutPageQuery = graphql`
   query aboutPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "about-page" } }) {
+      fields {
+        slug
+      }
       frontmatter {
+        seo {
+          title
+          description
+        }
         aboutBlock1 {
           title
           intro

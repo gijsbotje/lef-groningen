@@ -1,6 +1,7 @@
+import { Link } from '@material-ui/core';
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { withPrefix } from 'gatsby';
+import { withPrefix, Link as GatsbyLink } from 'gatsby';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import { Helmet } from 'react-helmet';
@@ -59,7 +60,6 @@ const TemplateWrapper = ({ children }) => {
         <meta name="theme-color" content="#fff" />
 
         <script type="application/ld+json">{`
-          [
             {
               "@context": "http://schema.org",
               "@type": "Organization",
@@ -70,15 +70,34 @@ const TemplateWrapper = ({ children }) => {
                 "https://www.facebook.com/lefgroningen.nl/",
                 "https://www.instagram.com/lefgroningen/",
                 "https://www.linkedin.com/company/lefgroningen/"
-                ]
-            },
-            , {
-                "@context": "http://schema.org",
-                "@type": "WebSite",
-                "name": "lefgroningen.nl",
-                "url": "https://www.lefgroningen.nl/",
+                ],
+              "contactPoint": [
+                  {
+                      "@type": "ContactPoint",
+                      "telephone": "info@lefgroningen.nl",
+                      "email": "info@lefgroningen.nl",
+                      "contactType": "customer service",
+                      "areaServed": "NL",
+                      "availableLanguage": ["Dutch"]
+                  }
+              ],
+              "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Bornholmstraat 46",
+                  "addressLocality": "Groningen",
+                  "addressRegion": "GR",
+                  "postalCode": "9723 AZ",
+                  "addressCountry": "NL"
               }
-          ]
+            }
+        `}</script>
+        <script type="application/ld+json">{`
+            {
+              "@context": "http://schema.org",
+              "@type": "WebSite",
+              "name": "lefgroningen.nl",
+              "url": "https://www.lefgroningen.nl/"
+            }
         `}</script>
 
         <meta property="og:type" content="business.business" />
@@ -101,16 +120,31 @@ const TemplateWrapper = ({ children }) => {
           message="Wij gebruiken cookies om te analyseren of onze site goed werkt.
           Kies 'Weigeren' als je liever niet hebt dat er data wordt verzameld over je bezoek."
           action={
-            <Grid container spacing={1}>
+            <Grid container spacing={1} alignItems="center">
               <Grid item>
-                <Button color="secondary" size="small" onClick={handleCookieConsent(false)}>
+                <Link
+                  component={GatsbyLink}
+                  to="/privacy-verklaring"
+                  color="secondary"
+                  style={{ marginRight: 24 }}
+                >
+                  Lees meer
+                </Link>
+              </Grid>
+              <Grid item>
+                <Button
+                  color="secondary"
+                  variant="outlined"
+                  size="small"
+                  onClick={handleCookieConsent(false)}
+                >
                   Weigeren
                 </Button>
               </Grid>
               <Grid item>
                 <Button
                   color="secondary"
-                  variant="outlined"
+                  variant="contained"
                   size="small"
                   onClick={handleCookieConsent(true)}
                 >

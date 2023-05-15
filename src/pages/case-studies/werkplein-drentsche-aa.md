@@ -7,8 +7,7 @@ description: Tertiaire arbeidsvoorwaarden worden steeds belangrijker voor het
   toepassen?
 featuredpost: true
 featuredimage: /img/whatsapp-image-2023-02-15-at-19.15.08.jpeg
-tags:
-  - Case
+tags: []
 ---
 ## **Project Royal FloraHolland**
 

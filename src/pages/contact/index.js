@@ -12,6 +12,7 @@ import Link from '@material-ui/core/Link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Helmet } from 'react-helmet';
+import useSiteMetadata from '../../components/SiteMetadata';
 
 function encode(data) {
   return Object.keys(data)
@@ -20,6 +21,7 @@ function encode(data) {
 }
 
 const Index = () => {
+  const { siteUrl } = useSiteMetadata();
   const [fields, setFields] = useState({});
   const { setNavbarSettings } = useContext(SiteContext);
 
@@ -66,6 +68,7 @@ const Index = () => {
           name="description"
           content="Benieuwd wat we voor jou kunnen bedenken? Bel met ons of stuur een email. Vul het contact formulier in en we zullen zo snel mogelijk contact met je op."
         />
+        <link rel="canonical" href={`${siteUrl}/contact/`} />
       </Helmet>
       <ColorBlock
         backgroundColor="yellow"
@@ -76,7 +79,7 @@ const Index = () => {
         <Section>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6}>
-              <Typography variant="h6" component="div" gutterBottom>
+              <Typography variant="h6" component="h1" gutterBottom>
                 LEF Groningen
               </Typography>
               <Typography>LEF Groningen</Typography>

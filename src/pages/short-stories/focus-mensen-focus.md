@@ -5,8 +5,7 @@ date: 2022-01-06T11:31:01.927Z
 description: Focus, mensen. FOCUS!
 featuredpost: true
 featuredimage: /img/shortstories-template-2-.png
-tags:
-  - Story
+tags: []
 ---
 Focus, mensen. FOCUS!\
 \

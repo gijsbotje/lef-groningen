@@ -5,8 +5,7 @@ date: 2021-03-04T15:44:15.855Z
 description: LEF groeit uit de kinderkleren!
 featuredpost: true
 featuredimage: /img/whatsapp-image-2021-04-29-at-14.44.32.jpeg
-tags:
-  - Story
+tags: []
 ---
 Wij zijn dakloos! Help! Gelukkig is het bijna lente.\
 \

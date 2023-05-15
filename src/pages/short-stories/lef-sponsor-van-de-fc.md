@@ -5,8 +5,7 @@ date: 2021-11-30T14:04:28.101Z
 description: LEF sponsor van de FC!
 featuredpost: true
 featuredimage: /img/1630404015543.jpeg
-tags:
-  - Story
+tags: []
 ---
 Groots nieuws! Arjen kan het dit jaar voor FC Groningen niet doen, helaas. Gelukkig is LEF er to the rescue!
 

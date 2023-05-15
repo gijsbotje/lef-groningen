@@ -5,8 +5,7 @@ date: 2020-07-23T12:13:14.974Z
 description: Onderweg naar de top!
 featuredpost: false
 featuredimage: /img/Krantartikel-LEF.jpeg
-tags:
-  - Story
+tags: []
 ---
 **[\#jubileum](https://www.linkedin.com/feed/hashtag/?keywords=jubileum&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6688749317768978432) [\#halfjaar](https://www.linkedin.com/feed/hashtag/?keywords=halfjaar&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6688749317768978432) [\#breakingnews](https://www.linkedin.com/feed/hashtag/?keywords=breakingnews&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6688749317768978432)**
 

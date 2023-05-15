@@ -5,8 +5,7 @@ date: 2022-01-06T11:34:16.005Z
 description: Proost! Bedankt voor de gezellige borrel jongens ;)
 featuredpost: true
 featuredimage: /img/shortstories-template-1-.png
-tags:
-  - Story
+tags: []
 ---
 Proost! Bedankt voor de gezellige borrel jongens ;) Volgend jaar zullen we niet vergeten de uitnodiging te versturen.\
 \

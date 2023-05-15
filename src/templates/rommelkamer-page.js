@@ -53,7 +53,7 @@ export const RommelkamerPageTemplate = ({ title, intro, items }) => {
       >
         <CssGrid>
           {items.map(block => (
-            <div style={{ gridColumnEnd: 'span 6' }}>
+            <div style={{ gridColumnEnd: 'span 6' }} key={block.title}>
               <Card
                 elevation={6}
                 style={{
@@ -85,7 +85,7 @@ export const RommelkamerPageTemplate = ({ title, intro, items }) => {
       </ColorBlock>
     </>
   );
-}
+};
 
 RommelkamerPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,

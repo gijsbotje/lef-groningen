@@ -1,5 +1,10 @@
 ---
 templateKey: index-page
+seo:
+  title: LEF Groningen - Durf jij het aan om te werken met LEF?
+  description: Om te vernieuwen moet je lef hebben. Wij zijn LEF, een team van
+    twintigers met bravoure en een scherpe blik. Door te confronteren en te
+    verrassen dagen wij organisaties uit om te innoveren en te veranderen.
 title: LEF groningen
 homeBlock1:
   image: /img/blue-orange.jpg
