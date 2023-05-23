@@ -14,7 +14,7 @@ tags:
 
 *Ooit gehoord van de FNV? Als jij jonger bent dan 25 jaar dan denk je wellicht dat dit een nieuwe hippe boyband is, maar nee! De FNV is de grootste vakbond van Nederland. Zij komen op voor jouw belangen op het gebied van werk en inkomen. "Maar waarom heb ik dan een vakbond nodig?”, hoor ik je vragen. Nou, dat is alsof je vraagt waarom je wifi nodig hebt. Het is gewoon veel beter mét. Ze zijn er om ervoor te zorgen dat je niet wordt uitgebuit door je werkgever, dat je krijgt waar je recht op hebt en dat je arbeidsvoorwaarden worden gerespecteerd.*
 
-*Laat me je meenemen op de spannende reis die we hebben gemaakt met de FNV. Onze uitdaging? De FNV op de radar krijgen van de jonge Noorderlingen.* 
+*Laat me je meenemen op de spannende reis die we hebben gemaakt met de FNV. Onze uitdaging? De FNV op de radar krijgen van de jonge Noorderlingen. Meer weten? Kijk even op* *https://www.fnv.nl/*
 
 ## Doelgroeponderzoek: hoe Noord-Nederlandse jongeren de FNV zien
 
