@@ -6,7 +6,7 @@ description: Help ons met een vernieuwend plan om beter in te spelen op de
   behoeften van vrouwelijke professionals, zodat meer vrouwen lid worden van ons
   zakelijke netwerk.
 featuredpost: true
-featuredimage: /img/stockphoto-s-website-25-×-15cm-25-×-12cm-.png
+featuredimage: /img/stockphoto-s-website-25-×-15cm-25-×-12cm-3-.png
 tags:
   - Story
 ---
