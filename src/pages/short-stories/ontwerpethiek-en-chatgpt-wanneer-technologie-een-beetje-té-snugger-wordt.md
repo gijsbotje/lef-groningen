@@ -4,7 +4,7 @@ title: "Ontwerpethiek en ChatGPT: Wanneer technologie een beetje té snugger wor
 date: 2023-07-05T13:40:19.307Z
 description: Een blog over Mike Monteiro en de cruciale rol van ethiek in design.
 featuredpost: true
-featuredimage: /img/stockphoto-s-website-25-×-15cm-25-×-12cm-5-.png
+featuredimage: /img/stockphoto-s-website-25-×-15cm-25-×-12cm-6-.png
 tags:
   - Story
 ---
