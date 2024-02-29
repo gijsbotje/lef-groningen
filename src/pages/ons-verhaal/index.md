@@ -21,18 +21,7 @@ aboutBlock1:
       title: Wij denken anders.
   title: Ons verhaal
 aboutBlock2:
-  quotes:
-    - text: "Ik vind het tof dat ons grote actuele uitdagingen van organisaties wordt
-        toevertrouwd die we met een dosis creativiteit en een frisse blik
-        oplossen. "
-      author: Camilla - Marketing Analytics and Data Science
-    - text: "Het is inspirerend om te kunnen sparren met mensen van buiten mijn eigen
-        vakgebied. Samen kom je tot verassende oplossingen voor organisaties. "
-      author: Gijs - Communicatie & Multimedia Design
-    - text: Het is elke opdracht weer leuk om met andere jonge en gemotiveerde mensen
-        vanuit een brainstormsessie – waar de meest uiteenlopende en soms gekke
-        ideeën op tafel komen – naar een concreet resultaat toe te werken.
-      author: Eline - American Studies & Economie
+  quotes: []
   extraBlock:
     image: /img/question-mark-chalk.jpg
     subTitle: Kom eens langs!
