@@ -122,5 +122,10 @@ aboutBlock2:
       image: /img/jasmijn-website.png
       linkedIn: https://www.linkedin.com/in/jasmijn-de-boer-248a05235/
       mail: hallo@lefgroningen.nl
+    - featured: true
+      title: Oreo
+      position: Stress management
+      image: /img/oreo-website.png
+      mail: info@lefgroningen.nl
   title: Het LEF team
 ---
