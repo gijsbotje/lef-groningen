@@ -72,9 +72,9 @@ aboutBlock2:
             zeg altijd maar, het proces is ook een resultaat!  Geïnteresseerd?
             Bel mij!"
           question: Duurzaamheid. Je moet er wat mee.
-      image: /img/img_8650.jpg
+      image: /img/joline-website.png
       linkedIn: https://www.linkedin.com/in/joline-teisman-778403a8/
       mail: joline@lefgroningen.nl
-      position: Sous-chef - projectleider energietransitie
+      position: Chef - Projectleider innovatie
   title: Het LEF team
 ---
