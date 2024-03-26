@@ -46,14 +46,9 @@ aboutBlock2:
             avontuur.   Vooral omdat 2020 waarschijnlijk een van de meest
             rampzalige jaren was om een nieuwe onderneming te beginnen. Toch
             hebben we het gedaan en zijn we als een raket uit de startblokken
-            geschoten. Inmiddels zijn we alweer een hele tijd verder en de raket
-            is inmiddels in de buurt van de maan.   Wat we allemaal hebben
-            gedaan de afgelopen jaren? We zijn buschauffeur geweest bij Arriva,
-            hebben kauwgom gemaakt bij Sportlife, mensen verzorgd bij De Hoven,
-            water onthardt bij Amysoft, op de barricade gestaan met de FNV en
-            nog veel meer om op te noemen. Mocht je willen weten hoe we dat
-            allemaal voor elkaar hebben gekregen? Nodig me uit voor een kop
-            latte macchiato decafé. +31652251395"
+            geschoten. Wat we allemaal gedaan hebben afgelopen jaren? Nodig me
+            uit voor een kop latte macchiato decafé. Een chocolaatje erbij is
+            ook niet verkeerd. +31652251395"
           question: Chef de cuisine
       mail: teddy@lefgroningen.nl
       position: Chef - Founder LEF
