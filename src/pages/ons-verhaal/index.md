@@ -50,7 +50,7 @@ aboutBlock2:
       position: Chef - Founder LEF
       title: Teddy Monninkhof
     - featured: true
-      image: /img/img_8653.jpg
+      image: /img/thijs-website.png
       linkedIn: https://www.linkedin.com/in/thijs-de-vries-78943b92/
       list: []
       mail: thijs@lefgroningen.nl
