@@ -22,7 +22,7 @@ aboutBlock1:
   title: Ons verhaal
 aboutBlock2:
   quotes:
-    - text: LEFons geholpen aan een nieuwe kijk op bestaande zaken door uit de
+    - text: LEF heeft ons geholpen aan een nieuwe kijk op bestaande zaken door uit de
         gebaande paden te treden. Of nog beter beschreven; de gebaande paden te
         mijden en oplossingen te vinden zonder de beperkingen leidend te laten
         zijn.
