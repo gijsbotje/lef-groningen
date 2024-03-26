@@ -33,7 +33,7 @@ aboutBlock2:
         overtreffen
       author: "Anne Bruinewoud, Manager Lentis "
   extraBlock:
-    image: /img/question-mark-chalk.jpg
+    image: /img/afmetingen-site-fotos-ons-verhaal-1-.png
     subTitle: Kom eens langs!
     title: Heb jij LEF?
   persons:
