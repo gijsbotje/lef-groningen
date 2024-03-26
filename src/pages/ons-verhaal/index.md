@@ -110,5 +110,11 @@ aboutBlock2:
       image: /img/afmetingen-site-fotos-ons-verhaal.png
       linkedIn: https://www.linkedin.com/in/brandus-adema-0b029a237/
       mail: brandus@lefgroningen.nl
+    - featured: true
+      title: Giel Kerssies
+      position: Sous-chef - Stagiaire bedrijfskunde
+      image: /img/giel-website.png
+      linkedIn: https://www.linkedin.com/in/giel-kerssies-580075208/
+      mail: hallo@lefgroningen.nl
   title: Het LEF team
 ---
