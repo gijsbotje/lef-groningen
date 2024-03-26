@@ -92,5 +92,17 @@ aboutBlock2:
       image: /img/jasper-website.png
       linkedIn: https://www.linkedin.com/in/jasper-vondeling-h3ll0/
       mail: jasper@lefgroningen.nl
+    - featured: true
+      title: "Jelmer Elsinga "
+      position: Chef - Projectleider innovatie
+      image: /img/jelmer-webstie.png
+      linkedIn: https://www.linkedin.com/in/jelmer-elsinga-a685a4133/
+      mail: jelmer@lefgroningen.nl
+    - featured: true
+      title: Daniel Sagel
+      position: Chef - Projectleider innovatie
+      image: /img/daniel-website.png
+      linkedIn: https://www.linkedin.com/in/danielsagel/
+      mail: daniel@lefgroningen.nl
   title: Het LEF team
 ---
