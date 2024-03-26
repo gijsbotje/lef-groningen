@@ -23,10 +23,10 @@ aboutBlock1:
 aboutBlock2:
   quotes:
     - text: LEF heeft Royal FloraHolland geholpen aan een nieuwe kijk op bestaande
-        zaken door LEF te tonen en uit de gebaande paden te treden. Of nog beter
-        beschreven; de gebaande paden te mijden en oplossingen of mogelijkheden
-        te vinden zonder de beperkingen leidend te laten zijn voor de richting
-        en de kwaliteit.
+        zaken door uit de gebaande paden te treden. Of nog beter beschreven; de
+        gebaande paden te mijden en oplossingen of mogelijkheden te vinden
+        zonder de beperkingen leidend te laten zijn voor de richting en de
+        kwaliteit.
       author: Rogier de Kreek, Manager logisitiek RFH
     - text: LEF is een adviesbureau dat haar naam helemaal waar maakt! In de diverse
         werksessies hebben ze onze verwachtingen steeds weer weten te
