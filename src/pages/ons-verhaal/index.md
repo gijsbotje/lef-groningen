@@ -104,5 +104,11 @@ aboutBlock2:
       image: /img/daniel-website.png
       linkedIn: https://www.linkedin.com/in/danielsagel/
       mail: daniel@lefgroningen.nl
+    - featured: true
+      title: Brandus Adema
+      position: Sous-chef - Project ondersteuning
+      image: /img/afmetingen-site-fotos-ons-verhaal.png
+      linkedIn: https://www.linkedin.com/in/brandus-adema-0b029a237/
+      mail: brandus@lefgroningen.nl
   title: Het LEF team
 ---
