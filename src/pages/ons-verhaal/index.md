@@ -28,7 +28,7 @@ aboutBlock2:
     title: Heb jij LEF?
   persons:
     - featured: true
-      image: /img/img_8652.jpg
+      image: /img/teddy-website.png
       linkedIn: https://www.linkedin.com/in/teddy-monninkhof-77725372/
       list:
         - answer: "Jong, blond en óók nog vrouw: “dat zal wel niet veel zijn”. Onzin!
