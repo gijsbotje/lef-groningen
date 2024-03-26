@@ -76,5 +76,11 @@ aboutBlock2:
       linkedIn: https://www.linkedin.com/in/joline-teisman-778403a8/
       mail: joline@lefgroningen.nl
       position: Chef - Projectleider innovatie
+    - featured: false
+      title: Jasper Vondeling
+      position: Chef - Projectleider innovatie
+      image: /img/jasper-website.png
+      linkedIn: https://www.linkedin.com/in/jasper-vondeling-h3ll0/
+      mail: jasper@lefgroningen.nl
   title: Het LEF team
 ---
