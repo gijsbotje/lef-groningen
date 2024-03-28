@@ -121,5 +121,11 @@ aboutBlock2:
       position: Stress management
       image: /img/oreo-website.png
       mail: info@lefgroningen.nl
+    - featured: true
+      title: Jarec Staal
+      position: Chef - Designer LEF
+      image: /img/afmetingen-site-fotos-ons-verhaal-2-.png
+      linkedIn: https://www.linkedin.com/in/jarec-staal-13372917b/
+      mail: info@lefgroningen.nl
   title: Het LEF team
 ---
