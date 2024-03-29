@@ -127,5 +127,11 @@ aboutBlock2:
       image: /img/afmetingen-site-fotos-ons-verhaal-2-.png
       linkedIn: https://www.linkedin.com/in/jarec-staal-13372917b/
       mail: info@lefgroningen.nl
+    - featured: true
+      title: Lisa-Mae de Vries
+      position: Saucier - ZZP fotograaf bij LEF
+      image: /img/afmetingen-site-fotos-ons-verhaal-3-.png
+      linkedIn: https://www.linkedin.com/in/lisa-maedevries/
+      mail: info@lefgroningen.nl
   title: Het LEF team
 ---
