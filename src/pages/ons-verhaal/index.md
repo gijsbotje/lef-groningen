@@ -92,6 +92,23 @@ aboutBlock2:
       image: /img/daniel-website.png
       linkedIn: https://www.linkedin.com/in/danielsagel/
       mail: daniel@lefgroningen.nl
+    - featured: true
+      title: Jarec Staal
+      position: Chef - Designer LEF
+      image: /img/afmetingen-site-fotos-ons-verhaal-2-.png
+      linkedIn: https://www.linkedin.com/in/jarec-staal-13372917b/
+      mail: info@lefgroningen.nl
+    - featured: true
+      title: Oreo
+      position: Stress management
+      image: /img/oreo-website.png
+      mail: info@lefgroningen.nl
+    - featured: true
+      title: Jasmijn de Boer
+      position: Sous-chef - Stagiaire design
+      image: /img/jasmijn-website.png
+      linkedIn: https://www.linkedin.com/in/jasmijn-de-boer-248a05235/
+      mail: hallo@lefgroningen.nl
     - featured: false
       title: Jasper Vondeling
       position: Chef - Projectleider innovatie
@@ -99,34 +116,17 @@ aboutBlock2:
       linkedIn: https://www.linkedin.com/in/jasper-vondeling-h3ll0/
       mail: jasper@lefgroningen.nl
     - featured: true
-      title: Giel Kerssies
-      position: Sous-chef - Stagiaire bedrijfskunde
-      image: /img/giel-website.png
-      linkedIn: https://www.linkedin.com/in/giel-kerssies-580075208/
-      mail: hallo@lefgroningen.nl
-    - featured: true
       title: Brandus Adema
       position: Sous-chef - Project ondersteuning
       image: /img/afmetingen-site-fotos-ons-verhaal.png
       linkedIn: https://www.linkedin.com/in/brandus-adema-0b029a237/
       mail: brandus@lefgroningen.nl
     - featured: true
-      title: Jasmijn de Boer
-      position: Sous-chef - Stagiaire design
-      image: /img/jasmijn-website.png
-      linkedIn: https://www.linkedin.com/in/jasmijn-de-boer-248a05235/
+      title: Giel Kerssies
+      position: Sous-chef - Stagiaire bedrijfskunde
+      image: /img/giel-website.png
+      linkedIn: https://www.linkedin.com/in/giel-kerssies-580075208/
       mail: hallo@lefgroningen.nl
-    - featured: true
-      title: Oreo
-      position: Stress management
-      image: /img/oreo-website.png
-      mail: info@lefgroningen.nl
-    - featured: true
-      title: Jarec Staal
-      position: Chef - Designer LEF
-      image: /img/afmetingen-site-fotos-ons-verhaal-2-.png
-      linkedIn: https://www.linkedin.com/in/jarec-staal-13372917b/
-      mail: info@lefgroningen.nl
     - featured: true
       title: Lisa-Mae de Vries
       position: Saucier - ZZP fotograaf bij LEF
