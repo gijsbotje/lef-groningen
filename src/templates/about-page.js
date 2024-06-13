@@ -373,17 +373,13 @@ export const aboutPageQuery = graphql`
           intro
           background {
             childImageSharp {
-              fluid(maxWidth: 1920, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(quality: 90, layout: FULL_WIDTH)
             }
           }
           tools {
             image {
               childImageSharp {
-                fluid(maxWidth: 800, quality: 50) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(width: 800, quality: 50, layout: CONSTRAINED)
               }
             }
             title
@@ -401,9 +397,7 @@ export const aboutPageQuery = graphql`
             }
             image {
               childImageSharp {
-                fluid(maxWidth: 500, maxHeight: 500, quality: 80) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(width: 500, height: 500, quality: 80, layout: CONSTRAINED)
               }
             }
             position
@@ -419,9 +413,7 @@ export const aboutPageQuery = graphql`
             subTitle
             image {
               childImageSharp {
-                fluid(maxWidth: 300, maxHeight: 300, quality: 80) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(width: 300, height: 300, quality: 80, layout: CONSTRAINED)
               }
             }
           }

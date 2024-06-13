@@ -7,6 +7,7 @@ module.exports = {
     description: 'LEF Groningen, het advies bureau met lef',
   },
   plugins: [
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {

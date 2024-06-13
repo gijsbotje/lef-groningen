@@ -233,9 +233,7 @@ export const pageQuery = graphql`
           }
           image {
             childImageSharp {
-              fluid(maxWidth: 1920, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(quality: 90, layout: FULL_WIDTH)
             }
           }
         }
@@ -250,9 +248,7 @@ export const pageQuery = graphql`
           logos {
             image {
               childImageSharp {
-                fluid(maxWidth: 150, quality: 50) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(width: 150, quality: 50, layout: CONSTRAINED)
               }
             }
             url
@@ -261,9 +257,7 @@ export const pageQuery = graphql`
           }
           yourLogoImage {
             childImageSharp {
-              fluid(maxWidth: 150, quality: 50) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(width: 150, quality: 50, layout: CONSTRAINED)
             }
           }
         }
@@ -275,9 +269,7 @@ export const pageQuery = graphql`
             imageOnly
             image {
               childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 800, quality: 50) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(width: 800, height: 800, quality: 50, layout: CONSTRAINED)
               }
             }
           }

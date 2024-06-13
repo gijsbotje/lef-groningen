@@ -141,9 +141,7 @@ const CaseRoll = ({ max, width }) => (
                 date(formatString: "MMMM DD, YYYY")
                 featuredimage {
                   childImageSharp {
-                    fluid(maxHeight: 400, maxWidth: 800, quality: 100) {
-                      ...GatsbyImageSharpFluid_withWebp
-                    }
+                    gatsbyImageData(height: 400, width: 800, quality: 100, layout: CONSTRAINED)
                   }
                 }
               }
